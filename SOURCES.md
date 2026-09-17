@@ -1,0 +1,87 @@
+# Bibliografia Consolidada
+
+Todas as fontes acessadas ao longo das duas fases da auditoria, consolidadas por procedência. Data de acesso: **17 de setembro de 2026**, salvo indicação contrária.
+
+Legenda de status de leitura: 🟢 lido integralmente · 🟡 lido parcialmente / apenas índice ou FAQ · 🔴 verificado apenas por resumo/abstract · ⚫ acesso falhou
+
+---
+
+## NIST — Engenharia estrutural do WTC
+
+| Fonte | Status | URL |
+|---|---|---|
+| Final Reports from the NIST WTC Disaster Investigation (índice) | 🟡 | https://www.nist.gov/el/final-reports-nist-world-trade-center-disaster-investigation |
+| World Trade Center Investigation (página institucional) | 🟡 | https://www.nist.gov/world-trade-center-investigation |
+| FAQs — NIST WTC Towers Investigation | 🟡 | https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-towers-investigation |
+| FAQs — NIST WTC 7 Investigation | 🟡 | https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-7-investigation |
+| NCSTAR 1, 1-2, 1-3, 1-5, 1-6, 1A, 1-9, 1-9A (relatórios primários completos) | 🔴 não acessado | linkados a partir do índice acima |
+
+## Comissão do 11/9
+
+| Fonte | Status | URL |
+|---|---|---|
+| Arquivo do site oficial (govinfo.library.unt.edu mirror) | 🟡 (apenas índice — sem conteúdo estrutural) | https://www.9-11commission.gov/report/ |
+| Relatório completo (911Report.pdf) | 🔴 não acessado | https://www.9-11commission.gov/report/911Report.pdf |
+
+## Literatura acadêmica revisada por pares — engenharia
+
+| Fonte | Status | URL/DOI |
+|---|---|---|
+| Bažant, Z. P. & Verdure, M. (2007), "Mechanics of Progressive Collapse", J. Eng. Mech. 133(3):308 | 🔴 abstract | https://doi.org/10.1061/(asce)0733-9399(2007)133:3(308) |
+| Bažant, Z. P. & Le, J.-L. (2008), Closure, J. Eng. Mech. 134(10):917 | 🔴 abstract | https://ascelibrary.org/doi/10.1061/(ASCE)0733-9399(2008)134:10(917) |
+| Bažant, Z. P., Le, J.-L., Greening, F. R., Benson, D. B. (2008), "What Did and Did Not Cause Collapse", J. Eng. Mech. 134(10):892 | 🔴 abstract | https://ascelibrary.org/doi/10.1061/(ASCE)0733-9399(2008)134:10(892) |
+
+## University of Alaska Fairbanks / dissidência técnica
+
+| Fonte | Status | URL |
+|---|---|---|
+| UAF WTC 7 Study — página do projeto | 🟡 resumo | https://ine.uaf.edu/wtc7 |
+| AE911Truth — página do estudo WTC 7 | 🟡 resumo | https://www.ae911truth.org/wtc7 |
+| PRNewswire — release do relatório final (25/03/2020) | 🟡 | https://www.prnewswire.com/news-releases/university-report-on-911-building-collapse-contradicts-official-conclusions-301029854.html |
+| Relatório integral Hulsey/UAF | 🔴 não acessado | via ine.uaf.edu/wtc7 |
+
+## NARA / ISCAP — desclassificação de setembro de 2026
+
+| Fonte | Status | URL |
+|---|---|---|
+| PIDB, "Long-Sought 9/11 Records Now Declassified" (11/09/2026) | 🟢 | https://transforming-classification.blogs.archives.gov/2026/09/11/long-sought-9-11-records-now-declassified-and-available-to-the-public/ |
+| *Report on Review of PDB Articles* (09/02/2004, desclass. 08/09/2026) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2022-008-document-release-508.pdf |
+| Índice ISCAP 2026-201 (11 MFRs) | 🟡 (2 de 11 lidos) | https://www.archives.gov/declassification/iscap/pdf/2026-201 |
+| MFR — Condoleezza Rice (07/02/2004) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-5-release-508.pdf |
+| MFR — Mike Scheuer #1 (11/12/2003, sob juramento) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-6-release-508.pdf |
+| MFR — Sandy Berger (14/01/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-1-release-508.pdf |
+| MFR — Richard A. Clarke #1 (18/12/2003) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-2-release-508.pdf |
+| MFR — Richard A. Clarke #2 (12/01/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-3-release-508.pdf |
+| MFR — Richard A. Clarke #3 (03/02/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-4-release-508.pdf |
+| MFR — Michael Scheuer #2 (06/01/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-7-release-508.pdf |
+| MFR — Michael Scheuer #3 (11/03/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-8-release-508.pdf |
+| MFR — George Tenet #1 (23/12/2003) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-9-release-508.pdf |
+| MFR — George Tenet #2 (22/01/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-10-release-508.pdf |
+| MFR — George Tenet #3 (28/01/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-11-release-508.pdf |
+| Entrevista Bush/Cheney (redigida, liberada 2022 — não incluída na leva de 2026) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf |
+
+## CIA — 71 PDBs desclassificados
+
+| Fonte | Status | URL |
+|---|---|---|
+| Página índice dos 71 PDBs (11/09/2026) | 🟡 índice completo lido | https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/seventy-one-declassified-presidents-daily-brief-products/ |
+| PDB individual "Bin Ladin Determined To Strike in US" (06/08/2001) | ⚫ PDF sem camada de texto | https://www.cia.gov/static/08-06-2001-Bin-Ladin-Determined-To-Strike-in-US.pdf |
+| Demais 70 PDBs individuais | ⚫ não testados / presumivelmente mesmo problema de OCR | ver índice acima |
+| Coleção completa (101 pp., 36.6 MB) | ⚫ não acessado | https://www.cia.gov/static/71-PDB-9_11-Related-Collection.pdf |
+
+## Repositórios listados no escopo original — não acessados nesta fase
+
+- National Archives — 9/11 Commission Records, FAA Finding Aid, materiais NORAD/NEADS
+- Joint Congressional Inquiry (2002) e Part Four ("28 páginas")
+  https://www.intelligence.senate.gov/2016/07/15/publications-declassified-version-part-four-joint-inquiry-intelligence-community-activities-and/
+- FBI Vault — material liberado sob Executive Order 14040
+  https://vault.fbi.gov/9-11-attacks-investigation-and-related-materials/9-11-material-released-in-response-to-executive-order-14040
+- 9/11 Review Commission Report (2015)
+  https://www.fbi.gov/file-repository/reports-and-publications/final-9-11-review-commission-report-unclassified.pdf/view
+- United States v. Zacarias Moussaoui — trial exhibits
+  https://www.vaed.uscourts.gov/101cr00455-trial-exhibits
+- In re Terrorist Attacks on September 11, 2001 — docket
+  https://www.courtlistener.com/docket/4328332/in-re-terrorist-attacks-on-september-11-2001/
+- SSCI Report on the CIA Detention and Interrogation Program (CRPT-113srpt288)
+  https://www.govinfo.gov/app/details/CRPT-113srpt288/CRPT-113srpt288
+- FEMA 403 (World Trade Center Building Performance Study), incluindo Appendix C
