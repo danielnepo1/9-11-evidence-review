@@ -1,8 +1,10 @@
 # Bibliografia Consolidada
 
-Todas as fontes acessadas ao longo das duas fases da auditoria, consolidadas por procedência. Data de acesso: **17 de setembro de 2026**, salvo indicação contrária.
+Todas as fontes acessadas ao longo das fases da auditoria, consolidadas por procedência. Data de acesso: **17 de setembro de 2026**, salvo indicação contrária.
 
 Legenda de status de leitura: 🟢 lido integralmente · 🟡 lido parcialmente / apenas índice ou FAQ · 🔴 verificado apenas por resumo/abstract · ⚫ acesso falhou
+
+> **Registro de falha de acesso — 19 de setembro de 2026.** Numa tentativa de executar as Fases 2A e 2B, **todos** os domínios de fonte primária deste arquivo estavam bloqueados pela política de egresso de rede do ambiente (403 no CONNECT, tanto via cliente HTTP quanto via ferramenta de fetch): `archives.gov` e subdomínios, `intelligence.senate.gov`, `cia.gov`, `govinfo.gov`, `vault.fbi.gov`, `9-11commission.gov`, `govinfo.library.unt.edu`, `nist.gov`. O bloqueio não é seletivo — nenhum host externo testado respondeu. O único canal disponível era busca, que retorna trechos de terceiros e **não** conta como leitura sob o padrão deste projeto. Nenhuma fonte teve seu status alterado nesta sessão. Detalhes em [`docs/03` §3](docs/03-phase2a-mfr-verification.md).
 
 ---
 
@@ -49,15 +51,15 @@ Legenda de status de leitura: 🟢 lido integralmente · 🟡 lido parcialmente 
 | Índice ISCAP 2026-201 (11 MFRs) | 🟡 (2 de 11 lidos) | https://www.archives.gov/declassification/iscap/pdf/2026-201 |
 | MFR — Condoleezza Rice (07/02/2004) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-5-release-508.pdf |
 | MFR — Mike Scheuer #1 (11/12/2003, sob juramento) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-6-release-508.pdf |
-| MFR — Sandy Berger (14/01/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-1-release-508.pdf |
-| MFR — Richard A. Clarke #1 (18/12/2003) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-2-release-508.pdf |
-| MFR — Richard A. Clarke #2 (12/01/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-3-release-508.pdf |
-| MFR — Richard A. Clarke #3 (03/02/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-4-release-508.pdf |
-| MFR — Michael Scheuer #2 (06/01/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-7-release-508.pdf |
-| MFR — Michael Scheuer #3 (11/03/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-8-release-508.pdf |
-| MFR — George Tenet #1 (23/12/2003) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-9-release-508.pdf |
-| MFR — George Tenet #2 (22/01/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-10-release-508.pdf |
-| MFR — George Tenet #3 (28/01/2004) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-11-release-508.pdf |
+| MFR — Sandy Berger (14/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-1-release-508.pdf |
+| MFR — Richard A. Clarke #1 (18/12/2003) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-2-release-508.pdf |
+| MFR — Richard A. Clarke #2 (12/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-3-release-508.pdf |
+| MFR — Richard A. Clarke #3 (03/02/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-4-release-508.pdf |
+| MFR — Michael Scheuer #2 (06/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-7-release-508.pdf |
+| MFR — Michael Scheuer #3 (11/03/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-8-release-508.pdf |
+| MFR — George Tenet #1 (23/12/2003) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-9-release-508.pdf |
+| MFR — George Tenet #2 (22/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-10-release-508.pdf |
+| MFR — George Tenet #3 (28/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-11-release-508.pdf |
 | Entrevista Bush/Cheney (redigida, liberada 2022 — não incluída na leva de 2026) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf |
 
 ## CIA — 71 PDBs desclassificados
@@ -69,10 +71,25 @@ Legenda de status de leitura: 🟢 lido integralmente · 🟡 lido parcialmente 
 | Demais 70 PDBs individuais | ⚫ não testados / presumivelmente mesmo problema de OCR | ver índice acima |
 | Coleção completa (101 pp., 36.6 MB) | ⚫ não acessado | https://www.cia.gov/static/71-PDB-9_11-Related-Collection.pdf |
 
+## MFRs fora da liberação ISCAP 2026-201 — necessários para fechar alegações da Fase 2A
+
+Nenhum localizado. Todos necessários para as prioridades 1, 2 e 6 de [`docs/03` §4](docs/03-phase2a-mfr-verification.md); a busca deve começar pelo acervo geral de MFRs da Comissão no NARA, não pela liberação de 2026.
+
+| Fonte | Status | Alegação que ela testaria |
+|---|---|---|
+| MFR — Janet Reno | 🔴 não localizado | A3 (30% vs 0%) |
+| MFR — Louis Freeh | 🔴 não localizado | A3 |
+| MFR — Mary Jo White | 🔴 não localizado | A3 — é a destinatária alegada do "0%" |
+| MFR — Patrick Fitzgerald | 🔴 não localizado | A3 — é a fonte alegada do relato a Scheuer |
+| Logs da Situation Room e Diário Presidencial de 11/09/2001 | 🔴 não localizado | A12 (horário da ligação de Rice ao Presidente) |
+| Memorando de Scheuer de 28/06/1999 | 🔴 não localizado | A1 (ausência de NIE/produto analítico) |
+| Memorando interno sobre o PDB de 25/03/1999 | 🔴 não localizado | A2 — o teste real da alegação de retenção |
+| Memo de Scheuer de 03/05/1996 e Spot Report de 24/06/1997 | 🔴 não localizado | A4 (não-cooperação saudita) |
+
 ## Repositórios listados no escopo original — não acessados nesta fase
 
 - National Archives — 9/11 Commission Records, FAA Finding Aid, materiais NORAD/NEADS
-- Joint Congressional Inquiry (2002) e Part Four ("28 páginas")
+- Joint Congressional Inquiry (2002) e Part Four ("28 páginas") — ⚫ alvo da Fase 2B; acesso bloqueado em 19/09/2026
   https://www.intelligence.senate.gov/2016/07/15/publications-declassified-version-part-four-joint-inquiry-intelligence-community-activities-and/
 - FBI Vault — material liberado sob Executive Order 14040
   https://vault.fbi.gov/9-11-attacks-investigation-and-related-materials/9-11-material-released-in-response-to-executive-order-14040
