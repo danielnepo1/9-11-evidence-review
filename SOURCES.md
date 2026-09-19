@@ -8,6 +8,34 @@ Read-status legend: 🟢 read in full · 🟡 read in part / index or FAQ only �
 
 > **Session of 19 September 2026 (methodology update).** No source was read and no read status was changed. That session produced only methodology and registers — see [`docs/04`](docs/04-methodology-symmetric-skepticism.md).
 
+> **Access re-check — 19 September 2026 (planning session). The blockade recorded above is largely lifted.** `www.archives.gov`, `www.cia.gov`, `www.intelligence.senate.gov`, `www.nist.gov` and `oig.justice.gov` all responded `200`; ranged requests against the ISCAP MFR PDFs and the 6 August 2001 PDB returned `206 application/pdf`, confirming retrievability. `vault.fbi.gov` still returns `403` and appears to be refused site-side rather than by egress policy. **No status in the tables below was changed by this re-check**: retrievability is not reading, and the 6 August 2001 PDB's missing text layer is a separate obstacle that retrieval does not solve. Targets and order of reading: [`docs/05`](docs/05-stress-test-execution-plan.md) §1 and §6.
+
+---
+
+## Document card — required for every source read from here on
+
+Recorded before any claim is drawn from the source. Governed by [`docs/04`](docs/04-methodology-symmetric-skepticism.md) and [`docs/05`](docs/05-stress-test-execution-plan.md).
+
+```
+### [Document ID] — [Exact title]
+
+- Institution / author:
+- Event date:
+- Creation date:
+- Declassification / publication date:
+- Document type and oath status:
+- URL and retrieval date:
+- File hash:
+- Extent actually read (pages):
+- OCR quality / image verification of decisive passages:
+- Redactions, missing attachments, exhibits or errata:
+- Provenance limitations (original record or later representation; prepared for whom, under what authority):
+- Claims tested:
+- Evidentiary ceiling:
+```
+
+Stop condition: if a decisive passage's OCR cannot be checked against the page image, that passage is not quotable and no status may rest on it.
+
 ---
 
 ## NIST — WTC structural engineering

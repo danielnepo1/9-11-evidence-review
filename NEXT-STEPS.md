@@ -1,6 +1,6 @@
 # Next Phases
 
-> **Environment prerequisite (recorded 19 September 2026).** Every phase below that reads primary sources depends on `archives.gov`, `intelligence.senate.gov`, `cia.gov`, `govinfo.gov`, `vault.fbi.gov` and `nist.gov`. In an execution attempt on 19 September 2026, **all** of those domains were blocked by the environment's network egress policy (403 on CONNECT). Verify read access to the target domains before starting any phase. Without it, the phase is not executable, and producing conclusions from search results or prior knowledge violates the execution rule at the end of this file.
+> **Environment prerequisite — re-checked 19 September 2026: access is now open.** `archives.gov`, `cia.gov`, `intelligence.senate.gov`, `nist.gov` and `oig.justice.gov` all respond, and the ISCAP MFR PDFs and the 6 August 2001 PDB are retrievable. `vault.fbi.gov` still returns 403. The earlier blockade note (recorded the same day, before the re-check) is superseded; details in [`SOURCES.md`](SOURCES.md) and [`docs/05` §1](docs/05-stress-test-execution-plan.md). Retrievability is not readability — confirm text extraction per document and record OCR quality in the document card before drawing any claim.
 
 This file is the **execution queue**. Method and registers live in [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md), which governs everything here.
 
@@ -19,9 +19,9 @@ Before starting any phase, read [`README.md`](README.md) (hypotheses and confide
 | # | Step | Status |
 |---|---|---|
 | 1 | Methodology and anomaly-register update | ✅ **Done — 19 September 2026** (`docs/04`, `docs/anomaly-register.md`, `docs/claim-decomposition-register.md`) |
-| 2 | **Official Account Stress-Test Track** (ST-1 … ST-7) | ⏳ Next. Blocked on network access |
+| 2 | **Official Account Stress-Test Track** (ST-1 … ST-7) | ⏳ **Next — executable now.** Targets, priorities and reading order pre-registered in [`docs/05`](docs/05-stress-test-execution-plan.md) |
 | 3 | Mirror testing of H1–H7 against the same evidence | ⏳ Runs on the output of step 2 |
-| 4 | Phase 2B — Joint Inquiry / Part Four / foreign networks | ⏳ Blocked on network access |
+| 4 | Phase 2B — Joint Inquiry / Part Four / foreign networks | ⏳ Executable now (`intelligence.senate.gov` open) |
 | 5 | Phase 3 — technical and forensic audit | ⏳ |
 | 6 | Phase 4 — FAA/NORAD/NEADS chronology audit | ⏳ |
 | 7 | Final adversarial synthesis | ⏳ |
@@ -47,6 +47,8 @@ No source was read and no prior conclusion was changed in this step.
 ## Step 2 — Official Account Stress-Test Track
 
 **Purpose:** identify and rigorously test the highest-yield points of tension in the official narrative — and record, with equal rigour, where the official narrative survives the test.
+
+**Pre-registered targeting:** [`docs/05-stress-test-execution-plan.md`](docs/05-stress-test-execution-plan.md) holds the targeting hypotheses (T-items), P0–P3 research priorities, the escalation ladder, the cross-cutting attack patterns (quantifier-drift audit, source genealogy, three-track timeline, negative-evidence discipline), the fixed conclusion ceilings, and the reading order for the next session. Read it before starting any workstream. A target that dies on contact with the document is a successful result and is recorded as one.
 
 **Method, without exception:** every official claim entering this track is decomposed into atomic propositions and recorded in [`docs/claim-decomposition-register.md`](docs/claim-decomposition-register.md) with all twelve fields of [`docs/04`](docs/04-methodology-symmetric-skepticism.md) §4.1 — exact claim; responsible institution or witness; original source and date; source character (contemporaneous / retrospective / sworn / technical / secondary); later revisions, retractions or conflicting accounts; assumptions required for the claim to hold; supporting evidence; contradicting or weakening evidence; plausible non-conspiratorial explanations; plausible alternative explanations; the single most discriminating missing document, test or data point; status.
 

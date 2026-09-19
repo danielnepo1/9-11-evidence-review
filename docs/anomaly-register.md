@@ -30,7 +30,10 @@ Every entry carries all fields below. A field that cannot be filled reads `not d
 | **M4 Ordinary-explanation test** | Whether error, memory, classification, bureaucracy, incomplete records or ordinary forensic uncertainty accounts for it — and on what basis that was assessed. | free text |
 | **M5 Conclusion not justified** | Written as an explicit prohibition. Mandatory. | free text |
 | **Discriminating power** | Derived from M3. | `high` · `medium` · `low` |
-| **Hypotheses touched** | Which of H0–H7 the anomaly is relevant to. Relevance is not support. | list |
+| **Escalation level** | Position on the ladder in §2.1, **plus the specific item that permitted the level**. Levels may not be skipped. | `1`–`5` |
+| **Priority** | Research value: centrality × source quality × discriminating power. Not probability of conspiracy. | `P0`–`P3` |
+| **Source genealogy** | Whether the accounts involved are genealogically independent, or share an ancestor (one MFR, one briefing, one press account, one institutional reconstruction). | `independent` · `possibly dependent` · `shared source` · `unknown` |
+| **Hypotheses touched** | Which of H0–H7 the anomaly is relevant to. For each, whether it *predicts* the observation, merely *accommodates* it, or is *weakened* by it. Relevance is not support. | list |
 | **Burden note** | What each hypothesis in "hypotheses touched" would additionally need to be established. Enforces `04` §3 S2–S6. | free text |
 | **Opened** | Date the entry was created. | date |
 | **Last reviewed** | Date the entry was last re-examined against new material. | date |
@@ -46,7 +49,32 @@ Every entry carries all fields below. A field that cannot be filled reads `not d
 
 ---
 
-## 2. Status vocabulary (closed)
+## 2. Status, escalation and priority
+
+### 2.1 Escalation ladder — levels may not be skipped
+
+| Level | Name | What permits entry |
+|---|---|---|
+| 1 | Discrepancy | Records or claims do not align. |
+| 2 | Unresolved anomaly | Ordinary reconciliation has been **tested** and remains inadequate. |
+| 3 | Structured pattern | Multiple **substantially independent** anomalies point in the same direction. Independence must be demonstrated, not assumed. |
+| 4 | Evidence of concealment | Affirmative acts or records support deliberate withholding or deception. |
+| 5 | Evidence of foreknowledge or participation | Evidence connects a named actor to specific operational knowledge or material conduct. |
+
+Every entry records the level **and the specific item that permitted it**. A large collection of dependent, low-quality discrepancies does not become a level 3. Most entries are expected to remain at level 1 or 2 permanently; that is the normal outcome, not a failure of the audit.
+
+### 2.2 Research priority
+
+| Priority | Criterion |
+|---|---|
+| `P0` | Documented fracture on a central claim, capable of separating major hypotheses. |
+| `P1` | Material unresolved tension whose discriminating evidence is obtainable. |
+| `P2` | Real anomaly with several viable ordinary explanations. |
+| `P3` | Low-centrality curiosity, or weakly sourced allegation. |
+
+Priority measures research value, not probability of conspiracy. A P0 entry is one worth resolving, in whichever direction it resolves.
+
+### 2.3 Status vocabulary (closed)
 
 | Status | Meaning |
 |---|---|
@@ -86,7 +114,10 @@ Copy verbatim for each new entry.
 | M4 — Ordinary-explanation test | |
 | M5 — Conclusion NOT justified | |
 | Discriminating power | high / medium / low |
-| Hypotheses touched | |
+| Escalation level | 1–5 — and the item permitting it |
+| Priority | P0 / P1 / P2 / P3 |
+| Source genealogy | independent / possibly dependent / shared source / unknown |
+| Hypotheses touched | H_: predicts / accommodates / weakened |
 | Burden note | |
 | Opened | |
 | Last reviewed | |
@@ -99,9 +130,9 @@ Copy verbatim for each new entry.
 
 No entries yet. Populated from Phase 2A onward.
 
-| ID | Short label | Status | Domain | Discriminating power | Hypotheses touched | Opened |
-|---|---|---|---|---|---|---|
-| — | *(empty at creation)* | — | — | — | — | — |
+| ID | Short label | Status | Domain | Escalation | Priority | Discriminating power | Opened |
+|---|---|---|---|---|---|---|---|
+| — | *(empty at creation)* | — | — | — | — | — | — |
 
 ---
 
@@ -119,3 +150,5 @@ Run at the end of every phase and record the result in that phase's document:
 2. **Mirror-test completeness.** Count entries with a pending mirror test. That count is reported, not hidden.
 3. **Promotion check.** Confirm that no synthesis text cites a `low` discriminating-power entry, or any entry, as support for intent, foreknowledge, complicity or intervention.
 4. **Resolution rate.** Count entries moved to `apparent anomaly with adequate explanation` during the phase. A rate of zero over several phases suggests the ordinary-explanation test (M4) is not being applied seriously.
+5. **Escalation discipline.** For every entry above level 2, re-state the specific item that permitted each step. For every level 3, re-verify that the underlying anomalies are substantially independent (§1 field *source genealogy*) rather than sharing a source, a briefing or an institutional reconstruction.
+6. **Targeting audit.** Compare the entries created against the pre-registered targets in [`05-stress-test-execution-plan.md`](05-stress-test-execution-plan.md). Entries that correspond to no pre-registered target are legitimate but are flagged, because post-hoc target selection is the failure mode this plan exists to prevent.

@@ -35,8 +35,10 @@ This repository documents an ongoing audit of the official account of the 11 Sep
 │   ├── 02-adversarial-audit-phase1.md          ← second audit (adversarial, multi-hypothesis, Phase 1) [pt-BR]
 │   ├── 03-phase2a-mfr-verification.md          ← framing corrections + Phase 2A verification instrument [pt-BR]
 │   ├── 04-methodology-symmetric-skepticism.md  ← GOVERNING METHODOLOGY
+│   ├── 05-stress-test-execution-plan.md        ← targeting plan: where to look, priorities, ceilings
 │   ├── claim-decomposition-register.md         ← atomic-proposition register (empty at creation)
-│   └── anomaly-register.md                     ← anomaly register (empty at creation)
+│   ├── anomaly-register.md                     ← anomaly register (empty at creation)
+│   └── contradiction-ledger.md                 ← contradiction ledger (empty at creation)
 ├── SOURCES.md                                  ← consolidated bibliography with read status
 └── NEXT-STEPS.md                               ← execution queue
 ```
@@ -49,15 +51,16 @@ Document numbering is chronological **and** hierarchical: each later document co
 |---|---|---|---|
 | 1 | [`README.md`](README.md) | Governing principle, hypotheses H0–H7, confidence scale | Entry point — defines the vocabulary used everywhere else |
 | 2 | [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md) | **Governing methodology** | Symmetry requirements, claim decomposition, mirror test, mandatory reporting format |
-| 3 | [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) | Current framing + verification instrument | §1 corrects five formulations in `02`; §5 is the claim-by-claim status table; §7 is the current state of H1–H5 |
-| 4 | [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md) | Phase 1 documentary audit | §2 lists what was retracted from `01`; §§3–6 are the substantive findings. **Read with the `03` §1 errata in hand** |
-| 5 | [`docs/01-wtc-engineering-audit-v1.md`](docs/01-wtc-engineering-audit-v1.md) | First pass, engineering | **Historical record.** Not to be cited in isolation: several points were retracted |
-| 6 | [`SOURCES.md`](SOURCES.md) | Consolidated bibliography with read status | Consult before assigning weight to any assertion |
-| 7 | [`NEXT-STEPS.md`](NEXT-STEPS.md) | Execution queue | Starting point for any new session |
+| 3 | [`docs/05-stress-test-execution-plan.md`](docs/05-stress-test-execution-plan.md) | **Targeting plan** | Where fractures are most likely, P0–P3 priorities, escalation ladder, cross-cutting attack patterns, fixed conclusion ceilings, next reading order |
+| 4 | [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) | Current framing + verification instrument | §1 corrects five formulations in `02`; §5 is the claim-by-claim status table; §7 is the current state of H1–H5 |
+| 5 | [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md) | Phase 1 documentary audit | §2 lists what was retracted from `01`; §§3–6 are the substantive findings. **Read with the `03` §1 errata in hand** |
+| 6 | [`docs/01-wtc-engineering-audit-v1.md`](docs/01-wtc-engineering-audit-v1.md) | First pass, engineering | **Historical record.** Not to be cited in isolation: several points were retracted |
+| 7 | [`SOURCES.md`](SOURCES.md) | Consolidated bibliography with read status | Consult before assigning weight to any assertion |
+| 8 | [`NEXT-STEPS.md`](NEXT-STEPS.md) | Execution queue | Starting point for any new session |
 
-**Reference vs. next step:** items 1–6 are **reference** material (what is established, and on what basis); item 7 is the **execution** queue. A new session starts with 1, 2, 3 and 7 — `01` is only needed when the work touches structural engineering, and then always alongside `02` §2; `02` is always read with the `03` §1 errata.
+**Reference vs. next step:** items 1–7 are **reference** material (what is established, and on what basis); item 8 is the **execution** queue. A new session starts with 1, 2, 3, 4 and 8 — `01` is only needed when the work touches structural engineering, and then always alongside `02` §2; `02` is always read with the `03` §1 errata.
 
-**Precedence rule.** On method, `04` prevails over everything. On substantive findings, the higher-numbered document prevails: where `02` and `03` differ on the classification of a hypothesis or a claim, **`03` prevails**; `04` changes no finding.
+**Precedence rule.** On method, `04` prevails over everything. On substantive findings, the higher-numbered document prevails: where `02` and `03` differ on the classification of a hypothesis or a claim, **`03` prevails**; `04` and `05` change no finding — `05` contains no findings at all, only pre-registered targets.
 
 ## Methodology in brief
 
@@ -133,8 +136,10 @@ For individual claims by witnesses and institutions the scale is different and c
 - ✅ **Phase 2, first tranche — Adversarial documentary audit** (`docs/02`): explicit correction of the Phase 1 limitations; three declassified primary documents read in full (PDB Review Team memo; MFRs of Condoleezza Rice and Michael Scheuer); first H0–H7 matrix; first contradiction ledger.
 - ✅ **Framing correction + Phase 2A instrument** (`docs/03`): five formulations from `02` corrected (H1, H5, Rice's "all reporting pointed abroad", the Commission's access structure, the three-dates rule); claim-by-claim verification table with 16 classified rows; Phase 2A priorities pre-registered.
 - ✅ **Methodology and register update — 19 September 2026** (`docs/04`, `docs/claim-decomposition-register.md`, `docs/anomaly-register.md`): symmetric-skepticism principle adopted verbatim; symmetry requirements S1–S7; twelve-field atomic claim decomposition; anomaly register with mirror test; mandatory four-section phase reporting format. **No source read, no prior conclusion changed.**
-- ⛔ **Official Account Stress-Test Track (ST-1 … ST-7): not executed.** Network egress blocked to `archives.gov` and every other primary repository, documented in [`docs/03` §3](docs/03-phase2a-mfr-verification.md).
-- ⛔ **Phase 2B — Joint Inquiry Part Four: not executed.** Same block (`intelligence.senate.gov`). Classification protocol pre-registered in [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
+- ✅ **Stress-test targeting plan — 19 September 2026** (`docs/05`, `docs/contradiction-ledger.md`): pre-registered targeting hypotheses across ST-1…ST-7 with P0–P3 research priorities; escalation ladder (discrepancy → unresolved anomaly → structured pattern → concealment → foreknowledge, no level skipped); cross-cutting attack patterns; conclusion ceilings fixed **before** reading; contradiction ledger created. **No source read, no conclusion changed.**
+- 🔓 **Access restored.** The egress blockade recorded earlier on 19 September 2026 is lifted for `archives.gov`, `cia.gov`, `intelligence.senate.gov`, `nist.gov` and `oig.justice.gov`; `vault.fbi.gov` still refuses. Retrievability confirmed, readability not yet — see [`docs/05` §1](docs/05-stress-test-execution-plan.md).
+- ⛔ **Official Account Stress-Test Track (ST-1 … ST-7): not executed.** Now unblocked; reading order in [`docs/05` §6](docs/05-stress-test-execution-plan.md).
+- ⛔ **Phase 2B — Joint Inquiry Part Four: not executed.** Now unblocked. Classification protocol pre-registered in [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
 - ⏳ **Remaining phases**: see [`NEXT-STEPS.md`](NEXT-STEPS.md).
 
 ## Acknowledged limitations (read before citing this material)
@@ -144,7 +149,8 @@ For individual claims by witnesses and institutions the scale is different and c
 - Conclusions on H2, H3, H6 and H7 remain largely untested by the documents read so far.
 - **H5 is not tested.** The al-Mihdhar / al-Hazmi node, where the hypothesis has its strongest theoretical case, has not been touched by any phase to date.
 - **H1 does not support "cover-up".** What exists are indications of bureaucratic failure and possible institutional self-protection; deliberate suppression is not corroborated.
-- **Both registers are empty.** The claim-decomposition and anomaly registers were created in this session and contain no substantive entries. Nothing in this repository should be read as if they were populated.
+- **All three registers are empty.** The claim-decomposition register, the anomaly register and the contradiction ledger contain no substantive entries. Nothing in this repository should be read as if they were populated.
+- **`docs/05` contains no findings.** Its T-items are pre-registered places to look, generated from the shape of the record rather than from reading it. Several are expected to resolve as ordinary. None may be cited as evidence in either direction.
 
 ## Content licence
 
