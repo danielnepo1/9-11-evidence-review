@@ -67,7 +67,7 @@ Reconstruct per body, never merged into a single "government position" when the 
 
 ### 1.2 W2 — Independent / contemporaneous / non-narrative records
 
-Targets: contemporaneous communications, cables, emails, logs and memoranda; operational records; aviation, radar, ATC, emergency-response and communications records; photographs, video, audio and technical records with verifiable provenance; court exhibits, discovery records, sworn testimony and litigation files; FOIA releases and post-report declassifications; drafts, edits, redlines and recorded internal disagreement; foreign investigations, court proceedings, intelligence reviews or official records; contemporaneous journalism **that provides or links to underlying primary material**; testimony recorded close to the event, kept distinct from later memory.
+Targets: contemporaneous communications, cables, emails, logs and memoranda; operational records; aviation, radar, ATC, emergency-response and communications records; photographs, video, audio and technical records with verifiable provenance; court exhibits, discovery records, testimony given under oath and litigation files (a *class* of record — the procedural status of any specific document is established per document, §7.4); FOIA releases and post-report declassifications; drafts, edits, redlines and recorded internal disagreement; foreign investigations, court proceedings, intelligence reviews or official records; contemporaneous journalism **that provides or links to underlying primary material**; testimony recorded close to the event, kept distinct from later memory.
 
 > A book, article, documentary, interview, website or critical essay may identify a lead. It is **never** the terminal evidentiary source when an underlying primary record exists.
 
@@ -180,6 +180,20 @@ Do **not** write that a document "fixes", "proves" or "establishes" anything, un
 
 ---
 
+### 7.4 Procedural status of a witness document (MD-012)
+
+> The words "under oath", "sworn testimony" and any equivalent are used **only** where the source document itself, or a directly linked procedural record, establishes that status. Everywhere else the narrower label applies: **"Commission interview record"** or **"interview memorandum"**.
+
+A procedural status read from an extracted text layer carries that qualifier, because the text layer of these releases is demonstrably imperfect and the oath notice is a single line of front matter. Every document card records status using the controlled vocabulary in [`../registry/witness-status.md`](../registry/witness-status.md) §2, with the exact basis quoted. Statements by third parties present at an interview are never covered by the witness's oath and are labelled by speaker.
+
+### 7.5 Negative findings and transliteration variants (MD-011)
+
+A negative finding — "the document does not mention X" — is only as good as the strings searched. Names in this corpus are transliterated inconsistently, and across releases: the same individual appears as `al Midhar` in the 2026 MFRs and as `al-Mihdhar` in most secondary literature.
+
+> Every negative finding is run over the **transliteration and spelling variants** of each term, and the variant set searched is recorded with the finding. A negative finding recorded before this rule existed is **not trustworthy until re-run**.
+
+This rule exists because the project's own first negative finding (T-N1) was originally run on `Mihdhar` and `Hazmi` only, against documents that spell it `Midhar`. It survived re-running; the next one might not.
+
 ## 8. Custodial-source instruments: B1 and B2 (MD-005, MD-006)
 
 Governed in full by [`registry/instruments-b1-b2.md`](../registry/instruments-b1-b2.md). Summary of the binding rules:
@@ -221,8 +235,10 @@ The rules are in [`registry/source-policy.md`](../registry/source-policy.md). Ex
 
 ## 11. Repository, language and preservation rules
 
-- **Language (MD-003).** All repository artifacts are written in **English**: documentation, filenames where practical, logs, matrices, code comments, commit messages and methodological decisions. Legacy Phase A documents (`README.md`, `SOURCES.md`, `NEXT-STEPS.md`, `docs/01`, `docs/02`, `docs/03`) are in Portuguese and are **preserved verbatim as the historical record** — translating or rewriting them would destroy the Phase A work this framework is required to preserve. Content *added* to those files from this point on is in English.
-- **Preservation (MD-008).** Raw artifacts and prior methodological failures are preserved. A source is never silently overwritten. Changed hashes, changed source files, reclassifications and corrections are recorded as **explicit events** — in [`corpus/manifest.md`](../corpus/manifest.md) for artifacts and in [`registry/version-history.md`](../registry/version-history.md) for claims.
+- **Language (MD-003).** All repository artifacts are written in **English**: documentation, filenames where practical, logs, matrices, code comments, commit messages and methodological decisions. Legacy Phase A documents (`README.md`, `SOURCES.md`, `NEXT-STEPS.md`, `docs/01`, `docs/02`, `docs/03`) are in Portuguese and are **preserved verbatim as the historical record** — translating or rewriting them in place would destroy the Phase A work this framework is required to preserve.
+
+  **Amended 19 September 2026 (MD-013).** Complete English **companion** translations of every Portuguese document live in [`../en/`](../en/), each marked as a translation, linked to its original, and carrying the original's SHA-256 at translation time so drift is detectable. The Portuguese original remains authoritative: a disagreement between an original and its companion is a translation defect, corrected in the companion and never in the original. Governed by [`../en/TRANSLATION-POLICY.md`](../en/TRANSLATION-POLICY.md).
+- **Preservation (MD-008, MD-014).** Raw artifacts and prior methodological failures are preserved **by hash and derived text, not by committing binaries** — see [`../corpus/manifest.md`](../corpus/manifest.md) §3 for the publication-status rule. A source is never silently overwritten. Changed hashes, changed source files, reclassifications and corrections are recorded as **explicit events** — in [`corpus/manifest.md`](../corpus/manifest.md) for artifacts and in [`registry/version-history.md`](../registry/version-history.md) for claims.
 - **History.** Work proceeds on the current branch. History is not rewritten; prior evidence is not deleted; failed experiments are not erased.
 
 ---
@@ -233,7 +249,7 @@ The rules are in [`registry/source-policy.md`](../registry/source-policy.md). Ex
 |---|---|---|
 | **MD-001** | Explanation classes are `EC1`–`EC5`, not `H1`–`H5` | `H0`–`H7` are already bound to substantive hypotheses; reuse would silently corrupt every existing matrix row |
 | **MD-002** | Baseline axiom: official-document reading establishes, never validates, the baseline | Prevents the closed evidentiary loop described in §0 |
-| **MD-003** | English for all new artifacts; legacy Portuguese documents preserved verbatim | Preservation requirement outranks retroactive language uniformity |
+| **MD-003** | English for all new artifacts; legacy Portuguese documents preserved verbatim | Preservation requirement outranks retroactive language uniformity. **Amended by MD-013**, which adds complete English companions |
 | **MD-004** | Image-verification standard and source-layer taxonomy for decisive quotations | Text layers of scanned releases omit redaction voids (empirically demonstrated, DOC-7 p.4) |
 | **MD-005** | B2-ref and B2-rely separated; subtypes never collapsed; never summed | They measure different things |
 | **MD-006** | B1 quarantined as an invalidated instrument; distributions never reused | Stated failure of the instrument |
@@ -241,3 +257,7 @@ The rules are in [`registry/source-policy.md`](../registry/source-policy.md). Ex
 | **MD-008** | Binaries not committed; SHA-256 + extracted text committed; hash changes recorded as events | Auditability without repository bloat; exact re-verification remains possible |
 | **MD-009** | This framework's implementation makes **no** substantive conclusions; `H0`–`H7` are unchanged by it | Instrument construction is a precondition of evidence, not a substitute for it |
 | **MD-010** | Corpus expansion gated on [`registry/source-policy.md`](../registry/source-policy.md) | Prevents indiscriminate collection |
+| **MD-011** | Negative findings are run over transliteration and spelling variants, and the variant set is recorded | The corpus spells the same name several ways; a negative finding on one spelling is not a negative finding (§7.5) |
+| **MD-012** | "Under oath" / "sworn" used only where the source or a directly linked procedural record establishes it, always with its verification state; otherwise "Commission interview record" or "interview memorandum" | An oath changes the weight of a statement, and MFRs with and without one are indistinguishable on the page (§7.4) |
+| **MD-013** | Portuguese Phase A documents are preserved unaltered; complete English companion translations live in [`../en/`](../en/), marked as translations, linked to the original, with the source's SHA-256 recorded for drift detection. **The original prevails; a disagreement is a translation defect** | Satisfies the English-for-GitHub requirement without destroying the Phase A record, and makes staleness detectable |
+| **MD-014** | No source PDF, page image or other binary is committed unless its publication status is explicitly documented **and** a reason to commit it is recorded in [`../corpus/manifest.md`](../corpus/manifest.md) §3 | Hashes already give exact re-verification; redistribution is not this project's function |

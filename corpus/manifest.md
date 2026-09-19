@@ -38,6 +38,40 @@ The hash makes re-verification exact: anyone can re-retrieve the file from its s
 
 **Fidelity warning.** The committed text is the **agency OCR as extracted**, unedited. It is preserved verbatim, corruption included, because correcting it would destroy the record of what the release actually contains. It is a search and location aid. **It is not a transcription**: it silently omits redaction voids (see the card, §3), and its character-level accuracy is unreliable near redactions and in headers. Every decisive quotation must be taken from the page image, not from this file.
 
-## 3. Hash-change events
+### DOC-8 — MFR George Tenet #3
+
+| Field | Value |
+|---|---|
+| Card | [`../registry/cards/DOC-8-mfr-tenet-3.md`](../registry/cards/DOC-8-mfr-tenet-3.md) |
+| Source URL | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-11-release-508.pdf |
+| Retrieved | 19 September 2026, HTTP 200 |
+| File | `2026-201-document-11-release-508.pdf` (**not committed** — see §3) |
+| Bytes | 1406317 |
+| SHA-256 (PDF) | `f8b42694b3a7ea3fd149bd8047cb11ffdb6e9734d47e2a24bf9feb3dfbfeeb2e` |
+| Pages | 13 |
+| Text layer | Present (agency OCR), all 13 pages |
+| Extraction tool | `pypdf` 6.19.0, `PdfReader.extract_text()` |
+| Extracted text | [`text/DOC-8-mfr-tenet-3.txt`](text/DOC-8-mfr-tenet-3.txt) |
+| Bytes (text) | 44252 |
+| SHA-256 (text) | `18a44ecbbd1c586ca6ebd0ba447a9ac3a6a2a9e273be58ea5b518b37c3dff9a8` |
+| Page images | JBIG2; rendered with `pypdf` 6.19.0 + `jbig2dec` 0.20 for independent inspection of pp. 1, 3, 5, 8, 9, 10, 11. **Not committed** — see §3 |
+
+**Fidelity warning.** As with DOC-7, the committed text is the **agency OCR as extracted, unedited**. Independent inspection of the page images corrected it in at least five places, including a date (text layer "On March lilt" vs. page image "On March 12th"). It is a search and location aid, **not a transcription**. Every decisive quotation is taken from the page image.
+
+## 3. Publication status of source files, and why binaries are not committed
+
+Every artifact in §2 is a **United States federal government record**, declassified by the Interagency Security Classification Appeals Panel under E.O. 13526 sec. 5.3(b)(3) with a declassification date of 8 September 2026, and published by the National Archives and Records Administration at the `archives.gov` URL recorded for it. That publication status is documented on the face of each document (the ISCAP declassification stamp, reproduced in each card's §1) and by the NARA URL from which it was retrieved.
+
+Notwithstanding that status, **this repository commits no source PDF and no page image.** The reasons are recorded so the choice is auditable rather than assumed:
+
+1. **Preservation is served by the hash.** The SHA-256 of the retrieved file permits exact re-verification against the publishing repository, and detects any change to the published file. Committing the bytes adds no auditability the hash does not already provide.
+2. **Redistribution is not this project's function.** The artifacts are one HTTP request from their official source. The project's contribution is the analysis, the provenance chain and the verification record — not a mirror.
+3. **Page images are derived artifacts of this project's tooling**, not published records in the form extracted, and their publication status as reproduced is therefore less clean than that of the PDFs.
+
+What **is** committed is the extracted text: a derived, reproducible artifact whose generation is fully specified above (tool, version, method), and which any reader can regenerate from the hashed source and compare byte for byte.
+
+**Standing rule.** No source PDF, page image or other binary is committed unless its publication status is explicitly documented **and** a reason to commit it is recorded here. Neither condition is met by convenience.
+
+## 4. Hash-change events
 
 None recorded.

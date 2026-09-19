@@ -33,8 +33,8 @@ Repeated publications that share a provenance root are **not** independent corro
 | Step | Item | Date | Note |
 |---|---|---|---|
 | 1 | Claim: an estimate at or below ~30% existed | — | — |
-| 2a | DOC-3, MFR Scheuer #1 | 11 Dec 2003 | Scheuer, sworn, recollection. States 30% |
-| 2b | DOC-7, MFR Tenet #2, printed p.3 | 22 Jan 2004 | Tenet, sworn, recollection. States "less than 30%" |
+| 2a | DOC-3, MFR Scheuer #1 | 11 Dec 2003 | Scheuer, recollection. Oath recorded in the document, **not image-verified**. States 30% |
+| 2b | DOC-7, MFR Tenet #2, printed p.3 | 22 Jan 2004 | Tenet, recollection. Oath **image-verified**. States "less than 30%" |
 | 3 | Source cited by 2b | — | "(the figure agreed upon **[REDACTED 25X1]**" — the attribution is redacted |
 | 4 | Earliest recoverable source | — | **Not reached** |
 
@@ -74,7 +74,7 @@ Repeated publications that share a provenance root are **not** independent corro
 
 | Step | Item | Date | Note |
 |---|---|---|---|
-| 2a | DOC-3 (Scheuer), sworn | 11 Dec 2003 | Asserts the sanctuary |
+| 2a | DOC-3 (Scheuer), oath not image-verified | 11 Dec 2003 | Asserts the sanctuary |
 | 2b | DOC-7 (Tenet), printed p.5 | 22 Jan 2004 | The assertion appears as an **unattributed parenthetical written by the Commission staff drafter**, inside a sentence reporting that Tenet had *no recollection* of the issue |
 | 3 | Source of the parenthetical | — | **Not given** |
 
@@ -87,7 +87,7 @@ Repeated publications that share a provenance root are **not** independent corro
 
 | Step | Item | Date | Note |
 |---|---|---|---|
-| 2a | DOC-2 (Rice): no current information; UAE contact looked like a hoax | 7 Feb 2004 | Recollection, not under oath |
+| 2a | DOC-2 (Rice): no current information; UAE contact looked like a hoax | 7 Feb 2004 | Recollection. **Commission interview record — no oath recorded** |
 | 2b | DOC-1 (PDB Review Team): 70 FBI field investigations; contact under investigation; bolded non-corroboration caveat | 9 Feb 2004 | 2004 **characterization** of the PDB |
 | 3 | The PDB itself | 6 Aug 2001 | Located (cia.gov) — **scanned without a text layer; not read** |
 
@@ -104,9 +104,9 @@ Repeated publications that share a provenance root are **not** independent corro
 | 3 | The CIA staff paper | Jan 2004 | **Not located.** Listed by the document itself under "TO OBTAIN FROM CIA", item 2 |
 | 4 | The underlying strike packages and cables | 1998–1999 | Not located |
 
-**Independence:** `derivative`. What reads as sworn eyewitness recollection is in substantial part a **2004 CIA institutional reconstruction, read aloud by the witness.** The MFR itself says so, on the same page; the reader of a summary that omits this sentence would not know.
+**Independence:** `derivative`. What reads as the recollection of a witness under oath is in substantial part a **2004 CIA institutional reconstruction, read aloud by the witness.** The MFR itself says so, on the same page; the reader of a summary that omits this sentence would not know.
 **Chain stop:** `cited document not located`.
-**Rule applied:** T-06 is recorded as `declaração não corroborada` with the derivation flagged. Sworn testimony read from an agency briefing paper is the agency's account with the witness's oath attached to it — the oath attests to his reading, not to the paper's accuracy.
+**Rule applied:** T-06 is recorded as `declaração não corroborada` with the derivation flagged. Testimony under oath read from an agency briefing paper is the agency's account with the witness's oath attached to it — the oath attests to his reading, not to the paper's accuracy.
 
 ### PR-007 — The February 1999 MON
 `T-08`
@@ -126,7 +126,7 @@ Repeated publications that share a provenance root are **not** independent corro
 
 | Step | Item | Date | Note |
 |---|---|---|---|
-| 2 | DOC-7, printed p.9 | 22 Jan 2004 | Rousseau (CIA, not the sworn witness) reports diplomatic cable traffic and a State reporting cable written by the Ambassador |
+| 2 | DOC-7, printed p.9 | 22 Jan 2004 | Rousseau (CIA, **not the witness under oath**) reports diplomatic cable traffic and a State reporting cable written by the Ambassador |
 | 3 | The cables | 1999 | **Not located** |
 
 **Independence:** `unknown`. Note the assertion type: this is a **third party in the room**, not the witness under oath, characterizing documents not before the Commission at that moment.
@@ -155,6 +155,51 @@ Repeated publications that share a provenance root are **not** independent corro
 **Independence:** `none (self-description)`. Per MD-002 this establishes *officially asserted*, not *independently corroborated*.
 **Chain stop:** `primary reached` — the primary *is* the assertion.
 
+### PR-011 — The witness's evidence read from CIA-prepared 2004 material — **a pattern, not an incident**
+`T-06`, `T-07`, `U-08`, `U-10`
+
+| Instance | Document / page | What was read from |
+|---|---|---|
+| 1 | DOC-7 p.8 | "a CIA staff paper prepared to brief him for this interview" — the three TLAM opportunities |
+| 2 | DOC-7 p.11 | The February 1999 MON text, read aloud |
+| 3 | DOC-8 p.5 | "his recollection of the CIA's investigation into the attack was **entirely dependent on the documents in his briefing book**" — the *Cole* investigation |
+| 4 | DOC-8 p.8 | "Reading the cover note to the MON and Finding written by EXDIR Krongard (**from his briefing binder**)" |
+
+**Independence:** `derivative` for every passage so sourced. **Chain stop:** `cited document not located` — the binder is item 2 on DOC-7's own "TO OBTAIN FROM CIA" list and has not been produced to this project.
+
+**What this establishes.** For these passages the provenance root is a **2004 CIA document**, not the witness's memory. Two testimonies six days apart, by the same witness, on four different subjects, are in substantial part a reading of material his own agency prepared for the occasion. Treating them as four independent recollections would be a counting error of exactly the kind [`../docs/04` §3](../docs/04-controlling-methodology.md) exists to prevent.
+
+**What this does not establish.** Nothing improper. A witness preparing from his agency's records before sworn testimony about events five years earlier is ordinary and arguably responsible. The oath attaches to his reading; it does not attach to the accuracy of the binder.
+
+**Consequence:** the briefing binder is promoted in §4 below. It would convert four `declaração não corroborada` rows into rows testable against a dated document.
+
+### PR-012 — The Kuala Lumpur episode
+`U-01`, `U-02`, `U-04`, `U-06`
+
+| Step | Item | Date | Note |
+|---|---|---|---|
+| 1 | Claim: what CIA knew and did about the Kuala Lumpur meeting and al-Midhar | — | — |
+| 2 | DOC-8 printed pp. 1–2 | 28 Jan 2004 | **The witness is expressly disqualified as first-hand by the Commission's own Executive Director** (U-01, image-verified) |
+| 3 | Sources cited within | — | The Joint Inquiry report (Tenet disputes it); the Commission's January 2004 staff statement; two Freeh briefings; an NSA watchlist request; a CIA file review then under way |
+| 4 | Earliest recoverable source | 2000–2001 | **Not reached.** No 2000–2001 record appears anywhere in DOC-8 |
+
+**Independence:** `unknown`, tending to `derivative`. Tenet's account is a 2004 reading of a 2002 report he disputes; Zelikow's bracketed note is the Commission's own prior work product; Russo's NSA-tipper account is a third party's recollection, not under oath, on a page **not image-verified**.
+**Chain stop:** `not yet attempted` for the underlying 2000–2001 cable traffic — that material is in the Joint Inquiry, the DOJ IG reports and PENTTBOM, none read.
+
+> **This is the first provenance chain the project has drawn for Priority 1, and every step of it stops in 2004.** The node cannot be resolved from MFRs. It requires the 2000–2001 operational record.
+
+### PR-013 — Berger's position on the *Cole*, as it reaches this project
+`U-09`
+
+| Step | Item | Date | Note |
+|---|---|---|---|
+| 2 | DOC-8 printed p.5, bracketed staff note | 28 Jan 2004 | "In his interview with the Commission, National Security Adviser Sandy Berger said that the USG was essentially waiting for such a judgment from his DCI…" |
+| 3 | MFR Berger (14 Jan 2004) | 14 Jan 2004 | **Located, not read.** ISCAP 2026-201 document 1 |
+| 4 | Contemporaneous NSC record of the expectation | 2000 | Not located |
+
+**Independence:** `derivative`. Berger's account reaches this project only as one staff member's paraphrase inside another witness's MFR.
+**Rule applied:** U-09 is recorded as the **conflict between the two accounts**, not as a finding about what Berger said. Given DISC-007 — where an MFR demonstrably omits content from its own session — a paraphrase of one MFR inside another is a weak link, and is marked as such.
+
 ---
 
 ## 4. Documents the corpus depends on and does not have
@@ -167,14 +212,17 @@ Every row below is a point at which the evidentiary chain currently stops. Liste
 | 2 | The 6 Aug 2001 PDB, OCR'd | A10.1, A10.2, A16.1 | cia.gov — in hand, unreadable |
 | 3 | June 1999 Berger→Clinton memo | T-11 | Clinton Library / NSC records |
 | 4 | February 1999 MON with the President's edits | T-08 | NSC / CIA records |
-| 5 | CIA staff briefing paper for the 22 Jan 2004 interview | T-06, T-07 | Named on the document's own "TO OBTAIN FROM CIA" list |
+| 5 | **The DCI's briefing binder prepared for the January 2004 interviews** | T-06, T-07, **U-08, U-10** | Named on DOC-7's own "TO OBTAIN FROM CIA" list, item 2. **Promoted: now four rows, across two documents — see PR-011** |
 | 6 | Scheuer memoranda: 28 Jun 1999, 3 May 1996; Spot Report 24 Jun 1997 | A1.2, A1.3, A4.1, A4.5 | NARA, general MFR/records holdings |
 | 7 | Internal memorandum on the 25 Mar 1999 PDB | A2.1–A2.4 | Unknown |
 | 8 | Situation Room log and Presidential Diary, 11 Sep 2001 | A12.1–A12.3 | NARA / Bush Library |
 | 9 | State reporting cable and diplomatic traffic on the UAE warning | T-09 | State Department |
-| 10 | MFRs: Tenet #1 and #3, Clarke ×3, Berger, Scheuer #2 and #3 | A1–A7, T-01, T-04 | **archives.gov — accessible as of 19 Sep 2026** |
-| 11 | MFRs of Reno, Freeh, White, Fitzgerald | A3.2, A3.3 | Not in the ISCAP 2026-201 release; NARA general holdings |
-| 12 | May 2002 Rice press-conference transcript | A8.1 | Public; unread |
+| 10 | **MFR Berger (14 Jan 2004)** | A3.2, **U-09** | archives.gov — accessible, **not read. Now required by two independent rows** |
+| 11 | **MFR Tenet #1 (23 Dec 2003)** | **DISC-007, DISC-008** | archives.gov — accessible, not read. Resolves whether DOC-7's footnote 1 misidentifies a session, and whether DOC-8's "first interview" is accurate |
+| 12 | The March 2001 draft MON and Finding, and the EXDIR Krongard cover note and tasking paper | U-10, U-11, U-12, DISC-011 | Named by the witness as in his possession (DOC-8 p.8) |
+| 13 | MFRs: Clarke ×3, Scheuer #2 and #3 | A1–A7, T-01, T-04 | **archives.gov — accessible as of 19 Sep 2026** |
+| 14 | MFRs of Reno, Freeh, White, Fitzgerald | A3.2, A3.3 | Not in the ISCAP 2026-201 release; NARA general holdings |
+| 15 | May 2002 Rice press-conference transcript | A8.1 | Public; unread |
 
 ---
 
@@ -188,3 +236,6 @@ Rows whose resolution is gated on material the declassifying authority has withh
 | A4.x, A5.x, T-05 | Single block covering roughly 60% of the page in the section headed "The Saudis" | DOC-7, printed p.4, 25X1 — **visible only on the page image** |
 | T-06 | Target locations and partner identities | DOC-7, printed pp. 8–9, 25X1 |
 | A1.x, A4.x (Phase A) | Extensive 25X1/25X3 across DOC-1 and DOC-3 | Recorded in [`../docs/02` §1.1](../docs/02-adversarial-audit-phase1.md) |
+| U-04, U-05 | The CIA retrieval-system name and the date range of the file review | DOC-8, printed p.2, 25X1 |
+| U-10 | Predator command-and-control constraints | DOC-8, printed p.9, **25X1, X4** — a different exemption category from the 25X1 used elsewhere in the release |
+| U-18 | The Moussaoui passage after the witness's first two sentences | DOC-8, printed pp. 11–12, 25X1 |

@@ -1,3 +1,5 @@
+> 🌐 **English companion translation:** [`en/NEXT-STEPS.en.md`](en/NEXT-STEPS.en.md) · policy: [`en/TRANSLATION-POLICY.md`](en/TRANSLATION-POLICY.md)
+
 # Próximas Fases
 
 > ## ⚠️ Controlling framework — read before executing any phase (added 19 September 2026)

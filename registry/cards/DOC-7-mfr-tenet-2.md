@@ -18,20 +18,20 @@
 | **Annotation date** | Unknown. At least one bracketed note refers to a December 2004 interview |
 | **Declassification date** | 8 September 2026 — ISCAP, E.O. 13526 sec. 5.3(b)(3), NSC-directed ISCAP Review, Document 10 |
 | Classification as released | TOP SECRET // 25X1 // NOFORN, struck through |
-| Oath | **Yes.** "The witness was under oath"; Commissioner Roemer administered the oath at the start |
+| Oath | `oath: administered, image-verified`. Printed p.1, checked against the page image: "Additional notes: The witness was under oath"; "(U) Commissioner Roemer administered the oath to DCI Tenet at the start of the interview." See [`../witness-status.md`](../witness-status.md) |
 | URL | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-10-release-508.pdf |
 | Retrieved | 19 September 2026. HTTP 200 — access restored since the 403 recorded in [`../../docs/03` §3](../../docs/03-phase2a-mfr-verification.md) |
 | Bytes | 1,906,620 |
 | SHA-256 | `7434ad300a474e06672fc450dd2ae129e2b9b04636a01b1bf9cea7848bc38e28` |
 | Extent | 24 PDF pages / printed pages 1–24. **Read in full** |
 
-**Distance event → facts described: 3 to 8 years.** Facts described run from 1995–1996 to 2001. Under [`../../docs/03` §1.1](../../docs/03-phase2a-mfr-verification.md), **this document is not a contemporaneous record of anything it describes.** It is sworn recollection given in 2004, and in one significant passage (§3, T-07) it is not even that.
+**Distance event → facts described: 3 to 8 years.** Facts described run from 1995–1996 to 2001. Under [`../../docs/03` §1.1](../../docs/03-phase2a-mfr-verification.md), **this document is not a contemporaneous record of anything it describes.** It is recollection given under oath in 2004, and in one significant passage (§3, T-07) it is not even that.
 
 ---
 
 ## 2. Participants — who is speaking matters
 
-Statements in this MFR are **not all the sworn witness's**. Four other CIA officials speak in it, unsworn, and Commission staff insert bracketed editorial notes. Attribution must be read per passage.
+Statements in this MFR are **not all the witness's**. Four other CIA officials speak in it, **not under oath**, and Commission staff insert bracketed editorial notes. Attribution must be read per passage.
 
 | Non-Commission | Commission |
 |---|---|
@@ -40,7 +40,7 @@ Statements in this MFR are **not all the sworn witness's**. Four other CIA offic
 | Scott Muller (CIA General Counsel) | Philip Zelikow, Chris Kojm, Ernest May, Dan Marcus |
 | Rudy Rousseau, Ben Bonk, [REDACTED 25X1] | Mike Hurley, Alexis Albion, Gordon Lederman |
 
-Passages attributed to Bonk (pp. 2, 5, 14, 22), Rousseau (pp. 9, 20) and Muller (pp. 11, 12) are **unsworn third-party statements inside a sworn witness's MFR**. They carry the document's authority, not the oath's.
+Passages attributed to Bonk (pp. 2, 5, 14, 22), Rousseau (pp. 9, 20) and Muller (pp. 11, 12) are **third-party statements, not under oath, inside the MFR of a witness who was**. They carry the document's authority, not the oath's.
 
 ---
 

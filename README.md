@@ -1,3 +1,5 @@
+> 🌐 **English companion translation:** [`en/README.en.md`](en/README.en.md) · all companions: [`en/`](en/) · policy: [`en/TRANSLATION-POLICY.md`](en/TRANSLATION-POLICY.md)
+
 # 9/11 Evidence Review
 
 > Adversarial, document-based audit of the official 9/11 narrative — WTC structural engineering and pre-9/11 intelligence timeline, primary sources cited.
@@ -16,7 +18,7 @@ A systematic review of primary sources (NIST, the 9/11 Commission, CIA, NARA) ac
 
 | Document | What it is |
 |---|---|
-| [`docs/04-controlling-methodology.md`](docs/04-controlling-methodology.md) | **Controlling methodology.** The baseline axiom, the three workstreams, explanation classes EC1–EC5, closure gates, document-card language, preservation and language rules, and the register of methodological decisions MD-001 … MD-010 |
+| [`docs/04-controlling-methodology.md`](docs/04-controlling-methodology.md) | **Controlling methodology.** The baseline axiom, the three workstreams, explanation classes EC1–EC5, closure gates, document-card language, preservation and language rules, and the register of methodological decisions MD-001 … MD-014 |
 | [`docs/05-phase-c-competing-narratives.md`](docs/05-phase-c-competing-narratives.md) | **Phase C — Competing Narratives and Independent Evidence.** Runs across Phases 2A–4, not after them |
 | [`registry/`](registry/) | The living instruments: atomic claim registry, provenance graph, version-history ledger, discrepancy ledger, source policy, B1/B2 instruments, document cards |
 | [`corpus/manifest.md`](corpus/manifest.md) | Retrieved artifacts, hashes, extraction tooling |

@@ -57,7 +57,7 @@ The sixteen rows A1–A16 in [`../docs/03` §5](../docs/03-phase2a-mfr-verificat
 
 Sources: DOC-1 (*Report on Review of PDB Articles*, 09 Feb 2004), DOC-2 (MFR Rice, 07 Feb 2004), DOC-3 (MFR Scheuer #1, 11 Dec 2003) — all read in Phase A, **none image-verified** (see [`cards/README.md`](cards/README.md) §3). DOC-7 (MFR Tenet #2, 22 Jan 2004) read and partially image-verified in this session.
 
-### A1 — container (Scheuer, sworn): absence of strategic analytic product / NIE until mid-1999
+### A1 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): absence of strategic analytic product / NIE until mid-1999
 
 | ID | Proposition | Status | Moved this session | Closure condition |
 |---|---|---|---|---|
@@ -65,9 +65,9 @@ Sources: DOC-1 (*Report on Review of PDB Articles*, 09 Feb 2004), DOC-2 (MFR Ric
 | A1.2 | No consolidated strategic analytic product on UBL existed before mid-1999 | `inconclusiva` | **yes** — was `documento citado, não localizado` | Scheuer memo 28 Jun 1999; CIA analytic production record 1996–1999 |
 | A1.3 | Scheuer repeatedly requested such a product | `documento citado, não localizado` | no | Scheuer memo 28 Jun 1999 located and read |
 
-**A1.2 change note.** DOC-7 p.1 records Tenet stating that after the 1998 East African embassy bombings "CIA had a strategic framework to address the elements of the al Qaeda threat, but in 1999, a new strategic plan was required ('The Plan')", and p.16 that "contrary to the Joint Inquiry's conclusions, Tenet insisted that there was a plan for ramping up war-like activities." A *plan* and an *analytic product/NIE* are different objects (EC1 strongly live), so this is not a contradiction; it is an unresolved tension between two sworn witnesses about what existed before mid-1999. See [`discrepancies.md`](discrepancies.md) DISC-001.
+**A1.2 change note.** DOC-7 p.1 records Tenet stating that after the 1998 East African embassy bombings "CIA had a strategic framework to address the elements of the al Qaeda threat, but in 1999, a new strategic plan was required ('The Plan')", and p.16 that "contrary to the Joint Inquiry's conclusions, Tenet insisted that there was a plan for ramping up war-like activities." A *plan* and an *analytic product/NIE* are different objects (EC1 strongly live), so this is not a contradiction; it is an unresolved tension between two witnesses under oath (Scheuer's oath not image-verified; Tenet's image-verified) about what existed before mid-1999. See [`discrepancies.md`](discrepancies.md) DISC-001.
 
-### A2 — container (Scheuer, sworn): WMD text barred from the 25 Mar 1999 PDB
+### A2 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): WMD text barred from the 25 Mar 1999 PDB
 
 | ID | Proposition | Status | Moved | Closure condition |
 |---|---|---|---|---|
@@ -78,7 +78,7 @@ Sources: DOC-1 (*Report on Review of PDB Articles*, 09 Feb 2004), DOC-2 (MFR Ric
 
 DOC-7 contains nothing on A2. Tenet MFRs #1 (23 Dec 2003) and #3 (28 Jan 2004) remain unread.
 
-### A3 — container (Scheuer, sworn): 30% vs 0%
+### A3 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): 30% vs 0%
 
 | ID | Proposition | Status | Moved | Closure condition |
 |---|---|---|---|---|
@@ -91,11 +91,11 @@ DOC-7 contains nothing on A2. Tenet MFRs #1 (23 Dec 2003) and #3 (28 Jan 2004) r
 
 > "Tenet recalled talking about this issue for a long time—he 'probed on the operations side,' and noted that the operation's prospect of success as described to him was less than 30% (the figure agreed upon [REDACTED 25X1]."
 
-Assertion type: `recollection` (of a 1998 briefing, given in 2004). This is a second sworn witness, independent of Scheuer, placing a sub-30% figure in the same decision. It **materially qualifies** Scheuer's "30%": Tenet says *less than* 30%, and describes it as the figure given **to him**, not as a figure briefed outward. The attribution of who agreed the figure is redacted — the row cannot close while that redaction stands.
+Assertion type: `recollection` (of a 1998 briefing, given in 2004). This is a second witness under oath (DOC-7, oath image-verified), independent of Scheuer, placing a sub-30% figure in the same decision. It **materially qualifies** Scheuer's "30%": Tenet says *less than* 30%, and describes it as the figure given **to him**, not as a figure briefed outward. The attribution of who agreed the figure is redacted — the row cannot close while that redaction stands.
 
 **A3.2 change note.** DOC-7 p.4 (image-verified) records the opposite direction of flow: Tenet "called Berger to inform him of his operational decision—not to debate the issue, (that is, he did not offer Berger a choice)", and "did not tell the Principals' Committee why he cancelled the operation". Tenet says nothing about communicating any percentage to Berger, Reno, Freeh or Clarke. This is neither corroboration nor contradiction — it is a differently-scoped account of the same interaction (EC1), recorded at DISC-002.
 
-### A4 — container (Scheuer, sworn): Saudi non-cooperation
+### A4 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): Saudi non-cooperation
 
 | ID | Proposition | Status | Moved | Closure condition |
 |---|---|---|---|---|
@@ -113,13 +113,13 @@ and
 
 > "Overall, Tenet saw the Saudis as very concerned about UBL, but he was not always convinced that they gave the U.S. everything they knew about him."
 
-**A4.2 change note.** The same page contradicts the absolute form: Tenet states that in 1998 "Crown Prince Abdullah was certainly sincere about helping the U.S.; he distinguished the Crown Prince as someone who was always helpful". `contradita` here means **the proposition as literally stated** is negated by a sworn witness's direct testimony read in full and image-verified. It does **not** mean the underlying question of Saudi cooperation is resolved — that is A4.5, which is not closed. Both witnesses are interested; neither offers a contemporaneous document.
+**A4.2 change note.** The same page contradicts the absolute form: Tenet states that in 1998 "Crown Prince Abdullah was certainly sincere about helping the U.S.; he distinguished the Crown Prince as someone who was always helpful". `contradita` here means **the proposition as literally stated** is negated by the direct testimony of a witness under oath (DOC-7, oath image-verified), read in full and quoted from the page image. It does **not** mean the underlying question of Saudi cooperation is resolved — that is A4.5, which is not closed. Both witnesses are interested; neither offers a contemporaneous document.
 
 **A4.3 warning.** The words "(to whom the Saudis had given sanctuary)" appear in DOC-7 as an unattributed parenthetical inside a sentence reporting Tenet's **non**-recollection. Its author is the Commission staff drafter, not necessarily the witness, and its own source is not given. It may derive from Scheuer's testimony to the same Commission — in which case it is not independent corroboration of Scheuer but a restatement of him. Recorded as an unattributed institutional assertion with `independence: unknown`. **It does not move A4.3.**
 
 **Redaction finding.** Roughly 60% of DOC-7 printed p.4 — the page whose running head is "The Saudis" — is a single redaction block marked 25X1, invisible in the extracted text layer and visible only on the page image. Any conclusion about what this document does or does not say on Saudi matters must be read against that void. See [`cards/DOC-7-mfr-tenet-2.md`](cards/DOC-7-mfr-tenet-2.md) §5.
 
-### A5 — container (Scheuer, sworn): Saudi offer as a reason for the May 1998 cancellation
+### A5 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): Saudi offer as a reason for the May 1998 cancellation
 
 | ID | Proposition | Status | Moved | Closure condition |
 |---|---|---|---|---|
@@ -136,9 +136,9 @@ and, same page:
 
 The second passage establishes A5.1 partially: a Saudi initiative existed and was known to the DCI — though its object as Tenet describes it (persuading the **Taliban** to give up UBL) is not identical to the object Scheuer describes (the Saudis resolving the UBL case **themselves**). That scope difference is itself recorded at DISC-003.
 
-A5.2 is contradicted by the decision-maker's own sworn account of his own decision, image-verified. **This does not establish that the decision was sound, nor that no Saudi consideration existed anywhere in the process** — Tenet is an interested witness with a direct stake in this decision, EC3 is live, and no contemporaneous memorandum of the decision has been located (see T-03).
+A5.2 is contradicted by the decision-maker's own account of his own decision, given under oath (DOC-7, oath image-verified) and image-verified on the page. **This does not establish that the decision was sound, nor that no Saudi consideration existed anywhere in the process** — Tenet is an interested witness with a direct stake in this decision, EC3 is live, and no contemporaneous memorandum of the decision has been located (see T-03).
 
-### A6 — container (Scheuer, sworn): the 10 Sep 1998 report and aircraft-as-weapon
+### A6 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): the 10 Sep 1998 report and aircraft-as-weapon
 
 | ID | Proposition | Status | Moved | Closure condition |
 |---|---|---|---|---|
@@ -146,16 +146,16 @@ A5.2 is contradicted by the decision-maker's own sworn account of his own decisi
 | A6.2 | Scheuer did not recall that report | `declaração não corroborada` | no | Not independently testable; retains recollection status permanently |
 | A6.3 | Aircraft-as-weapon was known within the UBL target set before 1999 (Murad case) | `documento citado, não localizado` | no | The Murad case file / Bojinka record |
 
-### A7 — container (Scheuer, sworn): Pakistani service and UBL
+### A7 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): Pakistani service and UBL
 
 | ID | Proposition | Status | Moved | Closure condition |
 |---|---|---|---|---|
 | A7.1 | Scheuer characterized an instrumental ISI–UBL training relationship as "too conspiratorial" | `corroborada` (as a statement in DOC-3) | no | — established only as *appearing in the document* |
 | A7.2 | No instrumental relationship existed between the Pakistani service and UBL for training | `inconclusiva` | **yes** — was carried at container level as `declaração não corroborada` | Contemporaneous reporting on ISI–UBL contacts |
 
-**Change note.** DOC-7 p.12: "Tenet commented that the Pakistanis could have delivered ½ of UBL's lieutenants if they had wanted to, but were cooperating with UBL." Two sworn witnesses give incompatible impressions — but of different objects: Scheuer addresses an instrumental *training* relationship; Tenet addresses *cooperation* with UBL generally. EC1 is strongly live. DISC-004. Not image-verified (text layer only) — flagged.
+**Change note.** DOC-7 p.12: "Tenet commented that the Pakistanis could have delivered ½ of UBL's lieutenants if they had wanted to, but were cooperating with UBL." Two witnesses give incompatible impressions — Scheuer under oath ⁽ᵃ⁾, Tenet under oath (image-verified) — but of different objects: Scheuer addresses an instrumental *training* relationship; Tenet addresses *cooperation* with UBL generally. EC1 is strongly live. DISC-004. Not image-verified (text layer only) — flagged.
 
-### A8 — container (Rice, not under oath): the May 2002 statement
+### A8 — container (Rice, DOC-2 — Commission interview record, no oath recorded): the May 2002 statement
 
 | ID | Proposition | Status | Moved | Closure condition |
 |---|---|---|---|---|
@@ -170,6 +170,20 @@ A5.2 is contradicted by the decision-maker's own sworn account of his own decisi
 | A9.1 | No PDB-channel reporting in the relevant window described attacks inside the United States | `contradita` (absolute form) | no | — DOC-1 records 24 core-group articles on attacks in the US and/or aircraft |
 | A9.2 | The reporting stream in summer 2001 predominantly indicated attacks abroad | `inconclusiva` | no | Month-by-month distribution of the 353-article corpus, with denominators |
 | A9.3 | Rice's statement was scoped to summer 2001 rather than 1998–2001 | `inconclusiva` | no | The full text of her statement in context |
+
+| A9.4 | During the summer 2001 threat period, the reporting CIA was receiving pointed almost exclusively overseas | `parcialmente corroborada` | **new row (DOC-8)** | Month-by-month distribution of the reporting with denominators |
+
+**A9.4 is a new proposition and is deliberately not A9.2.** DOC-8 printed p.10, image-verified:
+
+> "He noted that throughout the threat period the focus was almost exclusively overseas based on the reporting CIA was receiving."
+
+A second witness, independent of Rice, under oath (carried over; see [`witness-status.md`](witness-status.md)). But the object differs: Tenet describes **the stream CIA was receiving and CIA's own focus**; Rice's A9.2 is about the reporting stream as such and about what she was told. Three limits, all recorded:
+
+1. The same page qualifies it immediately: *"there was a sense that the attack might be coming to the United States, but no one knew for sure."* That sentence is in tension with A9.1's absolute form, not supportive of it.
+2. Tenet has a direct institutional interest here — the surrounding passage argues that "The CIA was clearly on top of things overseas … because that's what we're supposed to do."
+3. It is a 2004 recollection, not a measurement. **All four closure items of [`../docs/03` §1.4](../docs/03-phase2a-mfr-verification.md) remain unmet.**
+
+**A9.2 therefore does not move, and A10 and A16 are not touched.**
 
 **Contextualizing only (does not move any row).** DOC-7 p.19 records Tenet, in 2004, on the Millennium period: the Ressam arrest, "the plot against LAX and the Seattle target—two domestic targets. Retrospectively, these were important examples of the potential for domestic attack"; and "Looking back now, Tenet recognizes that at this time the country was absolutely unprotected. Although the U.S. was under attack, border, visas, and watchlists were not thought about". This concerns 1999–2000, not summer 2001, and is retrospective judgment recorded in 2004. It is filed as context, not as evidence on A9.
 
@@ -194,7 +208,7 @@ A5.2 is contradicted by the decision-maker's own sworn account of his own decisi
 | A14.1 | Private Saudi funds reached NGOs linked to terrorism | `parcialmente corroborada` | **yes** — was `declaração não corroborada` | Contemporaneous financial-intelligence records |
 | A14.2 | Rice had no clarity about Saudi **government** money | `declaração não corroborada` | no | Not independently testable as to her state of mind |
 
-**A14.1 change note (image-verified).** DOC-7 printed p.5: "Tenet noted that we now know about Saudi funding of suspect charitable organizations that were in fact supporting al Qaeda, but was not sure about the extent of what the U.S. knew about this at the time." And: "Saudi societal elite must have known that donations to charities were going to UBL, but Tenet cannot prove it." A second, independent, sworn witness — but both statements are 2003–2004 judgment, not contemporaneous record, and Tenet expressly disclaims proof. Note that Tenet draws the same individual/state distinction the Phase 2B protocol requires ([`../docs/03` §6.1](../docs/03-phase2a-mfr-verification.md)): "while many Saudi individuals are prominent fundraisers, does this mean that the Saudis in general are financing terrorism?"
+**A14.1 change note (image-verified).** DOC-7 printed p.5: "Tenet noted that we now know about Saudi funding of suspect charitable organizations that were in fact supporting al Qaeda, but was not sure about the extent of what the U.S. knew about this at the time." And: "Saudi societal elite must have known that donations to charities were going to UBL, but Tenet cannot prove it." A second, independent witness under oath (DOC-7, oath image-verified) — but both statements are 2003–2004 judgment, not contemporaneous record, and Tenet expressly disclaims proof. Note that Tenet draws the same individual/state distinction the Phase 2B protocol requires ([`../docs/03` §6.1](../docs/03-phase2a-mfr-verification.md)): "while many Saudi individuals are prominent fundraisers, does this mean that the Saudis in general are financing terrorism?"
 
 ### A15–A16 — containers (PDB Review Team, institutional)
 
@@ -227,7 +241,7 @@ Every discrepancy carries a full EC analysis — predicted evidence, weakening e
 
 ## 5. T-series — propositions first recorded from DOC-7 (MFR George Tenet #2, 22 Jan 2004)
 
-Witness under oath (oath administered by Commissioner Roemer, recorded on printed p.1). Event date 22 Jan 2004; document date 22 Jan 2004 **plus later annotation** (see DISC-006); declassification date 8 Sep 2026. Distance event → facts described: 3 to 8 years. **None of these propositions is a contemporaneous record of 1996–2001.**
+Witness under oath — administered by Commissioner Roemer, recorded on printed p.1, **image-verified** ([`witness-status.md`](witness-status.md)). Event date 22 Jan 2004; document date 22 Jan 2004 **plus later annotation** (see DISC-006); declassification date 8 Sep 2026. Distance event → facts described: 3 to 8 years. **None of these propositions is a contemporaneous record of 1996–2001.**
 
 | ID | Proposition | Assertion type | Status | Image-verified | Closure condition |
 |---|---|---|---|---|---|
@@ -252,6 +266,57 @@ Witness under oath (oath administered by Commissioner Roemer, recorded on printe
 Consequence: **Priority 1 of [`../docs/03` §4](../docs/03-phase2a-mfr-verification.md) — the al-Mihdhar / al-Hazmi node, where H5 has its best theoretical case — is not advanced by this document.** It remains untouched.
 
 This is a statement about the reviewed corpus, not about the world: "not found in DOC-7" is not "was not discussed", and is certainly not "did not exist". The redaction blocks in DOC-7 are extensive; the single largest, on printed p.4, is unread by anyone outside the declassifying authority.
+
+---
+
+## 5A. U-series — propositions first recorded from DOC-8 (MFR George Tenet #3, 28 Jan 2004)
+
+Witness under oath, **carried over** from 22 January 2004 and reminded at the start; not re-administered ([`witness-status.md`](witness-status.md) §3–§4). Event date 28 Jan 2004; declassification 8 Sep 2026. Facts described run 1998–2001. **Not a contemporaneous record of anything it describes.**
+
+Card: [`cards/DOC-8-mfr-tenet-3.md`](cards/DOC-8-mfr-tenet-3.md). Page-image coverage 7/13; rows resting on unverified pages are marked and **cannot move another row** until verified.
+
+| ID | Proposition | Speaker | Assertion type | Status | Image-verified | Closure condition |
+|---|---|---|---|---|---|---|
+| U-01 | The DCI had not reviewed the material on the Kuala Lumpur episode, and the Commission's Executive Director acknowledged on the record that the DCI is not a first-hand witness to it | Tenet / Zelikow | access/process statement | `corroborada` (as a statement in DOC-8) | **yes** (p.1) | — established only as *appearing in the document* |
+| U-02 | The FBI was far more aware of the Kuala Lumpur meeting than had previously been made public, and the Joint Inquiry misinterpreted the episode | Tenet | analytical judgment, **expressly not first-hand** | `declaração não corroborada` | **yes** (p.1) | The underlying reporting; the Joint Inquiry text; FBI records |
+| U-03 | The Commission had evidence that FBI was informed of the matter by CIA; former FBI Director Freeh briefed the Commission on it twice; the Commission noted this in its January 2004 staff statement | Zelikow (Commission staff) | editorial interpretation | `documento citado, não localizado` | **yes** (p.1) | The January 2004 staff statement; the Freeh briefing records |
+| U-04 | CIA asked NSA to put al-Midhar on a watchlist, and having placed individuals on the NSA tipper would have expected NSA to pass on further undisseminated information unasked | Russo (**not under oath**) | third-party report | `declaração não corroborada` | ❌ **p.2 not verified** | The watchlisting request itself; NSA records |
+| U-05 | CIA was, as of January 2004, reviewing every file back to [REDACTED] to identify the participants in the Kuala Lumpur meeting | Tenet | access/process statement | `declaração não corroborada` | ❌ p.2 | The review's output, if any |
+| U-06 | The DCI does not recall the Kuala Lumpur case being highlighted for him; "the case did not leap out at him" | Tenet | recollection | `declaração não corroborada` | ❌ **p.2 not verified** | Not independently testable as to his state of mind; contemporaneous routing records would bound it |
+| U-07 | The witness corrected his 22 January 2004 statement: the 10 March 2000 after-action report at NSC did address homeland security, having immigration and US–Canadian border security on its agenda | Tenet | **correction of his own earlier statement** | `parcialmente corroborada` | **yes** (p.3) | The after-action report itself |
+| U-08 | The DCI's recollection of CIA's *Cole* investigation was entirely dependent on the documents in his briefing book | Tenet | access/process statement | `corroborada` (as a statement in DOC-8) | **yes** (p.5) | — see [`provenance.md`](provenance.md) PR-011 |
+| U-09 | The DCI was surprised at the notion that NSC awaited his conclusive judgment on *Cole* responsibility before acting, and had no recollection of anyone telling him so — whereas Berger told the Commission the USG was essentially waiting for that judgment | Tenet vs. Berger (via staff note) | recollection vs. third-party report | `inconclusiva` | **yes** (p.5) | **MFR Berger, unread.** See [DISC-010](discrepancies.md#disc-010) |
+| U-10 | The DCI did not review the March 2001 draft MON and Finding before handing them to NSC; he read the EXDIR Krongard cover note from his briefing binder, which recorded the documents as an expansion of CIA's authorities and their preparation as "backwards" | Tenet | access/process statement + quotation of a 2001 document | `documento citado, não localizado` | **yes** (p.8) | **The Krongard cover note and the draft MON** |
+| U-11 | The March 2001 draft MON needed to authorise direct kill authority in order to make use of armed Predator | Bonk (**not under oath**), agreed by Moseman | analytical judgment | `declaração não corroborada` | **yes** (p.8) | The draft MON |
+| U-12 | The witness understood the tasking as consolidating existing MONs; Bonk never saw the tasking that way | Tenet vs. Bonk | **internal disagreement in the same room** | `inconclusiva` | **yes** (p.8) | The tasking paper from CIA's Executive Director. See [DISC-011](discrepancies.md#disc-011) |
+| U-13 | CTC's post-9/11 review concluded that the intelligence CIA collected in summer 2001 was a separate and unrelated stream from the 9/11 attacks | [REDACTED speaker] | institutional finding, reported | `declaração não corroborada` | **yes** (p.10) | The CTC review itself |
+| U-14 | The 9/11 plot was delayed on 8 July 2001, not because of CIA disruption but because planning went at Mohammed Atta's tempo and the attack was shifted past the Congressional recess | Russo (**not under oath**) | analytical judgment | `declaração não corroborada` | **yes** (p.10) | The underlying basis is not stated in the document |
+| U-15 | At the 4 September 2001 Principals' meeting a decision was made to go forward with the weaponized UAV, but no decision was made on who would fire it | Tenet | recollection | `declaração não corroborada` | **yes** (p.11) | The meeting record |
+| U-16 | No memo appears to exist capturing the DCI's 5 September 2001 meeting with Rice | Tenet / staff | **declared absence of a record** | `documento citado, não localizado` | **yes** (p.11) | A records search |
+| U-17 | CIA has not been able to find an MFR for the March 2001 meeting with Rice on the draft MON and Finding | Muller (**not under oath**) | **declared absence of a record** | `documento citado, não localizado` | **yes** (p.8) | A records search |
+| U-18 | The DCI first heard of the Moussaoui arrest in August 2001 in the context of the daily UBL update, and believed there was no known al-Qaeda connection at that point | Tenet | recollection | `declaração não corroborada` | ❌ p.11–12 | The CIA timeline Russo undertook to reconstruct; FBI records |
+
+### 5A.1 Negative findings from DOC-8
+
+**U-N1 — the node is addressed in half.** Exhaustive string search of all 13 pages, **including transliteration variants**, returns `Midhar` twice and **zero** hits for `Hazmi`, `Hamzi` or `Alhazmi`. DOC-8 discusses the Kuala Lumpur meeting and al-Midhar; it never mentions Nawaf al-Hazmi.
+
+**U-N2 — content attributed to this session is absent from it.** Zero hits for `February 1999` or `1999 MON`, although DOC-7 footnote 1 states that in the 28 January 2004 session "Tenet again spoke to the President's edits to the February 1999 MON". See [DISC-007](discrepancies.md#disc-007).
+
+**Search-protocol note (MD-011).** These negative findings were run over transliteration variants. The DOC-7 negative finding T-N1 was re-verified under the same variant set on 19 September 2026 and **holds**: DOC-7 returns zero hits for `Midhar`, `Mihdhar`, `Hazmi`, `Hamzi`, `Alhazmi`, `Kuala`, `Malaysia`, `Moussaoui`, `Phoenix` and `Nawaf`. A negative finding recorded before this protocol existed is not trustworthy and must be re-run.
+
+### 5A.2 What DOC-8 does to Priority 1 (the al-Mihdhar / al-Hazmi node)
+
+[`../docs/03` §4](../docs/03-phase2a-mfr-verification.md) pre-registered what a positive, negative and inconclusive answer would look like. Applying it without adjustment:
+
+| Pre-registered criterion | Met by DOC-8? |
+|---|---|
+| **Positive for H5** — a contemporaneous document showing a deliberate decision not to pass the information on, with identified authorship and no declared operational justification | **No.** No contemporaneous document appears |
+| **Negative** — a contemporaneous record of process failure, or an operational justification declared at the time | **No.** U-04 gestures at a process account (a watchlist request to NSA) but is a third party's 2004 recollection, not under oath, on an unverified page |
+| **Inconclusive** — only declared memory years afterwards, with no contemporaneous document located | **Yes. This is the outcome** |
+
+**Priority 1 moves from "untouched" to "touched, inconclusive".** That is a real change and a small one. The document that finally addresses the node does so through a witness whom the Commission's own Executive Director disqualified on the record as not first-hand (U-01), and half the node — al-Hazmi — is absent entirely.
+
+**H5 is not moved.** Nothing here is positive evidence for it, and nothing here excludes it.
 
 ---
 

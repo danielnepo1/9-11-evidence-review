@@ -47,6 +47,11 @@ Each discrepancy takes exactly **one** primary category. Secondary categories ma
 | [DISC-004](#disc-004) | The Pakistani service and UBL | `difference of scope` | A7.2 |
 | [DISC-005](#disc-005) | The February 1999 MON — what the President's edit did | `internal agency disagreement` | T-08 |
 | [DISC-006](#disc-006) | DOC-7 carries annotations postdating its own date | `possible administrative error` | DOC-7 integrity |
+| [DISC-007](#disc-007) | Content attributed to the 28 Jan 2004 session is absent from its MFR | `material omission` | U-N2, DOC-7/DOC-8 integrity |
+| [DISC-008](#disc-008) | DOC-8 calls 22 Jan 2004 the witness's "first interview" | `chronological conflict` | DOC-8 front matter |
+| [DISC-009](#disc-009) | The Millennium after-action review dated both 10 and 15 March 2000 | `chronological conflict` | U-07 |
+| [DISC-010](#disc-010) | Berger and Tenet on whether NSC awaited a *Cole* judgment | `conflict between witnesses` | U-09 |
+| [DISC-011](#disc-011) | DCI and his own officer on what the March 2001 MON tasking was | `internal agency disagreement` | U-12 |
 
 ---
 
@@ -57,7 +62,7 @@ Each discrepancy takes exactly **one** primary category. Secondary categories ma
 
 **Primary category:** `difference of scope`. Secondary: `unresolved evidentiary gap`.
 
-**The two accounts.** DOC-3 (Scheuer, sworn, 11 Dec 2003): there was no strategic analytic product and no NIE on UBL attack methods until mid-1999, and he repeatedly asked for one. DOC-7 (Tenet, sworn, 22 Jan 2004, printed pp. 1, 16): after the 1998 embassy bombings "CIA had a strategic framework to address the elements of the al Qaeda threat, but in 1999, a new strategic plan was required ('The Plan')"; and "contrary to the Joint Inquiry's conclusions, Tenet insisted that there was a plan for ramping up war-like activities."
+**The two accounts.** DOC-3 (Scheuer, 11 Dec 2003, oath recorded but not image-verified): there was no strategic analytic product and no NIE on UBL attack methods until mid-1999, and he repeatedly asked for one. DOC-7 (Tenet, under oath — image-verified, 22 Jan 2004, printed pp. 1, 16): after the 1998 embassy bombings "CIA had a strategic framework to address the elements of the al Qaeda threat, but in 1999, a new strategic plan was required ('The Plan')"; and "contrary to the Joint Inquiry's conclusions, Tenet insisted that there was a plan for ramping up war-like activities."
 
 **EC analysis.**
 
@@ -99,7 +104,7 @@ Each discrepancy takes exactly **one** primary category. Secondary categories ma
 
 **Primary category:** `conflict between witnesses`. Secondary: `redaction-dependent claim`, `difference of scope`.
 
-**The two accounts.** DOC-3: Scheuer's stated **belief** that one reason for the cancellation was a Saudi offer to resolve the UBL case themselves. DOC-7 printed p.4 (image-verified): "Tenet remarked that his contemporaneous trip to Saudi Arabia (May 1998) was entirely unrelated to the cancellation of the capture operation"; the cancellation followed "the strong and unanimous recommendation" of three named senior operations officers; and "In the summer of 1998, Tenet did not think the USG was putting much faith in the Saudi initiative to persuade the Taliban to give up UBL".
+**The two accounts.** DOC-3 (oath not image-verified): Scheuer's stated **belief** that one reason for the cancellation was a Saudi offer to resolve the UBL case themselves. DOC-7 printed p.4 (image-verified): "Tenet remarked that his contemporaneous trip to Saudi Arabia (May 1998) was entirely unrelated to the cancellation of the capture operation"; the cancellation followed "the strong and unanimous recommendation" of three named senior operations officers; and "In the summer of 1998, Tenet did not think the USG was putting much faith in the Saudi initiative to persuade the Taliban to give up UBL".
 
 **Scope note, load-bearing.** The object differs: Scheuer describes the Saudis resolving the UBL case *themselves*; Tenet describes a Saudi initiative to persuade the *Taliban*. These may be the same initiative described differently, or two initiatives. Nothing in the corpus settles which.
 
@@ -116,14 +121,14 @@ Each discrepancy takes exactly **one** primary category. Secondary categories ma
 | **EC5** (named alternative) | Scheuer is the identified source; his stated basis is belief, not evidence | Any documentary basis being produced | Same as EC2 | None | — |
 
 **Compatible with more than one class?** Yes, all five remain live. EC4 cannot be assessed at all while the block is withheld — which is itself the finding, and is **not** evidence that EC4 is true.
-**Current verdict:** A5.2 `contradita` — the proposition as stated is negated by the decision-maker's sworn, image-verified account. A5.1 `parcialmente corroborada`. A4.2 `contradita` in its absolute form; A4.5 `parcialmente corroborada`. **None of this establishes that the cancellation decision was sound, that the Saudi relationship was unproblematic, or that the record is complete.**
+**Current verdict:** A5.2 `contradita` — the proposition as stated is negated by the decision-maker's account, given under oath (image-verified) and quoted from the page image. A5.1 `parcialmente corroborada`. A4.2 `contradita` in its absolute form; A4.5 `parcialmente corroborada`. **None of this establishes that the cancellation decision was sound, that the Saudi relationship was unproblematic, or that the record is complete.**
 
 <a id="disc-004"></a>
 ### DISC-004 — The Pakistani service and UBL
 
 **Primary category:** `difference of scope`. Secondary: `conflict between witnesses`.
 
-**The two accounts.** DOC-3: Scheuer dismissed as "too conspiratorial" the notion of an instrumental relationship between the Pakistani service and UBL for training purposes. DOC-7 printed p.12 (text layer, **not image-verified**): "Tenet commented that the Pakistanis could have delivered ½ of UBL's lieutenants if they had wanted to, but were cooperating with UBL."
+**The two accounts.** DOC-3 (oath not image-verified): Scheuer dismissed as "too conspiratorial" the notion of an instrumental relationship between the Pakistani service and UBL for training purposes. DOC-7 printed p.12 (text layer, **not image-verified**): "Tenet commented that the Pakistanis could have delivered ½ of UBL's lieutenants if they had wanted to, but were cooperating with UBL."
 
 **EC analysis (abbreviated — the scope gap dominates).**
 
@@ -180,11 +185,123 @@ Each discrepancy takes exactly **one** primary category. Secondary categories ma
 | Class | Assessment |
 |---|---|
 | **EC1** | Not applicable — this is a property of one document, not a conflict between sources |
-| **EC2** | **Most likely.** Routine staff practice: MFRs annotated as later sessions clarified earlier answers. "December 28, 2004" is most plausibly a typing or OCR error for 23 December 2003 or 28 January 2004 |
+| **EC2** | **Most likely, and now substantially confirmed — see the update below.** Routine staff practice: MFRs annotated as later sessions clarified earlier answers |
 | **EC3** | Not indicated |
 | **EC4** | Not indicated. **Recorded explicitly:** nothing here suggests the annotations alter substance adversely; two of the three add material *against* the witness's earlier answer (p.19's note corrects Tenet's account of the March 2000 Principals meeting) |
 | **EC5** | Not raised |
 
+### Update, 19 September 2026 — reading DOC-8
+
+DOC-8 (MFR Tenet #3, **28 January 2004**), printed p.3, image-verified, contains the correction itself:
+
+> "Tenet noted that he wished to correct his statement from his earlier interview with the Commission (January 22, 2004) that no homeland security mechanism was part of the Millennium after-action review. The March 10th, 2000 after-action report at NSC had four issues on its agenda, one of which was immigration, and another US-Canadian border security."
+
+The substance matches DOC-7's p.19 annotation exactly. **"December 28, 2004" is therefore almost certainly a typographical error for "January 28, 2004"**, the date of DOC-8. EC2 is the explanation the evidence now supports; EC3 and EC4 have no support and are recorded as unsupported, not as excluded.
+
+**Two things this update does not do.** It does not make the DOC-7 annotation contemporaneous with DOC-7 — the document is still a layered artifact carrying a note about a later session, and the four-date rule stands. And a residual scope gap remains: DOC-7's note calls it "the March 2000 **Principals Committee meeting**", while DOC-8 calls it "the March 10th, 2000 **after-action report at NSC**". Whether those are the same event is not established by either document.
+
 **Verification state.** The p.19 note **is** image-verified: the page image shows "December 28, 2004" in italic bracketed text. The p.12 and p.13 footnote dates are from the extracted text layer only and remain open verification tasks; the OCR of this release is demonstrably imperfect, and the p.13 digit is uncertain.
 
 **Recorded as a document property, not as a finding about the Commission's practice.** One document showing later annotation establishes that this document was annotated later. Whether Commission MFRs generally carry undated annotations is a separate question that eight unread MFRs could answer and this one cannot.
+
+<a id="disc-007"></a>
+### DISC-007 — Content attributed to the 28 January 2004 session is absent from that session's MFR
+
+**Primary category:** `material omission`. Secondary: `ambiguity`.
+
+**The observation.** DOC-7 (22 Jan 2004), printed p.12, footnote 1 — text layer, **not yet image-verified**:
+
+> "In the DCI's follow-up session with the Commission, on January 28[th], 2004, Tenet again spoke to the President's edits to the February 1999 MON, saying that once the President makes a determination it is done. Bonk added that one did not challenge the President's decision, and that no one recalled relaying to the White House that CIA thought the MON inhibited their ability to carry out a covert action using Masood."
+
+DOC-8 **is** the MFR of the 28 January 2004 session. Exhaustive string search of all 13 of its pages returns **zero** hits for `February 1999`, `1999 MON` and `handwritten`, and the single hit for `Masood` (printed p.10) concerns his murder in September 2001, not the 1999 covert-action discussion.
+
+**What follows, and what does not.** What follows is that **an MFR is not a complete record of its session.** Either the 28 January session covered the February 1999 MON and DOC-8 omits it, or DOC-7's footnote misidentifies the session. Either way, the operating assumption that "if it is not in the MFR, it was not discussed" is falsified for this corpus.
+
+What does **not** follow is that anything was concealed. Selective staff note-taking across a multi-hour interview is the ordinary explanation.
+
+**EC analysis.**
+
+| Class | Predicts | Distinguishing evidence | Available |
+|---|---|---|---|
+| **EC1** | The footnote refers to a different session (e.g. DOC-9, 23 Dec 2003), and there is no omission | The content of DOC-9 | **No — DOC-9 unread** |
+| **EC2** | **Ordinary selective note-taking.** MFRs are staff syntheses, not transcripts, and DOC-8 was prepared by one person (Albion) | Other MFR pairs where a footnote's content can be checked against the session's own MFR | No |
+| **EC3** | Omission of a passage awkward for CIA. Note that the omitted content is *favourable* to the witness — it explains why CIA did not push back on the President's edit — which cuts against this class | The Commission's internal drafting records | No |
+| **EC4** | Not supported by anything in the corpus | — | — |
+| **EC5** | Not raised by an identified critic in the current corpus | — | — |
+
+**Required next step:** image-verify DOC-7 p.12 footnote 1 (an open task on that card), then read DOC-9. **This is the single highest-leverage consequence of this reading session**, because it bears on every conclusion the project might draw from an MFR's silence.
+
+<a id="disc-008"></a>
+### DISC-008 — DOC-8 calls 22 January 2004 the witness's "first interview"
+
+**Primary category:** `chronological conflict`.
+
+**The observation.** DOC-8 printed p.1, image-verified: "The witness was placed under oath at the start of **his first interview on January 22, 2004**." The ISCAP 2026-201 index lists a Tenet MFR dated **23 December 2003** (to be read as DOC-9).
+
+**EC analysis.** EC1 is strongly live: the December 2003 event may not have been an "interview" in the Commission's usage — the 2026 index labels the documents only as MFRs, and MFRs also record briefings and meetings. EC2 (a drafting slip) is equally live. EC3 and EC4 have no support.
+
+**Consequence for the witness-status register.** If the 23 December 2003 event *was* an interview and *was* under oath, then DOC-8's front matter is wrong about the provenance of the oath it relies on. The register records DOC-8's status as `oath: carried over` on the strength of that front matter, so the register itself is contingent on this being resolved.
+
+**Required next step:** read DOC-9 (Tenet #1, 23 Dec 2003) and check its front matter.
+
+<a id="disc-009"></a>
+### DISC-009 — The Millennium after-action review dated both 10 and 15 March 2000, inside one document
+
+**Primary category:** `chronological conflict`. Secondary: `possible administrative error`.
+
+**The observation.** Both readings are image-verified from the page images of DOC-8:
+
+| Page | Text |
+|---|---|
+| 3 | "The **March 10th, 2000** after-action report at NSC had four issues on its agenda…" and "…it was his impression at the **March 10th** meeting, however, that all the agencies were putting their money needs on the table" |
+| 9 | "(He thought this figure probably reflected calculations coming out of the **March 15th 2000** after action Millennium review rather than from the Blue Sky memo)" |
+
+Printed p.3 also gives a third date in the same sequence: "On **March 12th**, Tenet met with National Security Adviser Sandy Berger regarding counterterrorism (CT) funding" — which is consistent with either, since it is a different meeting.
+
+**EC analysis.** EC2 dominates: a staff synthesis written from a witness's spoken answers across a multi-hour interview, with the witness himself reading from a briefing binder. EC1 is possible (two distinct March 2000 meetings). Nothing supports EC3 or EC4.
+
+**Why it is recorded.** Not because the discrepancy is significant in itself, but because it is a **calibration datum**: a single 13-page staff synthesis contains an internal date conflict of five days about a meeting central to the witness's own correction of his previous testimony (U-07). Any chronology built from MFR dates alone inherits that error rate.
+
+**Discriminating evidence:** the NSC after-action report itself. Not located.
+
+<a id="disc-010"></a>
+### DISC-010 — Berger and Tenet on whether NSC awaited a *Cole* judgment
+
+**Primary category:** `conflict between witnesses`.
+
+**The two accounts**, both inside DOC-8 printed p.5, image-verified:
+
+> "Tenet was surprised at the notion that the NSC was awaiting his conclusive judgment on responsibility for the Cole attack before taking action against al Qaeda. [*Note: In his interview with the Commission, National Security Adviser Sandy Berger said that the USG was essentially waiting for such a judgment from his DCI before taking responsive action*]."
+
+And, same page: "He had no recollection of anyone telling him that there were not going to act until he delivered a judgment on responsibility."
+
+**Provenance caution.** Berger's position reaches this project **only** as a Commission staff paraphrase inserted into another witness's MFR. **MFR Berger has not been read.** Nothing here establishes what Berger actually said; it establishes what DOC-8's drafter recorded about it.
+
+**EC analysis.**
+
+| Class | Predicts | Distinguishing evidence | Available |
+|---|---|---|---|
+| **EC1** | Different questions: Berger describes the policy process's expectation; Tenet describes what was said *to him*. Both can be true — an expectation can exist without ever being voiced to the person it rests on | MFR Berger, read in full; contemporaneous NSC records | No |
+| **EC2** | Memory failure or fragmentation across 3+ years | A contemporaneous record of the November–December 2000 deliberations | No |
+| **EC3** | **Live on both sides, and symmetrically.** Each account locates the responsibility for inaction with the other: Berger's puts it on the DCI's judgment, Tenet's puts it on the Principals ("the ball's in your court") | Either conceding against interest | Tenet's "it's hard for me to believe this wasn't Bin Ladin, slam-dunk" cuts slightly against his own interest |
+| **EC4** | Not supported by anything in the corpus | — | — |
+| **EC5** | Not raised by an identified critic in the current corpus | — | — |
+
+**Current verdict:** U-09 `inconclusiva`. **Reading MFR Berger is now required for two separate rows** — this one and A3.2.
+
+<a id="disc-011"></a>
+### DISC-011 — The DCI and his own officer on what the March 2001 MON tasking was
+
+**Primary category:** `internal agency disagreement`.
+
+**The observation**, DOC-8 printed p.8, image-verified, both statements made in the same room within a few lines of each other:
+
+- Tenet: "having been asked to consolidate the MONs, CIA interpreted this as an opportunity to write a clearer document; since no new Finding had been written since 1986, 'it was not inconceivable that our guys said, let's run this down and see how it flies.'"
+- Bonk: "he never saw their tasking as consolidating previous MONs."
+- Moseman: CIA had had a series of "mother may I documents", and this was "a way around them".
+
+**Why it matters.** Whether the March 2001 draft MON was a consolidation exercise or a CIA-initiated expansion bears on Tenet's broader position that the DCI "is not a policymaker" (DOC-7 p.13). The Krongard cover note, which Tenet reads aloud on the same page, records the preparation as "backwards (that CIA should not be driving a policy initiative but responding to one)" — i.e. the contemporaneous document takes Bonk's side.
+
+**EC analysis.** EC1 is live (the DCI and a working-level officer may have received different taskings). EC2 is live. EC3 is live specifically for Tenet, whose stated doctrine is that CIA responds to policy rather than driving it. EC4 unsupported. EC5 not raised.
+
+**Discriminating evidence:** the tasking paper from CIA's Executive Director, which the witness states he has (DOC-8 p.8) and which is not in this corpus.

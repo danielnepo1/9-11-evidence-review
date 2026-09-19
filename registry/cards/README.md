@@ -17,10 +17,18 @@ One card per document read. A card records what the document **is** — identifi
 | DOC-5 | ISCAP 2026-201 index page | — | index only | [`../../docs/02` §1.2](../../docs/02-adversarial-audit-phase1.md) — inline | n/a |
 | DOC-6 | CIA page, 71 declassified PDBs | 11 Sep 2026 | index only; PDFs unreadable | [`../../docs/02` §1.2](../../docs/02-adversarial-audit-phase1.md) — inline | n/a |
 | **DOC-7** | **MFR — George Tenet #2** | **22 Jan 2004** | **in full, 24/24 pp.** | [`DOC-7-mfr-tenet-2.md`](DOC-7-mfr-tenet-2.md) | **partial — pp. 3, 4, 5, 19** |
+| **DOC-8** | **MFR — George Tenet #3** | **28 Jan 2004** | **in full, 13/13 pp.** | [`DOC-8-mfr-tenet-3.md`](DOC-8-mfr-tenet-3.md) | **partial — pp. 1, 3, 5, 8, 9, 10, 11 (54%)** |
 
 ## 2. Cards not yet written — documents not yet read
 
-DOC-8 … DOC-15 are reserved for the eight remaining MFRs of the ISCAP 2026-201 release, in the reading order set by [`../../NEXT-STEPS.md`](../../NEXT-STEPS.md): Tenet #1 and #3, Clarke ×3, Berger, Scheuer #2 and #3.
+DOC-9 … DOC-15 are reserved for the seven remaining MFRs of the ISCAP 2026-201 release. The reading order has been revised by what DOC-8 produced:
+
+| Next | Document | Why |
+|---|---|---|
+| **DOC-9** | **MFR Tenet #1, 23 Dec 2003** | Resolves [DISC-007](../discrepancies.md#disc-007) and [DISC-008](../discrepancies.md#disc-008) — whether an MFR omits its own session's content, and whether DOC-8's "first interview" is accurate. DISC-007 bears on every conclusion the project might draw from an MFR's silence |
+| DOC-10 | MFR Berger, 14 Jan 2004 | Required by **two** independent rows: A3.2 and U-09 ([DISC-010](../discrepancies.md#disc-010)) |
+| DOC-11–13 | Clarke ×3 | Priorities 1, 2, 6 |
+| DOC-14–15 | Scheuer #2 and #3 | Internal consistency of DOC-3's witness |
 
 ---
 
@@ -40,3 +48,5 @@ Under [`../../docs/04` §7.3](../../docs/04-controlling-methodology.md) these th
 ### 3.1 Why this is not a paperwork exercise
 
 DOC-7's p.4 carries a redaction block covering roughly 60% of the page that is **entirely invisible in the extracted text layer**. Three documents were read in Phase A by the same method, one of them with acknowledged bad OCR. There is no reason to assume they contain no comparable void, and no way to find out except by looking at the images.
+
+The DOC-8 reading added a second kind of evidence for the same requirement. Independent inspection of 7 of its 13 page images corrected the extracted text in at least five places, one of them a date: the text layer reads "On March lilt" where the page reads **"On March 12th"**. A chronology assembled from the text layer alone would have carried a fabricated date.

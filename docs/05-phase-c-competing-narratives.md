@@ -61,10 +61,13 @@ Current highest-value targets, all derived from documents already read (not from
 | Target | Which row it would move | Why it is independent of the reading corpus |
 |---|---|---|
 | Memorandum memorializing the May 1998 cancellation decision, or its absence established by records search | A3.1–A3.3, T-01, T-03 | Contemporaneous 1998 record vs. 2003–2004 recollection |
+| **The DCI's January 2004 briefing binder** (DOC-7 "TO OBTAIN FROM CIA" item 2) | T-06, T-07, U-08, U-10 | Converts four recollection rows into rows testable against a dated document — see [`../registry/provenance.md`](../registry/provenance.md) PR-011 |
+| The 2000–2001 operational record on the Kuala Lumpur meeting (Joint Inquiry, DOJ IG, PENTTBOM) | U-01–U-06, Priority 1 | **Every step of the DOC-8 chain for this node stops in 2004** — PR-012 |
+| MFR Berger, 14 Jan 2004 | A3.2, U-09 | Two independent rows now require it |
 | February 1999 MON with the President's handwritten edits | T-06 | Primary instrument, quoted aloud but not in the corpus |
 | June 1999 Berger→Clinton memo (likely drafted by Clarke) | T-11 | Contemporaneous 1999 record summarising CT state |
 | State Department / diplomatic cable traffic on the UAE hunting-camp warning | T-07 | Contemporaneous cable vs. participants' recollection |
-| Scheuer memoranda of 28 Jun 1999, 3 May 1996; Spot Report 24 Jun 1997 | A1.2, A4.2 | The documents the sworn claims rest on |
+| Scheuer memoranda of 28 Jun 1999, 3 May 1996; Spot Report 24 Jun 1997 | A1.2, A4.2 | The documents the DOC-3 claims rest on |
 | Situation Room log and Presidential Diary, 11 Sep 2001 | A12.1 | Contemporaneous timestamped record |
 
 ### C-W3 — Critical and alternative claim registry (C-series)
@@ -85,10 +88,12 @@ The C-series opens when, and only when:
 
 | ID | Deliverable | State |
 |---|---|---|
-| C-D1 | Every A-series container decomposed into atomic propositions | ✅ this commit |
-| C-D2 | EC1–EC5 columns populated for every discrepancy in the ledger | ✅ for DISC-001 … DISC-006; ongoing |
+| C-D1 | Every A-series container decomposed into atomic propositions | ✅ |
+| C-D2 | EC1–EC5 columns populated for every discrepancy in the ledger | ✅ for DISC-001 … DISC-011; ongoing |
 | C-D3 | Provenance root recorded for every proposition with `status ≠ declaração não corroborada` | ⏳ partial |
-| C-D4 | Re-carding of DOC-1, DOC-2, DOC-3 under the image-verification standard | ⛔ **blocking gate** for A10, A16 and dependents |
+| C-D4 | Re-carding of DOC-1, DOC-2, DOC-3 under the image-verification standard | ⛔ **blocking gate** for A10, A16 and dependents — still closed as of 19 Sep 2026 |
+| C-D7 | Complete English companion translations of every Portuguese document | ✅ [`../en/`](../en/) |
+| C-D8 | Repository-wide audit of evidentiary wording ("under oath" / "sworn") | ✅ [`../registry/witness-status.md`](../registry/witness-status.md) |
 | C-D5 | C-series populated under the source policy | ⛔ not started — gated on §4 C-W3 |
 | C-D6 | B2-ref / B2-rely instrument applied to the custodial-source corpus | ⛔ not started — corpus not read |
 

@@ -1,3 +1,5 @@
+> 🌐 **English companion translation:** [`en/SOURCES.en.md`](en/SOURCES.en.md) · policy: [`en/TRANSLATION-POLICY.md`](en/TRANSLATION-POLICY.md)
+
 # Bibliografia Consolidada
 
 Todas as fontes acessadas ao longo das fases da auditoria, consolidadas por procedência. Data de acesso: **17 de setembro de 2026**, salvo indicação contrária.
