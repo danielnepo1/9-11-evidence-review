@@ -47,11 +47,12 @@ Each discrepancy takes exactly **one** primary category. Secondary categories ma
 | [DISC-004](#disc-004) | The Pakistani service and UBL | `difference of scope` | A7.2 |
 | [DISC-005](#disc-005) | The February 1999 MON — what the President's edit did | `internal agency disagreement` | T-08 |
 | [DISC-006](#disc-006) | DOC-7 carries annotations postdating its own date | `possible administrative error` | DOC-7 integrity |
-| [DISC-007](#disc-007) | Content attributed to the 28 Jan 2004 session is absent from its MFR | `material omission` | U-N2, DOC-7/DOC-8 integrity |
-| [DISC-008](#disc-008) | DOC-8 calls 22 Jan 2004 the witness's "first interview" | `chronological conflict` | DOC-8 front matter |
+| [DISC-007](#disc-007) | Content attributed to the 28 Jan 2004 session is absent from its MFR | `material omission` | U-N2, V-N1, DOC-7/DOC-8 integrity. **EC1 excluded 19 Sep 2026; finding stands** |
+| [DISC-008](#disc-008) | DOC-8 calls 22 Jan 2004 the witness's "first interview" | `chronological conflict` | DOC-8 front matter; V-12. **RESOLVED 19 Sep 2026** |
 | [DISC-009](#disc-009) | The Millennium after-action review dated both 10 and 15 March 2000 | `chronological conflict` | U-07 |
 | [DISC-010](#disc-010) | Berger and Tenet on whether NSC awaited a *Cole* judgment | `conflict between witnesses` | U-09 |
 | [DISC-011](#disc-011) | DCI and his own officer on what the March 2001 MON tasking was | `internal agency disagreement` | U-12 |
+| [DISC-012](#disc-012) | Two Commission staff in the same room record different Presidents for the same recollection | `ambiguity` | V-08 |
 
 ---
 
@@ -209,9 +210,9 @@ The substance matches DOC-7's p.19 annotation exactly. **"December 28, 2004" is 
 
 **Primary category:** `material omission`. Secondary: `ambiguity`.
 
-**The observation.** DOC-7 (22 Jan 2004), printed p.12, footnote 1 — text layer, **not yet image-verified**:
+**The observation.** DOC-7 (22 Jan 2004), printed p.12, footnote 1 — **image-verified 19 September 2026**:
 
-> "In the DCI's follow-up session with the Commission, on January 28[th], 2004, Tenet again spoke to the President's edits to the February 1999 MON, saying that once the President makes a determination it is done. Bonk added that one did not challenge the President's decision, and that no one recalled relaying to the White House that CIA thought the MON inhibited their ability to carry out a covert action using Masood."
+> "In the DCI's follow-up session with the Commission, on January 28th, 2004, Tenet again spoke to the President's edits to the February 1999 MON, saying that once the President makes a determination it is done. Bonk added that one did not challenge the President's decision, and that no one recalled relaying to the White House that CIA thought the MON inhibited their ability to carry out a covert action using Masood."
 
 DOC-8 **is** the MFR of the 28 January 2004 session. Exhaustive string search of all 13 of its pages returns **zero** hits for `February 1999`, `1999 MON` and `handwritten`, and the single hit for `Masood` (printed p.10) concerns his murder in September 2001, not the 1999 covert-action discussion.
 
@@ -223,13 +224,32 @@ What does **not** follow is that anything was concealed. Selective staff note-ta
 
 | Class | Predicts | Distinguishing evidence | Available |
 |---|---|---|---|
-| **EC1** | The footnote refers to a different session (e.g. DOC-9, 23 Dec 2003), and there is no omission | The content of DOC-9 | **No — DOC-9 unread** |
-| **EC2** | **Ordinary selective note-taking.** MFRs are staff syntheses, not transcripts, and DOC-8 was prepared by one person (Albion) | Other MFR pairs where a footnote's content can be checked against the session's own MFR | No |
+| **EC1** | The footnote refers to a different session (e.g. DOC-9, 23 Dec 2003), and there is no omission | The content of DOC-9 | **Yes — DOC-9 read in full, image-verified 3/3. EXCLUDED, 19 Sep 2026** |
+| **EC2** | **Ordinary selective note-taking.** MFRs are staff syntheses, not transcripts, and DOC-8 was prepared by one person (Albion) | Other MFR pairs where a footnote's content can be checked against the session's own MFR | No. **The only live class after 19 Sep 2026** |
 | **EC3** | Omission of a passage awkward for CIA. Note that the omitted content is *favourable* to the witness — it explains why CIA did not push back on the President's edit — which cuts against this class | The Commission's internal drafting records | No |
 | **EC4** | Not supported by anything in the corpus | — | — |
 | **EC5** | Not raised by an identified critic in the current corpus | — | — |
 
-**Required next step:** image-verify DOC-7 p.12 footnote 1 (an open task on that card), then read DOC-9. **This is the single highest-leverage consequence of this reading session**, because it bears on every conclusion the project might draw from an MFR's silence.
+#### Resolution of EC1, and what survives — 19 September 2026
+
+Both required next steps were performed.
+
+1. **DOC-7 p.12 is image-verified.** The footnote reads **"January 28th, 2004"**. The digit is unambiguous on the page image; the text-layer uncertainty that produced the bracketed `[th]` above is gone. The footnote names the 28 January session and no other.
+2. **DOC-9 is read in full and image-verified 3/3.** It returns **zero** hits for `February 1999`, `1999 MON` and `Masood` (V-N1). It is in any case a **luncheon meeting**, not a follow-up session to a January 2004 interview that had not yet happened when it was held.
+
+**EC1 is excluded.** No other session in the corpus carries the content, and the footnote does not name one.
+
+**What therefore stands.** The footnote's content belongs to the 28 January 2004 session, and DOC-8 — that session's own MFR, read in full — omits it. **An MFR is not a complete record of its session.** One instance, confirmed on image-verified evidence on both sides.
+
+This is the calibration result the reading program was run to obtain. It prices every silence in this corpus: T-N1, U-N1, U-N2, V-N1 and every future negative finding are statements about a staff synthesis, not about a session and certainly not about the world. [`../docs/04` §8A](../docs/04-controlling-methodology.md) (MD-021) is where that constraint is enforced.
+
+**What it does not establish, stated as plainly as the finding itself.**
+
+- **Nothing about concealment.** The omitted passage is *favourable* to the witness — it explains why CIA did not press the White House about the MON. EC3 predicts omission of awkward material; this material is the opposite of awkward, which is evidence **against** EC3, not merely an absence of evidence for it.
+- **Nothing about a practice.** One confirmed instance is one instance. Establishing that MFRs *generally* omit material requires further pairs where a footnote or cross-reference can be checked against its own session's record. No such pair has been read.
+- **Nothing about DOC-8's reliability on what it *does* record.** An incomplete record is not an inaccurate one.
+
+**Escalation.** The row stays at **level 2** and its priority drops from **P0 to P3** in [`anomalies.md`](anomalies.md): the cheap discriminator has been spent, EC2 is ordinary and fits completely, and the remaining discriminating evidence (the Commission's internal drafting records) is not reachable. It is retained as a **calibration datum**, not as a lead.
 
 <a id="disc-008"></a>
 ### DISC-008 — DOC-8 calls 22 January 2004 the witness's "first interview"
@@ -238,11 +258,27 @@ What does **not** follow is that anything was concealed. Selective staff note-ta
 
 **The observation.** DOC-8 printed p.1, image-verified: "The witness was placed under oath at the start of **his first interview on January 22, 2004**." The ISCAP 2026-201 index lists a Tenet MFR dated **23 December 2003** (to be read as DOC-9).
 
-**EC analysis.** EC1 is strongly live: the December 2003 event may not have been an "interview" in the Commission's usage — the 2026 index labels the documents only as MFRs, and MFRs also record briefings and meetings. EC2 (a drafting slip) is equally live. EC3 and EC4 have no support.
+**EC analysis.** EC1 was strongly live: the December 2003 event may not have been an "interview" in the Commission's usage — the 2026 index labels the documents only as MFRs, and MFRs also record briefings and meetings. EC2 (a drafting slip) was equally live. EC3 and EC4 had no support.
 
-**Consequence for the witness-status register.** If the 23 December 2003 event *was* an interview and *was* under oath, then DOC-8's front matter is wrong about the provenance of the oath it relies on. The register records DOC-8's status as `oath: carried over` on the strength of that front matter, so the register itself is contingent on this being resolved.
+**Consequence for the witness-status register.** If the 23 December 2003 event *was* an interview and *was* under oath, then DOC-8's front matter would be wrong about the provenance of the oath it relies on. The register records DOC-8's status as `oath: carried over` on the strength of that front matter, so the register itself was contingent on this being resolved — as were **eighteen U-rows**.
 
-**Required next step:** read DOC-9 (Tenet #1, 23 Dec 2003) and check its front matter.
+#### RESOLVED — 19 September 2026, in favour of EC1
+
+DOC-9 was read in full and image-verified 3/3. Its own event-type field, on the Commission's own form, printed p.1:
+
+> **"Type of Event: Luncheon Meeting"**
+
+DOC-7 and DOC-8 carry "Interview" in the same field. The Commission typed the 23 December 2003 event as a meeting, not an interview, and the document records no oath anywhere — zero hits for `oath` and `sworn` across all three pages.
+
+DOC-9 p.3 confirms it prospectively, from inside the meeting itself (V-12):
+
+> "On procedures, there would be an interview on classified topics, led by staff with participation by commissioners… There would then be a public hearing in March."
+
+On 23 December 2003 the interviews had not yet happened. **DOC-8's front matter is accurate**: 22 January 2004 was the witness's first *interview*.
+
+**Effect.** The contingency that eighteen U-rows inherited is **discharged**. DOC-8's `oath: carried over, image-verified` is sound and stays. The row moves from level 2 / P0 to **resolved** in [`anomalies.md`](anomalies.md).
+
+**A residual distinction that is kept, not closed over.** This resolves whether the front matter is *accurate*. It does not make an oath administered on 22 January and *reminded* on 28 January equivalent to one administered on 28 January; that separate point stands unchanged at [`witness-status.md`](witness-status.md) §4.
 
 <a id="disc-009"></a>
 ### DISC-009 — The Millennium after-action review dated both 10 and 15 March 2000, inside one document
@@ -305,3 +341,34 @@ And, same page: "He had no recollection of anyone telling him that there were no
 **EC analysis.** EC1 is live (the DCI and a working-level officer may have received different taskings). EC2 is live. EC3 is live specifically for Tenet, whose stated doctrine is that CIA responds to policy rather than driving it. EC4 unsupported. EC5 not raised.
 
 **Discriminating evidence:** the tasking paper from CIA's Executive Director, which the witness states he has (DOC-8 p.8) and which is not in this corpus.
+
+<a id="disc-012"></a>
+### DISC-012 — Two Commission staff in the same room record different Presidents for the same recollection
+
+**Primary category:** `ambiguity`. Secondary: `chronological conflict`.
+
+**The observation.** DOC-9 printed p.2, image-verified. The drafter records the DCI's recollection and then, in the same breath, records that he and the reviewer heard it differently:
+
+> "He said the President was absolutely riveted when Cofer Black predicted that there could be 5 to 15 terrorist attacks in the United States. **[To Zelikow the DCI appeared to be recounting an episode involving President Bush in the summer of 2001; to Kojm the DCI appeared to be referring to a briefing of President Clinton at the end of 1999 at the time of the Millenium alerts.]**"
+
+The two readings are eighteen months and two administrations apart, and they attach the same vivid detail — a President "absolutely riveted" by a specific CTC prediction — to two different events.
+
+**Why it matters, and why it is filed as `ambiguity` rather than `direct contradiction`.** Nothing in the record is contradicted. The witness said one thing; two hearers, both present, both taking notes, understood it to be about different Presidents. The defect is in the utterance's referent, not in any assertion. This is precisely the failure mode the project's four-date and source-layer rules exist to catch: **a recollection can be unambiguous to the speaker and irreducibly ambiguous on the page.**
+
+It also bears on a live row. V-08 is the kind of anecdote that migrates into narrative — "the President was warned" — and the corpus cannot say which President. Any later source asserting either version, without resolving this, is asserting more than the record supports.
+
+**EC analysis.**
+
+| Class | Predicts | Distinguishing evidence | Available |
+|---|---|---|---|
+| **EC1** | Ordinary ambiguity in spoken recollection at a lunch, with no verbatim record | The bracketed note is itself the evidence, and it fits completely | **Yes** |
+| **EC2** | Staff synthesis error — one of the two hearers simply mis-heard | The DCI's own later accounts of the same anecdote; DOC-7 and DOC-8 contain none | No |
+| **EC3** | Not supported. Neither reading is favourable or unfavourable to CIA in any obvious direction | — | — |
+| **EC4** | Unsupported | — | — |
+| **EC5** | Not raised by an identified critic in the current corpus | — | — |
+
+**What is noteworthy about the record, and is a point *for* it.** The Commission's own drafter recorded the disagreement on the page rather than picking a reading. That is a mark of candour in the document, and it is recorded as such under the symmetry rule: evidence that the official record was carefully kept counts exactly as much as evidence that it was not.
+
+**Discriminating evidence:** the CTC briefing records for late 1999 and for summer 2001; Cofer Black's own account; the PDB or briefing memorandum carrying a "5 to 15 attacks" figure. None is in this corpus.
+
+**Escalation:** level **1**, priority **P2** ([`anomalies.md`](anomalies.md)). It is a real ambiguity with an entirely ordinary explanation and obtainable — though not yet obtained — discriminating evidence.

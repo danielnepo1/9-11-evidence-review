@@ -1,7 +1,7 @@
 # DOC-7 — Memorandum for the Record: George Tenet, 22 January 2004
 
 > Document card under [`../../docs/04-controlling-methodology.md`](../../docs/04-controlling-methodology.md) §7.
-> Read and carded: **19 September 2026**. Read in full (24 of 24 PDF pages). Partially image-verified — see §4.
+> Read and carded: **19 September 2026**. Read in full (24 of 24 PDF pages). Partially image-verified — **pp. 3, 4, 5, 12, 19 = 5/24 = 21%** — see §4. Last verification pass: 19 September 2026 (p.12).
 
 ---
 
@@ -81,9 +81,15 @@ All quotations below are transcribed from the page image. Printed page and PDF p
 | Q11 | 19 | **yes** | native text + image | **editorial interpretation, Commission staff** | "[*Note: Tenet noted for the record in his December 28, 2004 interview with the Commission that the March 2000 Principals Committee meeting on lessons from the Millennium Threat did, in fact, address homeland security issues*]." |
 | Q12 | 8 | no — **text layer only** | agency OCR | access/process statement | "Tenet read from a CIA staff paper prepared to brief him for this interview (which will be provided to the Commission) to describe these three occasions…" |
 | Q13 | 11 | no — **text layer only** | agency OCR | quotation of a contemporaneous instrument | CIA's draft February 1999 MON: "if a successful capture operation is not feasible, we would request that you undertake offensive operations to kill Bin Ladin with his principal lieutenants." Replaced in the President's hand by: "We understand that capture may not be possible and that Bin Ladin and his lieutenants may be killed in the confrontation." |
-| Q14 | 12 | no — **text layer only** | agency OCR | analytical judgment | "Tenet commented that the Pakistanis could have delivered ½ of UBL's lieutenants if they had wanted to, but were cooperating with UBL." |
+| Q14 | 12 | **yes** *(verified 19 Sep 2026)* | native text + image | analytical judgment, **recorded as a parenthetical staff aside** | "**(**Tenet commented that the Pakistanis could have delivered ½ of UBL's lieutenants if they had wanted to, but were cooperating with UBL.**)**" |
+| Q15 | 12 | **yes** *(verified 19 Sep 2026)* | native text + image | **editorial interpretation, Commission staff — footnote 1** | "In the DCI's follow-up session with the Commission, on **January 28th, 2004**, Tenet again spoke to the President's edits to the February 1999 MON, saying that once the President makes a determination it is done. Bonk added that one did not challenge the President's decision, and that no one recalled relaying to the White House that CIA thought the MON inhibited their ability to carry out a covert action using Masood." |
 
-**Open verification tasks:** Q12, Q13 and Q14 must be image-verified before they are used to move any registry row further. Q13 in particular quotes a primary instrument; an OCR error there would corrupt the strongest contemporaneous-text link this reading produced.
+**Open verification tasks:** **Q12 and Q13** must be image-verified before they are used to move any registry row further. Q13 in particular quotes a primary instrument; an OCR error there would corrupt the strongest contemporaneous-text link this reading produced.
+
+**Closed on 19 September 2026 — p.12, Q14 and Q15.** Two results, and they point in opposite directions:
+
+- **Q15 (footnote 1) is confirmed verbatim, and the date is unambiguous: "January 28th, 2004".** The text-layer uncertainty that had the registry writing `January 28[th]` is gone. This is one of the two verifications that settle [DISC-007](../discrepancies.md#disc-007): the footnote names the 28 January session, so its content belongs to the session whose own MFR (DOC-8) omits it.
+- **Q14 is confirmed verbatim but is weaker than the text layer suggested.** The sentence stands **inside parentheses** on the page — a staff aside, not a reported answer in the flow of the witness's account. That does not change who said it and does not move A7.2, but it is recorded, because [DISC-004](../discrepancies.md#disc-004) named this page image as its limit and the row did **not** rise when the limit was removed. Verification that weakens a row is reported exactly as readily as verification that strengthens one.
 
 ---
 
@@ -144,6 +150,8 @@ The MFR ends with two lists. They are an inventory of gaps, written by the Commi
 
 Whether any of the 27 items was ever answered is **unknown**. Tenet MFR #3 (28 January 2004) was the first place to look and has now been read as **DOC-8** — [`DOC-8-mfr-tenet-3.md`](DOC-8-mfr-tenet-3.md). It carries **no consolidated follow-up list of its own** and answers none of the 27 items explicitly; that finding is one of the two premises whose falsification produced [DISC-007](../discrepancies.md#disc-007).
 
+**And it is now known that DOC-8 is not a complete record of the session it documents** — see [`DOC-9-mfr-tenet-luncheon.md`](DOC-9-mfr-tenet-luncheon.md) §6.1. So "DOC-8 does not answer item 9" cannot be upgraded to "item 9 was never answered". The 27 items remain open as items, and the corpus cannot say whether they were addressed in the room.
+
 ---
 
 ## 9. Reading log
@@ -156,4 +164,6 @@ Whether any of the 27 items was ever answered is **unknown**. Tenet MFR #3 (28 J
 | 19 Sep 2026 | Exhaustive string search for the al-Mihdhar/al-Hazmi node | Zero hits — T-N1 |
 | 19 Sep 2026 | Page-image extraction, `jbig2dec` 0.20 | pp. 3, 4, 5, 19 rendered |
 | 19 Sep 2026 | Image verification of pp. 3, 4, 5, 19 | Q1–Q11 verified; p.4 redaction block discovered, absent from the text layer |
-| — | Image verification of pp. 8, 11, 12 (Q12–Q14) | **Open** |
+| 19 Sep 2026 | Re-run of the node search under the MD-011 transliteration-variant protocol | **T-N1 holds** — zero hits for `Midhar`, `Mihdhar`, `Hazmi`, `Hamzi`, `Alhazmi`, `Nawaf`, `Kuala`, `Malaysia`, `Moussaoui`, `Phoenix` |
+| **19 Sep 2026** | **Image verification of p.12 (Q14, Q15)** | **Q15 footnote 1 confirmed, date reads "January 28th, 2004" unambiguously — excludes EC1 of DISC-007. Q14 confirmed, and found to be parenthetical. Coverage now 5/24 = 21%** |
+| — | Image verification of pp. 8, 11 (Q12, Q13) | **Open** |

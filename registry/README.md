@@ -23,19 +23,20 @@ No row is silently overwritten. A status change requires a dated entry in [`vers
 
 | Prefix | Meaning | Allocated |
 |---|---|---|
-| `DOC-n` | Document read or verified | DOC-1 … DOC-8 |
+| `DOC-n` | Document read or verified | DOC-1 … DOC-9 |
 | `A<n>` | Phase A legacy claim container (from [`../docs/03`](../docs/03-phase2a-mfr-verification.md) §5) | A1 … A16 |
 | `A<n>.<k>` | Atomic proposition inside a legacy container | see [`claims.md`](claims.md) |
 | `T-<nn>` | Claim first recorded from DOC-7 (MFR Tenet #2) | T-01 … T-13, T-N1 |
-| `U-<nn>` | Claim first recorded from DOC-8 (MFR Tenet #3) | U-01 … U-18, U-N1, U-N2 |
+| `U-<nn>` | Claim first recorded from DOC-8 (MFR Tenet #3) | U-01 … U-18 (incl. U-04a), U-N1, U-N2 |
+| `V-<nn>` | Claim first recorded from DOC-9 (MFR, 23 Dec 2003 luncheon meeting) | V-01 … V-12, V-N1 |
 | `C-<nn>` | Critical / alternative claim | **none yet** — gated, see [`../docs/05-phase-c-competing-narratives.md`](../docs/05-phase-c-competing-narratives.md) §4 |
-| `DISC-<nnn>` | Discrepancy ledger row | DISC-001 … DISC-011 |
-| `PR-<nnn>` | Provenance chain | PR-001 … PR-013 |
-| `TL-<nnn>` | Timeline entry | TL-001 |
+| `DISC-<nnn>` | Discrepancy ledger row | DISC-001 … DISC-012 |
+| `PR-<nnn>` | Provenance chain | PR-001 … PR-015 |
+| `TL-<nnn>` | Timeline entry | TL-001, TL-002 |
 | `EC1`–`EC5` | Explanation class (never `H1`–`H5` — see `04` MD-001) | fixed |
 | `MD-<nnn>` | Methodological decision | MD-001 … MD-023 |
 
-**Prefix allocation rule.** Claim prefixes are assigned **per source document**, one letter each, in reading order: `T` = DOC-7, `U` = DOC-8, then `V`, `W`, … for DOC-9 onward. `A` is reserved for the Phase A legacy containers and `C` for critical/alternative claims; neither is reallocated.
+**Prefix allocation rule.** Claim prefixes are assigned **per source document**, one letter each, in reading order: `T` = DOC-7, `U` = DOC-8, `V` = DOC-9, then `W`, `X`, … for DOC-10 onward. `A` is reserved for the Phase A legacy containers and `C` for critical/alternative claims; neither is reallocated.
 
 ### Three numbering systems are in play, and they do not correspond
 
@@ -43,8 +44,8 @@ A `DOC-n` identifier is **this project's** sequence, assigned in reading order. 
 
 | System | Range | Relation to `DOC-n` |
 |---|---|---|
-| **`DOC-n`** — this project, reading order | DOC-1 … DOC-8 assigned | — |
-| **ISCAP 2026-201 document numbers** — NARA's release sequence | 1 … 11 | **No correspondence.** DOC-2 = ISCAP 5; DOC-3 = ISCAP 6; DOC-7 = ISCAP 10; DOC-8 = ISCAP 11; reserved DOC-10 (Berger) = ISCAP **1** |
-| **Handwritten archival control marks** — on the page images | e.g. `MFR 04017364`, `MFR 04017365` | Assigned in **reverse** order of the sessions: DOC-8 (28 Jan) = …364, DOC-7 (22 Jan) = …365 |
+| **`DOC-n`** — this project, reading order | DOC-1 … DOC-9 assigned | — |
+| **ISCAP 2026-201 document numbers** — NARA's release sequence | 1 … 11 | **No correspondence.** DOC-2 = ISCAP 5; DOC-3 = ISCAP 6; DOC-7 = ISCAP 10; DOC-8 = ISCAP 11; DOC-9 = ISCAP 9; reserved DOC-10 (Berger) = ISCAP **1** |
+| **Handwritten archival control marks** — on the page images | e.g. `MFR 04017364`, `MFR 04017365`, `MFR 04012114` | DOC-8 (28 Jan) = …364 and DOC-7 (22 Jan) = …365 are in **reverse** session order. **DOC-9 (23 Dec 2003) = `MFR 04012114`** *(final digits uncertain at this resolution)* — a different block entirely, so the reverse-order observation describes one adjacent pair and is **not** a rule of the series. Corrected 19 Sep 2026 |
 
-> **Warning.** Reserved **DOC-9 (Tenet #1) happens to equal ISCAP document 9.** This is a coincidence of two unrelated sequences, not a pattern, and every other pair diverges. Never cite an ISCAP number as a `DOC-n` or the reverse. *(Recorded 19 Sep 2026 — defect #31.)*
+> **Warning.** **DOC-9 happens to equal ISCAP document 9** — confirmed on reading, 19 Sep 2026, from the declassification stamp on its own page. This is a coincidence of two unrelated sequences, not a pattern, and every other pair diverges. Never cite an ISCAP number as a `DOC-n` or the reverse. *(Recorded 19 Sep 2026 — defect #31.)*

@@ -28,7 +28,7 @@ Every step below is specified as: **pulling row · instrument exercised · expec
 
 ## 3. The program
 
-### Step 1 — Image-verify DOC-7 printed p.12
+### Step 1 — Image-verify DOC-7 printed p.12 — ✅ **COMPLETE, 19 September 2026**
 
 | | |
 |---|---|
@@ -40,7 +40,13 @@ Every step below is specified as: **pulling row · instrument exercised · expec
 
 Owed twice, costs one page render, and the file is already retrieved and hashed. `discrepancies.md` names it as the required next step.
 
-### Step 2 — Render and verify DOC-8 printed pp. 2, 11, 12
+> **Result.** Both quotations transcribed from the page image and recorded on the card ([`../registry/cards/DOC-7-mfr-tenet-2.md`](../registry/cards/DOC-7-mfr-tenet-2.md) §4).
+> - **Footnote 1 reads "January 28th, 2004" — unambiguously.** The digit is clear; the text-layer uncertainty is gone. This is one of the two verifications that exclude EC1 of DISC-007.
+> - **Q14 confirmed verbatim, and found to be parenthetical** — a staff aside, not a reported answer. DISC-004 named this page image as its limit; the limit is removed and the row **did not rise**. A7.2 stays `inconclusiva`.
+> - T-10 (p.12) moves from text-layer to image-verified with no change of status.
+> - Coverage 4 → **5/24 = 21%**. The stop condition was not triggered.
+
+### Step 2 — Render and verify DOC-8 printed pp. 2 and 12 — ✅ **COMPLETE, 19 September 2026**
 
 | | |
 |---|---|
@@ -50,9 +56,17 @@ Owed twice, costs one page render, and the file is already retrieved and hashed.
 | **Closure condition** | The four rows cease to carry the "may not move another row" flag |
 | **Stop condition** | A redaction void invisible in the text layer, as on DOC-7 p.4 — record it and re-scope the affected rows |
 
-**U-04 (CIA asked NSA to watchlist al-Midhar) is the most H5-relevant *process* claim anywhere in the corpus**, and it is stalled for want of one page image from a file already on disk.
+**U-04 (CIA asked NSA to watchlist al-Midhar) is the most H5-relevant *process* claim anywhere in the corpus**, and it was stalled for want of one page image from a file already on disk.
 
-### Step 3 — Read DOC-9, MFR George Tenet #1 (23 December 2003), in full
+> **Correction to this step as written.** The step named "pp. 2, 11, 12". **Printed p.11 was already image-verified** in the DOC-8 reading session; the genuinely open pages bearing on the named rows were **2 and 12**. Recorded rather than silently narrowed.
+>
+> **Result.** Q15–Q18 verified, and **one of them materially corrected** ([`../registry/cards/DOC-8-mfr-tenet-3.md`](../registry/cards/DOC-8-mfr-tenet-3.md) §5.1):
+> - **Q15 / U-04 is not what the text layer showed.** The page carries an antecedent clause the extractor dropped — the statement was made *"in response to the finding that CIA did not look broadly enough… did not ask the National Security Agency (NSA) to search its database"*. It is a **rebuttal to an adverse finding**, not a volunteered assertion. And the NSA-tipper sentence is attributed to a **redacted speaker**, not to Rousseau/Russo. U-04 is split into **U-04** and **U-04a**.
+> - Q16, Q17, Q18 confirmed verbatim. Two names recovered: "C/CTC Cofer Black", "C/Alec Rich Blee".
+> - **The four rows lose the "may not move another row" flag — and U-04 is weaker than before it was verified.** Priority 1's verdict ("touched, inconclusive") is unchanged; its support is thinner. **H5 does not move.**
+> - Coverage 7 → **9/13 = 69%**. The stop condition was not triggered on pp. 2 or 12 (light redaction only, already profiled).
+
+### Step 3 — Read DOC-9 (23 December 2003) in full — ✅ **COMPLETE, 19 September 2026**
 
 | | |
 |---|---|
@@ -64,7 +78,22 @@ Owed twice, costs one page render, and the file is already retrieved and hashed.
 
 276,335 bytes. At this release's observed 79–108 KB/page that is **2–4 pages** — full image verification of every page in one pass. Against that, it resolves the two P0 rows, and DISC-007 **prices every silence in the corpus**: T-N1, U-N1, U-N2 and every future negative finding are worth whatever this answer says they are worth. DOC-8's `oath: carried over` also rests on the disputed front matter, a contingency **18 U-rows inherit**.
 
-### Step 4 — Re-carding gate: DOC-1, DOC-2, DOC-3 against page images
+> **Result.** 3 pages, read in full, **image-verified 3/3 = 100%** — the first artifact in the corpus at complete coverage. Card: [`../registry/cards/DOC-9-mfr-tenet-luncheon.md`](../registry/cards/DOC-9-mfr-tenet-luncheon.md). Claims V-01 … V-12, V-N1 ([`../registry/claims.md`](../registry/claims.md) §5B).
+>
+> **The stop condition fired, in part, and is honoured rather than argued around.** DOC-9 *is* a meeting, not an interview — its own event-type field reads "**Luncheon Meeting**". The step said: if so, DISC-008's EC1 is confirmed and DISC-007 still needs another MFR pair. Both halves are recorded as written.
+>
+> | Named outcome | Result |
+> |---|---|
+> | **DISC-008** | **RESOLVED.** EC1 confirmed. DOC-8's "his first interview on January 22, 2004" is accurate; the contingency **18 U-rows** inherited is **discharged** |
+> | **DISC-007** | **EC1 excluded**, EC2 the only live class. Level 2 retained; priority **P0 → P3** (the cheap discriminator is spent) |
+> | **Silence calibration** | **Recorded explicitly, and it is the governing result of this cycle: an MFR is not a complete record of its session.** One confirmed instance. *The silence of an MFR is evidence about the MFR, not about what the session covered.* It establishes **nothing about concealment** — the omitted passage is favourable to the witness — and **one instance is not a practice** |
+> | **Procedural status** | `no oath recorded, non-interview event`. New token; DOC-9 is a **meeting memorandum**, never "testimony" or "interview record" |
+> | **Non-movements recorded** | A9.4 does **not** move on V-09 (same claimant, not independent corroboration — VL-006). Priority 1 and the Feb 1999 MON thread **untouched** (V-N1: zero hits). The seven-MFR gate narrows to six and **clears no row**. **H0–H7 unchanged** |
+> | **New rows** | DISC-012 (Zelikow vs Kojm on which President — `ambiguity`, level 1, P2), TL-002, PR-014 (detainee-derived chain: access refused), PR-015 ("records will be sparse", bearing on MD-021 for U-16, U-17, T-03) |
+>
+> **No row in the project now sits at P0.** The register's recommendation moves to the P1 group, where step 5 (MFR Berger) is the discriminator for two rows at once.
+
+### Step 4 — Re-carding gate: DOC-1, DOC-2, DOC-3 against page images — ⏭ **NEXT**
 
 | | |
 |---|---|
@@ -75,6 +104,12 @@ Owed twice, costs one page render, and the file is already retrieved and hashed.
 | **Stop condition** | A redaction or OCR defect that changes a Phase A reading — record it as a correction event, **do not edit `docs/02` or `docs/03`** (Tier 1) |
 
 ~42 pages. **The only blocking gate in the repository that requires no retrieval at all.** Deferred twice; dated here. It does not gate steps 1–3, 5 or 6, so it may run in parallel — but it may not be deferred a third time without an explicit recorded reason.
+
+> **Promoted to next, 19 September 2026, and the reason is new.** Steps 1–3 produced two independent demonstrations that the extracted text layer is not merely lossy but **misleading about who said what**:
+> - DOC-8 p.2 — a passage the registry carried under one speaker is split between two on the page, the second redacted, and the whole of it was elicited in rebuttal (step 2).
+> - DOC-7 p.12 — a quotation that reads as a reported answer is a parenthetical staff aside (step 1).
+>
+> **DOC-1, DOC-2 and DOC-3 were all read through the text layer alone**, one of them (DOC-1) with OCR its own record calls poor and "reconstructed by context". Nine rows rest on them. The re-carding gate stopped being a formality when step 2 showed what a page image recovers.
 
 ### Step 5 — Read DOC-10, MFR Sandy Berger (14 January 2004)
 
@@ -98,7 +133,7 @@ Owed twice, costs one page render, and the file is already retrieved and hashed.
 | **Closure condition** | Priority 6 answered in category terms, **not** Priority 1 — see §4 |
 | **Stop condition** | Any decisive quotation that cannot be located in the PDF at a printed page — §7.7 |
 
-**After step 3**, with the silence-calibration result in hand.
+**After step 3** — which is complete. The silence-calibration result is in hand and is stated at step 3: *an MFR is not a complete record of its session.* It applies to the OIG report a fortiori, since that report synthesises 14,000 pages and 225 interviews in one narrative, and its silences carry correspondingly less weight than an MFR's.
 
 ### Step 7 — Harvest citations; pull the contemporaneous instruments
 
@@ -158,7 +193,32 @@ What survives is the diagnosis, not the inference: PR-012 is right that no remai
 
 ---
 
-## 6. What this program does not do
+## 6. Execution log
+
+| Step | Status | Date | Commit |
+|---|---|---|---|
+| 1 — Image-verify DOC-7 p.12 | ✅ complete | 19 Sep 2026 | this cycle |
+| 2 — Verify DOC-8 pp. 2, 12 | ✅ complete | 19 Sep 2026 | this cycle |
+| 3 — Read DOC-9 in full | ✅ complete | 19 Sep 2026 | this cycle |
+| 4 — Re-carding gate (DOC-1/2/3) | ⏭ **next** | — | — |
+| 5 — Read DOC-10 (Berger) | pending | — | — |
+| 6 — DOJ OIG admission under §4 | pending | — | — |
+| 7 — Citation harvest | pending | — | — |
+
+**Standing report for steps 1–3**, in the terms this program requires:
+
+| Required report item | Result |
+|---|---|
+| **Page-level verification coverage** | DOC-7 **5/24 = 21%** · DOC-8 **9/13 = 69%** · DOC-9 **3/3 = 100%** · corpus **17/40 = 43%** |
+| **Source-layer classification** | All three artifacts: `agency OCR` text layer, decisive quotations taken from `page image`. No `publisher HTML re-rendering` in this cycle |
+| **Status changes** | DISC-008 → **resolved**; DISC-007 EC1 → **excluded**, P0 → P3; U-04 → **split and materially corrected**; U-04a, V-01…V-12, V-N1, DISC-012, TL-002, PR-014, PR-015 → **new**; the seven-MFR gate → **six** |
+| **Non-movements** | **A9.4** (same claimant, VL-006) · A9.1, A9.2, A10.x, A15.x, A16.1 (gated) · Priority 1 verdict · the Feb 1999 MON thread · **every hypothesis H0–H7** |
+| **Newly discovered contradictions** | **DISC-012** — two Commission staff in one room record the same recollection as being about two different Presidents, eighteen months apart |
+| **Next highest-leverage source** | **Step 4, the re-carding gate** — no retrieval, nine rows, and steps 1–2 just demonstrated why text-layer-only readings cannot be trusted on attribution. Then step 5, MFR Berger, the discriminator for two P1 rows at once |
+
+---
+
+## 7. What this program does not do
 
 - It reads no document in the commit that creates it.
 - It moves no hypothesis H0–H7.

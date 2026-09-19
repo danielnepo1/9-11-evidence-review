@@ -88,6 +88,23 @@ The clearest instance in this corpus of a witness formally correcting himself, a
 **Watch flag.** V3 converts V2's "after-action report at NSC" into "Principals Committee meeting" with no new evidence offered. That is a small instance of the pattern this ledger exists to catch: an annotation that firms up and recharacterises the thing it summarises.
 **Calibration consequence.** An unqualified assertion by this witness, under oath, on a matter central to the inquiry, was wrong and was corrected within six days. That is a reason to treat every uncorroborated `declaração não corroborada` row in the T- and U-series as exactly what it is labelled.
 
+### VL-006 — "The reporting pointed overseas" — one claimant, two settings, five weeks apart
+
+Opened 19 September 2026. The point of this ledger row is **negative**: it exists to stop a repetition being counted as a corroboration.
+
+| V | Date | Who | Wording | Certainty | Change | New evidence offered |
+|---|---|---|---|---|---|---|
+| 1 | 23 Dec 2003 | Tenet, DOC-9 p.3 (image-verified), **no oath — a luncheon meeting** | "the IC saw lots of talk in July and August 2001 about an upcoming spectacular terrorist event – a 'Hiroshima' -- but was unable to place its location. Some said, 'They're coming here.' But there were no data, no information coming back about domestic threats" | Asserted | — | None |
+| 2 | 28 Jan 2004 | Tenet, DOC-8 p.10 (image-verified), under oath (carried over) | "throughout the threat period the focus was almost exclusively overseas based on the reporting CIA was receiving" | Asserted | **Stable** | None |
+
+**Formally corrected?** No. **Substantive or scope?** Neither — the account does not change.
+
+**What this row records, and why it is not corroboration.** A9.4 rests on V2. V1 says substantially the same thing five weeks earlier. Under [`../docs/04` §3](../docs/04-controlling-methodology.md) D1/D2 that is **one source observed twice**, not two sources agreeing: same claimant, same institutional position, no new evidence offered on either occasion. **A9.4 does not move.**
+
+**What it does record.** Two facts of modest value, both kept small on purpose:
+1. **Stability.** The account did not drift between an unsworn lunch and sworn testimony. Compare VL-005, where the same witness reversed himself in six days on a different matter. Stability is weak evidence of honest recollection and no evidence at all of accuracy.
+2. **Both versions contain their own qualifier.** V1 concedes "Some said, 'They're coming here'"; DOC-8 p.10 concedes "there was a sense that the attack might be coming to the United States, but no one knew for sure". Neither version is the absolute claim that A9.1 was recorded as contradicting. The witness's own hedge is preserved in both, and the registry does not strip it.
+
 ## 3. Change events in this repository
 
 Every row change carries: date, row, event class, old value, new value, the document that moved it, and whether that document was image-verified.
@@ -142,6 +159,25 @@ The ledger previously recorded container→atomic derivations as `status change`
 | 19 Sep 2026 | DISC-006 | `status change` | open, EC2 favoured | **EC2 substantially confirmed**; residual scope gap recorded | DOC-8 p.3 | **yes** |
 | 19 Sep 2026 | DISC-007 … DISC-011 | `initial assignment` | — (new) | open | DOC-7 / DOC-8 | mixed |
 | 19 Sep 2026 | H0–H7 | — | — | **unchanged** | DOC-8 is not positive evidence for, nor exclusion of, any hypothesis | — |
+| **19 Sep 2026 (DOC-9 session — audit program v2, steps 1–3)** | | | | | | |
+| 19 Sep 2026 | V-01 … V-12, V-N1 | `initial assignment` | — (no container) | see [`claims.md`](claims.md) §5B | DOC-9 | **12 of 12 rows image-verified (100%)** |
+| 19 Sep 2026 | T-10 | — | `declaração não corroborada` | **unchanged**; verification state only: no → **yes** | DOC-7 p.12 image-verified | **yes** |
+| 19 Sep 2026 | A7.2 | — | `inconclusiva` | **unchanged**; verification state only: no → **yes**, and the supporting quotation found to be **parenthetical** | DOC-7 p.12 image-verified | **yes** |
+| 19 Sep 2026 | **U-04** | **`status change` — material correction** | one proposition, speaker "Russo", volunteered | **split**: U-04 (watchlist request, Rousseau/Russo, **offered in rebuttal to an adverse finding**) | DOC-8 p.2 image-verified | **yes** |
+| 19 Sep 2026 | **U-04a** | `initial assignment` | — (**new row**, carved out of U-04) | `declaração não corroborada`, speaker **[REDACTED]**, not Rousseau/Russo | DOC-8 p.2 image-verified | **yes** |
+| 19 Sep 2026 | U-05, U-06, U-18 | — | unchanged | **unchanged**; verification state only: ❌ → **yes** | DOC-8 pp. 2, 12 image-verified | **yes** |
+| 19 Sep 2026 | Priority 1 (al-Mihdhar/al-Hazmi node) | — | "touched, inconclusive" | **unchanged as a verdict; the supporting row is weaker** — U-04 is now known to be a rebuttal, half of it by a redacted speaker | DOC-8 p.2 | **yes** |
+| 19 Sep 2026 | **DISC-008** | `status change` | open, level 2, **P0** | **RESOLVED** — EC1 confirmed; 23 Dec 2003 was a luncheon meeting, not an interview | DOC-9 p.1 ("Type of Event: Luncheon Meeting"), p.3 (V-12) | **yes** |
+| 19 Sep 2026 | **DISC-007** | `status change` | open, level 2, **P0**, EC1 untested | **EC1 excluded**; EC2 the only live class; level 2 retained, priority **P3** | DOC-7 p.12 fn 1 image-verified + DOC-9 V-N1 | **yes, both sides** |
+| 19 Sep 2026 | DISC-004 | `status change` | level 1, P3, limit = "image verification of DOC-7 p.12" | level 1, **P3 retained**; limit removed and the row did **not** rise | DOC-7 p.12 | **yes** |
+| 19 Sep 2026 | **DISC-012** | `initial assignment` | — (new) | open, `ambiguity`, level 1, **P2** | DOC-9 p.2 (Zelikow vs Kojm on which President) | **yes** |
+| 19 Sep 2026 | **PR-014, PR-015** | `initial assignment` | — (new) | detainee-derived chain (`access refused by the holder`); "records will be sparse" declared mechanism | DOC-9 pp. 1–2 | **yes** |
+| 19 Sep 2026 | DOC-8 procedural status | — | `oath: carried over, image-verified`, **contingent on DISC-008** | **unchanged token; the contingency is discharged.** 18 U-rows released from it | DOC-9 | **yes** |
+| 19 Sep 2026 | Blocking gate: "MFRs of Tenet #1, Clarke ×3, Berger, Scheuer #2 and #3" | `status change` | seven unread MFRs | **six** — Tenet #1 read as DOC-9 and **clears no row** | DOC-9, V-N1 | **yes** |
+| 19 Sep 2026 | **A9.4** | — | `parcialmente corroborada` | **unchanged.** DOC-9 V-09 repeats the same proposition **by the same claimant** — not independent corroboration under D1/D2 | DOC-9 p.3 | **yes** |
+| 19 Sep 2026 | A9.1, A9.2, A10.x, A15.x, A16.1 | — | — | **unchanged — gates still closed** | DOC-9 addresses none of them | — |
+| 19 Sep 2026 | Priority 1, Feb 1999 MON thread | — | — | **untouched by DOC-9** (V-N1: zero hits) | DOC-9 | **yes** |
+| 19 Sep 2026 | **H0–H7** | — | — | **unchanged.** No hypothesis moves on DOC-9, on DOC-7 p.12, or on DOC-8 pp. 2 and 12 | — | — |
 
 ### 3.1 Access-state change events
 
@@ -150,6 +186,7 @@ The ledger previously recorded container→atomic derivations as `status change`
 | 19 Sep 2026, earlier session | All primary repositories blocked by network egress policy (403 on CONNECT) | [`../docs/03` §3](../docs/03-phase2a-mfr-verification.md) |
 | 19 Sep 2026, this session | **Access restored.** `www.archives.gov` and `www.intelligence.senate.gov` both returned HTTP 200 | Recorded in [`../SOURCES.md`](../SOURCES.md) and [`cards/DOC-7-mfr-tenet-2.md`](cards/DOC-7-mfr-tenet-2.md) §1 |
 | 19 Sep 2026, DOC-8 session | **DOC-8 retrieved and read in full.** MFR George Tenet #3, 28 Jan 2004, 13/13 pp.; 7/13 page images inspected | [`cards/DOC-8-mfr-tenet-3.md`](cards/DOC-8-mfr-tenet-3.md); [`../corpus/manifest.md`](../corpus/manifest.md) |
+| 19 Sep 2026, DOC-9 session | **DOC-9 retrieved and read in full.** MFR of the 23 Dec 2003 luncheon meeting, 3/3 pp.; **3/3 page images inspected — the first artifact in the corpus at 100%**. DOC-8 coverage raised to 9/13 (69%), DOC-7 to 5/24 (21%). Corpus-wide image coverage: **17 of 40 pages = 43%** | [`cards/DOC-9-mfr-tenet-luncheon.md`](cards/DOC-9-mfr-tenet-luncheon.md); [`../corpus/manifest.md`](../corpus/manifest.md) §5 |
 
 The earlier failure record is **preserved, not overwritten**. It is an accurate record of that session's ceiling.
 

@@ -3,7 +3,7 @@
 > | | |
 > |---|---|
 > | **Source (authoritative)** | [`../SOURCES.md`](../SOURCES.md) (Portuguese) |
-> | **Source SHA-256 at translation** | `3441f2d985fba55936b8501aa4073ea5df36745173a911a2c3d58cb12d97b33d` |
+> | **Source SHA-256 at translation** | `054416902dfed29c7368159fa49c4a7e5bf79d3a7db51641e36eb2044c4ec72a` *(re-synchronised 19 Sep 2026 after the DOC-9 amendment; previous: `3441f2d9…2d97b33d`)* |
 > | **Translated** | 19 September 2026 |
 > | **Status** | Faithful complete translation |
 > | **Banner note** | The source carries a one-line English navigation banner pointing here. It is navigation, not content, and is not reproduced in the body below. The hash above is of the source **including** that banner |
@@ -30,6 +30,14 @@ Reading-status key: 🟢 read in full · 🟡 read in part / index or FAQ only �
 > - No other source status changed **in that session**.
 >
 > **Amended 19 September 2026 (defect #8).** A later session of the same day read **DOC-8 — MFR George Tenet #3 (28/01/2004)** in full (13/13 pp.), carded and partially image-verified. Card: [`../registry/cards/DOC-8-mfr-tenet-3.md`](../registry/cards/DOC-8-mfr-tenet-3.md); hashes: [`../corpus/manifest.md`](../corpus/manifest.md).
+>
+> **Amended again 19 September 2026 — audit program v2, steps 1–3** ([`../docs/06-audit-program-v2.md`](../docs/06-audit-program-v2.md)). Three changes:
+>
+> 1. **DOC-9 — MFR of the 23/12/2003 luncheon meeting with DCI Tenet** read in full (3/3 pp.) and **image-verified in full (3/3 = 100%)** — the first artifact in this corpus at complete page-image coverage. Card: [`../registry/cards/DOC-9-mfr-tenet-luncheon.md`](../registry/cards/DOC-9-mfr-tenet-luncheon.md). It is a **meeting memorandum, not an interview record, and no oath is recorded**; the row below is relabelled accordingly.
+> 2. **DOC-7 p.12** image-verified (coverage 4 → **5/24 = 21%**).
+> 3. **DOC-8 pp. 2 and 12** image-verified (coverage 7 → **9/13 = 69%**), producing a **material correction** to claim U-04 — see [`../registry/cards/DOC-8-mfr-tenet-3.md`](../registry/cards/DOC-8-mfr-tenet-3.md) §5.1.
+>
+> Corpus-wide page-image coverage is now **17 of 40 pages = 43%**. "Read in full" and "image-verified" remain different claims and are reported separately.
 >
 > **New retrieval requirement (governing, from [`../docs/04` §7.2](../docs/04-controlling-methodology.md) and [`../registry/source-policy.md`](../registry/source-policy.md) §3):** every source retrieved from now on records byte size, **SHA-256**, text-layer status, extraction tool and version, and a redaction profile **as seen on the page image**. 🟢 alone is no longer sufficient — a document read only through its extracted text layer is recorded as read but **not image-verified**, and cannot supply a decisive quotation.
 
@@ -77,7 +85,7 @@ Reading-status key: 🟢 read in full · 🟡 read in part / index or FAQ only �
 |---|---|---|
 | PIDB, "Long-Sought 9/11 Records Now Declassified" (11/09/2026) | 🟢 | https://transforming-classification.blogs.archives.gov/2026/09/11/long-sought-9-11-records-now-declassified-and-available-to-the-public/ |
 | *Report on Review of PDB Articles* (09/02/2004, declass. 08/09/2026) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2022-008-document-release-508.pdf |
-| ISCAP 2026-201 index (11 MFRs) | 🟡 (4 of 11 read) | https://www.archives.gov/declassification/iscap/pdf/2026-201 |
+| ISCAP 2026-201 index (11 MFRs) | 🟡 (5 of 11 read) | https://www.archives.gov/declassification/iscap/pdf/2026-201 |
 | MFR — Condoleezza Rice (07/02/2004) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-5-release-508.pdf |
 | MFR — Mike Scheuer #1 (11/12/2003, under oath ⁽ᵃ⁾) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-6-release-508.pdf |
 | MFR — Sandy Berger (14/01/2004) | 🔴 Phase 2A target; **accessible since 19/09/2026**, not read | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-1-release-508.pdf |
@@ -86,9 +94,9 @@ Reading-status key: 🟢 read in full · 🟡 read in part / index or FAQ only �
 | MFR — Richard A. Clarke #3 (03/02/2004) | 🔴 Phase 2A target; **accessible since 19/09/2026**, not read | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-4-release-508.pdf |
 | MFR — Michael Scheuer #2 (06/01/2004) | 🔴 Phase 2A target; **accessible since 19/09/2026**, not read | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-7-release-508.pdf |
 | MFR — Michael Scheuer #3 (11/03/2004) | 🔴 Phase 2A target; **accessible since 19/09/2026**, not read | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-8-release-508.pdf |
-| MFR — George Tenet #1 (23/12/2003) | 🔴 Phase 2A target; **accessible since 19/09/2026**, not read | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-9-release-508.pdf |
-| **MFR — George Tenet #2 (22/01/2004)** — under oath | 🟢 **read in full 19/09/2026** (24/24 pp.); image verification pp. 3, 4, 5, 19; SHA-256 `7434ad30…bc38e28`; card: [`../registry/cards/DOC-7-mfr-tenet-2.md`](../registry/cards/DOC-7-mfr-tenet-2.md) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-10-release-508.pdf |
-| **MFR — George Tenet #3 (28/01/2004)** — under oath, carried over from 22/01 | 🟢 **read in full 19/09/2026** (13/13 pp.); image verification pp. 1, 3, 5, 8, 9, 10, 11 (54%); SHA-256 `f8b42694…fbfeeb2e`; card: [`../registry/cards/DOC-8-mfr-tenet-3.md`](../registry/cards/DOC-8-mfr-tenet-3.md) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-11-release-508.pdf |
+| **MFR — Tenet, luncheon meeting (23/12/2003)** — **no oath recorded; meeting memorandum, not an interview** | 🟢 **read in full 19/09/2026** (3/3 pp.); **image verification 3/3 = 100%**; SHA-256 `433cbe34…4186155c`; card: [`../registry/cards/DOC-9-mfr-tenet-luncheon.md`](../registry/cards/DOC-9-mfr-tenet-luncheon.md) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-9-release-508.pdf |
+| **MFR — George Tenet #2 (22/01/2004)** — under oath | 🟢 **read in full 19/09/2026** (24/24 pp.); image verification pp. 3, 4, 5, **12**, 19 (21%); SHA-256 `7434ad30…bc38e28`; card: [`../registry/cards/DOC-7-mfr-tenet-2.md`](../registry/cards/DOC-7-mfr-tenet-2.md) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-10-release-508.pdf |
+| **MFR — George Tenet #3 (28/01/2004)** — under oath, carried over from 22/01 | 🟢 **read in full 19/09/2026** (13/13 pp.); image verification pp. 1, **2**, 3, 5, 8, 9, 10, 11, **12** (69%); SHA-256 `f8b42694…fbfeeb2e`; card: [`../registry/cards/DOC-8-mfr-tenet-3.md`](../registry/cards/DOC-8-mfr-tenet-3.md) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-11-release-508.pdf |
 | Bush/Cheney interview (redacted, released 2022 — not included in the 2026 batch) | 🔴 not read | https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf |
 
 > **Companion note, not in the source.** This table reflects the source file as of the hash above. DOC-8 — MFR George Tenet #3 — was read in full after that hash was taken; its current state is recorded in [`../registry/cards/DOC-8-mfr-tenet-3.md`](../registry/cards/DOC-8-mfr-tenet-3.md) and [`../registry/version-history.md`](../registry/version-history.md) §3.1. The row above is left as the source has it, because a companion translates its source and does not update it.

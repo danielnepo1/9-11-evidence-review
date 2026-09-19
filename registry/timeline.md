@@ -1,7 +1,7 @@
 # Timeline Register — Six Tracks
 
 > Living instrument. Governed by [`../docs/04-controlling-methodology.md`](../docs/04-controlling-methodology.md) §4.1.
-> Opened 19 September 2026.
+> Opened 19 September 2026. Entries: TL-001, TL-002.
 
 ---
 
@@ -62,6 +62,32 @@ The register's first entry, and the reason it was built.
 
 **Discriminating item:** the NSC after-action report itself, which would supply an `automatic` record-creation time. Not located.
 
+### TL-002 — The "5 to 15 attacks" briefing: two hearers, two Presidents (DISC-012)
+
+The register's second entry, and the clearest case so far of an event whose **event-time track cannot be filled at all**.
+
+| Track | Value | Zone | Precision | Clock source | Generated / reconstructed |
+|---|---|---|---|---|---|
+| Event time | **Indeterminate. Reading A: summer 2001 (President Bush). Reading B: end of 1999, at the Millennium alerts (President Clinton)** | unstated | at best *season*; the two readings are ~18 months apart | witness recollection at a lunch | **reconstructed** |
+| Observation time | Same as event time — the witness reports himself present | unstated | — | witness | reconstructed |
+| Record creation | 23 December 2003 (DOC-9), prepared by Kojm, reviewed by Zelikow | unstated | day | staff synthesis of a spoken lunch conversation | reconstructed |
+| Later recollection | 23 December 2003 | unstated | day | witness | reconstructed |
+| Declassification | 8 September 2026 | — | day | ISCAP stamp | **automatic** |
+
+**The conflict, on the page itself.** DOC-9 printed p.2, image-verified: the drafter records the DCI's recollection that "the President was absolutely riveted when Cofer Black predicted that there could be 5 to 15 terrorist attacks in the United States", and immediately brackets it —
+
+> "[To Zelikow the DCI appeared to be recounting an episode involving President Bush in the summer of 2001; to Kojm the DCI appeared to be referring to a briefing of President Clinton at the end of 1999 at the time of the Millenium alerts.]"
+
+**What the tracks show.** As with TL-001, **there is no `automatic` timestamp anywhere on this entry except the declassification stamp.** But TL-002 is worse than TL-001 in a specific way worth naming: TL-001's conflict is five days inside one document's account of one meeting, and the tracks explain it as ordinary imprecision. TL-002's conflict is **eighteen months and two administrations**, and it arises not from two records disagreeing but from **two people in the same room hearing one sentence differently in real time**.
+
+That is a failure mode the four-date rule cannot represent at all. The record-creation time is known to the day and is entirely sound; the event it records has no determinable date. A chronology that placed this anecdote in either year would be asserting something the source explicitly declines to assert.
+
+**Why it is recorded rather than dropped.** The anecdote is exactly the kind that migrates into narrative — "the President was warned, and was riveted". It is recorded here so that any later use of it, by this project or in any source this project reviews, can be checked against a register entry that says **the corpus cannot date it.**
+
+**A point in the record's favour.** The Commission's own drafter wrote the disagreement onto the page instead of choosing a reading. Under the symmetry rule that is recorded as a mark of care in the document, exactly as an unexplained smoothing-over would have been recorded against it.
+
+**Discriminating items, none in this corpus:** CTC briefing records for late 1999 and for summer 2001; Cofer Black's own account; any PDB or briefing memorandum carrying a "5 to 15 attacks" figure. Recorded at **level 1, P2** in [`anomalies.md`](anomalies.md).
+
 ### Standing scope note
 
-The register is opened with one entry deliberately. Populating it is pulled by registry rows, like every other retrieval ([`source-policy.md`](source-policy.md) I1) — not by the availability of dates. Phase 4 (FAA/NORAD) is the first body of work that will require it at scale, and it is not begun.
+The register is populated only as registry rows pull it. It holds two entries. Populating it is pulled by registry rows, like every other retrieval ([`source-policy.md`](source-policy.md) I1) — not by the availability of dates. Phase 4 (FAA/NORAD) is the first body of work that will require it at scale, and it is not begun.

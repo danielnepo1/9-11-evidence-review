@@ -202,6 +202,49 @@ Repeated publications that share a provenance root are **not** independent corro
 
 ---
 
+### PR-014 — Detainee-derived information, as it reaches this project — **a chain with no accessible root**
+`B2 scope`, `../docs/05` C-D6, `V-01`, `V-02`, `V-04`, `V-05`
+
+DOC-9 p.1, image-verified, records the terms on which the Commission obtained information from the people it considered most central to the plot. It is the clearest statement in the corpus of a provenance chain the project cannot walk.
+
+| Link | What it is | Independence |
+|---|---|---|
+| 1 | The detainee's statement, under interrogation, in custody | not assessable — conditions, questions and verbatim content all unavailable |
+| 2 | The interrogator's record of it | not assessable |
+| 3 | CIA's summary supplied to the Commission | `derivative` |
+| 4 | The Commission's use of it in its report and staff statements | `derivative`, and `circular` as against any CIA-supplied claim |
+
+**Three access limitations, all declared by the record-holder himself on the page.**
+
+1. **Physical access refused.** "There were seven individuals so central to the plot that the Commission might need to question them directly. **The DCI's answer was no.**"
+2. **Questions relayed, not asked.** The offered substitute is "if we can get your questions, we will make sure they get asked" — i.e. the Commission could not put a follow-up, could not observe the answer being given, and could not test an evasion.
+3. **The questioners were not plot experts.** Zelikow's contention on the same page is that the Commission "had the comparative advantage of having people who were experts in the 9/11 plot, **which the Agency had conceded they were not using for the interrogations**."
+
+**Independence:** `derivative` at best, `not assessable` at the root. **Chain stop:** `access refused by the holder`.
+
+**What this establishes.** Any proposition in the official account whose provenance root is a detainee statement reaches this project through four links, none of them auditable, with the first three inside the investigated institution. Under [`../docs/04` §3](../docs/04-controlling-methodology.md) such a proposition cannot be corroborated by a second document that shares the same root — and the 9/11 Commission Report and CIA's own products **do** share it.
+
+**What this does not establish.** Nothing about whether any particular detainee statement is true or false, and nothing about the interrogations themselves, which are outside this project's scope and evidence base. The DCI's stated reason — that new faces would disrupt collection of intelligence of current value — is an ordinary operational reason and is recorded as such, not as evasion. It is the *chain* that is unauditable, whatever the motive for its shape.
+
+**Consequence.** This is the concrete case that [`../docs/05` §4](../docs/05-phase-c-competing-narratives.md) C-D6 records as never yet exercised: B2 has not been applied to anything. When it is applied, the detainee-derived limb is where it bites, and this row states the chain it must be applied to. No C-series row is opened here; the source policy gates that.
+
+### PR-015 — "Records will be sparse" — a declared reason, from the record-holder, before the searching began
+`U-16`, `U-17`, `T-03`, `MD-021`
+
+DOC-9 p.2, image-verified, Tenet to the Commission on 23 December 2003 — **five weeks before** the sessions in which he would decline to recall whether particular memoranda existed:
+
+> "The DCI noted that records of many periods would be **sparse, because of the fast pace of events, with many meetings conducted by SVTS**, especially in the run-up to the Millenium."
+
+**Independence:** `none (self-description)` — the custodian of the records describing his own holdings. **Chain stop:** none; the statement is what it is. **Provenance root:** this document.
+
+**What it does.** [`../docs/04` §8A](../docs/04-controlling-methodology.md) (MD-021) permits an absence to weaken an official claim only after five conditions hold, of which the fifth is that *non-recording is not equally plausible*. This row supplies a named, ordinary, contemporaneous mechanism for non-recording — meetings held over secure video conferencing rather than on paper, at a fast tempo. It therefore **weakens** the negative-evidence case for U-16, U-17 and T-03 rather than strengthening it.
+
+**What it does not do, and this is the part that matters.** It is **not** proof that any particular memorandum is absent for that reason. It is a statement by the party with the strongest interest in a benign explanation for missing records, made to the body that would go looking for them, and it is not corroborated by anything. It establishes that a benign mechanism **existed and was declared in advance**; it establishes nothing about any specific gap.
+
+Both readings are recorded because the symmetry rule requires it: the statement is simultaneously the best available ordinary explanation for sparse records and exactly what an institution would say if it wished sparse records to go unexamined. Nothing in the corpus discriminates between the two, and the project does not pretend otherwise. **The discriminator would be the SVTS and record-retention policy of the period** — see §4.
+
+---
+
 ## 4. Documents the corpus depends on and does not have
 
 Every row below is a point at which the evidentiary chain currently stops. Listed in the order in which locating them would change the most registry rows.
@@ -218,11 +261,14 @@ Every row below is a point at which the evidentiary chain currently stops. Liste
 | 8 | Situation Room log and Presidential Diary, 11 Sep 2001 | A12.1–A12.3 | NARA / Bush Library |
 | 9 | State reporting cable and diplomatic traffic on the UAE warning | T-09 | State Department |
 | 10 | **MFR Berger (14 Jan 2004)** | A3.2, **U-09** | archives.gov — accessible, **not read. Now required by two independent rows** |
-| 11 | **MFR Tenet #1 (23 Dec 2003)** | **DISC-007, DISC-008** | archives.gov — accessible, not read. Resolves whether DOC-7's footnote 1 misidentifies a session, and whether DOC-8's "first interview" is accurate |
+| 11 | ~~MFR Tenet #1 (23 Dec 2003)~~ | ~~DISC-007, DISC-008~~ | **OBTAINED AND READ, 19 Sep 2026** — DOC-9, image-verified 3/3. DISC-008 resolved; DISC-007's EC1 excluded. Row retained struck through rather than deleted, per the preservation rule |
 | 12 | The March 2001 draft MON and Finding, and the EXDIR Krongard cover note and tasking paper | U-10, U-11, U-12, DISC-011 | Named by the witness as in his possession (DOC-8 p.8) |
 | 13 | MFRs: Clarke ×3, Scheuer #2 and #3 | A1–A7, T-01, T-04 | **archives.gov — accessible as of 19 Sep 2026** |
 | 14 | MFRs of Reno, Freeh, White, Fitzgerald | A3.2, A3.3 | Not in the ISCAP 2026-201 release; NARA general holdings |
 | 15 | May 2002 Rice press-conference transcript | A8.1 | Public; unread |
+| 16 | **CIA/NSC meeting-record and SVTS retention policy, 1998–2001** | U-16, U-17, T-03 — it is the discriminator for **PR-015** | Unknown. Would test whether a duty or reliable practice to create and retain such records existed, which [`../docs/04` §8A](../docs/04-controlling-methodology.md) requires before an absence counts |
+| 17 | The 130-page document prepared for the DCI's public testimony, and the 3–5 DCI letters to other agency principals on terrorism | none yet — **no row depends on them** | Offered to the Commission on DOC-9 p.2; production unknown. Listed because a declared commitment whose outcome is unrecorded is a chain stop, not an absence |
+| 18 | Congressional intelligence-committee hearing record on terrorism before 9/11 | V-10 | **Public and trivially checkable, and not checked.** Recorded as an open item rather than treated as common knowledge |
 
 ---
 

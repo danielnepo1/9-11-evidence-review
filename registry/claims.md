@@ -1,7 +1,7 @@
 # Atomic Claim Registry
 
 > Living instrument. Governed by [`../docs/04-controlling-methodology.md`](../docs/04-controlling-methodology.md) §2 and §5.
-> Last change event: **19 September 2026** (opening of the registry; ingestion of DOC-7, MFR George Tenet #2).
+> Last change event: **19 September 2026** (ingestion of DOC-9, MFR of the 23 December 2003 luncheon meeting with DCI Tenet; image-verification of DOC-7 p.12 and DOC-8 pp. 2 and 12).
 
 ---
 
@@ -11,7 +11,7 @@ Every atomic proposition carries these fields. Where a field is not yet determin
 
 | Field | Meaning |
 |---|---|
-| **ID** | Stable. `A<n>.<k>` for propositions inside a Phase A container; `T-<nn>` for propositions first recorded from DOC-7; `C-<nn>` for critical/alternative claims |
+| **ID** | Stable. `A<n>.<k>` for propositions inside a Phase A container; `T-<nn>` for propositions first recorded from DOC-7, `U-<nn>` from DOC-8, `V-<nn>` from DOC-9; `C-<nn>` for critical/alternative claims. Prefixes are allocated one per source document in reading order — see [`README.md`](README.md) |
 | **Proposition** | One testable statement. If it contains "and", check whether it is two propositions |
 | **Claimant / issuer** | Named person or institution |
 | **First known date** | Earliest date at which the claim is recorded as made |
@@ -101,10 +101,12 @@ Sources: DOC-1 (*Report on Review of PDB Articles*, 09 Feb 2004), DOC-2 (MFR Ric
 |---|---|---|---|---|
 | A2.1 | A text on WMD was prepared for the 25 Mar 1999 PDB | `documento citado, não localizado` | no | The internal memorandum; testimony of the PDB author named in DOC-3 |
 | A2.2 | It was removed before publication | `documento citado, não localizado` | no | Same. **The published PDB cannot test this** — `03` §4 priority 3 |
-| A2.3 | Removal was directed by or on behalf of the DCI | `declaração não corroborada` | no | Contemporaneous direction record; Tenet MFR #1 |
+| A2.3 | Removal was directed by or on behalf of the DCI | `declaração não corroborada` | no | **A contemporaneous direction record.** No Tenet MFR remains that could supply it — all three are read |
 | A2.4 | The purpose was to conceal a ~2-year delay in passing information to the FBI | `declaração não corroborada` | no | Same, plus the FBI transmission record |
 
-DOC-7 contains nothing on A2. Tenet MFR #3 (28 Jan 2004) was read as DOC-8 and contains nothing on A2 either. Tenet MFR #1 (23 Dec 2003) remains unread.
+DOC-7 contains nothing on A2. Tenet MFR #3 (28 Jan 2004) was read as DOC-8 and contains nothing on A2 either. **Tenet MFR #1 (23 Dec 2003) was read as DOC-9 on 19 September 2026 and contains nothing on A2 either** (V-N1). *(Corrected 19 Sep 2026: the closure condition previously named an unread MFR that has since been read and did not supply it.)*
+
+**All three Tenet MFRs are now read, and A2 is exactly where it was.** The container's closure condition is no longer a document in this release; it is a contemporaneous 1999 direction record that the corpus does not hold. That is a chain stop, not a queue item — see [`provenance.md`](provenance.md) §4 row 7.
 
 ### A3 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): 30% vs 0%
 
@@ -181,7 +183,9 @@ A5.2 is contradicted by the decision-maker's own account of his own decision, gi
 | A7.1 | Scheuer characterized an instrumental ISI–UBL training relationship as "too conspiratorial" | `document_attested` | DOC-3, text layer; limitations: **version** n/a, **redaction** heavy in DOC-3, **missing page** none, **completeness** whole document read | no | — established only as present in the reviewed artifact |
 | A7.2 | No instrumental relationship existed between the Pakistani service and UBL for training | `inconclusiva` | — | **yes** — was carried at container level as `declaração não corroborada` | Contemporaneous reporting on ISI–UBL contacts |
 
-**Change note.** DOC-7 p.12: "Tenet commented that the Pakistanis could have delivered ½ of UBL's lieutenants if they had wanted to, but were cooperating with UBL." Two witnesses give incompatible impressions — Scheuer under oath ⁽ᵃ⁾, Tenet under oath (image-verified) — but of different objects: Scheuer addresses an instrumental *training* relationship; Tenet addresses *cooperation* with UBL generally. EC1 is strongly live. DISC-004. Not image-verified (text layer only) — flagged.
+**Change note.** DOC-7 p.12: "(Tenet commented that the Pakistanis could have delivered ½ of UBL's lieutenants if they had wanted to, but were cooperating with UBL.)" Two witnesses give incompatible impressions — Scheuer under oath ⁽ᵃ⁾, Tenet under oath (image-verified) — but of different objects: Scheuer addresses an instrumental *training* relationship; Tenet addresses *cooperation* with UBL generally. EC1 is strongly live. DISC-004.
+
+**Verification update, 19 September 2026.** DOC-7 printed p.12 is now **image-verified**. The quotation is confirmed verbatim, and the page image adds one fact the text layer did not carry: the sentence stands **inside parentheses** in the original, i.e. it is a staff aside rather than a reported statement in the flow of the witness's answer. That does not change who said it, and it does not move A7.2, which stays `inconclusiva`. It is recorded because the parenthetical form is weak evidence about how the drafter treated the remark, and because DISC-004's source-quality field named the missing image verification as its limit.
 
 ### A8 — container (Rice, DOC-2 — Commission interview record, no oath recorded): the May 2002 statement
 
@@ -276,14 +280,14 @@ Witness under oath — administered by Commissioner Roemer, recorded on printed 
 | T-07 | The DCI's account of those three occasions was read aloud from a CIA staff paper prepared to brief him for this interview, which CIA undertook to provide to the Commission | access/process statement | `documento citado, não localizado` | no (text layer, p.8) | **The staff paper itself.** See [`provenance.md`](provenance.md) PR-006 — this makes T-06 a 2004 CIA reconstruction, not the witness's memory |
 | T-08 | CIA's draft February 1999 MON sought authority to kill UBL; President Clinton replaced the language by hand; Commissioner Ben-Veniste recorded a differing reading of the accompanying NSC note | direct quotation of a contemporaneous instrument, read aloud | `documento citado, não localizado` | no (text layer, p.11) | The February 1999 MON; CIA's transmittal letter and internal papers (item 9 of the document's own follow-up list) |
 | T-09 | Richard Clarke warned the UAE about the possible strike near the hunting camp; Rousseau's impression was that the call preceded the strike decision; the DCI had no recollection of clearing it | third-party report | `documento citado, não localizado` | no (text layer, p.9) | The diplomatic cable traffic and the State reporting cable named on p.9 |
-| T-10 | The DCI assessed covert action's probability of success against UBL at about 10%, and CIA's odds in Afghanistan at 10–20% | analytical judgment | `declaração não corroborada` | no (text layer, p.12) | Contemporaneous assessments, if any exist |
+| T-10 | The DCI assessed covert action's probability of success against UBL at about 10%, and CIA's odds in Afghanistan at 10–20% | analytical judgment | `declaração não corroborada` | **yes** (p.12, verified 19 Sep 2026) | Contemporaneous assessments, if any exist |
 | T-11 | A June 1999 memo from Berger to President Clinton (per Zelikow, likely drafted by Clarke) stated that covert action was not fruitful, that more attacks were a certainty, and that they could occur in the US and involve WMD; the DCI agreed it fairly stated the period | third-party report of a contemporaneous document | `documento citado, não localizado` | no (text layer, p.17) | **The June 1999 memo.** A contemporaneous 1999 record — high priority under [`../docs/05` §4](../docs/05-phase-c-competing-narratives.md) |
 | T-12 | The DCI described an "iron-clad wall" between intelligence and law enforcement; the FBI had no CT headquarters, lacked reports officers, could not link cases or do analysis, and did not disseminate intelligence; FBI 302s were hard for CIA to access | analytical judgment | `declaração não corroborada` | no (text layer, p.20) | DOJ IG reports; FBI dissemination records. Bears on [`../docs/03` §4](../docs/03-phase2a-mfr-verification.md) priority 6 |
 | T-13 | During and after the Millennium period "the country was absolutely unprotected" and "border, visas, and watchlists were not thought about" | recollection / analytical judgment | `declaração não corroborada` | **yes** (p.19) | Watchlisting and border records for the period |
 
 ### 5.1 Negative finding — recorded as a finding, not as an absence of interest
 
-**T-N1.** DOC-7 contains **no occurrence** of `Mihdhar`, `Hazmi`, `Malaysia`, `Kuala Lumpur`, `Moussaoui` or `Phoenix`, and exactly one occurrence of `watchlist` (printed p.19, in the general Millennium-lessons passage quoted at T-13). Verified by exhaustive string search of the full extracted text of all 24 pages.
+**T-N1.** DOC-7 contains **no occurrence** of `Mihdhar`, `Hazmi`, `Malaysia`, `Kuala Lumpur`, `Moussaoui` or `Phoenix`, and exactly one occurrence of `watchlist` (printed p.19, in the general Millennium-lessons passage quoted at T-13). Verified by exhaustive string search of the full extracted text of all 24 pages. **Re-run 19 September 2026 under the MD-011 transliteration-variant protocol** — adding `Midhar`, `Hamzi`, `Alhazmi`, `Nawaf`, `Kuala` — and it **holds**: zero hits for every variant. The original run used spellings the corpus does not use; see §5A.1.
 
 Consequence: **Priority 1 of [`../docs/03` §4](../docs/03-phase2a-mfr-verification.md) — the al-Mihdhar / al-Hazmi node, where H5 has its best theoretical case — is not advanced by this document.** It remains untouched.
 
@@ -295,16 +299,17 @@ This is a statement about the reviewed corpus, not about the world: "not found i
 
 Witness under oath, **carried over** from 22 January 2004 and reminded at the start; not re-administered ([`witness-status.md`](witness-status.md) §3–§4). Event date 28 Jan 2004; declassification 8 Sep 2026. Facts described run 1998–2001. **Not a contemporaneous record of anything it describes.**
 
-Card: [`cards/DOC-8-mfr-tenet-3.md`](cards/DOC-8-mfr-tenet-3.md). Page-image coverage 7/13; rows resting on unverified pages are marked and **cannot move another row** until verified.
+Card: [`cards/DOC-8-mfr-tenet-3.md`](cards/DOC-8-mfr-tenet-3.md). Page-image coverage **9/13 (69%)** after the 19 September 2026 verification of pp. 2 and 12; rows resting on unverified pages are marked and **cannot move another row** until verified.
 
 | ID | Proposition | Speaker | Assertion type | Status | Image-verified | Closure condition |
 |---|---|---|---|---|---|---|
 | U-01 | The DCI had not reviewed the material on the Kuala Lumpur episode, and the Commission's Executive Director acknowledged on the record that the DCI is not a first-hand witness to it | Tenet / Zelikow | access/process statement | `document_attested` | **yes** (p.1) | — established only as *appearing in the document* |
 | U-02 | The FBI was far more aware of the Kuala Lumpur meeting than had previously been made public, and the Joint Inquiry misinterpreted the episode | Tenet | analytical judgment, **expressly not first-hand** | `declaração não corroborada` | **yes** (p.1) | The underlying reporting; the Joint Inquiry text; FBI records |
 | U-03 | The Commission had evidence that FBI was informed of the matter by CIA; former FBI Director Freeh briefed the Commission on it twice; the Commission noted this in its January 2004 staff statement | Zelikow (Commission staff) | editorial interpretation | `documento citado, não localizado` | **yes** (p.1) | The January 2004 staff statement; the Freeh briefing records |
-| U-04 | CIA asked NSA to put al-Midhar on a watchlist, and having placed individuals on the NSA tipper would have expected NSA to pass on further undisseminated information unasked | Russo (**not under oath**) | third-party report | `declaração não corroborada` | ❌ **p.2 not verified** | The watchlisting request itself; NSA records |
-| U-05 | CIA was, as of January 2004, reviewing every file back to [REDACTED] to identify the participants in the Kuala Lumpur meeting | Tenet | access/process statement | `declaração não corroborada` | ❌ p.2 | The review's output, if any |
-| U-06 | The DCI does not recall the Kuala Lumpur case being highlighted for him; "the case did not leap out at him" | Tenet | recollection | `declaração não corroborada` | ❌ **p.2 not verified** | Not independently testable as to his state of mind; contemporaneous routing records would bound it |
+| U-04 | CIA asked NSA to put al-Midhar on a watchlist | Rousseau/Russo (**no oath**), **in response to an adverse finding put to him** | third-party report offered in rebuttal | `declaração não corroborada` | **yes** (p.2, verified 19 Sep 2026) | The watchlisting request itself; NSA records |
+| U-04a | Having put individuals on the NSA tipper, CIA would have been counting on NSA to pass on additional undisseminated information without CIA having to ask | **[REDACTED speaker]** — *not* Rousseau/Russo | analytical judgment | `declaração não corroborada` | **yes** (p.2, verified 19 Sep 2026) | NSA and CIA dissemination practice records; release of the 25X1 attribution |
+| U-05 | CIA was, as of January 2004, reviewing every file back to [REDACTED] to identify the participants in the Kuala Lumpur meeting | Tenet | access/process statement | `declaração não corroborada` | **yes** (p.2, verified 19 Sep 2026) | The review's output, if any |
+| U-06 | The DCI does not recall the Kuala Lumpur case being highlighted for him; "the case did not leap out at him" | Tenet | recollection | `declaração não corroborada` | **yes** (p.2, verified 19 Sep 2026) | Not independently testable as to his state of mind; contemporaneous routing records would bound it |
 | U-07 | The witness corrected his 22 January 2004 statement: the 10 March 2000 after-action report at NSC did address homeland security, having immigration and US–Canadian border security on its agenda | Tenet | **correction of his own earlier statement** | `parcialmente corroborada` | **yes** (p.3) | The after-action report itself |
 | U-08 | The DCI's recollection of CIA's *Cole* investigation was entirely dependent on the documents in his briefing book | Tenet | access/process statement | `document_attested` | **yes** (p.5) | — see [`provenance.md`](provenance.md) PR-011 |
 | U-09 | The DCI was surprised at the notion that NSC awaited his conclusive judgment on *Cole* responsibility before acting, and had no recollection of anyone telling him so — whereas Berger told the Commission the USG was essentially waiting for that judgment | Tenet vs. Berger (via staff note) | recollection vs. third-party report | `inconclusiva` | **yes** (p.5) | **MFR Berger, unread.** See [DISC-010](discrepancies.md#disc-010) |
@@ -316,7 +321,20 @@ Card: [`cards/DOC-8-mfr-tenet-3.md`](cards/DOC-8-mfr-tenet-3.md). Page-image cov
 | U-15 | At the 4 September 2001 Principals' meeting a decision was made to go forward with the weaponized UAV, but no decision was made on who would fire it | Tenet | recollection | `declaração não corroborada` | **yes** (p.11) | The meeting record |
 | U-16 | No memo appears to exist capturing the DCI's 5 September 2001 meeting with Rice | Tenet / staff | **declared absence of a record** | `documento citado, não localizado` | **yes** (p.11) | A records search |
 | U-17 | CIA has not been able to find an MFR for the March 2001 meeting with Rice on the draft MON and Finding | Muller (**not under oath**) | **declared absence of a record** | `documento citado, não localizado` | **yes** (p.8) | A records search |
-| U-18 | The DCI first heard of the Moussaoui arrest in August 2001 in the context of the daily UBL update, and believed there was no known al-Qaeda connection at that point | Tenet | recollection | `declaração não corroborada` | ❌ p.11–12 | The CIA timeline Russo undertook to reconstruct; FBI records |
+| U-18 | The DCI first heard of the Moussaoui arrest in August 2001 in the context of the daily UBL update, and believed there was no known al-Qaeda connection at that point | Tenet | recollection | `declaração não corroborada` | **yes** (pp. 11–12, p.12 verified 19 Sep 2026) | The CIA timeline Rousseau/Russo undertook to reconstruct; FBI records |
+
+### 5A.0 Material correction to U-04, 19 September 2026 — page image vs. text layer
+
+DOC-8 printed p.2 is now image-verified. The image changes the row in two ways that the extracted text layer did not disclose, and both **weaken** it. The correction is recorded rather than applied silently.
+
+The passage, transcribed from the page image:
+
+> "Russo added two further factual points **in response to the finding that CIA did not look broadly enough to get information on the KL suspects—i.e. did not ask the National Security Agency (NSA) to search its database**… 2) CIA asked NSA to put Midhar on a watchlist… [REDACTED] added that, having put individuals on the NSA tipper, CIA would have been counting on NSA to pass on additional undisseminated information without CIA having to ask for it."
+
+1. **The statement is a rebuttal, not a free-standing assertion.** It was offered *in response to an adverse finding put to the witness's side* — that CIA did not look broadly enough and did not ask NSA to search its database. A claim volunteered and a claim produced under challenge are not the same evidentiary object. The row previously read as though CIA had simply stated the watchlisting request; it did not.
+2. **The tipper sentence is not Rousseau/Russo's.** The page attributes it to a **redacted speaker**. The registry previously carried the whole passage under one attribution. The two propositions are therefore split: **U-04** (the watchlist request, Rousseau/Russo) and **U-04a** (the tipper expectation, redacted speaker).
+
+**Effect on Priority 1.** None in direction. §5A.2 recorded the node as "touched, inconclusive" on the strength of U-04 being "a third party's 2004 recollection, not under oath, on an unverified page". The page is now verified and the recollection is now known to have been elicited in rebuttal by a speaker who is, for one half of it, unidentified. The pre-registered criteria are unchanged and still unmet; the row's weight is lower than it was, not higher. **H5 does not move.**
 
 ### 5A.1 Negative findings from DOC-8
 
@@ -342,6 +360,66 @@ Card: [`cards/DOC-8-mfr-tenet-3.md`](cards/DOC-8-mfr-tenet-3.md). Page-image cov
 
 ---
 
+## 5B. V-series — propositions first recorded from DOC-9 (MFR, luncheon meeting with DCI Tenet, 23 Dec 2003)
+
+**`no oath recorded`.** This is a **meeting memorandum**, not an interview record — "Type of Event: **Luncheon Meeting**" on the Commission's own form, image-verified ([`witness-status.md`](witness-status.md)). Event date 23 Dec 2003; document date on or about the same; declassification 8 Sep 2026. Prepared by Chris Kojm, reviewed by Philip Zelikow.
+
+Card: [`cards/DOC-9-mfr-tenet-luncheon.md`](cards/DOC-9-mfr-tenet-luncheon.md). **Page-image coverage 3/3 = 100%** — the first document in the corpus fully image-verified. Every row below rests on a verified page.
+
+**Evidentiary ceiling.** This document establishes what was said at a luncheon on 23 December 2003 between four Commission figures and five CIA figures, none of them under oath. It establishes no fact of 1993–2001 as against a contemporaneous record, and contains no first-hand account of any pre-9/11 event.
+
+| ID | Proposition | Speaker | Assertion type | Status | Image-verified | Closure condition |
+|---|---|---|---|---|---|---|
+| V-01 | The Commission judged seven detainees so central to the plot that it might need to question them directly, and the DCI refused direct access | Kean / Hamilton and Tenet | access/process statement | `document_attested` | **yes** (p.1) | — established only as appearing in the reviewed artifact; limitations: **redaction** none on p.1, **missing page** none, **completeness** whole document read, **version** single release |
+| V-02 | The reason given for the refusal was that introducing new faces would disrupt collection of intelligence of current value, on the strong advice of the DCI's "best professionals" | Tenet | access/process statement | `declaração não corroborada` | **yes** (p.1) | The professionals' advice as a contemporaneous record; the interrogation-programme file |
+| V-03 | The location of a few detainees was known to only three people, and **the President did not know** | Tenet | access/process statement | `declaração não corroborada` | **yes** (p.1) | Not testable from this corpus. Would require the detention-programme access list |
+| V-04 | The DCI offered a relay arrangement: "if we can get your questions, we will make sure they get asked" | Tenet | commitment | `document_attested` | **yes** (p.1) | Whether questions were relayed, what was asked, and what came back |
+| V-05 | The Agency had conceded that it was **not using people expert in the 9/11 plot** for the interrogations | Zelikow (Commission staff), reporting a concession | editorial interpretation | `declaração não corroborada` | **yes** (p.1) | The Agency statement said to have been conceded. Note this is Commission staff characterising CIA's position, inside a Commission-drafted document — see [`provenance.md`](provenance.md) PR-014 |
+| V-06 | Records of many periods would be **sparse**, because of the fast pace of events and because many meetings were conducted by SVTS, especially in the run-up to the Millennium | Tenet | **declared reason why records may not exist** | `declaração não corroborada` | **yes** (p.2) | SVTS practice and retention records; CIA/NSC meeting-record policy for the period |
+| V-07 | The DCI wished he had paid greater attention at the time to two landmarks — the 1993 World Trade Center bombing and the Millennium incident involving Ahmed Ressam | Tenet | recollection / retrospective judgment | `declaração não corroborada` | **yes** (p.2) | Not independently testable as to his state of mind |
+| V-08 | The President was "absolutely riveted" when Cofer Black predicted there could be 5 to 15 terrorist attacks in the United States | Tenet | recollection | `inconclusiva` | **yes** (p.2) | **Which President, and which briefing.** The two staff in the room recorded different readings on the page itself — see [DISC-012](discrepancies.md#disc-012) |
+| V-09 | The IC saw much talk in July and August 2001 of an upcoming spectacular event — a "Hiroshima" — but could not place its location; some said "They're coming here", but no data or information came back about domestic threats | Tenet | recollection / analytical judgment | `declaração não corroborada` | **yes** (p.3) | The reporting stream itself, month by month, with denominators |
+| V-10 | The congressional intelligence committees had held very few hearings on terrorism before 9/11 | Tenet | analytical judgment | `declaração não corroborada` | **yes** (p.3) | The committees' hearing record — public and checkable, and **not yet checked** |
+| V-11 | The Joint Inquiry wrote its report at Top Secret/Codeword level without any citation to sources, then asked the intelligence community to declassify it | Moseman (**no oath**) | institutional criticism | `declaração não corroborada` | **yes** (p.3) | The Joint Inquiry report and the declassification correspondence |
+| V-12 | As of 23 December 2003 the DCI's interviews on classified topics were still **prospective**, with a public hearing planned for March 2004 | Kojm (Commission staff, drafter) | access/process statement | `document_attested` | **yes** (p.3) | — established as present in the artifact. This is the row that resolves [DISC-008](discrepancies.md#disc-008) |
+
+### 5B.1 Negative finding from DOC-9 — variant-checked (V-N1)
+
+Exhaustive string search of all three pages under the MD-011 variant protocol:
+
+| Term | Hits |
+|---|---|
+| `February 1999`, `1999 MON`, `Masood` | **0** |
+| `Midhar`, `Mihdhar`, `Hazmi`, `Hamzi`, `Alhazmi`, `Nawaf` | **0** |
+| `Kuala`, `Malaysia` | **0** |
+| `Moussaoui`, `Phoenix`, `watchlist` | **0** |
+| `oath`, `sworn` | **0** |
+
+**Consequence.** Priority 1 is **untouched** by DOC-9. So is the February 1999 MON thread. The zero hits for `oath` and `sworn` are what establish the document's procedural status negatively; the positive establishment is the "Luncheon Meeting" event-type field.
+
+Per [`../docs/04` §8A](../docs/04-controlling-methodology.md) (MD-021) this is a statement about a three-page staff synthesis of a two-hour lunch. It carries no weight whatever about what was discussed at the lunch, and none at all about the world.
+
+### 5B.2 What DOC-9 does **not** move — recorded explicitly
+
+The instruction that governs this project is that non-movements are reported as findings, not omitted as uninteresting. Four are recorded here.
+
+| Row | Candidate mover | Why it does not move |
+|---|---|---|
+| **A9.4** ("during the summer 2001 threat period the reporting CIA received pointed almost exclusively overseas") | **V-09**, DOC-9 p.3 — "no data, no information coming back about domestic threats" | **Same claimant.** Tenet said it in December 2003 and again in January 2004. Under [`../docs/04`](../docs/04-controlling-methodology.md) D1/D2 a repetition by the same speaker is **not independent corroboration**; it is one source observed twice. A9.4 stays `parcialmente corroborada` and its four closure items ([`../docs/03` §1.4](../docs/03-phase2a-mfr-verification.md)) remain unmet. What V-09 *does* add is a **version-history** datum: the account is stable across five weeks and two settings, one of them unsworn — recorded at [`version-history.md`](version-history.md) |
+| **A9.1, A9.2** | V-09 | Different object again: V-09 is about the stream CIA received, A9.1/A9.2 about the PDB-channel corpus. Unchanged |
+| **A1.x, A2.x, A3.2, A3.3, T-01, T-04** | DOC-9 as "the Tenet #1 MFR" | The blocking gate at §7 listed "Tenet #1" among the seven unread MFRs that would clear it. DOC-9 is now read **and clears nothing**: V-N1 shows it addresses none of these subjects. The gate narrows from seven documents to six; not one row moves. Recorded because a gate that narrows without moving a row is exactly the result most easily mistaken for progress |
+| **H0–H7** | — | No hypothesis moves on this document. Nothing here is positive or negative evidence for any of them |
+
+### 5B.3 The one methodological result
+
+DOC-9 was read to answer a procedural question, and it answered it. Both P0 rows in [`anomalies.md`](anomalies.md) turned on the same thing: **whether a Memorandum for the Record is a complete record of its session.** It is not. DOC-7's footnote 1 is now image-verified as naming "January 28th, 2004" unambiguously, and DOC-9 contains nothing on the February 1999 MON — so the footnote's content belongs to the 28 January session and DOC-8, that session's own MFR, omits it. See [DISC-007](discrepancies.md#disc-007).
+
+**The silence of an MFR is evidence about the MFR, not about what the session covered.** Every negative finding in this registry — T-N1, U-N1, U-N2, V-N1 — is bounded by that sentence, and they were written to be.
+
+**What it does not establish.** Nothing about concealment: the omitted passage is *favourable* to the witness. And one confirmed instance is one instance, not a practice.
+
+---
+
 ## 6. C-series — critical and alternative claims
 
 **Empty by design.** Opening this series is gated on the source-inclusion procedure in [`source-policy.md`](source-policy.md) §2–§3, per [`../docs/05` §4](../docs/05-phase-c-competing-narratives.md). Populating it from memory or unconstrained search would import precisely the provenance failures this registry exists to detect.
@@ -354,7 +432,7 @@ Card: [`cards/DOC-8-mfr-tenet-3.md`](cards/DOC-8-mfr-tenet-3.md). Page-image cov
 |---|---|---|
 | Re-carding of DOC-1, DOC-2, DOC-3 under the image-verification standard | A8.2, A9.1, A10.1, A10.2, A15.1–A15.4, A16.1 and every conclusion depending on them | Re-reading the three documents against page images; [`cards/README.md`](cards/README.md) §3 |
 | OCR of the 6 Aug 2001 PDB | A10.1, A10.2, A16.1 | Access to the file plus OCR |
-| MFRs of Tenet #1, Clarke ×3, Berger, Scheuer #2 and #3 | A1.x, A2.x, A3.2, A3.3, T-01, T-04 | Reading the remaining seven MFRs |
+| MFRs of Clarke ×3, Berger, Scheuer #2 and #3 | A1.x, A2.x, A3.2, A3.3, T-01, T-04 | Reading the remaining **six** MFRs. *(Narrowed 19 Sep 2026: the Tenet #1 MFR — DOC-9 — has been read in full and image-verified, and clears none of these rows. See §5B.2.)* |
 | Source policy applied to a candidate set | The entire C-series | [`source-policy.md`](source-policy.md) |
 | B1 quarantine | Any reuse of B1 distributions | Permanent — B1 is invalidated, not pending |
 

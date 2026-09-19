@@ -1,7 +1,7 @@
 # DOC-8 — Memorandum for the Record: George Tenet, 28 January 2004
 
 > Document card under [`../../docs/04-controlling-methodology.md`](../../docs/04-controlling-methodology.md) §7.
-> Read and carded: **19 September 2026**. Read in full (13 of 13 PDF pages). Page images inspected independently for 7 of 13 pages — see §4.
+> Read and carded: **19 September 2026**. Read in full (13 of 13 PDF pages). Page images inspected independently for **9 of 13 pages (69%)** — see §4. Last verification pass: 19 September 2026 (pp. 2 and 12), which produced a **material correction** to U-04 — see §5.1.
 
 ---
 
@@ -44,7 +44,7 @@ Three observations, recorded because they bear on how much the oath adds here:
 
 1. **No oath is administered at this session.** What is recorded is a reminder that an oath administered six days earlier still applied.
 2. **Commissioner Roemer, who administered the 22 January oath, is not among the Commission participants listed for 28 January.** The listed Commission participants are Ben-Veniste, Zelikow, Marcus, Hurley, Albion and Lederman. No one is named as giving the reminder.
-3. **The document calls 22 January 2004 the witness's "first interview".** The ISCAP 2026-201 index lists a Tenet MFR dated **23 December 2003**. Either that earlier event was not an "interview" in the Commission's own usage, or the front matter here is inaccurate. Recorded at [`../discrepancies.md`](../discrepancies.md#disc-008) — **not resolved**, and a direct reason to read DOC-9 (Tenet #1).
+3. **The document calls 22 January 2004 the witness's "first interview".** The ISCAP 2026-201 index lists a Tenet MFR dated **23 December 2003**. Either that earlier event was not an "interview" in the Commission's own usage, or the front matter here is inaccurate. Recorded at [`../discrepancies.md`](../discrepancies.md#disc-008). **RESOLVED 19 September 2026** by reading DOC-9: the 23 December 2003 event is typed by the Commission itself as a "Luncheon Meeting", not an interview, so **this front matter is accurate** and the contingency 18 U-rows inherited is discharged. See [`DOC-9-mfr-tenet-luncheon.md`](DOC-9-mfr-tenet-luncheon.md) §2.1.
 
 Registered in [`../witness-status.md`](../witness-status.md) §3. Permitted label: **"under oath (carried over from 22 Jan 2004; reminded, not re-administered)"**.
 
@@ -81,7 +81,7 @@ Registered in [`../witness-status.md`](../witness-status.md) §3. Permitted labe
 | Printed page | Image inspected | Subject |
 |---|---|---|
 | 1 | ✅ | Front matter, oath, the Kuala Lumpur story |
-| 2 | ❌ | KL continued; CTC hub-and-spoke |
+| 2 | ✅ *(19 Sep 2026)* | KL continued; CTC hub-and-spoke |
 | 3 | ✅ | Millennium after-action review correction; Predator |
 | 4 | ❌ | Predator funding and weaponisation |
 | 5 | ✅ | Cole; the Berger conflict |
@@ -91,10 +91,10 @@ Registered in [`../witness-status.md`](../witness-status.md) §3. Permitted labe
 | 9 | ✅ | Predator command and control; funding; summer of threat |
 | 10 | ✅ | Summer 2001; focus overseas; CTC post-9/11 review |
 | 11 | ✅ | 4 September 2001 Principals' meeting; a new MON; Moussaoui |
-| 12 | ❌ | Moussaoui continued; lessons learned |
+| 12 | ✅ *(19 Sep 2026)* | Moussaoui continued; lessons learned |
 | 13 | ❌ | TTIC; organising for the GWOT |
 
-**Coverage: 7 of 13 printed pages = 54%.** Every quotation in §5 marked ✅ is transcribed from the page image. Quotations from unverified pages are marked and **may not move a registry row** until verified.
+**Coverage: 9 of 13 printed pages = 69%.** *(Was 7/13 = 54%; pp. 2 and 12 added 19 September 2026.)* Every quotation in §5 marked ✅ is transcribed from the page image. Quotations from unverified pages are marked and **may not move a registry row** until verified.
 
 ### 4.2 Redaction profile — as seen on the page images
 
@@ -103,7 +103,7 @@ Redactions in DOC-8 render as **grey shaded blocks** on the page image, unlike D
 | Location | Extent | Bears on |
 |---|---|---|
 | p.1 | Two participant identities | Attribution of §3 |
-| p.2 | The retrieval-system name; the date range of the file review; a speaker's identity | U-04, U-05 |
+| p.2 | The retrieval-system name; the date range of the file review; **the identity of the speaker who made the NSA-tipper statement** | U-04a, U-05 |
 | p.9 | A block marked **25X1, X4** — a different exemption category from the 25X1 used elsewhere | U-11 |
 | pp. 3, 4, 9, 10, 11, 12 | Programme names, dollar figures, partner services, reporting streams | U-05, U-09, U-11, U-13 |
 
@@ -129,12 +129,23 @@ No redaction in DOC-8 approaches the scale of the block on DOC-7 printed p.4.
 | Q12 | 10 | ✅ | native text + image | institutional finding, reported | "[REDACTED] noted that, after September 11th, CTC looked back to see if any of the information CIA was picking up during the summer of 2001 related to the 9-11 attacks, and concluded that it was a separate and unrelated stream of intelligence…" |
 | Q13 | 11 | ✅ | native text + image | recollection | "No decision was made on the question of who fired the armed UAV, however." |
 | Q14 | 11 | ✅ | native text + image | access/process statement | "Tenet did not recall his September 5th meeting with Rice, and there appears to be no memo capturing the meeting." |
-| Q15 | 2 | ❌ **text layer only** | agency OCR | third-party report (Russo, not under oath) | "CIA asked NSA to put Midhar on a watchlist… having put individuals on the NSA tipper, CIA would have been counting on NSA to pass on additional undisseminated information without CIA having to ask for it." |
-| Q16 | 2 | ❌ **text layer only** | agency OCR | **editorial interpretation, Commission staff** | "Zelikow noted that the Commission's perspective on the KL story is to see it less in terms of a watchlisting blunder and more as a failed intelligence operation that opens a window onto systemic problems at CIA in managing transnational operations." |
-| Q17 | 2 | ❌ **text layer only** | agency OCR | recollection | "Tenet does not recall the KL case being highlighted for him; the case did not leap out at him." |
-| Q18 | 12 | ❌ **text layer only** | agency OCR | access/process statement | "Russo noted that the sequence of events for this case [Moussaoui] (what CIA knew when) can be documented, and CIA will go back recreate this story for the Commission." |
+| Q15 | 2 | ✅ *(19 Sep 2026 — **corrected**, see §5.1)* | native text + image | third-party report **offered in rebuttal** (Rousseau/Russo, no oath) **+ a second, redacted speaker** | "Russo added two further factual points **in response to the finding that CIA did not look broadly enough to get information on the KL suspects—i.e. did not ask the National Security Agency (NSA) to search its database**… 2) CIA asked NSA to put Midhar on a watchlist… **[REDACTED]** added that, having put individuals on the NSA tipper, CIA would have been counting on NSA to pass on additional undisseminated information without CIA having to ask for it." |
+| Q16 | 2 | ✅ *(19 Sep 2026)* | native text + image | **editorial interpretation, Commission staff** | "Zelikow noted that the Commission's perspective on the KL story is to see it less in terms of a watchlisting blunder and more as a failed intelligence operation that opens a window onto systemic problems at CIA in managing transnational operations." |
+| Q17 | 2 | ✅ *(19 Sep 2026)* | native text + image | recollection | "Tenet does not recall the KL case being highlighted for him; the case did not leap out at him." |
+| Q18 | 12 | ✅ *(19 Sep 2026)* | native text + image | access/process statement | "Russo noted that the sequence of events for this case [Moussaoui] (what CIA knew when) can be documented, and CIA will go back recreate this story for the Commission." |
 
-**Open verification tasks:** Q15, Q16, Q17 (printed p.2) and Q18 (printed p.12). Q15 and Q17 are the two most consequential statements in the document about the al-Mihdhar node and **must** be image-verified before they move anything.
+**Open verification tasks:** none among Q1–Q18. Printed pp. 4, 6, 7 and 13 remain unverified; no decisive quotation currently rests on them, and any future one must be verified first.
+
+### 5.1 Material correction to Q15 / U-04 — 19 September 2026
+
+Q15 and Q17 were named on this card as "the two most consequential statements in the document about the al-Mihdhar node". They were verified. **Q17 is confirmed verbatim. Q15 is not what the text layer showed**, in two ways that both reduce its weight:
+
+1. **It is a rebuttal, not a volunteered statement.** The page carries an antecedent clause the text layer dropped: the two points were added *"in response to the finding that CIA did not look broadly enough to get information on the KL suspects—i.e. did not ask the National Security Agency (NSA) to search its database."* The Commission put an adverse finding; CIA's officer answered it. A claim produced under challenge and a claim volunteered are different evidentiary objects.
+2. **The tipper sentence has a different speaker, and that speaker is redacted.** The registry carried the whole passage under Rousseau/Russo. The page attributes the second half to **[REDACTED]**. The row is therefore split into **U-04** (the watchlist request) and **U-04a** (the tipper expectation).
+
+The page also resolves two names the text layer garbled: **"C/CTC Cofer Black"** and **"C/Alec Rich Blee"**.
+
+**Effect on Priority 1: none in direction, and downward in weight.** [`../claims.md`](../claims.md) §5A.2 already recorded the node as "touched, inconclusive" partly *because* this page was unverified. It is now verified, and what it shows is weaker than what was assumed. **H5 does not move.** This is recorded at length because it is the clearest demonstration in the corpus of why the image-verification standard exists: the defect was not a garbled character but a **missing attribution and a missing pragmatic frame**, neither detectable from the text.
 
 ---
 
@@ -211,4 +222,5 @@ Across DOC-7 and DOC-8 the same pattern appears four times: the witness's accoun
 | 19 Sep 2026 | String search incl. transliteration variants | U-N1, U-N2 |
 | 19 Sep 2026 | Page-image extraction, `jbig2dec` 0.20 | pp. 1, 3, 5, 8, 9, 10, 11 rendered |
 | 19 Sep 2026 | Independent inspection of those 7 page images | Q1–Q14 verified; OCR errors in §4 identified; the March 10 / March 15 conflict (DISC-009) found |
-| — | Image verification of pp. 2, 4, 6, 7, 12, 13 | **Open** |
+| **19 Sep 2026** | **Image verification of pp. 2 and 12 (Q15–Q18)** | **Q16, Q17, Q18 confirmed. Q15 materially corrected — rebuttal frame recovered, tipper sentence reattributed to a redacted speaker; U-04 split into U-04 and U-04a. Coverage now 9/13 = 69%** |
+| — | Image verification of pp. 4, 6, 7, 13 | **Open** — no decisive quotation currently rests on them |
