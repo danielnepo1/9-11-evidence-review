@@ -27,6 +27,10 @@
 
 **Distance event → facts described: 3 to 8 years.** Facts described run from 1995–1996 to 2001. Under [`../../docs/03` §1.1](../../docs/03-phase2a-mfr-verification.md), **this document is not a contemporaneous record of anything it describes.** It is recollection given under oath in 2004, and in one significant passage (§3, T-07) it is not even that.
 
+**Evidentiary ceiling.** This document can establish: what the witness said on 22 January 2004, under oath, and what CIA officials and Commission staff said in the room. It **cannot** establish: any fact of 1996–2001 as against a contemporaneous record; the accuracy of the CIA briefing paper the witness read from (T-07); anything concealed by the 25X1 redactions, including the block covering ~60% of p.4; or anything about the al-Mihdhar/al-Hazmi node, which it does not mention (T-N1).
+
+**Claims tested:** A1.2, A3.1, A3.2, A4.1, A4.2, A4.3, A4.5, A5.1, A5.2, A7.2, A14.1; T-01 … T-13; T-N1.
+
 ---
 
 ## 2. Participants — who is speaking matters

@@ -10,6 +10,8 @@ These are **living instruments**, not chronological documents. Unlike `docs/NN-*
 | [`discrepancies.md`](discrepancies.md) | Discrepancy ledger and the closed taxonomy | `04` §6 |
 | [`source-policy.md`](source-policy.md) | Source inclusion, provenance, preservation and deduplication rules — **gate** on any corpus expansion | `04` §10 |
 | [`witness-status.md`](witness-status.md) | Procedural status per witness document — what may and may not be called testimony under oath | `04` §7.4 |
+| [`anomalies.md`](anomalies.md) | Anomaly register — escalation ladder (levels 1–5) and P0–P3 research priority, one row per discrepancy | `04` §6.1 |
+| [`timeline.md`](timeline.md) | Six-track timeline — event · observation · communication · record creation · later recollection · publication, with clock source and `automatic` vs `reconstructed` | `04` §4.1 |
 | [`instruments-b1-b2.md`](instruments-b1-b2.md) | B1 quarantine record; B2-ref / B2-rely definitions and subtypes | `04` §8 |
 | [`cards/`](cards/) | Document cards — one per document read, with the required fields for decisive quotations | `04` §7 |
 
@@ -29,8 +31,9 @@ No row is silently overwritten. A status change requires a dated entry in [`vers
 | `C-<nn>` | Critical / alternative claim | **none yet** — gated, see [`../docs/05-phase-c-competing-narratives.md`](../docs/05-phase-c-competing-narratives.md) §4 |
 | `DISC-<nnn>` | Discrepancy ledger row | DISC-001 … DISC-011 |
 | `PR-<nnn>` | Provenance chain | PR-001 … PR-013 |
+| `TL-<nnn>` | Timeline entry | TL-001 |
 | `EC1`–`EC5` | Explanation class (never `H1`–`H5` — see `04` MD-001) | fixed |
-| `MD-<nnn>` | Methodological decision | MD-001 … MD-014 |
+| `MD-<nnn>` | Methodological decision | MD-001 … MD-023 |
 
 **Prefix allocation rule.** Claim prefixes are assigned **per source document**, one letter each, in reading order: `T` = DOC-7, `U` = DOC-8, then `V`, `W`, … for DOC-9 onward. `A` is reserved for the Phase A legacy containers and `C` for critical/alternative claims; neither is reallocated.
 

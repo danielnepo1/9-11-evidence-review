@@ -90,33 +90,58 @@ The clearest instance in this corpus of a witness formally correcting himself, a
 
 ## 3. Change events in this repository
 
-Every row change carries: date, row, old value, new value, the document that moved it, and whether that document was image-verified.
+Every row change carries: date, row, event class, old value, new value, the document that moved it, and whether that document was image-verified.
 
-| Date | Row | Old | New | Moved by | Image-verified |
-|---|---|---|---|---|---|
-| 19 Sep 2026 | A1.2 | `documento citado, não localizado` | `inconclusiva` | DOC-7 pp. 1, 16 | no (text layer) |
-| 19 Sep 2026 | A3.1 | `declaração não corroborada` | `parcialmente corroborada` | DOC-7 p.3 | **yes** |
-| 19 Sep 2026 | A3.2 | `declaração não corroborada` | `inconclusiva` | DOC-7 p.4 | **yes** |
-| 19 Sep 2026 | A4.1 | `documento citado, não localizado` | `parcialmente corroborada` | DOC-7 p.5 | **yes** |
-| 19 Sep 2026 | A4.2 | `documento citado, não localizado` | `contradita` (absolute form only) | DOC-7 p.5 | **yes** |
-| 19 Sep 2026 | A4.5 | — (new row) | `parcialmente corroborada` | DOC-7 p.5 | **yes** |
-| 19 Sep 2026 | A5.1 | `declaração não corroborada` | `parcialmente corroborada` | DOC-7 p.4 | **yes** |
-| 19 Sep 2026 | A5.2 | `declaração não corroborada` | `contradita` | DOC-7 p.4 | **yes** |
-| 19 Sep 2026 | A7.2 | `declaração não corroborada` (container) | `inconclusiva` | DOC-7 p.12 | no (text layer) — **flagged for verification** |
-| 19 Sep 2026 | A14.1 | `declaração não corroborada` | `parcialmente corroborada` | DOC-7 p.5 | **yes** |
-| 19 Sep 2026 | A15.1–A15.4 | `corroborada` | `corroborada` + `independence: none (self-description)` | MD-002, no new document | n/a |
-| 19 Sep 2026 | T-01 … T-13, T-N1 | — (new rows) | see [`claims.md`](claims.md) §5 | DOC-7 | partial |
-| 19 Sep 2026 | H0–H7 | — | **unchanged** | — | — |
-| **19 Sep 2026 (DOC-8 session)** | | | | | |
-| 19 Sep 2026 | A9.4 | — (new row) | `parcialmente corroborada` | DOC-8 p.10 | **yes** |
-| 19 Sep 2026 | A9.2 | `inconclusiva` | **unchanged** | — | DOC-8 addresses a different object; see [`claims.md`](claims.md) A9.4 |
-| 19 Sep 2026 | A10.1, A10.2, A16.1 | — | **unchanged — gate still closed** | — | Re-carding of DOC-1/2/3 and OCR of the 6 Aug 2001 PDB both outstanding |
-| 19 Sep 2026 | U-01 … U-18, U-N1, U-N2 | — (new rows) | see [`claims.md`](claims.md) §5A | DOC-8 | 14 of 18 rows image-verified |
-| 19 Sep 2026 | Priority 1 (al-Mihdhar/al-Hazmi node) | "untouched" | **"touched, inconclusive"** | DOC-8 pp. 1–2 | p.1 yes; p.2 **no** |
-| 19 Sep 2026 | T-N1 (DOC-7 negative finding) | recorded | **re-verified under transliteration variants; holds** | DOC-7, re-run | n/a |
-| 19 Sep 2026 | DISC-006 | open, EC2 favoured | **EC2 substantially confirmed**; residual scope gap recorded | DOC-8 p.3 | **yes** |
-| 19 Sep 2026 | DISC-007 … DISC-011 | — (new) | open | DOC-7 / DOC-8 | mixed |
-| 19 Sep 2026 | H0–H7 | — | **unchanged** | DOC-8 is not positive evidence for, nor exclusion of, any hypothesis | — |
+### Event classes (MD-018, added 19 September 2026 — defect #24)
+
+The ledger previously recorded container→atomic derivations as `status change`, with the Phase A **container** value in the "Old" column. That contradicts MD-007, which states that containers **have no status of their own** — there was no old status to change from. Six rows derived the same way (A2.3, A2.4, A4.4, A7.1, A8.1, **A9.1**) carried no event at all, so the same operation was being recorded two different ways and, for six rows, not at all.
+
+**Neither option considered in planning was adopted.** Deleting the container values would discard genuinely useful information; adding six more `status change` rows would propagate the category error. Instead the ledger now distinguishes three classes, and container→atomic derivation is uniformly the second:
+
+| Class | Meaning | Sets `closed`? |
+|---|---|---|
+| `status change` | A row's status moved because evidence moved it | eligible |
+| `initial assignment` | A new atomic row received its first status. Where it derives from a Phase A container, the container's table value is recorded **for reference only** — it is not an "old status", because MD-007 gives containers none | no |
+| `taxonomic migration` | The token changed because the vocabulary was re-partitioned; evidence fields byte-identical, inferential weight unchanged ([`../docs/04` §9.2](../docs/04-controlling-methodology.md)) | **never** |
+
+| Date | Row | Class | Old / container ref. | New | Moved by | Image-verified |
+|---|---|---|---|---|---|---|
+| 19 Sep 2026 | A1.2 | `initial assignment` | container ref. `documento citado, não localizado` | `inconclusiva` | DOC-7 pp. 1, 16 | no (text layer) |
+| 19 Sep 2026 | A3.1 | `initial assignment` | container ref. `declaração não corroborada` | `parcialmente corroborada` | DOC-7 p.3 | **yes** |
+| 19 Sep 2026 | A3.2 | `initial assignment` | container ref. `declaração não corroborada` | `inconclusiva` | DOC-7 p.4 | **yes** |
+| 19 Sep 2026 | A4.1 | `initial assignment` | container ref. `documento citado, não localizado` | `parcialmente corroborada` | DOC-7 p.5 | **yes** |
+| 19 Sep 2026 | A4.2 | `initial assignment` | container ref. `documento citado, não localizado` | `contradita`, scope: absolute form only | DOC-7 p.5 | **yes** |
+| 19 Sep 2026 | A4.5 | `initial assignment` | — (no container) | `parcialmente corroborada` | DOC-7 p.5 | **yes** |
+| 19 Sep 2026 | A5.1 | `initial assignment` | container ref. `declaração não corroborada` | `parcialmente corroborada` | DOC-7 p.4 | **yes** |
+| 19 Sep 2026 | A5.2 | `initial assignment` | container ref. `declaração não corroborada` | `contradita` | DOC-7 p.4 | **yes** |
+| 19 Sep 2026 | A7.2 | `initial assignment` | container ref. `declaração não corroborada` | `inconclusiva` | DOC-7 p.12 | no (text layer) — **flagged for verification** |
+| 19 Sep 2026 | A14.1 | `initial assignment` | container ref. `declaração não corroborada` | `parcialmente corroborada` | DOC-7 p.5 | **yes** |
+| 19 Sep 2026 | A15.1–A15.4 | `initial assignment` | container ref. `corroborada` | `corroborada` + `independence: none (self-description)` | MD-002, no new document | n/a |
+| **19 Sep 2026 (correction cycle, commit 2)** | | | | | | |
+| 19 Sep 2026 | A2.3 | `initial assignment` | container ref. `documento citado, não localizado` | `declaração não corroborada` | DOC-7 (nothing on A2) | n/a — **event was missing, added retroactively** |
+| 19 Sep 2026 | A2.4 | `initial assignment` | container ref. `documento citado, não localizado` | `declaração não corroborada` | DOC-7 (nothing on A2) | n/a — **added retroactively** |
+| 19 Sep 2026 | A4.4 | `initial assignment` | container ref. `documento citado, não localizado` | `declaração não corroborada` | decomposition of A4 | n/a — **added retroactively** |
+| 19 Sep 2026 | A7.1 | `initial assignment` | container ref. `declaração não corroborada` | `corroborada` (as a statement in DOC-3) | decomposition of A7 | no — **added retroactively** |
+| 19 Sep 2026 | A8.1 | `initial assignment` | container ref. `parcialmente corroborada` | `documento citado, não localizado` | decomposition of A8 | no — **added retroactively** |
+| 19 Sep 2026 | A9.1 | `initial assignment` | container ref. `inconclusiva` | `contradita`, scope: absolute form only | DOC-1's 24 core-group articles | no — **added retroactively; a move to a terminal-looking status that carried no event** |
+| 19 Sep 2026 | A7.1 | **`taxonomic migration`** | `corroborada` (as a statement in DOC-3) | **`document_attested`** | vocabulary re-partition, MD-017 | n/a — evidence fields byte-identical |
+| 19 Sep 2026 | A15.1, A15.2, A15.3, A15.4 | **`taxonomic migration`** | `corroborada` | **`document_attested`** | vocabulary re-partition, MD-017 | n/a — **gated rows; migration cannot set `closed`, gate untouched** |
+| 19 Sep 2026 | U-01 | **`taxonomic migration`** | `corroborada` (as a statement in DOC-8) | **`document_attested`** | vocabulary re-partition, MD-017 | n/a |
+| 19 Sep 2026 | U-08 | **`taxonomic migration`** | `corroborada` (as a statement in DOC-8) | **`document_attested`** | vocabulary re-partition, MD-017 | n/a |
+| 19 Sep 2026 | A4.2, A9.1 | `status change` | status cell carried a parenthetical | bare token + new `Scope` column | defect #21, no new document | n/a |
+| 19 Sep 2026 | H0–H7 | — | — | **unchanged in commit 2** | no document read | — |
+| 19 Sep 2026 | T-01 … T-13, T-N1 | `initial assignment` | — (no container) | see [`claims.md`](claims.md) §5 | DOC-7 | partial |
+| 19 Sep 2026 | H0–H7 | — | — | **unchanged** | — | — |
+| **19 Sep 2026 (DOC-8 session)** | | | | | | |
+| 19 Sep 2026 | A9.4 | `initial assignment` | — (no container) | `parcialmente corroborada` | DOC-8 p.10 | **yes** |
+| 19 Sep 2026 | A9.2 | — | `inconclusiva` | **unchanged** | — | DOC-8 addresses a different object; see [`claims.md`](claims.md) A9.4 |
+| 19 Sep 2026 | A10.1, A10.2, A16.1 | — | — | **unchanged — gate still closed** | — | Re-carding of DOC-1/2/3 and OCR of the 6 Aug 2001 PDB both outstanding |
+| 19 Sep 2026 | U-01 … U-18, U-N1, U-N2 | `initial assignment` | — (no container) | see [`claims.md`](claims.md) §5A | DOC-8 | 14 of 18 rows image-verified |
+| 19 Sep 2026 | Priority 1 (al-Mihdhar/al-Hazmi node) | `status change` | "untouched" | **"touched, inconclusive"** | DOC-8 pp. 1–2 | p.1 yes; p.2 **no** |
+| 19 Sep 2026 | T-N1 (DOC-7 negative finding) | — | recorded | **re-verified under transliteration variants; holds** | DOC-7, re-run | n/a |
+| 19 Sep 2026 | DISC-006 | `status change` | open, EC2 favoured | **EC2 substantially confirmed**; residual scope gap recorded | DOC-8 p.3 | **yes** |
+| 19 Sep 2026 | DISC-007 … DISC-011 | `initial assignment` | — (new) | open | DOC-7 / DOC-8 | mixed |
+| 19 Sep 2026 | H0–H7 | — | — | **unchanged** | DOC-8 is not positive evidence for, nor exclusion of, any hypothesis | — |
 
 ### 3.1 Access-state change events
 

@@ -28,6 +28,10 @@
 
 **Distance event → facts described: 3 to 8 years.** The facts described run from 1998 to September 2001, plus commentary on the state of affairs in 2004. Under the three-dates rule ([`../../docs/03` §1.1](../../docs/03-phase2a-mfr-verification.md)), **this document is not a contemporaneous record of anything it describes.**
 
+**Evidentiary ceiling.** This document can establish: what the witness said on 28 January 2004, and what CIA officials and Commission staff said in the room. It **cannot** establish: any fact of 1998–2001 as against a contemporaneous record; anything about the Kuala Lumpur episode on the witness's own authority, since the Commission's Executive Director disqualified him on the record as not first-hand (U-01); Berger's actual account, which reaches this project only as a staff paraphrase (U-09); or anything about Nawaf al-Hazmi, whom it never mentions (U-N1).
+
+**Claims tested:** A9.4; U-01 … U-18; U-N1, U-N2; DISC-006 through DISC-011.
+
 ---
 
 ## 2. Procedural status — an oath carried, not administered

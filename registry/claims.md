@@ -31,7 +31,7 @@ Every atomic proposition carries these fields. Where a field is not yet determin
 
 ## 2. Status vocabulary (closed — unchanged from [`../docs/03`](../docs/03-phase2a-mfr-verification.md) §5)
 
-`declaração não corroborada` · `documento citado, não localizado` · `documento localizado, não lido` · `parcialmente corroborada` · `corroborada` · `contradita` · `inconclusiva`
+`declaração não corroborada` · `documento citado, não localizado` · `documento localizado, não lido` · `parcialmente corroborada` · `corroborada` · `contradita` · `inconclusiva` · **`document_attested`**
 
 The vocabulary is retained in Portuguese deliberately: it is the same closed vocabulary already applied to the sixteen Phase A rows, and translating the tokens would silently break comparability with [`../docs/03`](../docs/03-phase2a-mfr-verification.md) §5. Glossary:
 
@@ -44,10 +44,38 @@ The vocabulary is retained in Portuguese deliberately: it is the same closed voc
 | `corroborada` | corroborated (requires a source independent of the claimant, read in full) |
 | `contradita` | contradicted (requires the contradicting source read in full) |
 | `inconclusiva` | inconclusive |
+| **`document_attested`** | **(new, 19 Sep 2026 — MD-017)** see §2.1 |
+
+**Normative English aliases.** All new operational writing uses the English alias; the Portuguese strings remain valid only as the identifiers already printed in [`../docs/03` §5](../docs/03-phase2a-mfr-verification.md), which is Tier 1 and is not edited.
+
+| Identifier (frozen) | Normative English alias |
+|---|---|
+| `declaração não corroborada` | `uncorroborated_statement` |
+| `documento citado, não localizado` | `document_cited_not_located` |
+| `documento localizado, não lido` | `document_located_not_read` |
+| `parcialmente corroborada` | `partially_corroborated` |
+| `corroborada` | `corroborated` |
+| `contradita` | `contradicted` |
+| `inconclusiva` | `inconclusive` |
+| `document_attested` | (English-native; no Portuguese identifier) |
+
+### 2.1 `document_attested` (MD-017)
+
+> **`document_attested`** — the proposition is explicitly present in the reviewed artifact and locator, subject to the recorded limitations of version, redaction, missing page and completeness.
+
+The token exists because `corroborada` was doing two different jobs: *a proposition corroborated by a source independent of the claimant*, and *a proposition merely present in the artifact*. Those are different findings and were sharing one label.
+
+Three things the wording does deliberately:
+
+- **It does not assert truth, and it does not say "indisputably contains".** Textual presence and truth are different propositions; conflating them is the defect being fixed, not a shortcut to re-introduce in the replacement.
+- **It binds the token to the artifact *and locator* actually reviewed** — the specific version, at the specific page or anchor. A statement attested in a 2006 PDF at printed p.N is not thereby attested in a later HTML re-render with no pagination.
+- **It carries the limitations forward.** Every row taking this token records which of **version · redaction · missing page · completeness** apply, or `none recorded`.
+
+`document_attested` always carries `independence: none (self-description)`. It can never be upgraded to `corroborada` by repetition of the same artifact; that requires a source with a different provenance root.
 
 Application rules from `03` §5 remain in force, with one addition under [`04` §0.2](../docs/04-controlling-methodology.md):
 
-> **Addition (MD-002).** `corroborada` on the strength of a document's self-description establishes *officially asserted*, not *independently corroborated*. Such rows carry `independence: none (self-description)`.
+> **Addition (MD-002), superseded in part 19 Sep 2026.** `corroborada` on the strength of a document's self-description establishes *officially asserted*, not *independently corroborated*. Such rows now take **`document_attested`** (§2.1) rather than `corroborada`, and carry `independence: none (self-description)`.
 
 ---
 
@@ -97,13 +125,13 @@ Assertion type: `recollection` (of a 1998 briefing, given in 2004). This is a se
 
 ### A4 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): Saudi non-cooperation
 
-| ID | Proposition | Status | Moved | Closure condition |
-|---|---|---|---|---|
-| A4.1 | Obtaining direct access to individuals in Saudi custody or reach was a persistent problem for CIA | `parcialmente corroborada` | **yes** — was `documento citado, não localizado` | A contemporaneous 1996–2001 record of a refused access request |
-| A4.2 | The Saudis never provided useful information on UBL (absolute form) | `contradita` | **yes** — was `documento citado, não localizado` | — contradicted; see note |
-| A4.3 | Saudi Arabia gave sanctuary to al-Qa'ida financier Madani al-Tayyib | `documento citado, não localizado` | no | An independent contemporaneous record. **Possible circularity — see [`provenance.md`](provenance.md) PR-004** |
-| A4.4 | The non-cooperation was systematic and deliberate rather than episodic | `declaração não corroborada` | no | A pattern established from contemporaneous records, not recollection |
-| A4.5 | Saudi cooperation on UBL was materially incomplete | `parcialmente corroborada` | **new row** | Contemporaneous record of what was requested and what was supplied |
+| ID | Proposition | Status | Scope | Moved | Closure condition |
+|---|---|---|---|---|---|
+| A4.1 | Obtaining direct access to individuals in Saudi custody or reach was a persistent problem for CIA | `parcialmente corroborada` | — | **yes** — was `documento citado, não localizado` | A contemporaneous 1996–2001 record of a refused access request |
+| A4.2 | The Saudis never provided useful information on UBL | `contradita` | **absolute form only** — the proposition as literally stated | **yes** — was `documento citado, não localizado` | — contradicted; see note |
+| A4.3 | Saudi Arabia gave sanctuary to al-Qa'ida financier Madani al-Tayyib | `documento citado, não localizado` | — | no | An independent contemporaneous record. **Possible circularity — see [`provenance.md`](provenance.md) PR-004** |
+| A4.4 | The non-cooperation was systematic and deliberate rather than episodic | `declaração não corroborada` | — | no | A pattern established from contemporaneous records, not recollection |
+| A4.5 | Saudi cooperation on UBL was materially incomplete | `parcialmente corroborada` | — | **new row** | Contemporaneous record of what was requested and what was supplied |
 
 **A4.1 / A4.5 change note (image-verified).** DOC-7 printed p.5, checked against page image:
 
@@ -148,10 +176,10 @@ A5.2 is contradicted by the decision-maker's own account of his own decision, gi
 
 ### A7 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): Pakistani service and UBL
 
-| ID | Proposition | Status | Moved | Closure condition |
-|---|---|---|---|---|
-| A7.1 | Scheuer characterized an instrumental ISI–UBL training relationship as "too conspiratorial" | `corroborada` (as a statement in DOC-3) | no | — established only as *appearing in the document* |
-| A7.2 | No instrumental relationship existed between the Pakistani service and UBL for training | `inconclusiva` | **yes** — was carried at container level as `declaração não corroborada` | Contemporaneous reporting on ISI–UBL contacts |
+| ID | Proposition | Status | Scope | Moved | Closure condition |
+|---|---|---|---|---|---|
+| A7.1 | Scheuer characterized an instrumental ISI–UBL training relationship as "too conspiratorial" | `document_attested` | DOC-3, text layer; limitations: **version** n/a, **redaction** heavy in DOC-3, **missing page** none, **completeness** whole document read | no | — established only as present in the reviewed artifact |
+| A7.2 | No instrumental relationship existed between the Pakistani service and UBL for training | `inconclusiva` | — | **yes** — was carried at container level as `declaração não corroborada` | Contemporaneous reporting on ISI–UBL contacts |
 
 **Change note.** DOC-7 p.12: "Tenet commented that the Pakistanis could have delivered ½ of UBL's lieutenants if they had wanted to, but were cooperating with UBL." Two witnesses give incompatible impressions — Scheuer under oath ⁽ᵃ⁾, Tenet under oath (image-verified) — but of different objects: Scheuer addresses an instrumental *training* relationship; Tenet addresses *cooperation* with UBL generally. EC1 is strongly live. DISC-004. Not image-verified (text layer only) — flagged.
 
@@ -165,12 +193,12 @@ A5.2 is contradicted by the decision-maker's own account of his own decision, gi
 
 ### A9 — container (Rice): "all of the reporting pointed abroad"
 
-| ID | Proposition | Status | Moved | Closure condition |
-|---|---|---|---|---|
-| A9.1 | No PDB-channel reporting in the relevant window described attacks inside the United States | `contradita` (absolute form) | no | — DOC-1 records 24 core-group articles on attacks in the US and/or aircraft |
-| A9.2 | The reporting stream in summer 2001 predominantly indicated attacks abroad | `inconclusiva` | no | Month-by-month distribution of the 353-article corpus, with denominators |
-| A9.3 | Rice's statement was scoped to summer 2001 rather than 1998–2001 | `inconclusiva` | no | The full text of her statement in context |
-| A9.4 | During the summer 2001 threat period, the reporting CIA was receiving pointed almost exclusively overseas | `parcialmente corroborada` | **new row (DOC-8)** | Month-by-month distribution of the reporting with denominators |
+| ID | Proposition | Status | Scope | Moved | Closure condition |
+|---|---|---|---|---|---|
+| A9.1 | No PDB-channel reporting in the relevant window described attacks inside the United States | `contradita` | **absolute form only** | no | — DOC-1 records 24 core-group articles on attacks in the US and/or aircraft |
+| A9.2 | The reporting stream in summer 2001 predominantly indicated attacks abroad | `inconclusiva` | — | no | Month-by-month distribution of the 353-article corpus, with denominators |
+| A9.3 | Rice's statement was scoped to summer 2001 rather than 1998–2001 | `inconclusiva` | — | no | The full text of her statement in context |
+| A9.4 | During the summer 2001 threat period, the reporting CIA was receiving pointed almost exclusively overseas | `parcialmente corroborada` | CIA's own receiving stream, not the corpus distribution | **new row (DOC-8)** | Month-by-month distribution of the reporting with denominators |
 
 **A9.4 is a new proposition and is deliberately not A9.2.** DOC-8 printed p.10, image-verified:
 
@@ -213,13 +241,15 @@ A second witness, independent of Rice, under oath (carried over; see [`witness-s
 
 | ID | Proposition | Status | Independence | Closure condition |
 |---|---|---|---|---|
-| A15.1 | The reviewed corpus comprised 353 PDB articles (1998 – 20 Sep 2001) on the defined topics | `corroborada` | **none (self-description)** | An external index of the corpus |
-| A15.2 | A "core group" of 24 articles was identified | `corroborada` | **none (self-description)** | Same |
-| A15.3 | The Review Team comprised 4 people, including Chair and Vice-Chair | `corroborada` | **none (self-description)** | Commission–White House correspondence; the memo's distribution list |
-| A15.4 | A subcommittee of 2 had access to the remainder | `corroborada` | **none (self-description)** | Same |
+| A15.1 | The reviewed corpus comprised 353 PDB articles (1998 – 20 Sep 2001) on the defined topics | `document_attested` | **none (self-description)** | An external index of the corpus |
+| A15.2 | A "core group" of 24 articles was identified | `document_attested` | **none (self-description)** | Same |
+| A15.3 | The Review Team comprised 4 people, including Chair and Vice-Chair | `document_attested` | **none (self-description)** | Commission–White House correspondence; the memo's distribution list |
+| A15.4 | A subcommittee of 2 had access to the remainder | `document_attested` | **none (self-description)** | Same |
 | A16.1 | The 6 Aug 2001 PDB carried a bolded caveat that CIA could not corroborate the most sensational reporting | `documento localizado, não lido` | — | **BLOCKED** — the PDB text; DOC-1 re-carded |
 
-> **MD-002 applied.** A15.1–A15.4 are established as *officially asserted by the document that describes itself*. None is independently corroborated. The `corroborada` status recorded in Phase A is retained, and the independence column now states the limit explicitly. Determinations 5a–5d in [`../docs/03` §4](../docs/03-phase2a-mfr-verification.md) remain open.
+> **MD-002 applied.** A15.1–A15.4 are established as *officially asserted by the document that describes itself*. None is independently corroborated. Determinations 5a–5d in [`../docs/03` §4](../docs/03-phase2a-mfr-verification.md) remain open.
+>
+> **Taxonomic migration, 19 September 2026 (MD-016, MD-017).** These four rows moved `corroborada` → `document_attested`. This is a **re-partition of the vocabulary, not a re-decision of the propositions**: their supporting evidence, contrary evidence, provenance root and independence are byte-identical before and after, and the inferential weight is unchanged. The four rows sit behind the re-carding blocking gate; **a taxonomic migration cannot set the `closed` boolean** ([`../docs/04` §9.1–9.2](../docs/04-controlling-methodology.md)), so the gate is untouched by it. Limitations recorded per §2.1: DOC-1, agency OCR (poor, sense reconstructed by context); limitations: **redaction** extensive 25X1/25X3, **completeness** whole document read, **missing page** none recorded, **version** single release — **not image-verified, under the re-carding gate**.
 
 ---
 
@@ -269,14 +299,14 @@ Card: [`cards/DOC-8-mfr-tenet-3.md`](cards/DOC-8-mfr-tenet-3.md). Page-image cov
 
 | ID | Proposition | Speaker | Assertion type | Status | Image-verified | Closure condition |
 |---|---|---|---|---|---|---|
-| U-01 | The DCI had not reviewed the material on the Kuala Lumpur episode, and the Commission's Executive Director acknowledged on the record that the DCI is not a first-hand witness to it | Tenet / Zelikow | access/process statement | `corroborada` (as a statement in DOC-8) | **yes** (p.1) | — established only as *appearing in the document* |
+| U-01 | The DCI had not reviewed the material on the Kuala Lumpur episode, and the Commission's Executive Director acknowledged on the record that the DCI is not a first-hand witness to it | Tenet / Zelikow | access/process statement | `document_attested` | **yes** (p.1) | — established only as *appearing in the document* |
 | U-02 | The FBI was far more aware of the Kuala Lumpur meeting than had previously been made public, and the Joint Inquiry misinterpreted the episode | Tenet | analytical judgment, **expressly not first-hand** | `declaração não corroborada` | **yes** (p.1) | The underlying reporting; the Joint Inquiry text; FBI records |
 | U-03 | The Commission had evidence that FBI was informed of the matter by CIA; former FBI Director Freeh briefed the Commission on it twice; the Commission noted this in its January 2004 staff statement | Zelikow (Commission staff) | editorial interpretation | `documento citado, não localizado` | **yes** (p.1) | The January 2004 staff statement; the Freeh briefing records |
 | U-04 | CIA asked NSA to put al-Midhar on a watchlist, and having placed individuals on the NSA tipper would have expected NSA to pass on further undisseminated information unasked | Russo (**not under oath**) | third-party report | `declaração não corroborada` | ❌ **p.2 not verified** | The watchlisting request itself; NSA records |
 | U-05 | CIA was, as of January 2004, reviewing every file back to [REDACTED] to identify the participants in the Kuala Lumpur meeting | Tenet | access/process statement | `declaração não corroborada` | ❌ p.2 | The review's output, if any |
 | U-06 | The DCI does not recall the Kuala Lumpur case being highlighted for him; "the case did not leap out at him" | Tenet | recollection | `declaração não corroborada` | ❌ **p.2 not verified** | Not independently testable as to his state of mind; contemporaneous routing records would bound it |
 | U-07 | The witness corrected his 22 January 2004 statement: the 10 March 2000 after-action report at NSC did address homeland security, having immigration and US–Canadian border security on its agenda | Tenet | **correction of his own earlier statement** | `parcialmente corroborada` | **yes** (p.3) | The after-action report itself |
-| U-08 | The DCI's recollection of CIA's *Cole* investigation was entirely dependent on the documents in his briefing book | Tenet | access/process statement | `corroborada` (as a statement in DOC-8) | **yes** (p.5) | — see [`provenance.md`](provenance.md) PR-011 |
+| U-08 | The DCI's recollection of CIA's *Cole* investigation was entirely dependent on the documents in his briefing book | Tenet | access/process statement | `document_attested` | **yes** (p.5) | — see [`provenance.md`](provenance.md) PR-011 |
 | U-09 | The DCI was surprised at the notion that NSC awaited his conclusive judgment on *Cole* responsibility before acting, and had no recollection of anyone telling him so — whereas Berger told the Commission the USG was essentially waiting for that judgment | Tenet vs. Berger (via staff note) | recollection vs. third-party report | `inconclusiva` | **yes** (p.5) | **MFR Berger, unread.** See [DISC-010](discrepancies.md#disc-010) |
 | U-10 | The DCI did not review the March 2001 draft MON and Finding before handing them to NSC; he read the EXDIR Krongard cover note from his briefing binder, which recorded the documents as an expansion of CIA's authorities and their preparation as "backwards" | Tenet | access/process statement + quotation of a 2001 document | `documento citado, não localizado` | **yes** (p.8) | **The Krongard cover note and the draft MON** |
 | U-11 | The March 2001 draft MON needed to authorise direct kill authority in order to make use of armed Predator | Bonk (**not under oath**), agreed by Moseman | analytical judgment | `declaração não corroborada` | **yes** (p.8) | The draft MON |
