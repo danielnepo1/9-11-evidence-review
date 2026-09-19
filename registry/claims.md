@@ -73,10 +73,10 @@ Sources: DOC-1 (*Report on Review of PDB Articles*, 09 Feb 2004), DOC-2 (MFR Ric
 |---|---|---|---|---|
 | A2.1 | A text on WMD was prepared for the 25 Mar 1999 PDB | `documento citado, não localizado` | no | The internal memorandum; testimony of the PDB author named in DOC-3 |
 | A2.2 | It was removed before publication | `documento citado, não localizado` | no | Same. **The published PDB cannot test this** — `03` §4 priority 3 |
-| A2.3 | Removal was directed by or on behalf of the DCI | `declaração não corroborada` | no | Contemporaneous direction record; Tenet MFRs #1 and #3 |
+| A2.3 | Removal was directed by or on behalf of the DCI | `declaração não corroborada` | no | Contemporaneous direction record; Tenet MFR #1 |
 | A2.4 | The purpose was to conceal a ~2-year delay in passing information to the FBI | `declaração não corroborada` | no | Same, plus the FBI transmission record |
 
-DOC-7 contains nothing on A2. Tenet MFRs #1 (23 Dec 2003) and #3 (28 Jan 2004) remain unread.
+DOC-7 contains nothing on A2. Tenet MFR #3 (28 Jan 2004) was read as DOC-8 and contains nothing on A2 either. Tenet MFR #1 (23 Dec 2003) remains unread.
 
 ### A3 — container (Scheuer, DOC-3 — oath recorded in the document, not image-verified): 30% vs 0%
 
@@ -170,7 +170,6 @@ A5.2 is contradicted by the decision-maker's own account of his own decision, gi
 | A9.1 | No PDB-channel reporting in the relevant window described attacks inside the United States | `contradita` (absolute form) | no | — DOC-1 records 24 core-group articles on attacks in the US and/or aircraft |
 | A9.2 | The reporting stream in summer 2001 predominantly indicated attacks abroad | `inconclusiva` | no | Month-by-month distribution of the 353-article corpus, with denominators |
 | A9.3 | Rice's statement was scoped to summer 2001 rather than 1998–2001 | `inconclusiva` | no | The full text of her statement in context |
-
 | A9.4 | During the summer 2001 threat period, the reporting CIA was receiving pointed almost exclusively overseas | `parcialmente corroborada` | **new row (DOC-8)** | Month-by-month distribution of the reporting with denominators |
 
 **A9.4 is a new proposition and is deliberately not A9.2.** DOC-8 printed p.10, image-verified:
@@ -226,16 +225,9 @@ A second witness, independent of Rice, under oath (carried over; see [`witness-s
 
 ## 4. Competing-explanation fields (EC1–EC5)
 
-Every discrepancy carries a full EC analysis — predicted evidence, weakening evidence, discriminating evidence, what is currently available, what is inaccessible, and whether the same evidence fits more than one class. Those analyses live in [`discrepancies.md`](discrepancies.md) §3 to avoid duplicating them per claim row. The mapping is:
+Every discrepancy carries a full EC analysis — predicted evidence, weakening evidence, discriminating evidence, what is currently available, what is inaccessible, and whether the same evidence fits more than one class. Those analyses live in [`discrepancies.md`](discrepancies.md) §3 to avoid duplicating them per claim row.
 
-| Claim rows | Discrepancy |
-|---|---|
-| A1.2 | [DISC-001](discrepancies.md#disc-001) |
-| A3.1, A3.2, T-01, T-02, T-04 | [DISC-002](discrepancies.md#disc-002) |
-| A4.1, A4.2, A5.1, A5.2, T-05 | [DISC-003](discrepancies.md#disc-003) |
-| A7.2 | [DISC-004](discrepancies.md#disc-004) |
-| T-06, T-07, T-09 | [DISC-005](discrepancies.md#disc-005) |
-| DOC-7 document integrity | [DISC-006](discrepancies.md#disc-006) |
+> **Single source of truth (corrected 19 Sep 2026, defects #11, #12, #33).** The claim-row ↔ discrepancy relation is maintained in **[`discrepancies.md`](discrepancies.md) §2 only**. This file previously restated it in a partial table that mapped DISC-005 to T-06/T-07/T-09 — DISC-005 governs **T-08** — and omitted DISC-007 through DISC-011 while presenting itself as "The mapping". Two partial, non-authoritative views of one relation is the defect; the restatement has been removed rather than repaired.
 
 ---
 
@@ -332,6 +324,10 @@ Card: [`cards/DOC-8-mfr-tenet-3.md`](cards/DOC-8-mfr-tenet-3.md). Page-image cov
 |---|---|---|
 | Re-carding of DOC-1, DOC-2, DOC-3 under the image-verification standard | A8.2, A9.1, A10.1, A10.2, A15.1–A15.4, A16.1 and every conclusion depending on them | Re-reading the three documents against page images; [`cards/README.md`](cards/README.md) §3 |
 | OCR of the 6 Aug 2001 PDB | A10.1, A10.2, A16.1 | Access to the file plus OCR |
-| MFRs of Tenet #1 and #3, Clarke ×3, Berger, Scheuer #2 and #3 | A1.x, A2.x, A3.2, A3.3, T-01, T-04 | Reading the remaining eight MFRs |
+| MFRs of Tenet #1, Clarke ×3, Berger, Scheuer #2 and #3 | A1.x, A2.x, A3.2, A3.3, T-01, T-04 | Reading the remaining seven MFRs |
 | Source policy applied to a candidate set | The entire C-series | [`source-policy.md`](source-policy.md) |
 | B1 quarantine | Any reuse of B1 distributions | Permanent — B1 is invalidated, not pending |
+
+---
+
+⁽ᵃ⁾ **Oath qualifier.** DOC-3's oath is recorded in the document but has **not** been image-verified; DOC-3 is under the re-carding gate. See [`witness-status.md`](witness-status.md) §3. *(Footnote added 19 Sep 2026 — defect #28: the marker was in use at §3/A7 with no definition in this file.)*

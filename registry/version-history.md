@@ -59,6 +59,20 @@ Two things are tracked here and must not be confused:
 
 **Note.** The V1 transcript has still not been read in this project (A8.1). A version ledger built on a paraphrase of V1 is provisional.
 
+### VL-004 — This project's own framing of H1 and H5
+
+Recorded because the project's own wording is subject to the same discipline as its sources.
+
+| V | Date | Document | H1 | H5 |
+|---|---|---|---|---|
+| 1 | 17 Sep 2026 | [`../docs/02`](../docs/02-adversarial-audit-phase1.md) | "H1 reforçada… mais provável que não" | "Improvável no que foi lido; não testado onde importa" |
+| 2 | 19 Sep 2026 | [`../docs/03` §1.2, §1.3](../docs/03-phase2a-mfr-verification.md) | Documented bureaucratic failure and possible institutional self-protection; deliberate suppression **not** corroborated | No positive evidence in this tranche; **untested** at the al-Mihdhar/al-Hazmi node |
+| 3 | 19 Sep 2026 | this commit | **unchanged** | **unchanged** |
+
+**V3 note.** Reading DOC-7 did not change H0–H7. Per MD-009, this commit makes no substantive conclusions. DOC-7 contains no material on the al-Mihdhar/al-Hazmi node at all (T-N1), so H5 could not have been tested by it even in principle.
+
+---
+
 ### VL-005 — Whether the Millennium after-action review addressed homeland security
 
 The clearest instance in this corpus of a witness formally correcting himself, and therefore the cleanest calibration datum for how much weight a single MFR answer carries.
@@ -73,20 +87,6 @@ The clearest instance in this corpus of a witness formally correcting himself, a
 **Substantive or scope?** Substantive. V1 and V2 cannot both be true.
 **Watch flag.** V3 converts V2's "after-action report at NSC" into "Principals Committee meeting" with no new evidence offered. That is a small instance of the pattern this ledger exists to catch: an annotation that firms up and recharacterises the thing it summarises.
 **Calibration consequence.** An unqualified assertion by this witness, under oath, on a matter central to the inquiry, was wrong and was corrected within six days. That is a reason to treat every uncorroborated `declaração não corroborada` row in the T- and U-series as exactly what it is labelled.
-
-### VL-004 — This project's own framing of H1 and H5
-
-Recorded because the project's own wording is subject to the same discipline as its sources.
-
-| V | Date | Document | H1 | H5 |
-|---|---|---|---|---|
-| 1 | 17 Sep 2026 | [`../docs/02`](../docs/02-adversarial-audit-phase1.md) | "H1 reforçada… mais provável que não" | "Improvável no que foi lido; não testado onde importa" |
-| 2 | 19 Sep 2026 | [`../docs/03` §1.2, §1.3](../docs/03-phase2a-mfr-verification.md) | Documented bureaucratic failure and possible institutional self-protection; deliberate suppression **not** corroborated | No positive evidence in this tranche; **untested** at the al-Mihdhar/al-Hazmi node |
-| 3 | 19 Sep 2026 | this commit | **unchanged** | **unchanged** |
-
-**V3 note.** Reading DOC-7 did not change H0–H7. Per MD-009, this commit makes no substantive conclusions. DOC-7 contains no material on the al-Mihdhar/al-Hazmi node at all (T-N1), so H5 could not have been tested by it even in principle.
-
----
 
 ## 3. Change events in this repository
 
@@ -124,12 +124,65 @@ Every row change carries: date, row, old value, new value, the document that mov
 |---|---|---|
 | 19 Sep 2026, earlier session | All primary repositories blocked by network egress policy (403 on CONNECT) | [`../docs/03` §3](../docs/03-phase2a-mfr-verification.md) |
 | 19 Sep 2026, this session | **Access restored.** `www.archives.gov` and `www.intelligence.senate.gov` both returned HTTP 200 | Recorded in [`../SOURCES.md`](../SOURCES.md) and [`cards/DOC-7-mfr-tenet-2.md`](cards/DOC-7-mfr-tenet-2.md) §1 |
-
 | 19 Sep 2026, DOC-8 session | **DOC-8 retrieved and read in full.** MFR George Tenet #3, 28 Jan 2004, 13/13 pp.; 7/13 page images inspected | [`cards/DOC-8-mfr-tenet-3.md`](cards/DOC-8-mfr-tenet-3.md); [`../corpus/manifest.md`](../corpus/manifest.md) |
 
 The earlier failure record is **preserved, not overwritten**. It is an accurate record of that session's ceiling.
 
 ### 3.2 Corrections to earlier repository statements
+
+#### Commit 1 of the correction cycle — 34 defects found by independent adversarial review, 19 September 2026
+
+An independent adversarial pass over the whole repository found **34 internal defects**, 30 of them corrected in this commit. Each is listed with the defect quoted, the correction, and the tier rule applied. Four further defects (#21, #22, #23, #24) are methodological and are corrected in the next commit, because #23 must be defined before #22 is safe.
+
+**Tier rule applied throughout** ([`../docs/04`](../docs/04-controlling-methodology.md) §11): `docs/01`, `docs/02`, `docs/03` are **Tier 1 — inviolate**; `README.md`, `SOURCES.md`, `NEXT-STEPS.md` are **Tier 2 — corrigible only on lines authored in `cce4448` or `baf2198`**, verified per line with `git log -L`.
+
+| # | Defect | Location | Correction | Tier |
+|---|---|---|---|---|
+| 1 | Blocking gate named a document already read: "MFRs of Tenet #1 **and #3**… Reading the remaining **eight** MFRs" | `claims.md` §7 | "Tenet #1"; "seven" | n/a |
+| 2 | A2.3 closure condition "Tenet MFRs #1 and #3" | `claims.md` A2 | "Tenet MFR #1" | n/a |
+| 3 | "Tenet MFRs #1 … and #3 … remain unread" | `claims.md` A2 note | #3 read as DOC-8; #1 only remains | n/a |
+| 4 | "Tenet MFR #3 … is the first place to look, and is unread" | `cards/DOC-7-mfr-tenet-2.md` §8 | read as DOC-8; cross-referenced; notes that it answers none of the 27 items | n/a |
+| 5 | "Restam **oito** MFRs" | `README.md` | sete | **Tier 2**, line authored `cce4448` |
+| 6 | Tenet #3 row still 🔴 "não lido" | `SOURCES.md` | 🟢 read in full, card, SHA-256, image coverage | **Tier 2**, `cce4448` |
+| 7 | "**3** de 11 lidos" | `SOURCES.md` | 4 de 11 | **Tier 2**, `cce4448` |
+| 8 | "No other source status changed" — written for the DOC-7 session, never amended | `SOURCES.md` | scoped to that session + amendment recording DOC-8 | **Tier 2**, `cce4448` |
+| 9 | Superseded queue still published, Tenet #3 as "⏭ next" | `NEXT-STEPS.md` | **additive** supersession notice; the falsified rationale is left visible as the record of how the queue was wrong | **Tier 2**, `cce4448`, additions only |
+| **3′** | **"Fase 2B … Mesmo bloqueio (`intelligence.senate.gov`)" — stale; that host returned HTTP 200 the same day** | `README.md:134` | **NOT corrected in place.** `git log -L 134,134:README.md` shows the line was authored in **`f0007b5`**, a Phase A commit — therefore **Tier 1**. Recorded as errata in `docs/06` instead | **Tier 1 — errata only** |
+| 10 | "Fase 2A — Status: aberta, não executada" contradicts "Phase 2A is open and in progress" in the same file | `NEXT-STEPS.md:50` | **NOT corrected in place.** `git log -L` shows `f0007b5` — Tier 1. Covered by the #9 supersession notice and recorded as errata in `docs/06` | **Tier 1 — errata only** |
+| 11 | DISC-005 mapped to T-06, T-07, T-09; it governs **T-08** | `claims.md` §4 | mapping table removed | n/a |
+| 12 | §4 mapping omitted DISC-007…DISC-011 while presenting itself as "The mapping" | `claims.md` §4 | removed; see #33 | n/a |
+| 13 | February 1999 MON → T-06 | `docs/05` §4 | **T-08** | n/a |
+| 14 | UAE cable traffic → T-07 | `docs/05` §4 | **T-09** | n/a |
+| 15 | Scheuer memoranda → A1.2, A4.2 | `docs/05` §4 | **A1.2, A1.3, A4.1, A4.5** | n/a |
+| 16 | Cancellation memo → A3.1–A3.3 | `docs/05` §4 | **A3.1, A3.2, A5.2** | n/a |
+| 17 | KL operational record → U-01–U-06 | `docs/05` §4 | **U-01, U-02, U-04, U-06** | n/a |
+| 18 | p.2 redaction bears on "U-03, U-04" | `cards/DOC-8` §4.2 | **U-04, U-05** — U-03 is a p.1 note | n/a |
+| 19 | p.9 `25X1,X4` Predator C2 redaction → U-10, a p.8 row | `cards/DOC-8` §4.2, `provenance.md` §5 | **U-11** | n/a |
+| 20 | Cites "`03`, seção 2.5"; no such section exists | `docs/02:121` | **NOT corrected.** Pre-existing Phase A error, Tier 1. Translator's footnote ⁽ᵇ⁾ added to `en/docs/02-…en.md`; errata in `docs/06` | **Tier 1 — errata only** |
+| 25 | A9.4 rendered as an orphan headerless table | `claims.md` A9 | merged into the A9 table | n/a |
+| 26 | Prefix-allocation paragraph inside the ID-namespace table, orphaning the `MD-` row | `registry/README.md` | moved below the table | n/a |
+| 27 | DOC-8 access row separated from the §3.1 table | `version-history.md` §3.1 | merged | n/a |
+| 28 | Footnote marker ⁽ᵃ⁾ in use with no definition in the file | `claims.md` A7 | footnote defined at the foot of the file | n/a |
+| 29 | VL-005 placed before VL-004 | `version-history.md` §2 | reordered | n/a |
+| 30 | C-D7/C-D8 placed above C-D5/C-D6 | `docs/05` §5 | reordered | n/a |
+| 31 | Three numbering systems in play with no warning; reserved DOC-9 coincidentally equals ISCAP 9 | `registry/README.md` | explicit warning table naming all three | n/a |
+| 32 | Cards report "characters", manifest reports "bytes"; irreconcilable | both cards, `corpus/manifest.md` | three labelled figures; fidelity warning amended — see below | n/a |
+| 33 | `discrepancies.md` §2 and `claims.md` §4 were two partial, non-authoritative views of one relation | both | **`discrepancies.md` §2 is now authoritative**; `claims.md` §4 points to it | n/a |
+| 34 | C-D2 marked ✅ for DISC-001…DISC-011 though four rows lack the six fields `docs/04` §5 requires | `docs/05` §5 | downgraded to ⏳; DISC-004, DISC-008, DISC-009, DISC-011 named as owed | n/a |
+
+**Defect #32 — diagnosis.** The card figure is the sum of `extract_text()` across pages; the committed artifact additionally contains page delimiters **inserted by this project's extraction script**. Both numbers were correct for what they measured and neither said which.
+
+| Artifact | Extracted page text | Committed chars | Committed bytes | Delimiters |
+|---|---|---|---|---|
+| DOC-7 | 68,572 | 69,066 | 69,528 | 24 |
+| DOC-8 | 43,781 | 44,044 | 44,252 | 13 |
+
+The substantive consequence exceeds the arithmetic: **the committed extracted text is not raw extraction output.** `corpus/manifest.md` §2 described it as "the agency OCR as extracted, unedited", which was inaccurate and is corrected.
+
+**Three defects were reclassified during correction.** #3′, #10 and #20 were planned as in-place corrections. Per-line `git log -L` showed the affected lines predate this session and are therefore **Tier 1**. They are recorded as errata in `docs/06` and **not edited**. This is the tier rule working as designed: it caught three edits that would have altered the Phase A record.
+
+**Verified clean, recorded as such:** all six English companions' source hashes matched their Portuguese sources before this commit; `corpus/manifest.md` "Hash-change events: None recorded" was consistent and both committed text hashes verified.
+
 
 | Date | Statement corrected | Correction |
 |---|---|---|

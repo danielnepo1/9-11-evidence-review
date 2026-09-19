@@ -237,5 +237,5 @@ Rows whose resolution is gated on material the declassifying authority has withh
 | T-06 | Target locations and partner identities | DOC-7, printed pp. 8–9, 25X1 |
 | A1.x, A4.x (Phase A) | Extensive 25X1/25X3 across DOC-1 and DOC-3 | Recorded in [`../docs/02` §1.1](../docs/02-adversarial-audit-phase1.md) |
 | U-04, U-05 | The CIA retrieval-system name and the date range of the file review | DOC-8, printed p.2, 25X1 |
-| U-10 | Predator command-and-control constraints | DOC-8, printed p.9, **25X1, X4** — a different exemption category from the 25X1 used elsewhere in the release |
+| U-11 | Predator command-and-control constraints | DOC-8, printed p.9, **25X1, X4** — a different exemption category from the 25X1 used elsewhere in the release |
 | U-18 | The Moussaoui passage after the witness's first two sentences | DOC-8, printed pp. 11–12, 25X1 |

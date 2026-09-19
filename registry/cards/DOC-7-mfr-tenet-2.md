@@ -138,7 +138,7 @@ The MFR ends with two lists. They are an inventory of gaps, written by the Commi
 
 > **Item 19 of the first list and item 2 of the second are registry-relevant.** Item 19 names two 1999 articles on Saudi conduct that the Commission itself flagged and did not resolve — directly relevant to Phase 2B. Item 2 is the briefing paper that Q12 shows the witness reading from: see [`../provenance.md`](../provenance.md) PR-006.
 
-Whether any of the 27 items was ever answered is **unknown**. Tenet MFR #3 (28 January 2004) is the first place to look, and is unread.
+Whether any of the 27 items was ever answered is **unknown**. Tenet MFR #3 (28 January 2004) was the first place to look and has now been read as **DOC-8** — [`DOC-8-mfr-tenet-3.md`](DOC-8-mfr-tenet-3.md). It carries **no consolidated follow-up list of its own** and answers none of the 27 items explicitly; that finding is one of the two premises whose falsification produced [DISC-007](../discrepancies.md#disc-007).
 
 ---
 
@@ -147,7 +147,7 @@ Whether any of the 27 items was ever answered is **unknown**. Tenet MFR #3 (28 J
 | Date | Action | Result |
 |---|---|---|
 | 19 Sep 2026 | HTTP GET of the NARA URL | 200. Access restored; earlier 403 record preserved |
-| 19 Sep 2026 | Text extraction, `pypdf` 6.19.0 | 24 pages, 68,572 characters. Text layer present on every page |
+| 19 Sep 2026 | Text extraction, `pypdf` 6.19.0 | 24 pages. **Extracted page text: 68,572 characters** (sum of `extract_text()` across pages, excluding project-inserted page markers). Committed artifact: **69,066 characters / 69,528 bytes** — the difference is 24 `=== PDF PAGE n ===` delimiters inserted by this project's script. Text layer present on every page |
 | 19 Sep 2026 | Full read, pp. 1–24 | Complete |
 | 19 Sep 2026 | Exhaustive string search for the al-Mihdhar/al-Hazmi node | Zero hits — T-N1 |
 | 19 Sep 2026 | Page-image extraction, `jbig2dec` 0.20 | pp. 3, 4, 5, 19 rendered |

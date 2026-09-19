@@ -27,6 +27,8 @@
 > |---|---|---|
 > | 1 | **Tenet #2 (22 Jan 2004)** | ✅ **read in full, carded, ingested into the registry** — [`registry/cards/DOC-7-mfr-tenet-2.md`](registry/cards/DOC-7-mfr-tenet-2.md) |
 > | 2 | Tenet #3 (28 Jan 2004) | ⏭ **next.** Chosen over Tenet #1 because DOC-7 names it as the session in which the witness returned to the February 1999 MON, and because it is the first place the 27 declared follow-up items of DOC-7 §8 could have been answered |
+>
+> **⚠️ SUPERSEDED 19 September 2026 — see `docs/06-audit-program-v2.md` (added later in this pull request).** Tenet #3 was read as DOC-8, and **both premises stated in row 2 were falsified by reading it**: the MFR of the 28 January session contains no reference to the February 1999 MON, and it carries no follow-up list. That falsification produced [DISC-007](registry/discrepancies.md#disc-007). The rationale is left visible because it is the record of how the queue was wrong. **The live queue is in `docs/06`.**
 > | 3 | Tenet #1 (23 Dec 2003) | open |
 > | 4–6 | Clarke ×3 | open |
 > | 7 | Berger | open — the second side of the May 1998 cancellation (A3.2, T-04) |

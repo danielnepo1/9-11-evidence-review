@@ -30,6 +30,18 @@ No row is silently overwritten. A status change requires a dated entry in [`vers
 | `DISC-<nnn>` | Discrepancy ledger row | DISC-001 … DISC-011 |
 | `PR-<nnn>` | Provenance chain | PR-001 … PR-013 |
 | `EC1`–`EC5` | Explanation class (never `H1`–`H5` — see `04` MD-001) | fixed |
+| `MD-<nnn>` | Methodological decision | MD-001 … MD-014 |
 
 **Prefix allocation rule.** Claim prefixes are assigned **per source document**, one letter each, in reading order: `T` = DOC-7, `U` = DOC-8, then `V`, `W`, … for DOC-9 onward. `A` is reserved for the Phase A legacy containers and `C` for critical/alternative claims; neither is reallocated.
-| `MD-<nnn>` | Methodological decision | MD-001 … MD-014 |
+
+### Three numbering systems are in play, and they do not correspond
+
+A `DOC-n` identifier is **this project's** sequence, assigned in reading order. It is not NARA's and not the Commission's. Do not infer a relation between them.
+
+| System | Range | Relation to `DOC-n` |
+|---|---|---|
+| **`DOC-n`** — this project, reading order | DOC-1 … DOC-8 assigned | — |
+| **ISCAP 2026-201 document numbers** — NARA's release sequence | 1 … 11 | **No correspondence.** DOC-2 = ISCAP 5; DOC-3 = ISCAP 6; DOC-7 = ISCAP 10; DOC-8 = ISCAP 11; reserved DOC-10 (Berger) = ISCAP **1** |
+| **Handwritten archival control marks** — on the page images | e.g. `MFR 04017364`, `MFR 04017365` | Assigned in **reverse** order of the sessions: DOC-8 (28 Jan) = …364, DOC-7 (22 Jan) = …365 |
+
+> **Warning.** Reserved **DOC-9 (Tenet #1) happens to equal ISCAP document 9.** This is a coincidence of two unrelated sequences, not a pattern, and every other pair diverges. Never cite an ISCAP number as a `DOC-n` or the reverse. *(Recorded 19 Sep 2026 — defect #31.)*

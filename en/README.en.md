@@ -3,7 +3,7 @@
 > | | |
 > |---|---|
 > | **Source (authoritative)** | [`../README.md`](../README.md) (Portuguese) |
-> | **Source SHA-256 at translation** | `f3974518c00feb978acd984937631868356dcd2adb90874c2dbe610e7552a024` |
+> | **Source SHA-256 at translation** | `1486ebfa4f7ac7dd9b485f3e42262b43a60f2daf0d7d51fc413e4af51b9603ef` |
 > | **Translated** | 19 September 2026 |
 > | **Status** | Faithful complete translation |
 > | **Banner note** | The source carries a one-line English navigation banner pointing here. It is navigation, not content, and is not reproduced in the body below. The hash above is of the source **including** that banner |
@@ -147,7 +147,7 @@ For individual witness claims the scale is different and closed (see [`docs/03`]
 - ✅ **Phase 1 — Technical audit v1** (`docs/01`): energy and kinetic analysis of the collapse of the Towers and WTC 7 from NIST's technical FAQs and peer-reviewed literature (Bažant & Verdure, Bažant & Le). Its own methodological limitations identified in the following review.
 - ✅ **Phase 2, first tranche — Adversarial documentary audit** (`docs/02`): explicit correction of the Phase 1 limitations; full reading of three primary documents declassified in September 2026 (PDB Review Team memo, MFRs of Condoleezza Rice and Michael Scheuer); first H0–H7 matrix; first contradiction ledger.
 - ✅ **Framing correction + Phase 2A instrument** (`docs/03`): five formulations in `02` corrected (H1, H5, Rice's "all reporting pointed abroad", the Commission's access structure, the three-dates rule); claim-by-claim verification table with 16 classified rows; Phase 2A priorities pre-registered.
-- 🔄 **Phase 2A — in execution.** Network access restored on 19/09/2026 (`archives.gov` returns HTTP 200; the record of the earlier failure is preserved in [`docs/03` §3](../docs/03-phase2a-mfr-verification.md)). **DOC-7 — MFR George Tenet #2 (22/01/2004) — read in full (24/24 pp.) and carded**, with image verification of pp. 3, 4, 5 and 19: [`registry/cards/DOC-7-mfr-tenet-2.md`](../registry/cards/DOC-7-mfr-tenet-2.md). Eight MFRs remain.
+- 🔄 **Phase 2A — in execution.** Network access restored on 19/09/2026 (`archives.gov` returns HTTP 200; the record of the earlier failure is preserved in [`docs/03` §3](../docs/03-phase2a-mfr-verification.md)). **DOC-7 — MFR George Tenet #2 (22/01/2004) — read in full (24/24 pp.) and carded**, with image verification of pp. 3, 4, 5 and 19: [`registry/cards/DOC-7-mfr-tenet-2.md`](../registry/cards/DOC-7-mfr-tenet-2.md). Seven MFRs remain.
 - ✅ **Methodological framework v2 + Phase C** (`docs/04`, `docs/05`, `registry/`, `corpus/`): see the block at the top of this file.
 - ⛔ **Phase 2B — Part Four of the Joint Inquiry: not executed.** Classification protocol pre-registered in [`docs/03` §6](../docs/03-phase2a-mfr-verification.md).
 - ⏳ **Next phases**: see [`NEXT-STEPS.md`](../NEXT-STEPS.md).

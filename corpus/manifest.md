@@ -36,7 +36,13 @@ The hash makes re-verification exact: anyone can re-retrieve the file from its s
 | SHA-256 (text) | `fb08e708910981eb040bd2dcc51dad0bbbd49f933e9b7a995ca7f54740f64326` |
 | Page images | JBIG2; extracted with `pypdf` 6.19.0 + `jbig2dec` 0.20 for image verification. Not committed |
 
-**Fidelity warning.** The committed text is the **agency OCR as extracted**, unedited. It is preserved verbatim, corruption included, because correcting it would destroy the record of what the release actually contains. It is a search and location aid. **It is not a transcription**: it silently omits redaction voids (see the card, §3), and its character-level accuracy is unreliable near redactions and in headers. Every decisive quotation must be taken from the page image, not from this file.
+**Fidelity warning (amended 19 Sep 2026, defect #32).** The committed text is the **agency OCR as extracted, plus page delimiters inserted by this project's extraction script** — it is therefore *not* raw extraction output, and the earlier description of it as "as extracted, unedited" was inaccurate. The OCR itself is preserved verbatim, corruption included, because correcting it would destroy the record of what the release actually contains. It is a search and location aid. **It is not a transcription**: it silently omits redaction voids (see the card, §3), and its character-level accuracy is unreliable near redactions and in headers. Every decisive quotation must be taken from the page image, not from this file.
+
+| Figure | Value |
+|---|---|
+| Extracted page text (sum of `extract_text()`) | 68,572 characters |
+| Committed artifact | 69,066 characters / 69,528 bytes |
+| Inserted `=== PDF PAGE n ===` delimiters | 24 |
 
 ### DOC-8 — MFR George Tenet #3
 
@@ -56,7 +62,13 @@ The hash makes re-verification exact: anyone can re-retrieve the file from its s
 | SHA-256 (text) | `18a44ecbbd1c586ca6ebd0ba447a9ac3a6a2a9e273be58ea5b518b37c3dff9a8` |
 | Page images | JBIG2; rendered with `pypdf` 6.19.0 + `jbig2dec` 0.20 for independent inspection of pp. 1, 3, 5, 8, 9, 10, 11. **Not committed** — see §3 |
 
-**Fidelity warning.** As with DOC-7, the committed text is the **agency OCR as extracted, unedited**. Independent inspection of the page images corrected it in at least five places, including a date (text layer "On March lilt" vs. page image "On March 12th"). It is a search and location aid, **not a transcription**. Every decisive quotation is taken from the page image.
+**Fidelity warning (amended 19 Sep 2026, defect #32).** As with DOC-7, the committed text is the **agency OCR as extracted, plus project-inserted page delimiters** — not raw extraction output. Independent inspection of the page images corrected it in at least five places, including a date (text layer "On March lilt" vs. page image "On March 12th"). It is a search and location aid, **not a transcription**. Every decisive quotation is taken from the page image.
+
+| Figure | Value |
+|---|---|
+| Extracted page text (sum of `extract_text()`) | 43,781 characters |
+| Committed artifact | 44,044 characters / 44,252 bytes |
+| Inserted `=== PDF PAGE n ===` delimiters | 13 |
 
 ## 3. Publication status of source files, and why binaries are not committed
 

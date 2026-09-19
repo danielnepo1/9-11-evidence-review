@@ -3,7 +3,7 @@
 > | | |
 > |---|---|
 > | **Source (authoritative)** | [`../NEXT-STEPS.md`](../NEXT-STEPS.md) (Portuguese) |
-> | **Source SHA-256 at translation** | `51c25af31ec60d3dadffb23788043a376242207874341c45a14bf2cebcaf6145` |
+> | **Source SHA-256 at translation** | `c939a27d8a0fc598d81cff041ca09df208069e724f1890ae24082521f60457d0` |
 > | **Translated** | 19 September 2026 |
 > | **Status** | Faithful complete translation |
 > | **Banner note** | The source carries a one-line English navigation banner pointing here. It is navigation, not content, and is not reproduced in the body below. The hash above is of the source **including** that banner |

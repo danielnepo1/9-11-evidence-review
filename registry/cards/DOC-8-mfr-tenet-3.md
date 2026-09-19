@@ -99,8 +99,8 @@ Redactions in DOC-8 render as **grey shaded blocks** on the page image, unlike D
 | Location | Extent | Bears on |
 |---|---|---|
 | p.1 | Two participant identities | Attribution of §3 |
-| p.2 | The retrieval-system name; the date range of the file review; a speaker's identity | U-03, U-04 |
-| p.9 | A block marked **25X1, X4** — a different exemption category from the 25X1 used elsewhere | U-10 |
+| p.2 | The retrieval-system name; the date range of the file review; a speaker's identity | U-04, U-05 |
+| p.9 | A block marked **25X1, X4** — a different exemption category from the 25X1 used elsewhere | U-11 |
 | pp. 3, 4, 9, 10, 11, 12 | Programme names, dollar figures, partner services, reporting streams | U-05, U-09, U-11, U-13 |
 
 No redaction in DOC-8 approaches the scale of the block on DOC-7 printed p.4.
@@ -202,7 +202,7 @@ Across DOC-7 and DOC-8 the same pattern appears four times: the witness's accoun
 | Date | Action | Result |
 |---|---|---|
 | 19 Sep 2026 | HTTP GET of the NARA URL | 200 |
-| 19 Sep 2026 | Text extraction, `pypdf` 6.19.0 | 13 pages, 43,781 characters. Text layer present on every page |
+| 19 Sep 2026 | Text extraction, `pypdf` 6.19.0 | 13 pages. **Extracted page text: 43,781 characters** (sum of `extract_text()` across pages, excluding project-inserted page markers). Committed artifact: **44,044 characters / 44,252 bytes** — the difference is 13 `=== PDF PAGE n ===` delimiters inserted by this project's script. Text layer present on every page |
 | 19 Sep 2026 | Full read, printed pp. 1–13 | Complete |
 | 19 Sep 2026 | String search incl. transliteration variants | U-N1, U-N2 |
 | 19 Sep 2026 | Page-image extraction, `jbig2dec` 0.20 | pp. 1, 3, 5, 8, 9, 10, 11 rendered |
