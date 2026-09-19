@@ -6,6 +6,30 @@ A systematic review of primary sources (NIST, the 9/11 Commission, CIA, NARA) ac
 
 ---
 
+---
+
+## ⚠️ Controlling framework (added 19 September 2026)
+
+**The methodology of this project changed on 19 September 2026.** A permanent framework for provenance, source independence, competing-hypothesis testing and symmetric treatment of official and alternative narratives was adopted and now governs everything below.
+
+**Read these first. Where they conflict with anything else in this repository, they prevail.**
+
+| Document | What it is |
+|---|---|
+| [`docs/04-controlling-methodology.md`](docs/04-controlling-methodology.md) | **Controlling methodology.** The baseline axiom, the three workstreams, explanation classes EC1–EC5, closure gates, document-card language, preservation and language rules, and the register of methodological decisions MD-001 … MD-010 |
+| [`docs/05-phase-c-competing-narratives.md`](docs/05-phase-c-competing-narratives.md) | **Phase C — Competing Narratives and Independent Evidence.** Runs across Phases 2A–4, not after them |
+| [`registry/`](registry/) | The living instruments: atomic claim registry, provenance graph, version-history ledger, discrepancy ledger, source policy, B1/B2 instruments, document cards |
+| [`corpus/manifest.md`](corpus/manifest.md) | Retrieved artifacts, hashes, extraction tooling |
+
+Two rules from that framework that change how everything already in this README should be read:
+
+1. **Reading official documents establishes the baseline. It cannot independently validate the baseline.** A claim appearing in an official document is thereby established as *officially asserted*, not as true. Corroboration requires a source whose provenance root is independent — and repeated publications sharing one root are not independent.
+2. **Equal procedural treatment; evidentiary weight proportional to provenance, independence, contemporaneity, auditability and corroboration.** Alternative and critical claims are held to exactly this standard — no lower, and no higher.
+
+**Language.** All artifacts added from 19 September 2026 onward are written in English. The Portuguese documents (`01`–`03`, this README, `SOURCES.md`, `NEXT-STEPS.md`) are **preserved verbatim as the Phase A historical record** and are not translated or rewritten: see [`docs/04` MD-003](docs/04-controlling-methodology.md).
+
+**Status of the hypotheses.** H0–H7 are **unchanged** by the adoption of this framework. Building the instrument is not evidence (MD-009).
+
 ## Sobre este projeto
 
 Este repositório documenta uma auditoria em andamento, feita em duas passagens, sobre a narrativa oficial dos ataques de 11 de setembro de 2001. O objetivo não é confirmar nem refutar a versão oficial, mas submetê-la — e às hipóteses alternativas — ao mesmo padrão probatório, com rastreabilidade total de fontes.
@@ -20,7 +44,20 @@ Este repositório documenta uma auditoria em andamento, feita em duas passagens,
 ├── docs/
 │   ├── 01-wtc-engineering-audit-v1.md     ← primeira auditoria (engenharia estrutural do WTC)
 │   ├── 02-adversarial-audit-phase1.md     ← segunda auditoria (adversarial, multi-hipótese, Fase 1)
-│   └── 03-phase2a-mfr-verification.md     ← correção de enquadramento + instrumento de verificação (Fase 2A)
+│   ├── 03-phase2a-mfr-verification.md     ← correção de enquadramento + instrumento de verificação (Fase 2A)
+│   ├── 04-controlling-methodology.md      ← CONTROLLING framework (EN, 19/09/2026) — prevalece sobre tudo
+│   └── 05-phase-c-competing-narratives.md ← Phase C: Competing Narratives and Independent Evidence (EN)
+├── registry/                              ← living instruments (EN)
+│   ├── claims.md                          ← atomic claim registry (A<n>.<k>, T-nn, C-nn)
+│   ├── provenance.md                      ← provenance / source-independence graph
+│   ├── version-history.md                 ← version ledger + repository change events
+│   ├── discrepancies.md                   ← discrepancy ledger + controlled taxonomy
+│   ├── source-policy.md                   ← inclusion / provenance / preservation / dedup rules
+│   ├── instruments-b1-b2.md               ← B1 quarantine; B2-ref / B2-rely
+│   └── cards/                             ← document cards (DOC-n)
+├── corpus/
+│   ├── manifest.md                        ← retrieved artifacts, hashes, extraction tooling
+│   └── text/                              ← preserved extracted text
 ├── SOURCES.md                             ← bibliografia consolidada de ambas as auditorias
 └── NEXT-STEPS.md                          ← roteiro das próximas fases (2A, 2B, 3, 4)
 ```
@@ -90,7 +127,8 @@ Para alegações individuais de depoentes, a escala é outra e é fechada (ver [
 - ✅ **Fase 1 — Auditoria técnica v1** (`docs/01`): análise energética e cinética do colapso das Torres e do WTC 7 a partir das FAQs técnicas do NIST e de literatura revisada por pares (Bažant & Verdure, Bažant & Le). Identificadas limitações metodológicas próprias na revisão seguinte.
 - ✅ **Fase 2, primeira tranche — Auditoria adversarial documental** (`docs/02`): correção explícita das limitações da Fase 1; leitura integral de três documentos primários desclassificados em setembro de 2026 (PDB Review Team memo, MFRs de Condoleezza Rice e Michael Scheuer); primeira matriz H0–H7; primeiro ledger de contradições.
 - ✅ **Correção de enquadramento + instrumento da Fase 2A** (`docs/03`): cinco formulações de `02` corrigidas (H1, H5, Rice "all reporting pointed abroad", estrutura de acesso da Comissão, regra das três datas); tabela de verificação alegação-a-alegação com 16 linhas classificadas; prioridades da Fase 2A pré-registradas.
-- ⛔ **Fase 2A — leitura dos nove MFRs restantes: não executada.** Bloqueio de egresso de rede para `archives.gov` e todos os demais repositórios primários, documentado em [`docs/03` §3](docs/03-phase2a-mfr-verification.md).
+- 🔄 **Fase 2A — em execução.** Acesso de rede restaurado em 19/09/2026 (`archives.gov` responde HTTP 200; o registro da falha anterior é preservado em [`docs/03` §3](docs/03-phase2a-mfr-verification.md)). **DOC-7 — MFR George Tenet #2 (22/01/2004) — lido integralmente (24/24 pp.) e fichado**, com verificação por imagem das pp. 3, 4, 5 e 19: [`registry/cards/DOC-7-mfr-tenet-2.md`](registry/cards/DOC-7-mfr-tenet-2.md). Restam oito MFRs.
+- ✅ **Framework metodológico v2 + Fase C** (`docs/04`, `docs/05`, `registry/`, `corpus/`): ver o bloco no topo deste arquivo.
 - ⛔ **Fase 2B — Part Four da Joint Inquiry: não executada.** Mesmo bloqueio (`intelligence.senate.gov`). Protocolo de classificação pré-registrado em [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
 - ⏳ **Próximas fases**: ver [`NEXT-STEPS.md`](NEXT-STEPS.md).
 
