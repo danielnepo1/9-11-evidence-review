@@ -3,7 +3,7 @@
 > | | |
 > |---|---|
 > | **Source (authoritative)** | [`../NEXT-STEPS.md`](../NEXT-STEPS.md) (Portuguese) |
-> | **Source SHA-256 at translation** | `c939a27d8a0fc598d81cff041ca09df208069e724f1890ae24082521f60457d0` |
+> | **Source SHA-256 at translation** | `f7c93a92372dd33d2d5dc932796b40187282bd4934c38b84395e22ddd2cf0618` |
 > | **Translated** | 19 September 2026 |
 > | **Status** | Faithful complete translation |
 > | **Banner note** | The source carries a one-line English navigation banner pointing here. It is navigation, not content, and is not reproduced in the body below. The hash above is of the source **including** that banner |
@@ -13,6 +13,8 @@
 ---
 
 # Next Phases
+
+> **⚠️ SUPERSEDED 19 September 2026 by [`../docs/06-audit-program-v2.md`](../docs/06-audit-program-v2.md).** This file is preserved as the historical roadmap. Its Phase 2A reading queue was falsified by its own execution — see `docs/06` §1 — and the live execution sequence is in `docs/06`.
 
 > ## ⚠️ Controlling framework — read before executing any phase (added 19 September 2026)
 >

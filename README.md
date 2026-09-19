@@ -20,6 +20,7 @@ A systematic review of primary sources (NIST, the 9/11 Commission, CIA, NARA) ac
 |---|---|
 | [`docs/04-controlling-methodology.md`](docs/04-controlling-methodology.md) | **Controlling methodology.** The baseline axiom, the three workstreams, explanation classes EC1–EC5, closure gates, document-card language, preservation and language rules, and the register of methodological decisions MD-001 … MD-014 |
 | [`docs/05-phase-c-competing-narratives.md`](docs/05-phase-c-competing-narratives.md) | **Phase C — Competing Narratives and Independent Evidence.** Runs across Phases 2A–4, not after them |
+| [`docs/06-audit-program-v2.md`](docs/06-audit-program-v2.md) | **Controlling execution document.** Supersedes `NEXT-STEPS.md`: the re-programmed reading sequence, the pre-registered constraints on the DOJ OIG admission, and the errata for Tier 1 files |
 | [`registry/`](registry/) | The living instruments: atomic claim registry, provenance graph, version-history ledger, discrepancy ledger, source policy, B1/B2 instruments, document cards |
 | [`corpus/manifest.md`](corpus/manifest.md) | Retrieved artifacts, hashes, extraction tooling |
 
@@ -49,6 +50,7 @@ Este repositório documenta uma auditoria em andamento, feita em duas passagens,
 │   ├── 03-phase2a-mfr-verification.md     ← correção de enquadramento + instrumento de verificação (Fase 2A)
 │   ├── 04-controlling-methodology.md      ← CONTROLLING framework (EN, 19/09/2026) — prevalece sobre tudo
 │   └── 05-phase-c-competing-narratives.md ← Phase C: Competing Narratives and Independent Evidence (EN)
+│   └── 06-audit-program-v2.md            ← CONTROLLING execution sequence (EN) — supersede NEXT-STEPS.md
 ├── registry/                              ← living instruments (EN)
 │   ├── claims.md                          ← atomic claim registry (A<n>.<k>, T-nn, C-nn)
 │   ├── provenance.md                      ← provenance / source-independence graph

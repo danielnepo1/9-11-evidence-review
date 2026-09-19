@@ -3,7 +3,7 @@
 > | | |
 > |---|---|
 > | **Source (authoritative)** | [`../README.md`](../README.md) (Portuguese) |
-> | **Source SHA-256 at translation** | `1486ebfa4f7ac7dd9b485f3e42262b43a60f2daf0d7d51fc413e4af51b9603ef` |
+> | **Source SHA-256 at translation** | `45cf40f3f5fa6c18cad9082b66ff09b68eb678d3ee1591f00aa6221a9396472c` |
 > | **Translated** | 19 September 2026 |
 > | **Status** | Faithful complete translation |
 > | **Banner note** | The source carries a one-line English navigation banner pointing here. It is navigation, not content, and is not reproduced in the body below. The hash above is of the source **including** that banner |
@@ -32,6 +32,7 @@ A systematic review of primary sources (NIST, the 9/11 Commission, CIA, NARA) ac
 |---|---|
 | [`../docs/04-controlling-methodology.md`](../docs/04-controlling-methodology.md) | **Controlling methodology.** The baseline axiom, the three workstreams, explanation classes EC1–EC5, closure gates, document-card language, preservation and language rules, and the register of methodological decisions MD-001 … MD-014 |
 | [`../docs/05-phase-c-competing-narratives.md`](../docs/05-phase-c-competing-narratives.md) | **Phase C — Competing Narratives and Independent Evidence.** Runs across Phases 2A–4, not after them |
+| [`../docs/06-audit-program-v2.md`](../docs/06-audit-program-v2.md) | **Controlling execution document.** Supersedes `NEXT-STEPS.md`: the re-programmed reading sequence, the pre-registered constraints on the DOJ OIG admission, and the errata for Tier 1 files |
 | [`../registry/`](../registry/) | The living instruments: atomic claim registry, provenance graph, version-history ledger, discrepancy ledger, source policy, witness-status register, B1/B2 instruments, document cards |
 | [`../corpus/manifest.md`](../corpus/manifest.md) | Retrieved artifacts, hashes, extraction tooling |
 
@@ -63,6 +64,7 @@ This repository documents an ongoing audit, made in two passes, of the official 
 │   ├── 03-phase2a-mfr-verification.md     ← framing correction + verification instrument (Phase 2A)
 │   ├── 04-controlling-methodology.md      ← CONTROLLING framework (EN, 19/09/2026) — prevails over everything
 │   └── 05-phase-c-competing-narratives.md ← Phase C: Competing Narratives and Independent Evidence (EN)
+│   └── 06-audit-program-v2.md            ← CONTROLLING execution sequence (EN) — supersedes NEXT-STEPS.md
 ├── en/                                    ← English companion translations of the Portuguese documents
 ├── registry/                              ← living instruments (EN)
 │   ├── claims.md                          ← atomic claim registry (A<n>.<k>, T-nn, U-nn, C-nn)

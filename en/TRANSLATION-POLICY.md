@@ -37,9 +37,9 @@ and compare against §4.
 
 | Source (Portuguese, authoritative) | Companion (English) | Source SHA-256 at translation | Status |
 |---|---|---|---|
-| [`../README.md`](../README.md) | [`README.en.md`](README.en.md) | `1486ebfa4f7ac7dd9b485f3e42262b43a60f2daf0d7d51fc413e4af51b9603ef` | complete |
+| [`../README.md`](../README.md) | [`README.en.md`](README.en.md) | `45cf40f3f5fa6c18cad9082b66ff09b68eb678d3ee1591f00aa6221a9396472c` | complete |
 | [`../SOURCES.md`](../SOURCES.md) | [`SOURCES.en.md`](SOURCES.en.md) | `3441f2d985fba55936b8501aa4073ea5df36745173a911a2c3d58cb12d97b33d` | complete |
-| [`../NEXT-STEPS.md`](../NEXT-STEPS.md) | [`NEXT-STEPS.en.md`](NEXT-STEPS.en.md) | `c939a27d8a0fc598d81cff041ca09df208069e724f1890ae24082521f60457d0` | complete |
+| [`../NEXT-STEPS.md`](../NEXT-STEPS.md) | [`NEXT-STEPS.en.md`](NEXT-STEPS.en.md) | `f7c93a92372dd33d2d5dc932796b40187282bd4934c38b84395e22ddd2cf0618` | complete |
 | [`../docs/01-wtc-engineering-audit-v1.md`](../docs/01-wtc-engineering-audit-v1.md) | [`docs/01-wtc-engineering-audit-v1.en.md`](docs/01-wtc-engineering-audit-v1.en.md) | `bcb012dff03a31028fa06f84e186a5014a65b904dc8c0a81d671da52c1f93ce0` | complete |
 | [`../docs/02-adversarial-audit-phase1.md`](../docs/02-adversarial-audit-phase1.md) | [`docs/02-adversarial-audit-phase1.en.md`](docs/02-adversarial-audit-phase1.en.md) | `45b77e3d798d85b8fe86ed16f0372896c79e3745bac4776f51ce366ca2d58d88` | complete |
 | [`../docs/03-phase2a-mfr-verification.md`](../docs/03-phase2a-mfr-verification.md) | [`docs/03-phase2a-mfr-verification.en.md`](docs/03-phase2a-mfr-verification.en.md) | `7a224700bb637d392038c4079136b95c911a48f0a26ce760fb40f9cd639cd81a` | complete |
