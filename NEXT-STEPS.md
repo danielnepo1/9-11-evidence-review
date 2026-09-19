@@ -1,75 +1,75 @@
-# Próximas Fases
+# Next Phases
 
-> **Atualização de ambiente (19/09/2026, sessão 2).** O bloqueio de rede registrado abaixo (sessão 1, mesma data) foi retestado e **não se confirmou** para a maioria dos domínios: `archives.gov`, `cia.gov`, `nist.gov`, `intelligence.senate.gov`, `govinfo.gov`, `9-11commission.gov` e `govinfo.library.unt.edu` respondem HTTP 200. `vault.fbi.gov` e `www.fbi.gov` continuam bloqueados (403) — o bloqueio deixou de ser geral e é agora seletivo a esses dois hosts. Com o acesso restaurado, a Fase 2A foi executada nesta sessão: os nove MFRs pendentes e o PDB de 06/08/2001 (via OCR) foram lidos integralmente — ver [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md), seções 3.1, 4, 5 e 7, e [`SOURCES.md`](SOURCES.md). **Antes de iniciar qualquer fase nova, sempre reverificar o acesso de leitura aos domínios-alvo** — o bloqueio já se mostrou instável entre sessões no mesmo dia — e nunca produzir conclusões a partir de busca ou de conhecimento prévio, conforme a regra de execução no final deste arquivo.
+> **Environment update (19/09/2026, session 2).** The network block recorded below (session 1, same date) was retested and **did not hold** for most domains: `archives.gov`, `cia.gov`, `nist.gov`, `intelligence.senate.gov`, `govinfo.gov`, `9-11commission.gov`, and `govinfo.library.unt.edu` respond HTTP 200. `vault.fbi.gov` and `www.fbi.gov` remain blocked (403) — the block stopped being general and is now selective to those two hosts. With access restored, Phase 2A was executed in this session: the nine pending MFRs and the 06/08/2001 PDB (via OCR) were read in full — see [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md), sections 3.1, 4, 5, and 7, and [`SOURCES.md`](SOURCES.md). **Before starting any new phase, always re-verify read access to the target domains** — the block has already shown itself to be unstable between sessions on the same day — and never produce conclusions from search results or prior knowledge, per the execution rule at the end of this file.
 >
-> **Registro original da falha (sessão 1, mantido por rastreabilidade).** Numa tentativa de execução em 19/09/2026, todos os domínios acima (exceto os dois do FBI) estavam bloqueados por política de egresso de rede do ambiente (403 no CONNECT).
+> **Original failure record (session 1, kept for traceability).** In an attempt to execute this on 19/09/2026, all the domains above (except the two FBI ones) were blocked by the environment's network egress policy (403 on CONNECT).
 
-Roteiro de continuação da auditoria, na ordem de execução planejada ao final da Fase 1 (ver [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md), seção 9).
+Roadmap for continuing the audit, in the execution order planned at the end of Phase 1 (see [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md), section 9).
 
-**Ordem de execução:** 2A → 2B → 3 → 4. A sequência não é arbitrária: 2A e 2B usam material já desclassificado e de volume tratável, e incidem sobre as hipóteses onde a Fase 1 deixou lacunas explícitas (H5 no nó al-Mihdhar/al-Hazmi; H2/H3 na rede de apoio). A Fase 3 é a mais cara em volume de leitura e só rende depois que as correções da seção 2 de `docs/02` estiverem internalizadas. A Fase 4 depende de material com timestamp que pode exigir pedidos de acesso com prazo longo — vale iniciar os pedidos cedo, mesmo executando a fase por último.
+**Execution order:** 2A → 2B → 3 → 4. The sequence is not arbitrary: 2A and 2B use material that is already declassified and of a manageable volume, and bear on the hypotheses where Phase 1 left explicit gaps (H5 at the al-Mihdhar/al-Hazmi node; H2/H3 in the support network). Phase 3 is the most expensive in reading volume and only pays off once the corrections in section 2 of `docs/02` have been internalized. Phase 4 depends on time-stamped material that may require long-lead access requests — it is worth starting those requests early, even while running this phase last.
 
-Antes de iniciar qualquer fase, ler [`README.md`](README.md) (hipóteses e escala de confiança), [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md) (estado atual) e [`SOURCES.md`](SOURCES.md) (o que já foi lido e com que profundidade).
+Before starting any phase, read [`README.md`](README.md) (hypotheses and confidence scale), [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md) (current state), and [`SOURCES.md`](SOURCES.md) (what has already been read, and to what depth).
 
-## Fase 2A — MFRs restantes da liberação de 2026
+## Phase 2A — Remaining MFRs from the 2026 release
 
-**Status: leitura dos nove MFRs concluída em 19/09/2026 (sessão 2).** Resultados incorporados em [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) (seções 4, 5, 7). Pendências remanescentes da fase: releitura dirigida de DOC-1 para a prioridade 5 (5a/5b), e localização — fora da liberação 2026-201 — dos MFRs de Reno, Freeh, White e Fitzgerald no acervo geral do NARA. Nenhuma dessas duas pendências foi iniciada.
+**Status: reading of the nine MFRs completed on 19/09/2026 (session 2).** Results incorporated into [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) (sections 4, 5, 7). Remaining pending items for this phase: a targeted rereading of DOC-1 for priority 5 (5a/5b), and locating — outside the 2026-201 release — the MFRs of Reno, Freeh, White, and Fitzgerald in NARA's general holdings. Neither of these two items has been started.
 
-~~Ler integralmente os 9 MFRs ainda não lidos, nesta ordem: Tenet (×3) → Clarke (×3) → Berger → Scheuer (×2).~~ — concluído.
+~~Read the 9 still-unread MFRs in full, in this order: Tenet (×3) → Clarke (×3) → Berger → Scheuer (×2).~~ — done.
 
-**Seis prioridades pré-registradas** (perguntas, testes discriminantes e critérios de resposta positiva/negativa/inconclusiva em [`docs/03` §4](docs/03-phase2a-mfr-verification.md)):
+**Six pre-registered priorities** (questions, discriminating tests, and criteria for a positive/negative/inconclusive answer in [`docs/03` §4](docs/03-phase2a-mfr-verification.md)):
 
-1. O nó al-Mihdhar/al-Hazmi — onde H5 se decide. Deixou de estar intocado na sessão 2 (19/09/2026): testemunho de Clarke/Tenet/Black lido e tabulado, mas nenhum documento contemporâneo localizado ainda — ver [`docs/03` Prioridade 1](docs/03-phase2a-mfr-verification.md).
-2. A discrepância 30% vs 0% na operação de captura de UBL de maio de 1998.
-3. O PDB de 25/03/1999 supostamente retido — atenção à armadilha: o PDB publicado não testa a alegação, o memorando interno testa.
-4. O PDB de 06/08/2001 — exige OCR, o PDF não tem camada de texto.
-5. A estrutura de acesso da Comissão aos PDBs — quatro determinações separadas (5a a 5d), incluindo a identificação nominal dos 4 da Review Team e dos 2 da subcomissão.
-6. Interação CIA–FBI e a lacuna entre inteligência externa e investigação doméstica — barreira jurídica, prática institucional ou decisão caso a caso são três coisas diferentes.
+1. The al-Mihdhar/al-Hazmi node — where H5 is decided. It stopped being untouched in session 2 (19/09/2026): testimony from Clarke/Tenet/Black has been read and tabulated, but no contemporaneous document has been located yet — see [`docs/03` Priority 1](docs/03-phase2a-mfr-verification.md).
+2. The 30% vs. 0% discrepancy in the May 1998 UBL capture operation.
+3. The allegedly withheld 25/03/1999 PDB — watch for the trap: the published PDB does not test the claim, the internal memorandum does.
+4. The 06/08/2001 PDB — requires OCR, the PDF has no text layer.
+5. The Commission's PDB access structure — four separate determinations (5a–5d), including the named identification of the 4 Review Team members and the 2 subcommittee members.
+6. CIA–FBI interaction and the gap between foreign intelligence and domestic investigation — a legal barrier, institutional practice, or a case-by-case decision are three different things.
 
-**Produto obrigatório:** cada alegação relevante entra na tabela de [`docs/03` §5](docs/03-phase2a-mfr-verification.md) com as colunas fixas (alegação · quem · sob juramento · documento contemporâneo citado · localizado · lido · corroboração independente · status) e status do vocabulário fechado.
+**Required output:** every relevant claim enters the table in [`docs/03` §5](docs/03-phase2a-mfr-verification.md) with the fixed columns (claim · made by · under oath · contemporaneous document cited · located · read · independent corroboration · status) and a status from the closed vocabulary.
 
-## Fase 2B — Joint Congressional Inquiry
+## Phase 2B — Joint Congressional Inquiry
 
-**Status: aberta, não executada. Acesso a `intelligence.senate.gov` confirmado em 19/09/2026 (sessão 2)** — a fase é executável a partir daqui, ao contrário do que a sessão 1 havia registrado. Protocolo de classificação pré-registrado em [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
+**Status: open, not executed. Access to `intelligence.senate.gov` confirmed on 19/09/2026 (session 2)** — the phase is executable from here, contrary to what session 1 recorded. Classification protocol pre-registered in [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
 
-Ler o relatório integral da Joint Inquiry de 2002 e a Parte Quatro ("28 páginas"), desclassificada em 2016. Comparar com o Capítulo 5 do relatório da Comissão do 11/9.
+Read the full 2002 Joint Inquiry report and Part Four (the "28 pages"), declassified in 2016. Compare with Chapter 5 of the 9/11 Commission Report.
 
-**Objetivo específico:** avançar H2/H3 — a única forma de sair do "genuinamente não resolvido" nessas duas hipóteses é com material que trate diretamente da rede de apoio a al-Hazmi e al-Mihdhar (Omar al-Bayoumi, Fahad al-Thumairy, Osama Bassnan), que a Fase 1 não tocou.
+**Specific objective:** advance H2/H3 — the only way out of "genuinely unresolved" for these two hypotheses is with material that directly addresses the support network for al-Hazmi and al-Mihdhar (Omar al-Bayoumi, Fahad al-Thumairy, Osama Bassnan), which Phase 1 did not touch.
 
-**Regra de tratamento, não negociável:** as "28 páginas" **não** são prova de participação estatal saudita. Cada item recebe exatamente uma classificação — `pista`, `declaração`, `documento`, `fato corroborado`, `alegação judicial` ou `conclusão investigativa` — mais o registro de se a Joint Inquiry o declarou resolvido, não resolvido ou não perseguido. Indivíduo com vínculo governamental não é governo; contato não é apoio; apoio não é apoio consciente ao ataque.
+**Non-negotiable treatment rule:** the "28 pages" are **not** proof of Saudi state participation. Each item receives exactly one classification — `lead`, `statement`, `document`, `corroborated fact`, `judicial allegation`, or `investigative conclusion` — plus a record of whether the Joint Inquiry declared it resolved, unresolved, or not pursued. An individual with a government tie is not the government; contact is not support; support is not conscious support for the attack.
 
-## Fase 3 — Auditoria técnica profunda (engenharia)
+## Phase 3 — Deep technical audit (engineering)
 
-**Acesso a `nist.gov` confirmado em 19/09/2026 (sessão 2).** Fase não iniciada nesta sessão — ordem de execução é 2A → 2B → 3 → 4 (ver acima), e 2B segue aberta.
+**Access to `nist.gov` confirmed on 19/09/2026 (session 2).** Phase not started in this session — the execution order is 2A → 2B → 3 → 4 (see above), and 2B is still open.
 
-Sequência de leitura definida em [`docs/02`](docs/02-adversarial-audit-phase1.md), seção 7:
+Reading sequence defined in [`docs/02`](docs/02-adversarial-audit-phase1.md), section 7:
 
-1. FEMA 403, Appendix C — corrosão/eutética sulfídica, com atenção à datação da amostra (antes ou depois do colapso).
-2. NCSTAR 1-9, capítulos 8 e 12 — propriedades de conexão, shear studs, dimensões de assento, transferência ANSYS→LS-DYNA, condições de contorno.
-3. NCSTAR 1-9A — modelos que **não** produziram colapso e o critério de seleção do caso final. Prioridade alta: é o ponto de maior rendimento probatório e o mais afetado pelos arquivos retidos sob Seção 7d do NCST Act.
-4. NCSTAR 1-6C e 1-6D — conexões, restrição térmica, análise global das torres.
-5. Relatório Hulsey/UAF integral + críticas técnicas formais publicadas contra ele.
-6. Modelagem conceitual própria, estágio a estágio: massa participante, fração ejetada, razão de compactação, altura de queda disponível, sensibilidade das conclusões às premissas.
+1. FEMA 403, Appendix C — sulfidic corrosion/eutectic, with attention to sample dating (before or after the collapse).
+2. NCSTAR 1-9, chapters 8 and 12 — connection properties, shear studs, seat dimensions, ANSYS→LS-DYNA data transfer, boundary conditions.
+3. NCSTAR 1-9A — models that did **not** produce collapse and the criterion for selecting the final case. High priority: the point of highest potential evidentiary yield, and the most affected by files withheld under Section 7d of the NCST Act.
+4. NCSTAR 1-6C and 1-6D — connections, thermal restraint, global tower analysis.
+5. The full Hulsey/UAF report + published formal technical critiques of it.
+6. Own stage-by-stage conceptual modeling: participating mass, ejected fraction, compaction ratio, available fall height, sensitivity of conclusions to assumptions.
 
-## Fase 4 — Cronologia FAA/NORAD
+## Phase 4 — FAA/NORAD Chronology
 
-Reconstrução minuto a minuto usando registros com timestamp: gravações FAA, gravações NEADS/NORAD, radar, logs, telefonemas, ordens de scramble, comparando versões oficiais de 2001, 2003 e 2004.
+Minute-by-minute reconstruction using time-stamped records: FAA recordings, NEADS/NORAD recordings, radar, logs, phone calls, scramble orders, comparing the official 2001, 2003, and 2004 versions.
 
-**Pontos de investigação específica:**
-- Por que a cronologia inicial do NORAD diferia da reconstrução posterior.
-- O "phantom Flight 11".
-- Horários de notificação dos voos 11, 175, 77 e 93.
-- Destruição da gravação com relatos de controladores de Nova York.
+**Specific points of investigation:**
+- Why NORAD's initial chronology differed from the later reconstruction.
+- The "phantom Flight 11."
+- Notification times for Flights 11, 175, 77, and 93.
+- Destruction of the recording of New York controllers' accounts.
 
-**Regra de tratamento:** não transformar falsidade ou encobrimento pós-evento automaticamente em prova de participação prévia — testar como hipóteses separadas (H1 vs. H5).
+**Treatment rule:** do not automatically turn post-event falsehood or cover-up into proof of prior participation — test these as separate hypotheses (H1 vs. H5).
 
-## Itens de fundo, sem fase fixa ainda
+## Background items, not yet assigned to a phase
 
-- Interrogatórios de KSM, bin al-Shibh, Abu Zubaydah: para cada afirmação usada na narrativa de planejamento, verificar se foi produzida antes ou depois de técnica coercitiva, se há corroboração documental independente, e comparar com o relatório do Senado (SSCI CRPT-113srpt288).
-- Evidência sísmica, financeira (negociações suspeitas, SEC/FBI) e Pentágono/Voo 93 — nenhuma tocada ainda.
-- Auditoria de independência da própria Comissão: o MFR de Rice já expôs, incidentalmente, que Philip Zelikow (Diretor Executivo) coautorou um livro acadêmico com a depoente em 1995. Vale uma checagem sistemática de conflitos de interesse declarados/não declarados entre staff da Comissão e os depoentes do Executivo.
+- Interrogations of KSM, bin al-Shibh, Abu Zubaydah: for each statement used in the planning narrative, verify whether it was produced before or after a coercive technique, whether there is independent documentary corroboration, and compare with the Senate report (SSCI CRPT-113srpt288).
+- Seismic and financial evidence (suspicious trading, SEC/FBI) and the Pentagon/Flight 93 — none touched yet.
+- Audit of the Commission's own independence: Rice's MFR already incidentally revealed that Philip Zelikow (Executive Director) co-authored an academic book with the witness in 1995. A systematic check of declared/undeclared conflicts of interest between Commission staff and Executive Branch witnesses is warranted.
 
-## Regra de execução
+## Execution rule
 
-Cada nova fase deve seguir o mesmo padrão desta: registrar título completo, autor, data do evento, data do documento, data da desclassificação, URL, versão, extensão efetivamente lida, redações e limitações de acesso — antes de qualquer conclusão. Nenhum documento é citado como "lido" se apenas seu resumo, FAQ, press release ou um trecho de busca foi consultado.
+Every new phase must follow this same pattern: record the full title, author, event date, document date, declassification date, URL, version, extent actually read, redactions, and access limitations — before any conclusion. No document is cited as "read" if only its summary, FAQ, press release, or a search snippet was consulted.
 
-E a regra de enquadramento, que vale em todas as fases: restrição de acesso, alerta genérico e testemunho interessado não são prova de encobrimento nem de conhecimento prévio. Falha de processo, autoproteção institucional, supressão deliberada e conhecimento prévio operacional são quatro proposições distintas, cada uma com ônus probatório próprio.
+And the framing rule that applies across every phase: access restriction, generic warning, and interested testimony are not proof of cover-up or of prior knowledge. Process failure, institutional self-protection, deliberate suppression, and prior operational knowledge are four distinct propositions, each with its own burden of proof. See also the impartiality rule in [`README.md`](README.md): no hypothesis, official or alternative, receives a presumption of truth or falsity, and an evidentiary gap is never itself treated as proof of any hypothesis.
