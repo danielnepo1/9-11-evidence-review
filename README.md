@@ -1,107 +1,151 @@
 # 9/11 Evidence Review
 
-> Adversarial, document-based audit of the official 9/11 narrative — WTC structural engineering and pre-9/11 intelligence timeline, primary sources cited.
+> Symmetric, document-based audit of the 9/11 record — the official account and every alternative account tested against the same standard, with full source traceability.
 
-A systematic review of primary sources (NIST, the 9/11 Commission, CIA, NARA) across two tracks: (1) the physical plausibility of the Twin Towers and WTC 7 collapses, and (2) pre-9/11 intelligence failures. Method: steelman the official account → challenge it with primary evidence → judge without a fixed prior conclusion. Every claim is tagged with a confidence level, and every source is logged with access date, extent read, and known limitations.
+A systematic review of primary sources (NIST, the 9/11 Commission, CIA, NARA, Congress) across two tracks: (1) the physical plausibility of the Twin Towers and WTC 7 collapses, and (2) pre-9/11 intelligence and institutional response. Method: steelman the official account → stress-test it against the primary record → mirror-test every alternative hypothesis against the same record → judge without a fixed prior conclusion. Every claim carries a confidence status; every source is logged with access date, extent read, and known limitations.
 
 ---
 
-## Sobre este projeto
+## Governing principle — symmetric skepticism
 
-Este repositório documenta uma auditoria em andamento, feita em duas passagens, sobre a narrativa oficial dos ataques de 11 de setembro de 2001. O objetivo não é confirmar nem refutar a versão oficial, mas submetê-la — e às hipóteses alternativas — ao mesmo padrão probatório, com rastreabilidade total de fontes.
+> “Every material claim is provisional until supported by traceable evidence. Official status does not make a claim true; institutional inconsistency does not make an alternative claim true. The project applies skepticism symmetrically: it actively tests the official account for contradictions and unexplained anomalies, while applying the same burden of proof, alternative-explanation testing, and falsification criteria to every alternative hypothesis.”
 
-**Padrão de honestidade adotado:** nenhuma conclusão é apresentada sem indicar se o documento subjacente foi lido integralmente, parcialmente, ou apenas conhecido por resumo/FAQ/press release. Quando isso não foi possível dentro de uma sessão, o repositório registra isso explicitamente em vez de preencher a lacuna com conhecimento prévio não verificado.
+This commits the project to two things at once:
 
-## Estrutura
+- **It does** actively investigate contradictions, anomalies, unexplained events, evidentiary gaps, changed accounts and unusual procedural decisions within the official account. Declining to look is a methodological failure, not caution.
+- **It does not** assume the official account is false, nor assume any alternative account is false. They are competing explanations, tested against the same evidence with the same burden.
+
+The full methodology is [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md), which governs every other document in this repository.
+
+## About this project
+
+This repository documents an ongoing audit of the official account of the 11 September 2001 attacks. The goal is neither to confirm nor to refute that account, but to subject it — and the alternatives — to the same evidentiary standard, with full source traceability.
+
+**Honesty standard.** No conclusion is presented without stating whether the underlying document was read in full, read in part, or known only through a summary, FAQ or press release. Where that was not possible within a session, the repository records the gap explicitly instead of filling it with unverified prior knowledge.
+
+**Language.** Repository content is written in English. `docs/01`, `docs/02` and `docs/03` remain in the original Portuguese pending a faithful translation, tracked as a background item in [`NEXT-STEPS.md`](NEXT-STEPS.md); they are the historical findings record, and translating them is kept as its own reviewable change so that no wording shift can be mistaken for a revised finding.
+
+## Structure
 
 ```
 9-11-evidence-review/
-├── README.md                              ← este arquivo
+├── README.md                                   ← this file: hypotheses, confidence scale, entry point
 ├── docs/
-│   ├── 01-wtc-engineering-audit-v1.md     ← primeira auditoria (engenharia estrutural do WTC)
-│   ├── 02-adversarial-audit-phase1.md     ← segunda auditoria (adversarial, multi-hipótese, Fase 1)
-│   └── 03-phase2a-mfr-verification.md     ← correção de enquadramento + instrumento de verificação (Fase 2A)
-├── SOURCES.md                             ← bibliografia consolidada de ambas as auditorias
-└── NEXT-STEPS.md                          ← roteiro das próximas fases (2A, 2B, 3, 4)
+│   ├── 01-wtc-engineering-audit-v1.md          ← first audit (WTC structural engineering) [pt-BR]
+│   ├── 02-adversarial-audit-phase1.md          ← second audit (adversarial, multi-hypothesis, Phase 1) [pt-BR]
+│   ├── 03-phase2a-mfr-verification.md          ← framing corrections + Phase 2A verification instrument [pt-BR]
+│   ├── 04-methodology-symmetric-skepticism.md  ← GOVERNING METHODOLOGY
+│   ├── claim-decomposition-register.md         ← atomic-proposition register (empty at creation)
+│   └── anomaly-register.md                     ← anomaly register (empty at creation)
+├── SOURCES.md                                  ← consolidated bibliography with read status
+└── NEXT-STEPS.md                               ← execution queue
 ```
 
-### Ordem de leitura
+### Reading order
 
-A numeração dos documentos é cronológica **e** hierárquica: cada documento posterior corrige o anterior, e onde houver conflito **prevalece sempre o de número maior**.
+Document numbering is chronological **and** hierarchical: each later document corrects the earlier ones, and where they conflict **the higher number prevails**.
 
-| Ordem | Arquivo | Papel | Como ler |
+| Order | File | Role | How to read it |
 |---|---|---|---|
-| 1 | [`README.md`](README.md) | Método, hipóteses H0–H7, escala de confiança | Ponto de entrada — define o vocabulário usado nos demais |
-| 2 | [`docs/01-wtc-engineering-audit-v1.md`](docs/01-wtc-engineering-audit-v1.md) | Primeiro passe, engenharia | **Registro histórico.** Não citar isoladamente: vários pontos foram retratados |
-| 3 | [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md) | Fase 1 documental | Seção 2 lista o que foi retratado de `01`; seções 3–6 são o achado substantivo. **Ler já com as correções de `03` §1** |
-| 4 | [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) | **Enquadramento vigente + instrumento de verificação** | §1 corrige cinco formulações de `02`; §5 é a tabela de status alegação-a-alegação; §7 é o estado corrente de H1–H5 |
-| 5 | [`SOURCES.md`](SOURCES.md) | Bibliografia consolidada com status de leitura | Consultar antes de atribuir peso a qualquer afirmação |
-| 6 | [`NEXT-STEPS.md`](NEXT-STEPS.md) | Roteiro de execução (Fases 2A, 2B, 3, 4) | Ponto de partida de qualquer sessão nova |
+| 1 | [`README.md`](README.md) | Governing principle, hypotheses H0–H7, confidence scale | Entry point — defines the vocabulary used everywhere else |
+| 2 | [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md) | **Governing methodology** | Symmetry requirements, claim decomposition, mirror test, mandatory reporting format |
+| 3 | [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) | Current framing + verification instrument | §1 corrects five formulations in `02`; §5 is the claim-by-claim status table; §7 is the current state of H1–H5 |
+| 4 | [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md) | Phase 1 documentary audit | §2 lists what was retracted from `01`; §§3–6 are the substantive findings. **Read with the `03` §1 errata in hand** |
+| 5 | [`docs/01-wtc-engineering-audit-v1.md`](docs/01-wtc-engineering-audit-v1.md) | First pass, engineering | **Historical record.** Not to be cited in isolation: several points were retracted |
+| 6 | [`SOURCES.md`](SOURCES.md) | Consolidated bibliography with read status | Consult before assigning weight to any assertion |
+| 7 | [`NEXT-STEPS.md`](NEXT-STEPS.md) | Execution queue | Starting point for any new session |
 
-**Referência vs. próximo passo:** os itens 1–5 são material de **referência** (o que já está estabelecido e com que lastro); o item 6 é a fila de **execução**. Uma sessão nova começa lendo 1, 4 e 6 — o `01` só é necessário quando o trabalho tocar engenharia estrutural, e nesse caso sempre junto da seção 2 do `02`; o `02` sempre lido com a errata de `03` §1 em mãos.
+**Reference vs. next step:** items 1–6 are **reference** material (what is established, and on what basis); item 7 is the **execution** queue. A new session starts with 1, 2, 3 and 7 — `01` is only needed when the work touches structural engineering, and then always alongside `02` §2; `02` is always read with the `03` §1 errata.
 
-**Regra de precedência sobre enquadramento:** onde `02` e `03` divergirem na classificação de uma hipótese ou de uma alegação, **prevalece `03`**.
+**Precedence rule.** On method, `04` prevails over everything. On substantive findings, the higher-numbered document prevails: where `02` and `03` differ on the classification of a hypothesis or a claim, **`03` prevails**; `04` changes no finding.
 
-## Metodologia
+## Methodology in brief
 
-A auditoria segue três passagens declaradas explicitamente:
+The audit runs three explicit passes:
 
-1. **Steelman oficial** — construir a melhor versão possível da explicação oficial (NIST, Comissão do 11/9).
-2. **Red team** — construir a crítica mais forte possível usando documentos primários, contradições internas e dados liberados posteriormente.
-3. **Juiz** — comparar as duas sem partir de uma conclusão desejada.
+1. **Official steelman** — build the strongest possible version of the official explanation (NIST, 9/11 Commission).
+2. **Stress test** — build the strongest possible challenge using primary documents, internal contradictions and later-released material.
+3. **Mirror test** — subject every alternative hypothesis to the same evidence, the same burden of proof and the same falsification criteria.
+4. **Judge** — compare without starting from a desired conclusion.
 
-### Hipóteses mantidas separadas
+### Symmetry requirements
 
-Para a dimensão de inteligência/resposta institucional, oito hipóteses são tratadas como categorias distintas, cada uma exigindo evidência própria (evidência de uma nunca é tratada automaticamente como evidência de outra):
+Binding on every inference in every phase (full text in [`docs/04`](docs/04-methodology-symmetric-skepticism.md) §3):
 
-| # | Hipótese |
+| # | Requirement |
 |---|---|
-| H0 | Ataque planejado pela al-Qaeda; falhas institucionais e explicação estrutural essencialmente corretas |
-| H1 | H0 + autoproteção/declarações enganosas/encobrimento posterior de incompetência, sem conhecimento prévio operacional |
-| H2 | H0 + apoio logístico consciente por indivíduos ligados a governo estrangeiro, sem prova de autorização superior |
-| H3 | Apoio ou proteção institucional estrangeira mais ampla |
-| H4 | Autoridades americanas tinham alertas suficientes, mas falharam por negligência/fragmentação/prioridades políticas |
-| H5 | Segmentos de autoridades tinham conhecimento operacional específico e deliberadamente não impediram o ataque |
-| H6 | O mecanismo de um ou mais colapsos foi significativamente diferente do apresentado pelo NIST |
-| H7 | Intervenção deliberada adicional nos edifícios |
+| S1 | H0 is decomposed into atomic propositions, never scored as a single protected narrative |
+| S2 | H1–H7 gain no support from gaps, opacity or distrust of institutions |
+| S3 | Evidence of institutional failure is not promoted into evidence of deliberate non-intervention |
+| S4 | Evidence of a contradiction is not promoted into evidence of material intervention |
+| S5 | Absence of a test is a limitation, not a positive result |
+| S6 | Burden of proof depends on what a claim asserts, not on whether it is official or alternative |
+| S7 | Every phase states what it could be wrong about in **both** directions |
 
-### Regra de enquadramento probatório
+### Hypotheses kept separate
 
-> Restrição de acesso, alerta genérico e testemunho interessado não são — isolados nem somados — prova de encobrimento ou de conhecimento prévio.
+For the intelligence / institutional-response dimension, eight hypotheses are treated as distinct categories, each requiring its own evidence (evidence for one is never automatically treated as evidence for another):
 
-Três corolários de uso obrigatório:
+| # | Hypothesis |
+|---|---|
+| H0 | Attack planned by al-Qaeda; institutional failures and the structural explanation essentially correct |
+| H1 | H0 + self-protection / misleading statements / after-the-fact concealment of incompetence, without operational prior knowledge |
+| H2 | H0 + knowing logistical support by individuals linked to a foreign government, without proof of authorization from above |
+| H3 | Broader foreign institutional support or protection |
+| H4 | US authorities had sufficient warnings but failed through negligence, fragmentation or political priorities |
+| H5 | Segments of the authorities had specific operational knowledge and deliberately did not prevent the attack |
+| H6 | The mechanism of one or more collapses differed significantly from what NIST presented |
+| H7 | Additional deliberate intervention in the buildings |
 
-1. **Documento novo ≠ fato novo.** Toda citação distingue **data do evento**, **data do documento** e **data da desclassificação**. Um registro de 2004 desclassificado em 2026 é memória de 2004, não registro contemporâneo de 2001.
-2. **Cada degrau exige evidência própria.** Falha de processo → autoproteção institucional → supressão deliberada → conhecimento prévio operacional são quatro proposições distintas; evidência de uma nunca é promovida a evidência da seguinte.
-3. **Leitura é leitura.** Resumo, FAQ, press release, trecho de busca e reportagem de terceiros não sustentam status `corroborada` nem `contradita`.
+**H0 is not scored as a unit.** Under S1 it is represented by its decomposed atomic propositions; any summary status for H0 is a roll-up, reported with the spread stated.
 
-### Classificações de confiança usadas
+### Evidentiary framing rule
 
-`comprovado` · `fortemente sustentado` · `mais provável que não` · `plausível` · `genuinamente não resolvido` · `improvável` · `contradito` · `não testável com o registro público`
+> Access restriction, generic warning and interested testimony are not — singly or in combination — proof of a cover-up or of prior knowledge.
 
-Evita-se deliberadamente a frase genérica "sem evidência" em favor de formulações mais precisas: evidência insuficiente, evidência indireta, evidência contestada, documento indisponível, ausência de teste, resultado não replicável.
+Three mandatory corollaries, which apply in **both** directions:
 
-Para alegações individuais de depoentes, a escala é outra e é fechada (ver [`docs/03`](docs/03-phase2a-mfr-verification.md) §5):
+1. **New document ≠ new fact.** Every citation distinguishes **event date**, **document date** and **declassification date**. A 2004 record declassified in 2026 is 2004 memory, not a contemporaneous 2001 record.
+2. **Each step requires its own evidence.** Process failure → institutional self-protection → deliberate suppression → operational prior knowledge are four distinct propositions; evidence for one is never promoted to evidence for the next.
+3. **Reading is reading.** A summary, FAQ, press release, search snippet or third-party news report supports neither `corroborated` nor `contradicted` status.
 
-`declaração não corroborada` · `documento citado, não localizado` · `documento localizado, não lido` · `parcialmente corroborada` · `corroborada` · `contradita` · `inconclusiva`
+### Anomaly handling
 
-## Status atual
+Anomalies are recorded in [`docs/anomaly-register.md`](docs/anomaly-register.md) under a closed status vocabulary: `documentary contradiction` · `timeline discrepancy` · `conflicting testimony` · `unexplained procedural deviation` · `missing or destroyed evidence` · `chain-of-custody limitation` · `model assumption or non-replicability issue` · `physical or forensic anomaly` · `apparent anomaly with adequate explanation` · `unresolved anomaly`.
 
-- ✅ **Fase 1 — Auditoria técnica v1** (`docs/01`): análise energética e cinética do colapso das Torres e do WTC 7 a partir das FAQs técnicas do NIST e de literatura revisada por pares (Bažant & Verdure, Bažant & Le). Identificadas limitações metodológicas próprias na revisão seguinte.
-- ✅ **Fase 2, primeira tranche — Auditoria adversarial documental** (`docs/02`): correção explícita das limitações da Fase 1; leitura integral de três documentos primários desclassificados em setembro de 2026 (PDB Review Team memo, MFRs de Condoleezza Rice e Michael Scheuer); primeira matriz H0–H7; primeiro ledger de contradições.
-- ✅ **Correção de enquadramento + instrumento da Fase 2A** (`docs/03`): cinco formulações de `02` corrigidas (H1, H5, Rice "all reporting pointed abroad", estrutura de acesso da Comissão, regra das três datas); tabela de verificação alegação-a-alegação com 16 linhas classificadas; prioridades da Fase 2A pré-registradas.
-- ⛔ **Fase 2A — leitura dos nove MFRs restantes: não executada.** Bloqueio de egresso de rede para `archives.gov` e todos os demais repositórios primários, documentado em [`docs/03` §3](docs/03-phase2a-mfr-verification.md).
-- ⛔ **Fase 2B — Part Four da Joint Inquiry: não executada.** Mesmo bloqueio (`intelligence.senate.gov`). Protocolo de classificação pré-registrado em [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
-- ⏳ **Próximas fases**: ver [`NEXT-STEPS.md`](NEXT-STEPS.md).
+> **An anomaly is a research lead. By itself it is not evidence of intent, foreknowledge, complicity, or intervention.**
 
-## Limitações reconhecidas (leia antes de citar este material)
+Every anomaly carries a **mirror test** before any status is fixed: (1) what would the official account predict? (2) what would each relevant alternative hypothesis predict? (3) what observation would discriminate between them? (4) is it explained by error, memory, classification, bureaucracy, incomplete records or ordinary forensic uncertainty? (5) what conclusion is **not** justified by the available evidence?
 
-- Nenhuma fonte de mais de algumas dezenas de páginas foi lida integralmente até o momento — isso inclui o relatório completo da Comissão do 11/9, os volumes NCSTAR do NIST, o relatório Hulsey/UAF e os exhibits do caso Moussaoui.
-- Vários dos 71 PDBs liberados pela CIA em setembro de 2026 são digitalizações sem camada de texto pesquisável e não puderam ser lidos nesta fase.
-- Conclusões sobre H2, H3, H6 e H7 permanecem em grande parte não testadas pelos documentos lidos até agora.
-- **H5 não está testada.** O nó al-Mihdhar/al-Hazmi, onde a hipótese tem seu melhor caso teórico, não foi tocado por nenhuma fase até aqui.
-- **H1 não sustenta "encobrimento".** O que há são indícios de falhas burocráticas e de possível autoproteção institucional; supressão deliberada não está corroborada.
+### Confidence classifications
 
-## Licença de uso do conteúdo
+`proven` · `strongly supported` · `more likely than not` · `plausible` · `genuinely unresolved` · `unlikely` · `contradicted` · `not testable with the public record`
 
-Este material é uma análise original produzida para fins de pesquisa pessoal. Citações de fontes governamentais e acadêmicas seguem os links diretos listados em [`SOURCES.md`](SOURCES.md); nenhum trecho extenso de terceiros é reproduzido — apenas paráfrase com atribuição.
+The generic phrase "no evidence" is deliberately avoided in favour of more precise formulations: insufficient evidence, indirect evidence, contested evidence, document unavailable, absence of a test, non-reproducible result.
+
+For individual claims by witnesses and institutions the scale is different and closed (see [`docs/04`](docs/04-methodology-symmetric-skepticism.md) §4.2 and [`docs/03`](docs/03-phase2a-mfr-verification.md) §5):
+
+`unsupported statement` · `document cited, not located` · `document located, not read` · `partially corroborated` · `corroborated` · `contradicted` · `inconclusive`
+
+## Current status
+
+- ✅ **Phase 1 — Technical audit v1** (`docs/01`): energy and kinematic analysis of the Towers' and WTC 7's collapse from NIST technical FAQs and peer-reviewed literature (Bažant & Verdure; Bažant & Le). Its own methodological limitations were identified in the following review.
+- ✅ **Phase 2, first tranche — Adversarial documentary audit** (`docs/02`): explicit correction of the Phase 1 limitations; three declassified primary documents read in full (PDB Review Team memo; MFRs of Condoleezza Rice and Michael Scheuer); first H0–H7 matrix; first contradiction ledger.
+- ✅ **Framing correction + Phase 2A instrument** (`docs/03`): five formulations from `02` corrected (H1, H5, Rice's "all reporting pointed abroad", the Commission's access structure, the three-dates rule); claim-by-claim verification table with 16 classified rows; Phase 2A priorities pre-registered.
+- ✅ **Methodology and register update — 19 September 2026** (`docs/04`, `docs/claim-decomposition-register.md`, `docs/anomaly-register.md`): symmetric-skepticism principle adopted verbatim; symmetry requirements S1–S7; twelve-field atomic claim decomposition; anomaly register with mirror test; mandatory four-section phase reporting format. **No source read, no prior conclusion changed.**
+- ⛔ **Official Account Stress-Test Track (ST-1 … ST-7): not executed.** Network egress blocked to `archives.gov` and every other primary repository, documented in [`docs/03` §3](docs/03-phase2a-mfr-verification.md).
+- ⛔ **Phase 2B — Joint Inquiry Part Four: not executed.** Same block (`intelligence.senate.gov`). Classification protocol pre-registered in [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
+- ⏳ **Remaining phases**: see [`NEXT-STEPS.md`](NEXT-STEPS.md).
+
+## Acknowledged limitations (read before citing this material)
+
+- No source longer than a few dozen pages has been read in full so far — this includes the complete 9/11 Commission Report, the NIST NCSTAR volumes, the Hulsey/UAF report and the Moussaoui trial exhibits.
+- Several of the 71 PDBs released by the CIA in September 2026 are scans without a searchable text layer and could not be read in this phase.
+- Conclusions on H2, H3, H6 and H7 remain largely untested by the documents read so far.
+- **H5 is not tested.** The al-Mihdhar / al-Hazmi node, where the hypothesis has its strongest theoretical case, has not been touched by any phase to date.
+- **H1 does not support "cover-up".** What exists are indications of bureaucratic failure and possible institutional self-protection; deliberate suppression is not corroborated.
+- **Both registers are empty.** The claim-decomposition and anomaly registers were created in this session and contain no substantive entries. Nothing in this repository should be read as if they were populated.
+
+## Content licence
+
+This material is original analysis produced for personal research. Citations of government and academic sources follow the direct links listed in [`SOURCES.md`](SOURCES.md); no extensive third-party passages are reproduced — only paraphrase with attribution.

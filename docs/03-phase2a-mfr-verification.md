@@ -1,5 +1,7 @@
 # Fase 2A — Correção de Enquadramento e Instrumento de Verificação dos MFRs
 
+> **[Added 19 September 2026 — precedence notice, no finding altered.]** On method, this document is now subordinate to [`04-methodology-symmetric-skepticism.md`](04-methodology-symmetric-skepticism.md): claims are decomposed into atomic propositions with twelve fields, anomalies are registered and mirror-tested, and every phase reports in four mandatory sections. On substance, **this document still prevails**: every finding, framing correction and status below stands unchanged, including the sixteen rows of §5.1, which are migrated into [`claim-decomposition-register.md`](claim-decomposition-register.md) field by field without status changes. The one interpretive update: under `04` §3 S1, H0 is no longer scored as a single unit, so "fortemente sustentado" for H0 in §7 is to be read as a roll-up pending decomposition, not a unit judgement. This document remains in Portuguese pending a faithful translation tracked in [`../NEXT-STEPS.md`](../NEXT-STEPS.md).
+
 > Corrige formalmente o enquadramento de [`02-adversarial-audit-phase1.md`](02-adversarial-audit-phase1.md) e estabelece o instrumento de verificação alegação-a-alegação da liberação ISCAP 2026-201. **Execução da leitura dos nove MFRs restantes: não realizada nesta sessão por bloqueio de acesso de rede** — registrado na seção 3 com a evidência do teste.
 
 Data desta sessão: **19 de setembro de 2026**. Escopo: H1–H5. H6 e H7 não são reavaliadas aqui.
