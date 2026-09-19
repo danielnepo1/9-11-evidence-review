@@ -4,7 +4,9 @@ Todas as fontes acessadas ao longo das fases da auditoria, consolidadas por proc
 
 Legenda de status de leitura: 🟢 lido integralmente · 🟡 lido parcialmente / apenas índice ou FAQ · 🔴 verificado apenas por resumo/abstract · ⚫ acesso falhou
 
-> **Registro de falha de acesso — 19 de setembro de 2026.** Numa tentativa de executar as Fases 2A e 2B, **todos** os domínios de fonte primária deste arquivo estavam bloqueados pela política de egresso de rede do ambiente (403 no CONNECT, tanto via cliente HTTP quanto via ferramenta de fetch): `archives.gov` e subdomínios, `intelligence.senate.gov`, `cia.gov`, `govinfo.gov`, `vault.fbi.gov`, `9-11commission.gov`, `govinfo.library.unt.edu`, `nist.gov`. O bloqueio não é seletivo — nenhum host externo testado respondeu. O único canal disponível era busca, que retorna trechos de terceiros e **não** conta como leitura sob o padrão deste projeto. Nenhuma fonte teve seu status alterado nesta sessão. Detalhes em [`docs/03` §3](docs/03-phase2a-mfr-verification.md).
+> **Registro de falha de acesso — 19 de setembro de 2026 (sessão 1).** Numa tentativa de executar as Fases 2A e 2B, **todos** os domínios de fonte primária deste arquivo estavam bloqueados pela política de egresso de rede do ambiente (403 no CONNECT, tanto via cliente HTTP quanto via ferramenta de fetch): `archives.gov` e subdomínios, `intelligence.senate.gov`, `cia.gov`, `govinfo.gov`, `vault.fbi.gov`, `9-11commission.gov`, `govinfo.library.unt.edu`, `nist.gov`. O bloqueio não é seletivo — nenhum host externo testado respondeu. O único canal disponível era busca, que retorna trechos de terceiros e **não** conta como leitura sob o padrão deste projeto. Nenhuma fonte teve seu status alterado nesta sessão. Detalhes em [`docs/03` §3](docs/03-phase2a-mfr-verification.md).
+
+> **Acesso reaberto — 19 de setembro de 2026 (sessão 2).** Novo teste de conectividade (`curl` direto, sem a ferramenta de fetch) mostrou HTTP 200 em `archives.gov`, `cia.gov`, `nist.gov`, `intelligence.senate.gov`, `govinfo.gov`, `9-11commission.gov` e `govinfo.library.unt.edu`. Baixados e verificados como PDFs íntegros (não páginas de bloqueio) os 9 MFRs da liberação ISCAP 2026-201 pendentes desde a sessão 1, mais o PDB de 06/08/2001. `vault.fbi.gov` e `www.fbi.gov` continuam retornando 403 — bloqueio seletivo a esses dois hosts, não mais geral. Os 9 MFRs foram lidos integralmente nesta sessão (texto extraído com `pdftotext`, 11 a 82 mil caracteres cada) e o PDB de 06/08/2001 — antes ilegível por ausência de camada de texto — foi lido via OCR (`tesseract`, 300 DPI). Resultados tabulados em [`docs/03` §5](docs/03-phase2a-mfr-verification.md#5-instrumento-de-verificação-alegação-a-alegação).
 
 ---
 
@@ -48,18 +50,18 @@ Legenda de status de leitura: 🟢 lido integralmente · 🟡 lido parcialmente 
 |---|---|---|
 | PIDB, "Long-Sought 9/11 Records Now Declassified" (11/09/2026) | 🟢 | https://transforming-classification.blogs.archives.gov/2026/09/11/long-sought-9-11-records-now-declassified-and-available-to-the-public/ |
 | *Report on Review of PDB Articles* (09/02/2004, desclass. 08/09/2026) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2022-008-document-release-508.pdf |
-| Índice ISCAP 2026-201 (11 MFRs) | 🟡 (2 de 11 lidos) | https://www.archives.gov/declassification/iscap/pdf/2026-201 |
+| Índice ISCAP 2026-201 (11 MFRs) | 🟢 (11 de 11 lidos em 19/09/2026, sessão 2) | https://www.archives.gov/declassification/iscap/pdf/2026-201 |
 | MFR — Condoleezza Rice (07/02/2004) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-5-release-508.pdf |
 | MFR — Mike Scheuer #1 (11/12/2003, sob juramento) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-6-release-508.pdf |
-| MFR — Sandy Berger (14/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-1-release-508.pdf |
-| MFR — Richard A. Clarke #1 (18/12/2003) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-2-release-508.pdf |
-| MFR — Richard A. Clarke #2 (12/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-3-release-508.pdf |
-| MFR — Richard A. Clarke #3 (03/02/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-4-release-508.pdf |
-| MFR — Michael Scheuer #2 (06/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-7-release-508.pdf |
-| MFR — Michael Scheuer #3 (11/03/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-8-release-508.pdf |
-| MFR — George Tenet #1 (23/12/2003) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-9-release-508.pdf |
-| MFR — George Tenet #2 (22/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-10-release-508.pdf |
-| MFR — George Tenet #3 (28/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-11-release-508.pdf |
+| MFR — Sandy Berger (14/01/2004) | 🟢 lido integralmente em 19/09/2026 (sessão 2) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-1-release-508.pdf |
+| MFR — Richard A. Clarke #1 (18/12/2003) | 🟢 lido integralmente em 19/09/2026 (sessão 2) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-2-release-508.pdf |
+| MFR — Richard A. Clarke #2 (12/01/2004) | 🟢 lido integralmente em 19/09/2026 (sessão 2) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-3-release-508.pdf |
+| MFR — Richard A. Clarke #3 (03/02/2004) | 🟢 lido integralmente em 19/09/2026 (sessão 2) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-4-release-508.pdf |
+| MFR — Michael Scheuer #2 (06/01/2004) | 🟢 lido integralmente em 19/09/2026 (sessão 2) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-7-release-508.pdf |
+| MFR — Michael Scheuer #3 (11/03/2004) | 🟢 lido integralmente em 19/09/2026 (sessão 2) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-8-release-508.pdf |
+| MFR — George Tenet #1 (23/12/2003) | 🟢 lido integralmente em 19/09/2026 (sessão 2) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-9-release-508.pdf |
+| MFR — George Tenet #2 (22/01/2004) | 🟢 lido integralmente em 19/09/2026 (sessão 2) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-10-release-508.pdf |
+| MFR — George Tenet #3 (28/01/2004) | 🟢 lido integralmente em 19/09/2026 (sessão 2) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-11-release-508.pdf |
 | Entrevista Bush/Cheney (redigida, liberada 2022 — não incluída na leva de 2026) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf |
 
 ## CIA — 71 PDBs desclassificados
@@ -67,7 +69,7 @@ Legenda de status de leitura: 🟢 lido integralmente · 🟡 lido parcialmente 
 | Fonte | Status | URL |
 |---|---|---|
 | Página índice dos 71 PDBs (11/09/2026) | 🟡 índice completo lido | https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/seventy-one-declassified-presidents-daily-brief-products/ |
-| PDB individual "Bin Ladin Determined To Strike in US" (06/08/2001) | ⚫ PDF sem camada de texto | https://www.cia.gov/static/08-06-2001-Bin-Ladin-Determined-To-Strike-in-US.pdf |
+| PDB individual "Bin Ladin Determined To Strike in US" (06/08/2001) | 🟢 lido integralmente em 19/09/2026 (sessão 2), via OCR — PDF não tem camada de texto nativa; extraído com `pdftoppm` (300 DPI) + `tesseract` | https://www.cia.gov/static/08-06-2001-Bin-Ladin-Determined-To-Strike-in-US.pdf |
 | Demais 70 PDBs individuais | ⚫ não testados / presumivelmente mesmo problema de OCR | ver índice acima |
 | Coleção completa (101 pp., 36.6 MB) | ⚫ não acessado | https://www.cia.gov/static/71-PDB-9_11-Related-Collection.pdf |
 

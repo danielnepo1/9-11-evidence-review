@@ -1,6 +1,8 @@
 # Próximas Fases
 
-> **Pré-requisito de ambiente (registrado em 19/09/2026).** As Fases 2A, 2B, 3 e 4 dependem de leitura de documentos primários em `archives.gov`, `intelligence.senate.gov`, `cia.gov`, `govinfo.gov`, `vault.fbi.gov` e `nist.gov`. Numa tentativa de execução em 19/09/2026, **todos** esses domínios estavam bloqueados por política de egresso de rede do ambiente (403 no CONNECT). Antes de iniciar qualquer fase, verificar acesso de leitura aos domínios-alvo — sem ele, a fase não é executável, e produzir conclusões a partir de busca ou de conhecimento prévio viola a regra de execução no final deste arquivo.
+> **Atualização de ambiente (19/09/2026, sessão 2).** O bloqueio de rede registrado abaixo (sessão 1, mesma data) foi retestado e **não se confirmou** para a maioria dos domínios: `archives.gov`, `cia.gov`, `nist.gov`, `intelligence.senate.gov`, `govinfo.gov`, `9-11commission.gov` e `govinfo.library.unt.edu` respondem HTTP 200. `vault.fbi.gov` e `www.fbi.gov` continuam bloqueados (403) — o bloqueio deixou de ser geral e é agora seletivo a esses dois hosts. Com o acesso restaurado, a Fase 2A foi executada nesta sessão: os nove MFRs pendentes e o PDB de 06/08/2001 (via OCR) foram lidos integralmente — ver [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md), seções 3.1, 4, 5 e 7, e [`SOURCES.md`](SOURCES.md). **Antes de iniciar qualquer fase nova, sempre reverificar o acesso de leitura aos domínios-alvo** — o bloqueio já se mostrou instável entre sessões no mesmo dia — e nunca produzir conclusões a partir de busca ou de conhecimento prévio, conforme a regra de execução no final deste arquivo.
+>
+> **Registro original da falha (sessão 1, mantido por rastreabilidade).** Numa tentativa de execução em 19/09/2026, todos os domínios acima (exceto os dois do FBI) estavam bloqueados por política de egresso de rede do ambiente (403 no CONNECT).
 
 Roteiro de continuação da auditoria, na ordem de execução planejada ao final da Fase 1 (ver [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md), seção 9).
 
@@ -10,13 +12,13 @@ Antes de iniciar qualquer fase, ler [`README.md`](README.md) (hipóteses e escal
 
 ## Fase 2A — MFRs restantes da liberação de 2026
 
-**Status: aberta, não executada** (bloqueio de acesso — ver acima). Enquadramento, prioridades e instrumento já estão prontos em [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md); falta a leitura.
+**Status: leitura dos nove MFRs concluída em 19/09/2026 (sessão 2).** Resultados incorporados em [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) (seções 4, 5, 7). Pendências remanescentes da fase: releitura dirigida de DOC-1 para a prioridade 5 (5a/5b), e localização — fora da liberação 2026-201 — dos MFRs de Reno, Freeh, White e Fitzgerald no acervo geral do NARA. Nenhuma dessas duas pendências foi iniciada.
 
-Ler integralmente os 9 MFRs ainda não lidos, nesta ordem: **Tenet (×3) → Clarke (×3) → Berger → Scheuer (×2)**.
+~~Ler integralmente os 9 MFRs ainda não lidos, nesta ordem: Tenet (×3) → Clarke (×3) → Berger → Scheuer (×2).~~ — concluído.
 
 **Seis prioridades pré-registradas** (perguntas, testes discriminantes e critérios de resposta positiva/negativa/inconclusiva em [`docs/03` §4](docs/03-phase2a-mfr-verification.md)):
 
-1. O nó al-Mihdhar/al-Hazmi — onde H5 se decide, e que continua intocado.
+1. O nó al-Mihdhar/al-Hazmi — onde H5 se decide. Deixou de estar intocado na sessão 2 (19/09/2026): testemunho de Clarke/Tenet/Black lido e tabulado, mas nenhum documento contemporâneo localizado ainda — ver [`docs/03` Prioridade 1](docs/03-phase2a-mfr-verification.md).
 2. A discrepância 30% vs 0% na operação de captura de UBL de maio de 1998.
 3. O PDB de 25/03/1999 supostamente retido — atenção à armadilha: o PDB publicado não testa a alegação, o memorando interno testa.
 4. O PDB de 06/08/2001 — exige OCR, o PDF não tem camada de texto.
@@ -27,7 +29,7 @@ Ler integralmente os 9 MFRs ainda não lidos, nesta ordem: **Tenet (×3) → Cla
 
 ## Fase 2B — Joint Congressional Inquiry
 
-**Status: aberta, não executada** (bloqueio de acesso). Protocolo de classificação pré-registrado em [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
+**Status: aberta, não executada. Acesso a `intelligence.senate.gov` confirmado em 19/09/2026 (sessão 2)** — a fase é executável a partir daqui, ao contrário do que a sessão 1 havia registrado. Protocolo de classificação pré-registrado em [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
 
 Ler o relatório integral da Joint Inquiry de 2002 e a Parte Quatro ("28 páginas"), desclassificada em 2016. Comparar com o Capítulo 5 do relatório da Comissão do 11/9.
 
@@ -36,6 +38,8 @@ Ler o relatório integral da Joint Inquiry de 2002 e a Parte Quatro ("28 página
 **Regra de tratamento, não negociável:** as "28 páginas" **não** são prova de participação estatal saudita. Cada item recebe exatamente uma classificação — `pista`, `declaração`, `documento`, `fato corroborado`, `alegação judicial` ou `conclusão investigativa` — mais o registro de se a Joint Inquiry o declarou resolvido, não resolvido ou não perseguido. Indivíduo com vínculo governamental não é governo; contato não é apoio; apoio não é apoio consciente ao ataque.
 
 ## Fase 3 — Auditoria técnica profunda (engenharia)
+
+**Acesso a `nist.gov` confirmado em 19/09/2026 (sessão 2).** Fase não iniciada nesta sessão — ordem de execução é 2A → 2B → 3 → 4 (ver acima), e 2B segue aberta.
 
 Sequência de leitura definida em [`docs/02`](docs/02-adversarial-audit-phase1.md), seção 7:
 
