@@ -1,4 +1,43 @@
+> 🌐 **English companion translation:** [`en/NEXT-STEPS.en.md`](en/NEXT-STEPS.en.md) · policy: [`en/TRANSLATION-POLICY.md`](en/TRANSLATION-POLICY.md)
+
 # Próximas Fases
+
+> ## ⚠️ Controlling framework — read before executing any phase (added 19 September 2026)
+>
+> Every phase below is now executed **under** [`docs/04-controlling-methodology.md`](docs/04-controlling-methodology.md) and [`docs/05-phase-c-competing-narratives.md`](docs/05-phase-c-competing-narratives.md), which prevail over anything in this file.
+>
+> **Phase C runs across Phases 2A, 2B, 3 and 4 — not after them.** Those phases say which documents to read; Phase C says what must be true before anything read in them may be treated as established.
+>
+> Four rules bind every phase from here on:
+>
+> 1. **Baseline axiom.** Reading official documents establishes the baseline; it cannot validate it. Repeated publications sharing one provenance root are not independent corroboration.
+> 2. **Pull-driven collection.** A source is retrieved because a named registry row needs it. **No indiscriminate internet collection** — [`registry/source-policy.md`](registry/source-policy.md) gates every corpus expansion.
+> 3. **Image verification.** Every decisive quotation is checked against the page image and carries its source layer. The extracted text layer of a scanned release **does not show redaction voids** — demonstrated on DOC-7 p.4, where a block covering ~60% of the page is invisible in the text.
+> 4. **Symmetry.** Critical and alternative claims are decomposed and tested exactly as official ones are. Identifying a real inconsistency in an official account establishes *an inconsistency*, never an alternative explanation.
+>
+> **Every phase's output now lands in [`registry/`](registry/)**, not only in a narrative document: atomic propositions in [`claims.md`](registry/claims.md), chains in [`provenance.md`](registry/provenance.md), wording changes in [`version-history.md`](registry/version-history.md), conflicts in [`discrepancies.md`](registry/discrepancies.md), and a document card per document read.
+>
+> ### Access status update (19 September 2026)
+>
+> **The network block recorded below and in [`docs/03` §3](docs/03-phase2a-mfr-verification.md) no longer applies.** `www.archives.gov` and `www.intelligence.senate.gov` both returned HTTP 200 on 19 September 2026. The earlier failure record is preserved, not overwritten: it is an accurate record of that session's ceiling. **Phase 2A is open and in progress.**
+>
+> ### Phase 2A reading queue — current state
+>
+> | # | MFR | State |
+> |---|---|---|
+> | 1 | **Tenet #2 (22 Jan 2004)** | ✅ **read in full, carded, ingested into the registry** — [`registry/cards/DOC-7-mfr-tenet-2.md`](registry/cards/DOC-7-mfr-tenet-2.md) |
+> | 2 | Tenet #3 (28 Jan 2004) | ⏭ **next.** Chosen over Tenet #1 because DOC-7 names it as the session in which the witness returned to the February 1999 MON, and because it is the first place the 27 declared follow-up items of DOC-7 §8 could have been answered |
+>
+> **⚠️ SUPERSEDED 19 September 2026 — see [`docs/06-audit-program-v2.md`](docs/06-audit-program-v2.md).** Tenet #3 was read as DOC-8, and **both premises stated in row 2 were falsified by reading it**: the MFR of the 28 January session contains no reference to the February 1999 MON, and it carries no follow-up list. That falsification produced [DISC-007](registry/discrepancies.md#disc-007). The rationale is left visible because it is the record of how the queue was wrong. **The live queue is in `docs/06`.**
+> | 3 | Tenet #1 (23 Dec 2003) | open |
+> | 4–6 | Clarke ×3 | open |
+> | 7 | Berger | open — the second side of the May 1998 cancellation (A3.2, T-04) |
+> | 8–9 | Scheuer #2 and #3 | open |
+>
+> ### Blocking gate carried forward
+>
+> **DOC-1, MFR Rice (DOC-2) and MFR Scheuer #1 (DOC-3) must be re-carded under the image-verification standard before A10, A16 or any dependent conclusion may be closed.** See [`registry/cards/README.md`](registry/cards/README.md) §3. This requirement does not expire and is not satisfied by having read them in Phase A.
+
 
 > **Pré-requisito de ambiente (registrado em 19/09/2026).** As Fases 2A, 2B, 3 e 4 dependem de leitura de documentos primários em `archives.gov`, `intelligence.senate.gov`, `cia.gov`, `govinfo.gov`, `vault.fbi.gov` e `nist.gov`. Numa tentativa de execução em 19/09/2026, **todos** esses domínios estavam bloqueados por política de egresso de rede do ambiente (403 no CONNECT). Antes de iniciar qualquer fase, verificar acesso de leitura aos domínios-alvo — sem ele, a fase não é executável, e produzir conclusões a partir de busca ou de conhecimento prévio viola a regra de execução no final deste arquivo.
 

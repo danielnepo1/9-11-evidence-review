@@ -1,3 +1,5 @@
+> 🌐 **English companion translation:** [`../en/docs/02-adversarial-audit-phase1.en.md`](../en/docs/02-adversarial-audit-phase1.en.md)
+
 # Segunda Auditoria — Fase 1 e Primeira Tranche Substantiva
 
 > Auditoria adversarial da narrativa oficial do 11/9, com hipóteses H0–H7 mantidas separadas, padrão probatório documental, e correção explícita da versão anterior ([`01-wtc-engineering-audit-v1.md`](01-wtc-engineering-audit-v1.md)).

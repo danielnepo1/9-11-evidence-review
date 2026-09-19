@@ -1,0 +1,51 @@
+# Registry — Living Instruments
+
+These are **living instruments**, not chronological documents. Unlike `docs/NN-*.md`, which are dated and superseded in sequence, the files here are updated in place and record their own change events.
+
+| File | Purpose | Governed by |
+|---|---|---|
+| [`claims.md`](claims.md) | Atomic claim registry — every material proposition, its evidence, provenance root, competing explanations and closure conditions | [`../docs/04-controlling-methodology.md`](../docs/04-controlling-methodology.md) §2, §5 |
+| [`provenance.md`](provenance.md) | Provenance and source-independence graph — claim → publishing document → cited source → earliest recoverable source | `04` §3 |
+| [`version-history.md`](version-history.md) | Chronological version ledger of official wording, and the change-event log for this repository's own reclassifications | `04` §4, §11 |
+| [`discrepancies.md`](discrepancies.md) | Discrepancy ledger and the closed taxonomy | `04` §6 |
+| [`source-policy.md`](source-policy.md) | Source inclusion, provenance, preservation and deduplication rules — **gate** on any corpus expansion | `04` §10 |
+| [`witness-status.md`](witness-status.md) | Procedural status per witness document — what may and may not be called testimony under oath | `04` §7.4 |
+| [`anomalies.md`](anomalies.md) | Anomaly register — escalation ladder (levels 1–5) and P0–P3 research priority, one row per discrepancy | `04` §6.1 |
+| [`timeline.md`](timeline.md) | Six-track timeline — event · observation · communication · record creation · later recollection · publication, with clock source and `automatic` vs `reconstructed` | `04` §4.1 |
+| [`instruments-b1-b2.md`](instruments-b1-b2.md) | B1 quarantine record; B2-ref / B2-rely definitions and subtypes | `04` §8 |
+| [`cards/`](cards/) | Document cards — one per document read, with the required fields for decisive quotations | `04` §7 |
+
+## Change-event discipline
+
+No row is silently overwritten. A status change requires a dated entry in [`version-history.md`](version-history.md) §3 naming: the row, the old value, the new value, the document that moved it, and whether that document was image-verified.
+
+## ID namespaces
+
+| Prefix | Meaning | Allocated |
+|---|---|---|
+| `DOC-n` | Document read or verified | DOC-1 … DOC-9 |
+| `A<n>` | Phase A legacy claim container (from [`../docs/03`](../docs/03-phase2a-mfr-verification.md) §5) | A1 … A16 |
+| `A<n>.<k>` | Atomic proposition inside a legacy container | see [`claims.md`](claims.md) |
+| `T-<nn>` | Claim first recorded from DOC-7 (MFR Tenet #2) | T-01 … T-13, T-N1 |
+| `U-<nn>` | Claim first recorded from DOC-8 (MFR Tenet #3) | U-01 … U-18 (incl. U-04a), U-N1, U-N2 |
+| `V-<nn>` | Claim first recorded from DOC-9 (MFR, 23 Dec 2003 luncheon meeting) | V-01 … V-12, V-N1 |
+| `C-<nn>` | Critical / alternative claim | **none yet** — gated, see [`../docs/05-phase-c-competing-narratives.md`](../docs/05-phase-c-competing-narratives.md) §4 |
+| `DISC-<nnn>` | Discrepancy ledger row | DISC-001 … DISC-012 |
+| `PR-<nnn>` | Provenance chain | PR-001 … PR-015 |
+| `TL-<nnn>` | Timeline entry | TL-001, TL-002 |
+| `EC1`–`EC5` | Explanation class (never `H1`–`H5` — see `04` MD-001) | fixed |
+| `MD-<nnn>` | Methodological decision | MD-001 … MD-023 |
+
+**Prefix allocation rule.** Claim prefixes are assigned **per source document**, one letter each, in reading order: `T` = DOC-7, `U` = DOC-8, `V` = DOC-9, then `W`, `X`, … for DOC-10 onward. `A` is reserved for the Phase A legacy containers and `C` for critical/alternative claims; neither is reallocated.
+
+### Three numbering systems are in play, and they do not correspond
+
+A `DOC-n` identifier is **this project's** sequence, assigned in reading order. It is not NARA's and not the Commission's. Do not infer a relation between them.
+
+| System | Range | Relation to `DOC-n` |
+|---|---|---|
+| **`DOC-n`** — this project, reading order | DOC-1 … DOC-9 assigned | — |
+| **ISCAP 2026-201 document numbers** — NARA's release sequence | 1 … 11 | **No correspondence.** DOC-2 = ISCAP 5; DOC-3 = ISCAP 6; DOC-7 = ISCAP 10; DOC-8 = ISCAP 11; DOC-9 = ISCAP 9; reserved DOC-10 (Berger) = ISCAP **1** |
+| **Handwritten archival control marks** — on the page images | e.g. `MFR 04017364`, `MFR 04017365`, `MFR 04012114` | DOC-8 (28 Jan) = …364 and DOC-7 (22 Jan) = …365 are in **reverse** session order. **DOC-9 (23 Dec 2003) = `MFR 04012114`** *(final digits uncertain at this resolution)* — a different block entirely, so the reverse-order observation describes one adjacent pair and is **not** a rule of the series. Corrected 19 Sep 2026 |
+
+> **Warning.** **DOC-9 happens to equal ISCAP document 9** — confirmed on reading, 19 Sep 2026, from the declassification stamp on its own page. This is a coincidence of two unrelated sequences, not a pattern, and every other pair diverges. Never cite an ISCAP number as a `DOC-n` or the reverse. *(Recorded 19 Sep 2026 — defect #31.)*

@@ -1,3 +1,5 @@
+> 🌐 **English companion translation:** [`../en/docs/03-phase2a-mfr-verification.en.md`](../en/docs/03-phase2a-mfr-verification.en.md)
+
 # Fase 2A — Correção de Enquadramento e Instrumento de Verificação dos MFRs
 
 > Corrige formalmente o enquadramento de [`02-adversarial-audit-phase1.md`](02-adversarial-audit-phase1.md) e estabelece o instrumento de verificação alegação-a-alegação da liberação ISCAP 2026-201. **Execução da leitura dos nove MFRs restantes: não realizada nesta sessão por bloqueio de acesso de rede** — registrado na seção 3 com a evidência do teste.

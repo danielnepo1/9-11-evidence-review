@@ -1,3 +1,5 @@
+> 🌐 **English companion translation:** [`../en/docs/01-wtc-engineering-audit-v1.en.md`](../en/docs/01-wtc-engineering-audit-v1.en.md)
+
 # Auditoria Técnica — Colapso das Torres Gêmeas e do WTC 7 (v1)
 
 > **Status:** superada em vários pontos pela revisão em [`02-adversarial-audit-phase1.md`](02-adversarial-audit-phase1.md), seção 2 ("O que estava errado, exagerado ou prematuro"). Mantida aqui na íntegra como registro histórico do primeiro passe da auditoria — não como conclusão final.

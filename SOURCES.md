@@ -1,8 +1,31 @@
+> 🌐 **English companion translation:** [`en/SOURCES.en.md`](en/SOURCES.en.md) · policy: [`en/TRANSLATION-POLICY.md`](en/TRANSLATION-POLICY.md)
+
 # Bibliografia Consolidada
 
 Todas as fontes acessadas ao longo das fases da auditoria, consolidadas por procedência. Data de acesso: **17 de setembro de 2026**, salvo indicação contrária.
 
 Legenda de status de leitura: 🟢 lido integralmente · 🟡 lido parcialmente / apenas índice ou FAQ · 🔴 verificado apenas por resumo/abstract · ⚫ acesso falhou
+
+> ## Access restored — 19 September 2026 (later session)
+>
+> **`www.archives.gov` and `www.intelligence.senate.gov` both returned HTTP 200.** The egress block recorded immediately below no longer applies. That record is **preserved, not overwritten** — it is an accurate record of the earlier session's ceiling, and deleting it would erase a methodological event (see [`registry/version-history.md`](registry/version-history.md) §3.1).
+>
+> Source-status changes from this session:
+>
+> - **MFR — George Tenet #2 (22/01/2004)** → 🟢 **read in full** (24/24 pp.), carded, partially image-verified. Card: [`registry/cards/DOC-7-mfr-tenet-2.md`](registry/cards/DOC-7-mfr-tenet-2.md). SHA-256 and extraction record: [`corpus/manifest.md`](corpus/manifest.md).
+> - No other source status changed **in that session**.
+>
+> **Amended 19 September 2026 (defect #8).** A later session of the same day read **DOC-8 — MFR George Tenet #3 (28/01/2004)** in full (13/13 pp.), carded and partially image-verified. The Tenet #3 row below and the ISCAP index count are updated accordingly. Card: [`registry/cards/DOC-8-mfr-tenet-3.md`](registry/cards/DOC-8-mfr-tenet-3.md); hashes: [`corpus/manifest.md`](corpus/manifest.md).
+>
+> **Amended again 19 September 2026 — audit program v2, steps 1–3** ([`docs/06-audit-program-v2.md`](docs/06-audit-program-v2.md)). Three changes:
+>
+> 1. **DOC-9 — MFR of the 23/12/2003 luncheon meeting with DCI Tenet** read in full (3/3 pp.) and **image-verified in full (3/3 = 100%)** — the first artifact in this corpus at complete page-image coverage. Card: [`registry/cards/DOC-9-mfr-tenet-luncheon.md`](registry/cards/DOC-9-mfr-tenet-luncheon.md). It is a **meeting memorandum, not an interview record, and no oath is recorded**; the row below is relabelled accordingly.
+> 2. **DOC-7 p.12** image-verified (coverage 4 → **5/24 = 21%**).
+> 3. **DOC-8 pp. 2 and 12** image-verified (coverage 7 → **9/13 = 69%**), producing a **material correction** to claim U-04 — see [`registry/cards/DOC-8-mfr-tenet-3.md`](registry/cards/DOC-8-mfr-tenet-3.md) §5.1.
+>
+> Corpus-wide page-image coverage is now **17 of 40 pages = 43%**. "Read in full" and "image-verified" remain different claims and are reported separately.
+>
+> **New retrieval requirement (governing, from [`docs/04` §7.2](docs/04-controlling-methodology.md) and [`registry/source-policy.md`](registry/source-policy.md) §3):** every source retrieved from now on records byte size, **SHA-256**, text-layer status, extraction tool and version, and a redaction profile **as seen on the page image**. 🟢 alone is no longer sufficient — a document read only through its extracted text layer is recorded as read but **not image-verified**, and cannot supply a decisive quotation.
 
 > **Registro de falha de acesso — 19 de setembro de 2026.** Numa tentativa de executar as Fases 2A e 2B, **todos** os domínios de fonte primária deste arquivo estavam bloqueados pela política de egresso de rede do ambiente (403 no CONNECT, tanto via cliente HTTP quanto via ferramenta de fetch): `archives.gov` e subdomínios, `intelligence.senate.gov`, `cia.gov`, `govinfo.gov`, `vault.fbi.gov`, `9-11commission.gov`, `govinfo.library.unt.edu`, `nist.gov`. O bloqueio não é seletivo — nenhum host externo testado respondeu. O único canal disponível era busca, que retorna trechos de terceiros e **não** conta como leitura sob o padrão deste projeto. Nenhuma fonte teve seu status alterado nesta sessão. Detalhes em [`docs/03` §3](docs/03-phase2a-mfr-verification.md).
 
@@ -48,18 +71,18 @@ Legenda de status de leitura: 🟢 lido integralmente · 🟡 lido parcialmente 
 |---|---|---|
 | PIDB, "Long-Sought 9/11 Records Now Declassified" (11/09/2026) | 🟢 | https://transforming-classification.blogs.archives.gov/2026/09/11/long-sought-9-11-records-now-declassified-and-available-to-the-public/ |
 | *Report on Review of PDB Articles* (09/02/2004, desclass. 08/09/2026) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2022-008-document-release-508.pdf |
-| Índice ISCAP 2026-201 (11 MFRs) | 🟡 (2 de 11 lidos) | https://www.archives.gov/declassification/iscap/pdf/2026-201 |
+| Índice ISCAP 2026-201 (11 MFRs) | 🟡 (5 de 11 lidos) | https://www.archives.gov/declassification/iscap/pdf/2026-201 |
 | MFR — Condoleezza Rice (07/02/2004) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-5-release-508.pdf |
 | MFR — Mike Scheuer #1 (11/12/2003, sob juramento) | 🟢 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-6-release-508.pdf |
-| MFR — Sandy Berger (14/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-1-release-508.pdf |
-| MFR — Richard A. Clarke #1 (18/12/2003) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-2-release-508.pdf |
-| MFR — Richard A. Clarke #2 (12/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-3-release-508.pdf |
-| MFR — Richard A. Clarke #3 (03/02/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-4-release-508.pdf |
-| MFR — Michael Scheuer #2 (06/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-7-release-508.pdf |
-| MFR — Michael Scheuer #3 (11/03/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-8-release-508.pdf |
-| MFR — George Tenet #1 (23/12/2003) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-9-release-508.pdf |
-| MFR — George Tenet #2 (22/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-10-release-508.pdf |
-| MFR — George Tenet #3 (28/01/2004) | ⚫ alvo da Fase 2A; acesso bloqueado em 19/09/2026 | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-11-release-508.pdf |
+| MFR — Sandy Berger (14/01/2004) | 🔴 alvo da Fase 2A; **acessível desde 19/09/2026**, não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-1-release-508.pdf |
+| MFR — Richard A. Clarke #1 (18/12/2003) | 🔴 alvo da Fase 2A; **acessível desde 19/09/2026**, não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-2-release-508.pdf |
+| MFR — Richard A. Clarke #2 (12/01/2004) | 🔴 alvo da Fase 2A; **acessível desde 19/09/2026**, não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-3-release-508.pdf |
+| MFR — Richard A. Clarke #3 (03/02/2004) | 🔴 alvo da Fase 2A; **acessível desde 19/09/2026**, não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-4-release-508.pdf |
+| MFR — Michael Scheuer #2 (06/01/2004) | 🔴 alvo da Fase 2A; **acessível desde 19/09/2026**, não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-7-release-508.pdf |
+| MFR — Michael Scheuer #3 (11/03/2004) | 🔴 alvo da Fase 2A; **acessível desde 19/09/2026**, não lido | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-8-release-508.pdf |
+| **MFR — Tenet, reunião de almoço (23/12/2003)** — **sem juramento registrado; memorando de reunião, não entrevista** | 🟢 **lido integralmente 19/09/2026** (3/3 pp.); **verificação por imagem 3/3 = 100%**; SHA-256 `433cbe34…4186155c`; ficha: [`registry/cards/DOC-9-mfr-tenet-luncheon.md`](registry/cards/DOC-9-mfr-tenet-luncheon.md) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-9-release-508.pdf |
+| **MFR — George Tenet #2 (22/01/2004)** — sob juramento | 🟢 **lido integralmente 19/09/2026** (24/24 pp.); verificação por imagem pp. 3, 4, 5, **12**, 19 (21%); SHA-256 `7434ad30…bc38e28`; ficha: [`registry/cards/DOC-7-mfr-tenet-2.md`](registry/cards/DOC-7-mfr-tenet-2.md) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-10-release-508.pdf |
+| **MFR — George Tenet #3 (28/01/2004)** — sob juramento transportado de 22/01 | 🟢 **lido integralmente 19/09/2026** (13/13 pp.); verificação por imagem pp. 1, **2**, 3, 5, 8, 9, 10, 11, **12** (69%); SHA-256 `f8b42694…fbfeeb2e`; ficha: [`registry/cards/DOC-8-mfr-tenet-3.md`](registry/cards/DOC-8-mfr-tenet-3.md) | https://www.archives.gov/files/declassification/iscap/pdf/2026-201-document-11-release-508.pdf |
 | Entrevista Bush/Cheney (redigida, liberada 2022 — não incluída na leva de 2026) | 🔴 não lido | https://www.archives.gov/files/declassification/iscap/pdf/2012-163-doc-1-release-material.pdf |
 
 ## CIA — 71 PDBs desclassificados
@@ -89,7 +112,7 @@ Nenhum localizado. Todos necessários para as prioridades 1, 2 e 6 de [`docs/03`
 ## Repositórios listados no escopo original — não acessados nesta fase
 
 - National Archives — 9/11 Commission Records, FAA Finding Aid, materiais NORAD/NEADS
-- Joint Congressional Inquiry (2002) e Part Four ("28 páginas") — ⚫ alvo da Fase 2B; acesso bloqueado em 19/09/2026
+- Joint Congressional Inquiry (2002) e Part Four ("28 páginas") — 🔴 alvo da Fase 2B; **acessível desde 19/09/2026**, não lido
   https://www.intelligence.senate.gov/2016/07/15/publications-declassified-version-part-four-joint-inquiry-intelligence-community-activities-and/
 - FBI Vault — material liberado sob Executive Order 14040
   https://vault.fbi.gov/9-11-attacks-investigation-and-related-materials/9-11-material-released-in-response-to-executive-order-14040
