@@ -16,10 +16,16 @@ Before starting any phase, read [`README.md`](README.md) (hypotheses and confide
 
 ## Execution order
 
+> **Strategy change — 19 September 2026.** [`docs/06-research-program.md`](docs/06-research-program.md) adds two phases **ahead of** the workstreams below: **Phase A (instrumentation)** and **Phase B (corpus-wide structural audits)**. The reason is in `06` §1: document-by-document reading cannot cover a 10⁵-page record, and it finds anomalies only where others have already pointed. Phase B's citation-genealogy graph reorders the priorities below on evidence rather than on fame, so it runs first. All ST targeting in [`docs/05`](docs/05-stress-test-execution-plan.md) is retained and becomes Phase C.
+
 | # | Step | Status |
 |---|---|---|
 | 1 | Methodology and anomaly-register update | ✅ **Done — 19 September 2026** (`docs/04`, `docs/anomaly-register.md`, `docs/claim-decomposition-register.md`) |
-| 2 | **Official Account Stress-Test Track** (ST-1 … ST-7) | ⏳ **Next — executable now.** Targets, priorities and reading order pre-registered in [`docs/05`](docs/05-stress-test-execution-plan.md) |
+| 1b | Targeting plan (ST-1…ST-7, P0–P3, conclusion ceilings) | ✅ **Done — 19 September 2026** (`docs/05`, `docs/contradiction-ledger.md`) |
+| 1c | Research program + capability verification | ✅ **Done — 19 September 2026** (`docs/06`). **OCR pipeline verified: the text-layer blocker on the 6 Aug 2001 PDB is solved** |
+| 1d | **Phase A — instrumentation** (harvest, extract/OCR, provenance DB, reproducibility) | ⏳ **Next** — `docs/06` §3 Phase A |
+| 1e | **Phase B — structural audits** (citation genealogy, detainee-derived census, version diffs, drift scanner, missing-record census, timeline intervals) | ⏳ `docs/06` §3 Phase B |
+| 2 | **Official Account Stress-Test Track** (ST-1 … ST-7) → Phase C | ⏳ Executable now; re-prioritised by Phase B output. Targets in [`docs/05`](docs/05-stress-test-execution-plan.md) |
 | 3 | Mirror testing of H1–H7 against the same evidence | ⏳ Runs on the output of step 2 |
 | 4 | Phase 2B — Joint Inquiry / Part Four / foreign networks | ⏳ Executable now (`intelligence.senate.gov` open) |
 | 5 | Phase 3 — technical and forensic audit | ⏳ |

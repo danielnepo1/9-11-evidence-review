@@ -36,6 +36,7 @@ This repository documents an ongoing audit of the official account of the 11 Sep
 │   ├── 03-phase2a-mfr-verification.md          ← framing corrections + Phase 2A verification instrument [pt-BR]
 │   ├── 04-methodology-symmetric-skepticism.md  ← GOVERNING METHODOLOGY
 │   ├── 05-stress-test-execution-plan.md        ← targeting plan: where to look, priorities, ceilings
+│   ├── 06-research-program.md                  ← research program: instrumentation + corpus-wide audits
 │   ├── claim-decomposition-register.md         ← atomic-proposition register (empty at creation)
 │   ├── anomaly-register.md                     ← anomaly register (empty at creation)
 │   └── contradiction-ledger.md                 ← contradiction ledger (empty at creation)
@@ -51,7 +52,8 @@ Document numbering is chronological **and** hierarchical: each later document co
 |---|---|---|---|
 | 1 | [`README.md`](README.md) | Governing principle, hypotheses H0–H7, confidence scale | Entry point — defines the vocabulary used everywhere else |
 | 2 | [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md) | **Governing methodology** | Symmetry requirements, claim decomposition, mirror test, mandatory reporting format |
-| 3 | [`docs/05-stress-test-execution-plan.md`](docs/05-stress-test-execution-plan.md) | **Targeting plan** | Where fractures are most likely, P0–P3 priorities, escalation ladder, cross-cutting attack patterns, fixed conclusion ceilings, next reading order |
+| 3 | [`docs/06-research-program.md`](docs/06-research-program.md) | **Research program** | Why the method changed, the verified tooling, the corpus-wide structural audits, expected-yield ranking, what to do next |
+| 3b | [`docs/05-stress-test-execution-plan.md`](docs/05-stress-test-execution-plan.md) | **Targeting plan** | Where fractures are most likely, P0–P3 priorities, escalation ladder, cross-cutting attack patterns, fixed conclusion ceilings |
 | 4 | [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) | Current framing + verification instrument | §1 corrects five formulations in `02`; §5 is the claim-by-claim status table; §7 is the current state of H1–H5 |
 | 5 | [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md) | Phase 1 documentary audit | §2 lists what was retracted from `01`; §§3–6 are the substantive findings. **Read with the `03` §1 errata in hand** |
 | 6 | [`docs/01-wtc-engineering-audit-v1.md`](docs/01-wtc-engineering-audit-v1.md) | First pass, engineering | **Historical record.** Not to be cited in isolation: several points were retracted |
@@ -137,7 +139,8 @@ For individual claims by witnesses and institutions the scale is different and c
 - ✅ **Framing correction + Phase 2A instrument** (`docs/03`): five formulations from `02` corrected (H1, H5, Rice's "all reporting pointed abroad", the Commission's access structure, the three-dates rule); claim-by-claim verification table with 16 classified rows; Phase 2A priorities pre-registered.
 - ✅ **Methodology and register update — 19 September 2026** (`docs/04`, `docs/claim-decomposition-register.md`, `docs/anomaly-register.md`): symmetric-skepticism principle adopted verbatim; symmetry requirements S1–S7; twelve-field atomic claim decomposition; anomaly register with mirror test; mandatory four-section phase reporting format. **No source read, no prior conclusion changed.**
 - ✅ **Stress-test targeting plan — 19 September 2026** (`docs/05`, `docs/contradiction-ledger.md`): pre-registered targeting hypotheses across ST-1…ST-7 with P0–P3 research priorities; escalation ladder (discrepancy → unresolved anomaly → structured pattern → concealment → foreknowledge, no level skipped); cross-cutting attack patterns; conclusion ceilings fixed **before** reading; contradiction ledger created. **No source read, no conclusion changed.**
-- 🔓 **Access restored.** The egress blockade recorded earlier on 19 September 2026 is lifted for `archives.gov`, `cia.gov`, `intelligence.senate.gov`, `nist.gov` and `oig.justice.gov`; `vault.fbi.gov` still refuses. Retrievability confirmed, readability not yet — see [`docs/05` §1](docs/05-stress-test-execution-plan.md).
+- ✅ **Research program — 19 September 2026** (`docs/06`): method shifted from document-by-document reading to corpus-scale instrumentation plus structural audits (citation-genealogy graph, detainee-derived claim census, version-diff engine, quantifier-drift scanner, missing-record census, timeline-interval database), with five new investigative lines and an expected-yield ranking stated in advance. **No source read, no conclusion changed.**
+- 🔓 **Access restored and the OCR blocker solved.** The egress blockade recorded earlier on 19 September 2026 is lifted for `archives.gov`, `cia.gov`, `intelligence.senate.gov`, `nist.gov`, `oig.justice.gov` and `govinfo.gov`; `vault.fbi.gov` still refuses. `tesseract` + poppler verified working on the 6 August 2001 PDB, whose missing text layer had blocked claims A10/A16 since `docs/02` — see [`docs/06` §2](docs/06-research-program.md). That was a pipeline test, not a reading; no status changed.
 - ⛔ **Official Account Stress-Test Track (ST-1 … ST-7): not executed.** Now unblocked; reading order in [`docs/05` §6](docs/05-stress-test-execution-plan.md).
 - ⛔ **Phase 2B — Joint Inquiry Part Four: not executed.** Now unblocked. Classification protocol pre-registered in [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
 - ⏳ **Remaining phases**: see [`NEXT-STEPS.md`](NEXT-STEPS.md).

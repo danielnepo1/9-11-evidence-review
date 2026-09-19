@@ -10,6 +10,8 @@ Read-status legend: 🟢 read in full · 🟡 read in part / index or FAQ only �
 
 > **Access re-check — 19 September 2026 (planning session). The blockade recorded above is largely lifted.** `www.archives.gov`, `www.cia.gov`, `www.intelligence.senate.gov`, `www.nist.gov` and `oig.justice.gov` all responded `200`; ranged requests against the ISCAP MFR PDFs and the 6 August 2001 PDB returned `206 application/pdf`, confirming retrievability. `vault.fbi.gov` still returns `403` and appears to be refused site-side rather than by egress policy. **No status in the tables below was changed by this re-check**: retrievability is not reading, and the 6 August 2001 PDB's missing text layer is a separate obstacle that retrieval does not solve. Targets and order of reading: [`docs/05`](docs/05-stress-test-execution-plan.md) §1 and §6.
 
+> **Capability verification — 19 September 2026. Not a reading.** The OCR obstacle recorded since `docs/02` (DOC-6) is solved. `tesseract` 5.3.4, poppler 24.02 and `pypdf`/`pdfplumber` are installed and working. Pipeline test on `08-06-2001-Bin-Ladin-Determined-To-Strike-in-US.pdf` (SHA-256 `dc7e2d7a281726b2262ee7ff3b2c4144cf80a1e5167f330147243a5dd39070af`, 763,998 bytes): embedded text layer contains **2 characters** in the whole file, confirming the original diagnosis; page 1 rasterised and OCR'd cleanly at **2,419 characters**. **No claim, status or register entry derives from this test.** The document is read properly, under a document card and with decisive passages checked against the page image, in Phase C2 of [`docs/06`](docs/06-research-program.md). Its status below therefore remains ⚫ until that reading happens.
+
 ---
 
 ## Document card — required for every source read from here on
