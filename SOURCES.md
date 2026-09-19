@@ -2,7 +2,9 @@
 
 All sources accessed across the phases of the audit, consolidated by provenance. Access date: **17 September 2026**, unless otherwise noted.
 
-Read-status legend: 🟢 read in full · 🟡 read in part / index or FAQ only · 🔴 verified by summary/abstract only · ⚫ access failed
+Read-status legend: 🟢 read in full · 🟡 read in part / index or FAQ only · 🔴 verified by summary/abstract only · ⚫ access failed · 📦 **harvested and machine-extracted, NOT read**
+
+> **📦 is not a reading status.** It means the file has been retrieved, hashed and text-extracted into the local corpus, and is ready to be read. Under [`docs/04`](docs/04-methodology-symmetric-skepticism.md) §2.4 no claim, status or register entry may rest on a 📦 document. It becomes 🟢 only after a reading under a document card, with decisive passages checked against the page image where OCR was used.
 
 > **Access-failure record — 19 September 2026.** In an attempt to execute Phases 2A and 2B, **every** primary-source domain in this file was blocked by the environment's network egress policy (403 on CONNECT, both via HTTP client and via fetch tool): `archives.gov` and subdomains, `intelligence.senate.gov`, `cia.gov`, `govinfo.gov`, `vault.fbi.gov`, `9-11commission.gov`, `govinfo.library.unt.edu`, `nist.gov`. The block is not selective — no external host tested responded. The only available channel was search, which returns third-party snippets and does **not** count as reading under this project's standard. No source had its status changed in that session. Details in [`docs/03` §3](docs/03-phase2a-mfr-verification.md).
 
@@ -11,6 +13,33 @@ Read-status legend: 🟢 read in full · 🟡 read in part / index or FAQ only �
 > **Access re-check — 19 September 2026 (planning session). The blockade recorded above is largely lifted.** `www.archives.gov`, `www.cia.gov`, `www.intelligence.senate.gov`, `www.nist.gov` and `oig.justice.gov` all responded `200`; ranged requests against the ISCAP MFR PDFs and the 6 August 2001 PDB returned `206 application/pdf`, confirming retrievability. `vault.fbi.gov` still returns `403` and appears to be refused site-side rather than by egress policy. **No status in the tables below was changed by this re-check**: retrievability is not reading, and the 6 August 2001 PDB's missing text layer is a separate obstacle that retrieval does not solve. Targets and order of reading: [`docs/05`](docs/05-stress-test-execution-plan.md) §1 and §6.
 
 > **Capability verification — 19 September 2026. Not a reading.** The OCR obstacle recorded since `docs/02` (DOC-6) is solved. `tesseract` 5.3.4, poppler 24.02 and `pypdf`/`pdfplumber` are installed and working. Pipeline test on `08-06-2001-Bin-Ladin-Determined-To-Strike-in-US.pdf` (SHA-256 `dc7e2d7a281726b2262ee7ff3b2c4144cf80a1e5167f330147243a5dd39070af`, 763,998 bytes): embedded text layer contains **2 characters** in the whole file, confirming the original diagnosis; page 1 rasterised and OCR'd cleanly at **2,419 characters**. **No claim, status or register entry derives from this test.** The document is read properly, under a document card and with decisive passages checked against the page image, in Phase C2 of [`docs/06`](docs/06-research-program.md). Its status below therefore remains ⚫ until that reading happens.
+
+---
+
+## Local corpus — Phase A, 19 September 2026
+
+Sixteen documents harvested, hashed and extracted: **1,649 pages, 4,349,282 characters, 82 pages via OCR**. Provenance for every file (URL, retrieval timestamp, HTTP status, byte count, SHA-256) is in `corpus/manifest.jsonl`; per-page extraction method and quality score are in `corpus/pages.db`. Rebuild instructions: [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md). Report: [`docs/07`](docs/07-phase-a-b1-first-pass.md).
+
+| Corpus ID | Status | Pages | Notes |
+|---|---|---|---|
+| `CR-2004` — 9/11 Commission Report | 📦 | 585 | 1 page OCR'd; endnote structure parsed (segmentation verified, classification not) |
+| `JI-2002` — Joint Inquiry full report | 📦 | 838 | 79 pages OCR'd, 69 scored `poor` — image verification required before use |
+| `JI-PART4` — Joint Inquiry Part Four | 📦 | 34 | text layer intact |
+| `PDB-20010806` — 6 Aug 2001 PDB | 📦 | 2 | **2 characters of embedded text in the whole file**; OCR'd clean, page images retained |
+| `ISCAP-PDBREVIEW` — PDB Review Team report | 🟢 / 📦 | 17 | already read in full (DOC-1); re-harvested for the 5a/5b re-read |
+| `MFR-RICE-20040207` | 🟢 / 📦 | 14 | already read in full (DOC-2) |
+| `MFR-SCHEUER-20031211` | 🟢 / 📦 | 11 | already read in full (DOC-3) |
+| `MFR-BERGER-20040114` | 📦 | 26 | text layer intact |
+| `MFR-CLARKE-20031218` | 📦 | 24 | text layer intact |
+| `MFR-CLARKE-20040112` | 📦 | 18 | text layer intact |
+| `MFR-CLARKE-20040203` | 📦 | 24 | text layer intact |
+| `MFR-SCHEUER-20040106` | 📦 | 12 | text layer intact |
+| `MFR-SCHEUER-20040311` | 📦 | 4 | text layer intact |
+| `MFR-TENET-20031223` | 📦 | 3 | text layer intact |
+| `MFR-TENET-20040122` | 📦 | 24 | text layer intact |
+| `MFR-TENET-20040128` | 📦 | 13 | text layer intact |
+
+The nine previously unread ISCAP memoranda total **148 pages** and all have intact text layers. The ⚫ entries for them in the NARA/ISCAP table below are superseded: they are no longer inaccessible, only unread.
 
 ---
 

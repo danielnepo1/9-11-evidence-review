@@ -23,8 +23,10 @@ Before starting any phase, read [`README.md`](README.md) (hypotheses and confide
 | 1 | Methodology and anomaly-register update | ✅ **Done — 19 September 2026** (`docs/04`, `docs/anomaly-register.md`, `docs/claim-decomposition-register.md`) |
 | 1b | Targeting plan (ST-1…ST-7, P0–P3, conclusion ceilings) | ✅ **Done — 19 September 2026** (`docs/05`, `docs/contradiction-ledger.md`) |
 | 1c | Research program + capability verification | ✅ **Done — 19 September 2026** (`docs/06`). **OCR pipeline verified: the text-layer blocker on the 6 Aug 2001 PDB is solved** |
-| 1d | **Phase A — instrumentation** (harvest, extract/OCR, provenance DB, reproducibility) | ⏳ **Next** — `docs/06` §3 Phase A |
-| 1e | **Phase B — structural audits** (citation genealogy, detainee-derived census, version diffs, drift scanner, missing-record census, timeline intervals) | ⏳ `docs/06` §3 Phase B |
+| 1d | **Phase A — instrumentation** | ✅ **Done — 19 September 2026** (`docs/07`). 16 documents, 1,649 pages, 4.35M chars, 82 pages OCR'd. OCR blocker retired |
+| 1e | **Phase B1 — citation genealogy** | ⚠️ **Partial.** Note segmentation verified (1,657 notes, 13 chapters, zero gaps). **Source classification failed its hand-check at 37.5% disagreement; counts withheld.** Re-scope to note-level binary detectors per `docs/07` §4.2 |
+| 1f | **Read the corpus** — the nine ISCAP memoranda (148 pp.) and the 6 Aug 2001 PDB, under document cards | ⏳ **Next.** No longer blocked by anything |
+| 1g | **Phase B2–B6** (detainee census, version diffs, drift scanner, missing-record census, timeline intervals) | ⏳ `docs/06` §3 Phase B; B2 depends on the B1 rebuild |
 | 2 | **Official Account Stress-Test Track** (ST-1 … ST-7) → Phase C | ⏳ Executable now; re-prioritised by Phase B output. Targets in [`docs/05`](docs/05-stress-test-execution-plan.md) |
 | 3 | Mirror testing of H1–H7 against the same evidence | ⏳ Runs on the output of step 2 |
 | 4 | Phase 2B — Joint Inquiry / Part Four / foreign networks | ⏳ Executable now (`intelligence.senate.gov` open) |

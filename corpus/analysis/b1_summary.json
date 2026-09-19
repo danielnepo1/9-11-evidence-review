@@ -1,0 +1,294 @@
+{
+  "document": "CR-2004",
+  "notes_region_pages": [
+    469,
+    585
+  ],
+  "spurious_sections_merged": [
+    {
+      "folded_section_ordinal": 8,
+      "notes_folded": 3,
+      "pages": [
+        543,
+        551
+      ],
+      "into": {
+        "section": 7,
+        "note": 107
+      },
+      "reason": "numbered list inside a note, not a chapter (fewer than 10 notes)"
+    }
+  ],
+  "section_vs_header_agreement": {
+    "notes_with_a_header_label": 1657,
+    "agreeing": 1533,
+    "rate": 0.925,
+    "note": "Section ordinal comes from note numbering; header label comes from the running head. Disagreement marks a mid-page chapter boundary or a misread head."
+  },
+  "completeness_by_chapter": {
+    "1": {
+      "parsed": 241,
+      "highest": 241,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "2": {
+      "parsed": 93,
+      "highest": 93,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "3": {
+      "parsed": 114,
+      "highest": 114,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "4": {
+      "parsed": 194,
+      "highest": 194,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "5": {
+      "parsed": 132,
+      "highest": 132,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "6": {
+      "parsed": 261,
+      "highest": 261,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "7": {
+      "parsed": 107,
+      "highest": 107,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "8": {
+      "parsed": 113,
+      "highest": 113,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "9": {
+      "parsed": 210,
+      "highest": 210,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "10": {
+      "parsed": 86,
+      "highest": 86,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "11": {
+      "parsed": 42,
+      "highest": 42,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "12": {
+      "parsed": 42,
+      "highest": 42,
+      "missing_count": 0,
+      "missing_first_20": []
+    },
+    "13": {
+      "parsed": 22,
+      "highest": 22,
+      "missing_count": 0,
+      "missing_first_20": []
+    }
+  },
+  "chapters_with_gaps": [],
+  "notes_parsed": 1657,
+  "citation_fragments": 3897,
+  "chapters_seen": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "fragments_by_kind": {
+    "commission_interview": 1447,
+    "contemporaneous_document": 915,
+    "unclassified": 498,
+    "detainee_report": 347,
+    "not_a_citation": 280,
+    "agency_briefing": 116,
+    "public_testimony": 110,
+    "commission_analysis": 99,
+    "press_or_book": 55,
+    "court_record": 30
+  },
+  "notes_resting_on_a_single_kind": {
+    "commission_interview": 390,
+    "contemporaneous_document": 292,
+    "unclassified": 132,
+    "detainee_report": 91,
+    "commission_analysis": 43,
+    "not_a_citation": 42,
+    "public_testimony": 35,
+    "press_or_book": 28,
+    "agency_briefing": 28,
+    "court_record": 6
+  },
+  "single_fragment_notes": 784,
+  "by_chapter": {
+    "1": {
+      "commission_interview": 218,
+      "contemporaneous_document": 166,
+      "not_a_citation": 136,
+      "unclassified": 110,
+      "agency_briefing": 21,
+      "commission_analysis": 20,
+      "public_testimony": 7,
+      "press_or_book": 2
+    },
+    "2": {
+      "contemporaneous_document": 60,
+      "commission_interview": 38,
+      "unclassified": 33,
+      "public_testimony": 23,
+      "detainee_report": 21,
+      "not_a_citation": 17,
+      "court_record": 11,
+      "press_or_book": 8,
+      "commission_analysis": 3,
+      "agency_briefing": 2
+    },
+    "3": {
+      "commission_interview": 126,
+      "unclassified": 56,
+      "contemporaneous_document": 46,
+      "public_testimony": 14,
+      "not_a_citation": 14,
+      "press_or_book": 12,
+      "court_record": 11,
+      "commission_analysis": 5,
+      "detainee_report": 4,
+      "agency_briefing": 2
+    },
+    "4": {
+      "commission_interview": 146,
+      "contemporaneous_document": 133,
+      "unclassified": 35,
+      "agency_briefing": 25,
+      "not_a_citation": 7,
+      "public_testimony": 5,
+      "commission_analysis": 5,
+      "press_or_book": 3,
+      "court_record": 1
+    },
+    "5": {
+      "detainee_report": 152,
+      "contemporaneous_document": 64,
+      "commission_interview": 27,
+      "unclassified": 15,
+      "agency_briefing": 7,
+      "commission_analysis": 5,
+      "not_a_citation": 3,
+      "public_testimony": 3,
+      "press_or_book": 2
+    },
+    "6": {
+      "commission_interview": 146,
+      "contemporaneous_document": 140,
+      "unclassified": 77,
+      "agency_briefing": 31,
+      "public_testimony": 23,
+      "not_a_citation": 14,
+      "commission_analysis": 14,
+      "detainee_report": 12,
+      "press_or_book": 5,
+      "court_record": 2
+    },
+    "7": {
+      "detainee_report": 143,
+      "commission_interview": 96,
+      "contemporaneous_document": 92,
+      "not_a_citation": 44,
+      "unclassified": 40,
+      "commission_analysis": 14,
+      "agency_briefing": 12,
+      "public_testimony": 4,
+      "court_record": 3,
+      "press_or_book": 1
+    },
+    "8": {
+      "contemporaneous_document": 112,
+      "commission_interview": 80,
+      "unclassified": 34,
+      "detainee_report": 13,
+      "public_testimony": 10,
+      "agency_briefing": 7,
+      "not_a_citation": 5,
+      "commission_analysis": 2
+    },
+    "9": {
+      "commission_interview": 474,
+      "unclassified": 47,
+      "contemporaneous_document": 38,
+      "commission_analysis": 22,
+      "not_a_citation": 18,
+      "public_testimony": 8,
+      "agency_briefing": 3,
+      "press_or_book": 3
+    },
+    "10": {
+      "commission_interview": 55,
+      "contemporaneous_document": 36,
+      "unclassified": 32,
+      "not_a_citation": 6,
+      "public_testimony": 6,
+      "press_or_book": 5,
+      "agency_briefing": 3,
+      "commission_analysis": 3,
+      "court_record": 2,
+      "detainee_report": 1
+    },
+    "11": {
+      "commission_interview": 27,
+      "contemporaneous_document": 7,
+      "press_or_book": 5,
+      "commission_analysis": 5,
+      "unclassified": 3,
+      "agency_briefing": 3,
+      "not_a_citation": 2,
+      "public_testimony": 2
+    },
+    "12": {
+      "contemporaneous_document": 15,
+      "commission_interview": 11,
+      "unclassified": 10,
+      "not_a_citation": 8,
+      "press_or_book": 7,
+      "public_testimony": 4,
+      "detainee_report": 1
+    },
+    "13": {
+      "contemporaneous_document": 6,
+      "unclassified": 6,
+      "not_a_citation": 6,
+      "commission_interview": 3,
+      "press_or_book": 2,
+      "public_testimony": 1,
+      "commission_analysis": 1
+    }
+  },
+  "caveat": "CLASSIFICATION COUNTS ARE NOT RESULTS AND MUST NOT BE CITED. Hand-checked against two independent random samples of 40 fragments: 40.0% disagreement (seed 911, development) and 37.5% disagreement (seed 2001, held out, after fixes). Note SEGMENTATION is verified (1657 notes, 13 chapters, zero sequence gaps, 92.5% agreement with the independent running-head signal); SOURCE CLASSIFICATION is not. See docs/07-phase-a-b1-first-pass.md section 4.1."
+}

@@ -1,0 +1,124 @@
+B1 hand-check sample. For each line mark AGREE or DISAGREE with
+the machine label, then record the disagreement rate in the
+phase report. Do not use the aggregate counts before scoring this.
+
+[01] ch7 n46  MACHINE=commission_analysis
+     and inquired with a New Jersey school on June 22, 2000, see ibid. (citing 265A-NY-280350-NK, serial 15965).As they looked at flight schools on the East Coast, Atta and Shehhi stayed in a series of short-term rentals in New York City. Ibid. (June 19, 2000, entry citing 265A-NY-280350-302, serials 809
+
+[02] ch1 n27  MACHINE=press_or_book
+     Obituary, “Daniel Lewin,” Washington Post, Sept. 22, 2001, p. B7.
+
+[03] ch4 n159  MACHINE=commission_interview
+     Richard Clarke interview (Jan. 12, 2004)
+
+[04] ch9 n105  MACHINE=commission_interview
+     Port Authority records, measurements of repeater activation tones on Sept. 11, 2001, undated. For the chief on the handset not being able to hear, see Port Authority recording, WTC channel 30 (repeater channel), Sept. 11, 2001. On why he could not hear, see PANYNJ interview 1 (Nov. 6, 2003)
+
+[05] ch1 n64  MACHINE=contemporaneous_document
+     UAL report, “Timeline: Dispatch/SMFDO Activities—Terrorist Crisis,” undated.
+
+[06] ch1 n116  MACHINE=public_testimony
+     On 9/11, NORAD was scheduled to conduct a military exercise,Vigilant Guardian, which postulated a bomber attack from the former Soviet Union. We investigated whether military preparations for the large-scale exercise compromised the military’s response to the real-world terrorist attack on 9/11. Acc
+
+[07] ch7 n107  MACHINE=detainee_report
+     Mar. 7, 2003;Apr. 8, 2004. 145. FBI report,“Summary of Penttbom Investigation,” Feb. 29, 2004, p. 48. Intelligence reports, interrogations of Binalshibh, Oct. 1, 2002 Mar. 7, 2003
+
+[08] ch7 n64  MACHINE=commission_analysis
+     265A-NY-280350-302, serials 58753, 58757). For arrival in Virginia, see ibid. (citing 265ANY-280350-NH, serial 1859).
+
+[09] ch13 n19  MACHINE=not_a_citation
+     This change should eliminate the need in the Senate for the current procedure of sequential referral of the annual authorization bill for the national foreign intelligence program. In that process, the Senate Armed Services Committee reviews the bill passed by the Senate Select Committee on Intellig
+
+[10] ch9 n104  MACHINE=commission_interview
+     PANYNJ interview 4 (May 10, 2004)
+
+[11] ch7 n55  MACHINE=commission_interview
+     FBI report of investigation, interview of Adnan Khalil, Sept. 29, 2001.
+
+[12] ch1 n54  MACHINE=commission_interview
+     Richard Byard interview (Sept. 24, 2003)
+
+[13] ch7 n19  MACHINE=detainee_report
+     On Bayoumi’s activities, see FBI electronic communication, interview of Bayoumi, Sept. 17, 2003.Although Bayoumi admits knowingThumairy, no telephone records document any contact between the two just before Bayoumi’s lunch with Hazmi and Mihdhar in Los Angeles. Nor do individuals who regard Thumairy
+
+[14] ch12 n13  MACHINE=commission_interview
+     For the change, see Lakhdar Brahimi interview (Oct. 24, 2003)
+
+[15] ch9 n27  MACHINE=commission_interview
+     OEM interview 1 (Feb. 12, 2004). Other data monitored by OEM’s Watch Command included Emergency Medical Service data regarding patterns of illness (to spot a potential epidemic in its early stages), live video feeds from NewYork Harbor and city streets, and television news channels. Richard Sheirer 
+
+[16] ch8 n61  MACHINE=commission_interview
+     DOJ Inspector General interview of Michael D., Nov. 6, 2002
+
+[17] ch7 n107  MACHINE=unclassified
+     Sept. 25, 2003
+
+[18] ch2 n16  MACHINE=contemporaneous_document
+     See Mark LeVine,“The UN Arab Human Development Report: A Critique,” Middle East Report, July 26, 2002 (online at www.merip.org/mero/mer0072602.html).
+
+[19] ch7 n97  MACHINE=detainee_report
+     On Khattab, see CIA analytic report,“The Plot and the Plotters,” June 1, 2003, p. 26, n. 2. For KSM’s claim, see Intelligence report, interrogation of KSM, May 15, 2003. For difficulties traveling to Chechnya, see also Saudi Arabian Mabahith briefing (Oct. 17, 2003).
+
+[20] ch1 n71  MACHINE=contemporaneous_document
+     on CVR, see FBI report,“CVR from UA Flight #93,” Dec. 4, 2003
+
+[21] ch3 n50  MACHINE=unclassified
+     Report of the President’s Commission on Aviation Security and Terrorism (Pan Am/Lockerbie Commission), May 15, 1990, pp. 113–114
+
+[22] ch6 n34  MACHINE=contemporaneous_document
+     NSC memo, “The Millennium Terrorist Alert—Next Steps,” undated (attached to NSC draft memo, “Review of Terrorism Alert and Lessons Learned,” Jan. 3, 2000). In the original document, the quotation is underlined, not italicized.
+
+[23] ch1 n213  MACHINE=contemporaneous_document
+     On the Vice President’s call, see President Bush and Vice President Cheney meeting (Apr. 29, 2004). For the Vice President’s time of arrival in the shelter conference room, see White House record, PEOC Shelter Log, Sept. 11, 2001 (9:58)
+
+[24] ch1 n80  MACHINE=commission_interview
+     We have relied mainly on the record of FBI interviews with the people who received calls.The FBI interviews were conducted while memories were still fresh and were less likely to have been affected by reading the accounts of others or hearing stories in the media. In some cases we have conducted our
+
+[25] ch7 n107  MACHINE=detainee_report
+     Dennis Lormel interview (Jan. 16, 2004). 117. Intelligence report, interrogation of Khallad, Mar. 26, 2004
+
+[26] ch5 n114  MACHINE=detainee_report
+     Robert Block,“In War on Terrorism, Sudan Struck a Blow by Fleecing Bin Laden,” Wall Street Journal, Dec. 3, 2001, p. A1. Despite substantial evidence to the contrary and his own assertion that Bin Ladin arrived in Afghanistan with no money, KSM has told his interrogators that he believes the bulk of
+
+[27] ch1 n114  MACHINE=unclassified
+     September 11, 2001,” Jan. 28, 2002, p. 5.
+
+[28] ch4 n130  MACHINE=contemporaneous_document
+     NSC memo, McCarthy to CIA, Dec. 1999.
+
+[29] ch11 n37  MACHINE=commission_interview
+     Rich interview (Dec. 11, 2003).
+
+[30] ch2 n19  MACHINE=unclassified
+     History and Harbinger of Future War?” Military Review (Fort Leavenworth Foreign Military Studies Office), Sept./Oct. 1995, p. 2.
+
+[31] ch5 n119  MACHINE=contemporaneous_document
+     CIA analytic report,Al Qaeda Financial Network, CTC 2002-40094H,Aug. 7, 2002.
+
+[32] ch6 n72  MACHINE=agency_briefing
+     See CIA briefing materials,“Targeting the Terrorists: Next Steps and New Initiatives,” Feb. 1, 2000 (for the President)
+
+[33] ch7 n107  MACHINE=detainee_report
+     FBI report of investigation, interview of Samir Abdoun, Oct. 21, 2001. On anticipated law enforcement interest in gas station employees and September 10, 2001, meeting, see FBI report of investigation, interview, May 21, 2002. 176. Intelligence report, interrogation of detainee, Feb. 5, 2002. 177. I
+
+[34] ch9 n165  MACHINE=commission_interview
+     For the chief on the 35th floor and the first instruction, see FDNY interview 23, Chief (Jan. 23, 2004). For the chief on the 23rd floor, see FDNY interview 29, Battalion 1 (Jan. 29, 2004)
+
+[35] ch4 n129  MACHINE=commission_interview
+     James Baker interview (Feb. 4, 2004)
+
+[36] ch4 n19  MACHINE=agency_briefing
+     For a description of the plan, the content of briefing papers, and the Berger-Tenet meeting, see CIA memo, Jeff to Tenet,“Information Paper on Usama Bin Ladin,” Feb. 12, 1998 (with attached paper for Tenet’s meeting with Berger on Feb. 13, 1998,“Next Steps Against Usama Bin Ladin”).The paper also br
+
+[37] ch4 n192  MACHINE=agency_briefing
+     CIA briefing materials, Executive Summary: UBL Conference, prepared for Berger, Nov. 30, 1999
+
+[38] ch5 n81  MACHINE=contemporaneous_document
+     See German BKA report, investigative summary re Binalshibh, July 4, 2002.
+
+[39] ch11 n21  MACHINE=contemporaneous_document
+     As part of his 34-page analysis, the attorney explained why he thought that a fueled Boeing 747, used as a weapon, “must be considered capable of destroying virtually any building located anywhere in the world.” DOJ memo, Robert D. to Cathleen C.,“Aerial Intercepts and Shoot-downs:Ambiguities of Law
+
+[40] ch1 n232  MACHINE=commission_interview
+     For evidence of the President speaking to Rumsfeld, see White House notes,Ari Fleischer notes, Sept. 11, 2001. On inability to recall this conversation, see Donald Rumsfeld interview (Jan. 30, 2004).
+

@@ -1,0 +1,15 @@
+# Corpus artefacts are reconstructible from tools/ + corpus/manifest.jsonl.
+# Raw PDFs (37 MB) and page images (48 MB) are not committed; their SHA-256
+# hashes are, so a third party can verify they hold the same bytes.
+corpus/raw/
+corpus/images/
+corpus/text/
+corpus/pages.db
+.venv/
+__pycache__/
+
+# Derived analysis files are large and rebuildable from tools/endnotes.py.
+# The verified summary and the scored sample are committed; the per-fragment
+# dumps are not, because their classification failed its hand-check.
+corpus/analysis/citations.jsonl
+corpus/analysis/endnotes.jsonl
