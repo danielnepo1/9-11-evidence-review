@@ -1,21 +1,32 @@
 # 9/11 Evidence Review
 
-> Symmetric, document-based audit of the 9/11 record — the official account and every alternative account tested against the same standard, with full source traceability.
+> Document-based investigation of the 9/11 record, currently in a **directed-search phase**: actively building the best-evidenced case against specific claims in the official account, with full source traceability and no relaxation of verification standards.
 
-A systematic review of primary sources (NIST, the 9/11 Commission, CIA, NARA, Congress) across two tracks: (1) the physical plausibility of the Twin Towers and WTC 7 collapses, and (2) pre-9/11 intelligence and institutional response. Method: steelman the official account → stress-test it against the primary record → mirror-test every alternative hypothesis against the same record → judge without a fixed prior conclusion. Every claim carries a confidence status; every source is logged with access date, extent read, and known limitations.
+A systematic review of primary sources (NIST, the 9/11 Commission, CIA, NARA, Congress) across two tracks: (1) the physical plausibility of the Twin Towers and WTC 7 collapses, and (2) pre-9/11 intelligence and institutional response. Every claim carries a confidence status; every source is logged with access date, extent read, and known limitations; every quotation is verified against the source image before use.
 
 ---
 
-## Governing principle — symmetric skepticism
+## ⚠ Current governing framing — directed search (since 20 September 2026)
 
-> “Every material claim is provisional until supported by traceable evidence. Official status does not make a claim true; institutional inconsistency does not make an alternative claim true. The project applies skepticism symmetrically: it actively tests the official account for contradictions and unexplained anomalies, while applying the same burden of proof, alternative-explanation testing, and falsification criteria to every alternative hypothesis.”
+> **This project no longer treats the official account and every alternative with equal resource priority.** As of 20 September 2026 it runs a **directed search**: prioritizing the workstreams and targets most likely to produce a fracture in the official account. This was an explicit, informed decision — see [`docs/08-reorientation-directed-search.md`](docs/08-reorientation-directed-search.md) for exactly what changed, what didn't, and why.
 
-This commits the project to two things at once:
+**What did not change:** every evidentiary-verification mechanism below — document cards, image verification, the closed status vocabulary, conclusion ceilings, the mirror test. Those are what make a finding resistant to rebuttal, which the current objective needs *more*, not less. **What changed:** which questions get asked first, and the project's own description of itself — any future synthesis must disclose plainly that it argues a case, not that it presents a neutral comparison.
+
+The original governing principle this project ran under — full symmetry between the official account and every alternative hypothesis — is preserved as historical/reference material, not deleted:
+
+<details>
+<summary>Original governing principle — symmetric skepticism (superseded 2026-09-20 on objective and priority; still governs verification method)</summary>
+
+> "Every material claim is provisional until supported by traceable evidence. Official status does not make a claim true; institutional inconsistency does not make an alternative claim true. The project applies skepticism symmetrically: it actively tests the official account for contradictions and unexplained anomalies, while applying the same burden of proof, alternative-explanation testing, and falsification criteria to every alternative hypothesis."
+
+This committed the project to two things at once:
 
 - **It does** actively investigate contradictions, anomalies, unexplained events, evidentiary gaps, changed accounts and unusual procedural decisions within the official account. Declining to look is a methodological failure, not caution.
 - **It does not** assume the official account is false, nor assume any alternative account is false. They are competing explanations, tested against the same evidence with the same burden.
 
-The full methodology is [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md), which governs every other document in this repository.
+Full text: [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md). It still governs the *verification* method (claim decomposition, anomaly register, mirror test as used now to pre-empt rebuttals) — only its *objective-neutrality* clause is superseded by `docs/08`.
+
+</details>
 
 ## About this project
 
@@ -34,12 +45,18 @@ This repository documents an ongoing audit of the official account of the 11 Sep
 │   ├── 01-wtc-engineering-audit-v1.md          ← first audit (WTC structural engineering) [pt-BR]
 │   ├── 02-adversarial-audit-phase1.md          ← second audit (adversarial, multi-hypothesis, Phase 1) [pt-BR]
 │   ├── 03-phase2a-mfr-verification.md          ← framing corrections + Phase 2A verification instrument [pt-BR]
-│   ├── 04-methodology-symmetric-skepticism.md  ← GOVERNING METHODOLOGY
+│   ├── 04-methodology-symmetric-skepticism.md  ← original methodology [superseded on objective by 08]
 │   ├── 05-stress-test-execution-plan.md        ← targeting plan: where to look, priorities, ceilings
 │   ├── 06-research-program.md                  ← research program: instrumentation + corpus-wide audits
-│   ├── claim-decomposition-register.md         ← atomic-proposition register (empty at creation)
-│   ├── anomaly-register.md                     ← anomaly register (empty at creation)
-│   └── contradiction-ledger.md                 ← contradiction ledger (empty at creation)
+│   ├── 07-phase-a-b1-first-pass.md             ← Phase A/B1 execution report
+│   ├── 08-reorientation-directed-search.md     ← CURRENT GOVERNING OBJECTIVE
+│   ├── decisions.md                            ← methodological decisions log (append-only)
+│   ├── reading-log.md                          ← per-document checkpoints
+│   ├── evidence-matrix.md                      ← claim resolution requires all 4 cells filled
+│   ├── cards/                                  ← document cards (10-section standard)
+│   ├── claim-decomposition-register.md         ← atomic-proposition register
+│   ├── anomaly-register.md                     ← anomaly register
+│   └── contradiction-ledger.md                 ← contradiction ledger
 ├── SOURCES.md                                  ← consolidated bibliography with read status
 └── NEXT-STEPS.md                               ← execution queue
 ```
@@ -50,8 +67,9 @@ Document numbering is chronological **and** hierarchical: each later document co
 
 | Order | File | Role | How to read it |
 |---|---|---|---|
-| 1 | [`README.md`](README.md) | Governing principle, hypotheses H0–H7, confidence scale | Entry point — defines the vocabulary used everywhere else |
-| 2 | [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md) | **Governing methodology** | Symmetry requirements, claim decomposition, mirror test, mandatory reporting format |
+| 1 | [`README.md`](README.md) | Hypotheses H0–H7, confidence scale, current framing | Entry point — defines the vocabulary used everywhere else |
+| 2 | [`docs/08-reorientation-directed-search.md`](docs/08-reorientation-directed-search.md) | **Current governing objective** | What changed 2026-09-20, what's preserved, why, the framing-disclosure rule |
+| 2b | [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md) | Original methodology, still governs verification | Claim decomposition, mirror test, mandatory reporting format — objective-neutrality clause superseded by `08` |
 | 3 | [`docs/06-research-program.md`](docs/06-research-program.md) | **Research program** | Why the method changed, the verified tooling, the corpus-wide structural audits, expected-yield ranking, what to do next |
 | 3b | [`docs/05-stress-test-execution-plan.md`](docs/05-stress-test-execution-plan.md) | **Targeting plan** | Where fractures are most likely, P0–P3 priorities, escalation ladder, cross-cutting attack patterns, fixed conclusion ceilings |
 | 4 | [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) | Current framing + verification instrument | §1 corrects five formulations in `02`; §5 is the claim-by-claim status table; §7 is the current state of H1–H5 |
@@ -141,7 +159,10 @@ For individual claims by witnesses and institutions the scale is different and c
 - ✅ **Stress-test targeting plan — 19 September 2026** (`docs/05`, `docs/contradiction-ledger.md`): pre-registered targeting hypotheses across ST-1…ST-7 with P0–P3 research priorities; escalation ladder (discrepancy → unresolved anomaly → structured pattern → concealment → foreknowledge, no level skipped); cross-cutting attack patterns; conclusion ceilings fixed **before** reading; contradiction ledger created. **No source read, no conclusion changed.**
 - ✅ **Research program — 19 September 2026** (`docs/06`): method shifted from document-by-document reading to corpus-scale instrumentation plus structural audits (citation-genealogy graph, detainee-derived claim census, version-diff engine, quantifier-drift scanner, missing-record census, timeline-interval database), with five new investigative lines and an expected-yield ranking stated in advance. **No source read, no conclusion changed.**
 - 🔓 **Access restored and the OCR blocker solved.** The egress blockade recorded earlier on 19 September 2026 is lifted for `archives.gov`, `cia.gov`, `intelligence.senate.gov`, `nist.gov`, `oig.justice.gov` and `govinfo.gov`; `vault.fbi.gov` still refuses. `tesseract` + poppler verified working on the 6 August 2001 PDB, whose missing text layer had blocked claims A10/A16 since `docs/02` — see [`docs/06` §2](docs/06-research-program.md). That was a pipeline test, not a reading; no status changed.
-- ⛔ **Official Account Stress-Test Track (ST-1 … ST-7): not executed.** Now unblocked; reading order in [`docs/05` §6](docs/05-stress-test-execution-plan.md).
+- ✅ **Phase A + B1 first pass — 19 September 2026** (`docs/07`): corpus of 16 documents harvested and extracted (1,649 pages). B1 note-segmentation verified (1,657 notes, zero gaps); **B1 classification failed its hand-check at 37.5% disagreement and its counts are withheld — not published, not cited.** See `docs/decisions.md` D-001.
+- ✅ **First document cards read — 19 September 2026** (`docs/cards/`): `PDB-20010806` and `MFR-TENET-20031223`, both fully image-verified. Neither supports nor weakens any claim by itself; rows opened in `docs/evidence-matrix.md`, not closed. B2 census redesigned to two non-summed columns (`docs/decisions.md` D-002).
+- ⚠️ **Reorientation — 20 September 2026** (`docs/08`): **project objective changed from a symmetric audit to a directed search prioritizing evidence against the official account**, by explicit user decision. Verification standards unchanged; see `docs/08` for exactly what changed and what didn't, and `docs/decisions.md` D-006.
+- ⛔ **Official Account Stress-Test Track (ST-1 … ST-7): reading in progress**, re-prioritized per `docs/08` §5 (T-2.1, T-3.1, T-4.2, T-7.1, T-7.2 first). Full target list in [`docs/05` §6](docs/05-stress-test-execution-plan.md).
 - ⛔ **Phase 2B — Joint Inquiry Part Four: not executed.** Now unblocked. Classification protocol pre-registered in [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
 - ⏳ **Remaining phases**: see [`NEXT-STEPS.md`](NEXT-STEPS.md).
 

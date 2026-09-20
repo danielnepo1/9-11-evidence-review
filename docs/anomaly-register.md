@@ -146,7 +146,7 @@ No entries yet. Populated from Phase 2A onward.
 
 Run at the end of every phase and record the result in that phase's document:
 
-1. **Balance check.** How many entries concern the official account, and how many concern alternative accounts? A register with entries in only one direction is evidence of one-sided reading, not of one-sided reality — investigate the reading, not the conclusion.
+1. **Balance check — logged, not a correction trigger as of 2026-09-20 (`docs/08` D-006).** How many entries concern the official account, and how many concern alternative accounts? Under the prior symmetric objective, a one-sided register triggered an investigation of the reading. Under the current directed-search objective, a one-sided register is the expected shape of the work; the count is still logged for transparency but no longer treated as a defect by itself.
 2. **Mirror-test completeness.** Count entries with a pending mirror test. That count is reported, not hidden.
 3. **Promotion check.** Confirm that no synthesis text cites a `low` discriminating-power entry, or any entry, as support for intent, foreknowledge, complicity or intervention.
 4. **Resolution rate.** Count entries moved to `apparent anomaly with adequate explanation` during the phase. A rate of zero over several phases suggests the ordinary-explanation test (M4) is not being applied seriously.

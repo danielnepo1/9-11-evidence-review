@@ -70,3 +70,17 @@ Superseded entries: the ⚫ access markings for these documents in `SOURCES.md`,
 **Decision.** The reading queue is ordered by what a document can settle, not by how quickly it can be processed. Page counts are recorded in the log for planning only and are never reported as progress.
 
 **Basis.** Rule 6 of the standing instruction: the criterion is quality of evidence, not quantity processed. `MFR-TENET-20031223` is three pages and bears on ST-4 and the B2 design; `MFR-TENET-20040122` is twenty-four pages and may bear on nothing in the current target set. Neither fact is known before reading, and neither is a result.
+
+---
+
+## D-006 — Reorientation: directed search against the official account (2026-09-20)
+
+**Decision.** The project's objective changes from a symmetric audit to a directed search that actively prioritizes evidence weakening the official account. Resources are no longer split evenly across H0–H7; the mandatory "findings that weaken alternative accounts" section becomes optional; H1–H7 mirror testing is de-prioritized.
+
+**User's exact instruction**, given after the tradeoff was stated explicitly and three options were offered: "Reorientar para busca dirigida" — reorient toward directed search, explicitly accepting that this relaxes the requirement to treat H1–H7 with the same standard and that the result is a thesis, not an audit.
+
+**What this does and does not touch.** It changes objective and resource priority only. It does **not** relax any evidentiary-verification mechanism: the document-card standard, image verification, the closed status vocabulary, the evidence-matrix's four-cell requirement, the mirror test, and conclusion ceilings all remain in force, because they are what make a finding resistant to rebuttal — which the new objective needs more, not less. Full record: [`08-reorientation-directed-search.md`](08-reorientation-directed-search.md).
+
+**Consequence.** `NEXT-STEPS.md` execution order is re-prioritized toward T-2.1, T-3.1, T-4.2, T-7.1, T-7.2. `README.md`'s governing-principle framing is banner-updated to point to `08`, with `04` kept as historical record per this log's standing rule against silent edits. No prior finding changes: both document cards read so far recorded no conclusion, and that stands unaltered.
+
+**Invalidates.** The symmetry-based framing in `04` and `README.md` as the *current* governing objective (both are kept as historical/reference documents, not deleted). The register-balance health check in `anomaly-register.md` §6 item 1 is no longer a correction trigger — a one-sided register is now the expected shape of the work.

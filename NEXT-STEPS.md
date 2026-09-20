@@ -1,22 +1,33 @@
 # Next Phases
 
-> **Environment prerequisite — re-checked 19 September 2026: access is now open.** `archives.gov`, `cia.gov`, `intelligence.senate.gov`, `nist.gov` and `oig.justice.gov` all respond, and the ISCAP MFR PDFs and the 6 August 2001 PDB are retrievable. `vault.fbi.gov` still returns 403. The earlier blockade note (recorded the same day, before the re-check) is superseded; details in [`SOURCES.md`](SOURCES.md) and [`docs/05` §1](docs/05-stress-test-execution-plan.md). Retrievability is not readability — confirm text extraction per document and record OCR quality in the document card before drawing any claim.
+> **Reorientation — 20 September 2026.** The project's objective changed from a symmetric audit to a **directed search prioritizing evidence against the official account**, by explicit user decision. Full record: [`docs/08-reorientation-directed-search.md`](docs/08-reorientation-directed-search.md). Verification standards are unchanged — document cards, image verification, closed status vocabulary, evidence-matrix requirements, mirror test, conclusion ceilings all still apply exactly as before. What changed is resource priority (below) and the project's description of itself: any synthesis must disclose it argues a case, not a neutral comparison.
 
-This file is the **execution queue**. Method and registers live in [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md), which governs everything here.
+> **Environment prerequisite — re-checked 19 September 2026: access is now open.** `archives.gov`, `cia.gov`, `intelligence.senate.gov`, `nist.gov` and `oig.justice.gov` all respond, and the ISCAP MFR PDFs and the 6 August 2001 PDB are retrievable. `vault.fbi.gov` still returns 403. Retrievability is not readability — confirm text extraction per document and record OCR quality in the document card before drawing any claim.
 
-Before starting any phase, read [`README.md`](README.md) (hypotheses and confidence scale), [`docs/04`](docs/04-methodology-symmetric-skepticism.md) (method, symmetry requirements, mirror test, reporting format), [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) (current framing and claim table) and [`SOURCES.md`](SOURCES.md) (what has been read and to what depth).
+This file is the **execution queue**. Current objective in [`docs/08`](docs/08-reorientation-directed-search.md); verification method in [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md), which still governs how evidence is checked.
+
+Before starting any phase, read [`README.md`](README.md) (hypotheses and confidence scale), [`docs/08`](docs/08-reorientation-directed-search.md) (current objective and priority), [`docs/04`](docs/04-methodology-symmetric-skepticism.md) (verification method, claim decomposition, mirror test, reporting format), [`docs/cards/README.md`](docs/cards/README.md) (document-card standard) and [`SOURCES.md`](SOURCES.md) (what has been read and to what depth).
 
 ---
 
-## Governing principle
+## Current objective
 
-> “Every material claim is provisional until supported by traceable evidence. Official status does not make a claim true; institutional inconsistency does not make an alternative claim true. The project applies skepticism symmetrically: it actively tests the official account for contradictions and unexplained anomalies, while applying the same burden of proof, alternative-explanation testing, and falsification criteria to every alternative hypothesis.”
+> Find and present the strongest, best-evidenced case that specific claims in the official account are false, unsupported, or resting on a thinner base than their confident presentation implies — without relaxing any evidentiary-verification standard, and with the directed framing disclosed in any synthesis. Full statement: [`docs/08`](docs/08-reorientation-directed-search.md).
+
+<details>
+<summary>Original governing principle — symmetric skepticism (superseded on objective 2026-09-20; still governs verification method)</summary>
+
+> "Every material claim is provisional until supported by traceable evidence. Official status does not make a claim true; institutional inconsistency does not make an alternative claim true. The project applies skepticism symmetrically: it actively tests the official account for contradictions and unexplained anomalies, while applying the same burden of proof, alternative-explanation testing, and falsification criteria to every alternative hypothesis."
+
+</details>
 
 ---
 
 ## Execution order
 
-> **Strategy change — 19 September 2026.** [`docs/06-research-program.md`](docs/06-research-program.md) adds two phases **ahead of** the workstreams below: **Phase A (instrumentation)** and **Phase B (corpus-wide structural audits)**. The reason is in `06` §1: document-by-document reading cannot cover a 10⁵-page record, and it finds anomalies only where others have already pointed. Phase B's citation-genealogy graph reorders the priorities below on evidence rather than on fame, so it runs first. All ST targeting in [`docs/05`](docs/05-stress-test-execution-plan.md) is retained and becomes Phase C.
+> **Strategy change — 19 September 2026.** [`docs/06-research-program.md`](docs/06-research-program.md) adds two phases **ahead of** the workstreams below: **Phase A (instrumentation)** and **Phase B (corpus-wide structural audits)**. The reason is in `06` §1: document-by-document reading cannot cover a 10⁵-page record, and it finds anomalies only where others have already pointed. All ST targeting in [`docs/05`](docs/05-stress-test-execution-plan.md) is retained and becomes Phase C.
+>
+> **Reprioritized — 20 September 2026** per [`docs/08` §5](docs/08-reorientation-directed-search.md): within Phase C, T-2.1, T-3.1, T-4.2, T-7.1 and T-7.2 move to the front of the queue as the highest-fracture-potential targets against the official account. Step 3 (H1–H7 mirror testing) and Phase 2B's H2/H3 objective are **de-prioritized, not deleted** — they served hypothesis-neutrality, which is no longer the resource priority.
 
 | # | Step | Status |
 |---|---|---|
@@ -24,19 +35,18 @@ Before starting any phase, read [`README.md`](README.md) (hypotheses and confide
 | 1b | Targeting plan (ST-1…ST-7, P0–P3, conclusion ceilings) | ✅ **Done — 19 September 2026** (`docs/05`, `docs/contradiction-ledger.md`) |
 | 1c | Research program + capability verification | ✅ **Done — 19 September 2026** (`docs/06`). **OCR pipeline verified: the text-layer blocker on the 6 Aug 2001 PDB is solved** |
 | 1d | **Phase A — instrumentation** | ✅ **Done — 19 September 2026** (`docs/07`). 16 documents, 1,649 pages, 4.35M chars, 82 pages OCR'd. OCR blocker retired |
-| 1e | **Phase B1 — citation genealogy** | ⚠️ **Partial.** Note segmentation verified (1,657 notes, 13 chapters, zero gaps). **Source classification failed its hand-check at 37.5% disagreement; counts withheld.** Re-scope to note-level binary detectors per `docs/07` §4.2 |
-| 1f | **Read the corpus** — the nine ISCAP memoranda (148 pp.) and the 6 Aug 2001 PDB, under document cards | ⏳ **Next.** No longer blocked by anything |
-| 1g | **Phase B2–B6** (detainee census, version diffs, drift scanner, missing-record census, timeline intervals) | ⏳ `docs/06` §3 Phase B; B2 depends on the B1 rebuild |
-| 2 | **Official Account Stress-Test Track** (ST-1 … ST-7) → Phase C | ⏳ Executable now; re-prioritised by Phase B output. Targets in [`docs/05`](docs/05-stress-test-execution-plan.md) |
-| 3 | Mirror testing of H1–H7 against the same evidence | ⏳ Runs on the output of step 2 |
-| 4 | Phase 2B — Joint Inquiry / Part Four / foreign networks | ⏳ Executable now (`intelligence.senate.gov` open) |
-| 5 | Phase 3 — technical and forensic audit | ⏳ |
-| 6 | Phase 4 — FAA/NORAD/NEADS chronology audit | ⏳ |
-| 7 | Final adversarial synthesis | ⏳ |
+| 1e | **Phase B1 — citation genealogy** | ⚠️ **Partial and stays unvalidated regardless of objective.** Note segmentation verified (1,657 notes, 13 chapters, zero gaps). **Source classification failed its hand-check at 37.5% disagreement; counts withheld** (`docs/decisions.md` D-001). Re-scope to note-level binary detectors per `docs/07` §4.2 |
+| 1f | **Read the corpus under document cards** | 🔄 **In progress.** `PDB-20010806` and `MFR-TENET-20031223` read and image-verified (`docs/cards/`, `docs/reading-log.md`). Next: reprioritized queue below |
+| 1g | **Phase B2–B6** (detainee census — two-column design per `docs/decisions.md` D-002, version diffs, drift scanner, missing-record census, timeline intervals) | ⏳ `docs/06` §3 Phase B |
+| **2a** | **Reprioritized targets — highest fracture potential** (`docs/08` §5): **T-2.1** unsent-cable record, **T-3.1** NORAD 2001-vs-2004 chronology, **T-4.2** Commission's IG referral, **T-7.1** NIST WTC7 draft-to-final, **T-7.2** NCSTAR 1-9A model selection | ⏳ **Next, in this order** |
+| 2b | Remaining Official Account Stress-Test Track (ST-1 … ST-7) | ⏳ Executable now. Full target list in [`docs/05`](docs/05-stress-test-execution-plan.md) |
+| 3 | ~~Mirror testing of H1–H7 against the same evidence~~ | ⏸️ **De-prioritized 2026-09-20.** Revisit only if it strengthens a specific case against the official account |
+| 4 | Phase 2B — Joint Inquiry / Part Four / foreign networks | ⏸️ **De-prioritized** as an H2/H3-advancement exercise; the Part Four reading itself may still surface directed-search material and can be pulled forward opportunistically |
+| 5 | Phase 3 — technical and forensic audit | ⏳ T-7.1/T-7.2 above are pulled from this step and run first |
+| 6 | Phase 4 — FAA/NORAD/NEADS chronology audit | ⏳ T-3.1 above is pulled from this step and runs first |
+| 7 | Final synthesis | ⏳ **Must disclose directed framing per `docs/08` §4** |
 
-Phase 2A (the nine unread MFRs) is not a separate queue item any more: its reading list is absorbed into ST-1, ST-2 and ST-4, which is where those documents actually bear. Its pre-registered priorities and its claim table in [`docs/03`](docs/03-phase2a-mfr-verification.md) remain in force and are the starting instrument for those workstreams.
-
-Rationale for the order: step 2 decomposes the official account before any comparison is made, so that step 3 compares propositions against propositions rather than a hypothesis against a narrative. Steps 4–6 are the volume-heavy reading phases and feed both registers. Step 7 is only writable once the registers are populated.
+Phase 2A (the nine unread MFRs) is not a separate queue item: its reading list is absorbed into ST-1, ST-2 and ST-4. Its pre-registered priorities and claim table in [`docs/03`](docs/03-phase2a-mfr-verification.md) remain in force.
 
 ---
 
@@ -122,7 +132,7 @@ Every point of tension found is opened as an entry in [`docs/anomaly-register.md
 
 ## Step 3 — Mirror testing of H1–H7 against the same evidence
 
-Runs on the output of step 2, using **the same evidence set** — no hypothesis is tested against a private corpus.
+> ⏸️ **De-prioritized 2026-09-20** (`docs/08`). Kept here as a reference procedure, not as a current queue item. Runs on the output of step 2, using **the same evidence set** — no hypothesis is tested against a private corpus.
 
 For each of H1–H7, and for each decomposed official proposition it bears on:
 
@@ -137,6 +147,8 @@ For each of H1–H7, and for each decomposed official proposition it bears on:
 ---
 
 ## Step 4 — Phase 2B: Joint Inquiry, Part Four, foreign networks
+
+> ⏸️ **De-prioritized 2026-09-20 as an H2/H3-advancement exercise** (`docs/08`). The reading itself is cheap (34 pages, already harvested) and may surface directed-search material opportunistically; pull forward if so.
 
 **Open, not executed** (access blocked). Classification protocol pre-registered in [`docs/03` §6](docs/03-phase2a-mfr-verification.md) and unchanged.
 
@@ -195,14 +207,14 @@ Written only once both registers are populated. Required content:
 
 ## Reporting format required in every phase from here on
 
-Every phase document must contain these four sections, in this order:
+> **Updated 2026-09-20** (`docs/08` §2): section 1 stays mandatory; section 2 is now optional.
 
-1. **Findings that challenge or weaken the official account**
-2. **Findings that challenge or weaken alternative accounts**
+1. **Findings that challenge or weaken the official account** — mandatory, empty sections written out as such
+2. **Findings that challenge or weaken alternative accounts** — optional; include where it falls out of the same reading at no extra cost
 3. **What remains unresolved**
 4. **What evidence would change the assessment**
 
-Sections 1 and 2 are both mandatory even when empty; an empty section is written out as such and is itself a result. Section 3 cites register IDs and distinguishes *unresolved because untested* from *unresolved because tested and indeterminate*. Section 4 names specific obtainable items and states which way each would move which hypothesis.
+Section 3 cites register IDs and distinguishes *unresolved because untested* from *unresolved because tested and indeterminate*. Section 4 names specific obtainable items and states which way each would move which hypothesis.
 
 ---
 
