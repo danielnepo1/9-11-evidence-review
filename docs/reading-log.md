@@ -53,6 +53,40 @@ The highest-value item in this document is procedural, not substantive: a dated,
 
 ---
 
+## Checkpoint 3 — `DOJOIG-2004`, T-2.1 section (2026-09-20)
+
+**Read:** 9 of 449 pages (PDF 249–253, 255, 366), in full. Born-digital text layer — the D-003 agency-OCR problem does not apply here. The two decisive passages image-verified anyway.
+
+**Pre-registration:** [`prereg/T-2.1.md`](prereg/T-2.1.md), written and committed **before the document was opened**. Criteria not adjusted after.
+
+**Outcome: POSITIVE** on the pre-registered criterion. Both required halves are present, and both rest on **contemporaneous** records rather than recollection:
+
+- A CIA internal operational cable of January 2000 asserted that al-Mihdhar's travel documents, including his multiple entry U.S. visa, "had been copied and passed 'to the FBI for further investigation.'"
+- The draft CIR addressed to the FBI was put on hold in writing — "pls hold off on CIR for now per [the CIA Deputy Chief of Bin Laden Unit]" — approximately three hours before that cable went out; was undisseminated after eight days; was still in draft in mid-February; and "was never sent."
+- Two inspectors general, with access to the records and the people, found **no witness and no document** corroborating that the transfer occurred.
+- The CIA advanced the cable itself as the explanation for why the CIR was unnecessary. The DOJ OIG rejected it: "we found no evidence that this cable was correct and that this information had actually been provided to the FBI."
+- The strongest alternative-channel explanation is closed by contemporaneous records, not by recollection: the e-mail written expressly to document "exactly what [he] briefed [the FBI] on" **omits the passport and visa**, and the FBI recipient's contemporaneous note omits it too.
+
+**What it does not settle — and this is fixed by the pre-registered ceiling, not decided after the fact.**
+- Not whether the assertion was knowingly false. The author said the wording "suggested to her that someone else told her that they had already been passed" — a good-faith relay, which **nothing read excludes**. That explanation relocates the error; it does not eliminate it, and it requires no intent from anyone.
+- Not why the hold was directed. No contemporaneous record of the reason was found, and the Deputy Chief did not recall it.
+- Not H1 (the record predates the attacks by twenty months, so it cannot be post-event self-protection) and not H5 (which needs specific operational knowledge *and* deliberate conduct; neither is present in either direction).
+- Nothing about the report as a whole: 440 of 449 pages are unread.
+
+**Registered:** `X-001` contradiction ledger (`direct contradiction`, escalation **2**, P0) · `A-001` anomaly register (`documentary contradiction`, escalation **2**, P0, discriminating power **high**) · T-2.1 row opened in the evidence matrix.
+
+**B2:** ref **no**, rely **no** — the pages read make no reference to interrogation- or detention-derived reporting.
+
+### Value assessment
+
+This is the first finding in the project whose load-bearing evidence is **contemporaneous**. Everything in the intelligence track until now was 2003–04 recollection, and every participant here is on record as not recalling the episode — which is precisely why the records, not the people, carry it.
+
+It is also worth stating plainly what kind of finding it is: the contradiction is **documented by the government's own inspectors general**, in a public report, and the official account incorporates it. It is a fracture in a specific claim ("the information was passed"), not in the official account's overall treatment of the episode, which acknowledges the failure. Overstating it would be the fastest way to lose it.
+
+**Two escalation gates that must not be skipped later:** a single anomaly cannot become a structured pattern (level 3), and level 4 needs affirmative evidence of deliberate withholding that nothing read supplies.
+
+---
+
 ## Queue
 
 Ordered by what each document can settle, not by length ([`decisions.md`](decisions.md) D-005).

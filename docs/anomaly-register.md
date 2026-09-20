@@ -132,13 +132,38 @@ No entries yet. Populated from Phase 2A onward.
 
 | ID | Short label | Status | Domain | Escalation | Priority | Discriminating power | Opened |
 |---|---|---|---|---|---|---|---|
-| — | *(empty at creation)* | — | — | — | — | — | — |
+| A-001 | Uncorroborated cable assertion of FBI transfer, January 2000 | `documentary contradiction` | intelligence | 2 | P0 | high | 2026-09-20 |
 
 ---
 
 ## 5. Entries
 
-*(none)*
+### A-001 — Uncorroborated cable assertion of FBI transfer, January 2000
+
+| Field | Value |
+|---|---|
+| Status | `documentary contradiction` |
+| Domain | `intelligence` |
+| Description | A CIA internal operational cable of January 2000 asserted that Khalid al-Mihdhar's travel documents, including a multiple entry U.S. visa, "had been copied and passed 'to the FBI for further investigation.'" The DOJ OIG and CIA OIG, both with access to the records and participants, located no witness and no document corroborating that the transfer occurred. The draft CIR addressed to the FBI — the vehicle for that transfer — had been put on hold in writing approximately three hours earlier, was never sent, and the information did not reach the FBI until shortly before the attacks |
+| Event date | January 2000 (exact calendar date not established from the pages read) |
+| Document date(s) | Cable: January 2000. DOJ OIG report: November 2004 |
+| Declassification / publication date(s) | DOJ OIG report: June 2005 (redacted public version) |
+| Sources (with read status) | `DOJOIG-2004` — **read in part** (9 of 449 pages, PDF pp. 249–253, 255, 366), decisive passages image-verified. The underlying cables and e-mails: **cited, not located** |
+| Linked claims | *(claim register rows not yet opened for this target)* |
+| **M1 — Official account predicts** | A documented institutional failure, recorded and investigated by the government's own inspectors general, with a false or unverified internal record as one mechanism of that failure. **This is what the official account itself says**, via the DOJ OIG. The observation is fully predicted |
+| **M2 — Alternative hypotheses predict** | **H4:** predicts exactly this — fragmentation producing an "already handled" record and consequent non-action. **H1:** predicts nothing here; the record is from January 2000, twenty months pre-attack, so it cannot be post-event self-protection. **H5:** would predict a deliberate suppression leaving either no trace or a trace of decision; what exists is an unexplained hold plus an uncorroborated assertion, which H5 accommodates but does not uniquely predict — and H4 and H0 predict the same artifact |
+| **M3 — Discriminating observation** | The identity of whoever told the cable's author the documents had been passed, or a documented finding that no such person existed; and any contemporaneous record of **why** the Deputy Chief directed the hold. Either would separate "error propagating through an institution" from anything stronger. Both are specific and were sought by two inspectors general |
+| **M4 — Ordinary-explanation test** | Tested against all five explanations pre-registered at [`prereg/T-2.1.md`](prereg/T-2.1.md) §4. **(1) Workflow artifact:** does not fit — this was a human-written sentence in a substantive operational cable, not a system flag. **(2) Good-faith relay of something the author was told:** **LIVE AND NOT EXCLUDED.** The author offered exactly this and could not name the source. **(3) Transfer via another channel:** asserted by the CIA, tested and rejected by the DOJ OIG for want of evidence; further weakened by a contemporaneous e-mail written expressly to document what the FBI was told, which omits the passport and visa, and by the FBI recipient's contemporaneous note, which also omits it. **(4) Two documents conflated by later reconstruction:** weak — the OIG worked from the cable system itself. **(5) Silent release failure:** applies to the CIR's non-transmission, which is a separate fact, not to the false assertion |
+| **M5 — Conclusion NOT justified** | **This does not establish that the assertion was knowingly false. It does not establish that anyone intended the information to be withheld from the FBI. It does not establish that anyone foresaw any consequence. It does not move H1 or H5.** An uncorroborated assertion in an internal record is fully consistent with an error relayed in good faith, which the author herself offered as the explanation and which nothing read excludes |
+| Discriminating power | **high** — M3 names specific, previously-sought items, and the records are known to have existed |
+| Escalation level | **2** (`unresolved anomaly`). **Permitted by:** ordinary reconciliation was tested by two inspectors general with access to the records and the people, and did not resolve it (G14, G17). **Blocked from 3+ by:** explanation (2) remains live; and a single anomaly cannot be a structured pattern |
+| Priority | **P0** |
+| Source genealogy | `independent` as to the records (the cable, the CIR's system status, the drafter's e-mail, the documenting e-mail, the recipient's note are five separate records). **Single-channel as to transmission** — this audit reads all of them through one secondary source |
+| Hypotheses touched | H0: *accommodates* (predicts it, via its own IG) · H4: *predicts* · H1: *neither* · H5: *accommodates, does not predict* |
+| Burden note | For H5 to gain anything here it would need evidence of **specific operational knowledge** plus **deliberate conduct** (`04` §2.3). The hold is documented; its reason is not. An unexplained instruction is not evidence of its own motive, and every participant is recorded as not recalling it |
+| Opened | 2026-09-20 |
+| Last reviewed | 2026-09-20 |
+| Resolution | open |
 
 ---
 

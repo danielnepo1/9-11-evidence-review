@@ -63,6 +63,22 @@ A row is **not** resolvable until all of these are filled. `not determined` is a
 | Effect on status | **No change.** All five remain as recorded in `03` §5.1. A document that does not touch a claim neither supports nor weakens it |
 | Discriminating item still missing | Unchanged: Tenet's January 2004 sessions, Berger, Clarke, and the cited memoranda themselves |
 
+### T-2.1 — The January 2000 notification chain
+
+Pre-registered before reading at [`prereg/T-2.1.md`](prereg/T-2.1.md). Criteria not adjusted after.
+
+| Cell | Entry |
+|---|---|
+| Claim | "In or around January 2000, CIA personnel prepared a notification to the FBI concerning al-Mihdhar and/or al-Hazmi, and an internal record subsequently indicated that the notification had been transmitted when it had not been" |
+| Claimant / date / oath | Not a witness claim — a proposition about the existence and content of records |
+| Sources read | [`DOJOIG-2004`](cards/DOJOIG-2004.md) — **partial, 9 of 449 pages**, decisive passages image-verified. `CR-2004` and `JI-2002` are in the corpus but **unread on this point** |
+| Supporting evidence | A CIA operational cable of January 2000 asserted the travel documents "had been copied and passed 'to the FBI for further investigation'" (G5). The draft CIR addressed to the FBI was held in writing ~3 hours earlier (G4, G8), was undisseminated after 8 days (G9), still in draft in mid-February (G11), and "was never sent" (G13). Two inspectors general found **no witness and no document** corroborating the transfer (G14, G17). The contemporaneous e-mail written expressly to record what the FBI was told **omits the passport and visa** (G18); the FBI recipient's contemporaneous note omits it too (G19) |
+| Contrary evidence | **The CIA's institutional position** that the information reached the FBI through that other cable (G17, first sentence) — rejected by the DOJ OIG, but it is the contrary position and is recorded as such. **The author's own explanation** that she was relaying what someone told her (G15), which if true makes the record erroneous rather than false. **Some Mihdhar information did reach FBI HQ** on 5–6 January via the CIA detailee's briefing (G18 context) — the visa did not, but the channel was not closed |
+| Absence of evidence | No record of who told the author the documents had been passed (G15). No record of why the hold was directed (G22). No response to the drafter's mid-January e-mail asking "Is this a no go" (G10). **All three absences were searched for by two inspectors general with access to the systems and the people** — which is what makes them probative rather than merely unknown, per `05` §3.4 |
+| Uncertainty | Every participant is recorded as not recalling the episode (G21–G23), so recollection evidence is uniformly null rather than supportive. The interval is "approximately" three hours (G8). The exact calendar date is not pinned from the pages read. **This audit has not read the underlying cables** — only the OIG's quotations of them, so the finding carries the strength of "the OIG, with access, reports" |
+| Discriminating item still missing | **The identity of whoever told the cable's author the documents had been passed**, or a documented finding that no such person existed. Second: any contemporaneous record of the hold's reason |
+| Status | **Pre-registered outcome: POSITIVE.** Both halves of the pre-registered criterion are present, from contemporaneous records. Registered as `X-001` (contradiction ledger, `direct contradiction`) and `A-001` (anomaly register, escalation **2**, priority **P0**). **No claim status is assigned to any actor's conduct**, and the conclusion ceiling from the pre-registration holds: *false or unverified internal record, cause undetermined* — not intent |
+
 ### ST-4 / T-4.4 — Commission document requests and access restrictions
 
 | Cell | Entry |
