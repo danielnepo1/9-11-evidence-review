@@ -101,7 +101,21 @@ Pre-registered before reading at [`prereg/T-2.1.md`](prereg/T-2.1.md). Criteria 
 
 ---
 
-## 3. B2 census — running tally
+## 2b. B2, chapter 5 — closed sub-census
+
+**Denominator: the 84 chapter-5 `retrospective-only` notes (B7), fixed and hashed before classification.** Full result, methodology and the witness-vs-detainee line drawn in [`11-b2-ch5-census.md`](11-b2-ch5-census.md).
+
+| Cell | Entry |
+|---|---|
+| B2-ref = yes | 57 / 84 (67.9%) |
+| **B2-rely = yes** | **54 / 84 (64.3%)** |
+| Subtype among rely=yes | **CIA-DETENTION 54/54 (100%). FOREIGN-LIAISON 0. COOPERATING-WITNESS 0** |
+| Verification | 12 of 84 notes (14%) image-checked, zero discrepancies inside the set |
+| Incidental finding | Note 25 (outside this set) misclassified by `note_dates.py` — a live instance of the already-disclosed full-month-name error (`decisions.md` D-008); denominator not amended |
+| Ceiling | Provenance fact only — not falsity, not coercion, not unreliability, not evidence for any hypothesis |
+| Status | **Closed for this denominator.** Report-wide B2 (other chapters' retrospective-only notes) not yet run |
+
+## 3. B2 census — running tally, document-level (separate from the chapter-5 note-level sub-census above)
 
 Two columns, never totalled together ([`decisions.md`](decisions.md) D-002). Every positive hand-verified with an exact passage.
 

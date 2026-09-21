@@ -98,3 +98,15 @@ Superseded entries: the ⚫ access markings for these documents in `SOURCES.md`,
 **Known residual errors, left unfixed and disclosed.** (a) Parenthesised event dates inside citations; (b) full month names before a bare year. Both bias the earliest date *earlier*, so every retrospective-only share is a floor. Fixing them would require a third sample; the measured 5.0% is reported instead.
 
 **Does not touch.** D-001 stands: the B1 *type* classifier remains withdrawn. B7 measures *when*, not *what kind*.
+
+---
+
+## D-008 — a live instance of B7's known residual error found during B2's mandatory spot-check; denominator not amended (2026-09-21)
+
+**What happened.** While image-verifying the B2 chapter-5 spot-check sample (see `11-b2-ch5-census.md`), chapter 5 note 25 was checked incidentally. It reads: "…whereas Hazmi and Mihdhar were on the first leg of their travel from Karachi to Los Angeles, where they would arrive **on January 15, 2000**. Intelligence report, interrogation of KSM, July 31, 2003…" B7 classified this note `contemporaneous-capable` with `min_doc_year=2000`. That is wrong: "January 15, 2000" is a narrative **event** date (when Hazmi and Mihdhar arrived), not a document date; the earliest actual document cited in the note is "Intelligence report, interrogation of detainee, Jan. 22, 2002." Correctly classified, note 25 is `retrospective-only`.
+
+**Root cause, confirmed by direct reproduction.** `tools/note_dates.py`'s `MONTH` pattern only matches abbreviated month names (`Jan`, `Feb`, …). "January" is not matched as a unit, so the date regex falls through to bare-year matching with `m.start()` landing on "2000" itself, preceded immediately by a comma ("January 15, ​2000"). The comma-precedes-date rule fires before the narrative-word rule is checked, so the narrative word "on" three tokens earlier is never seen. **This is the same residual-error class already disclosed in `09` §2** ("full month names before a bare year bypass the abbreviation-based month pattern") — this is a concrete instance of it, not a new bug.
+
+**Decision — the B2 chapter-5 denominator is NOT amended.** The 84-note list was fixed and SHA-256 hashed in `prereg/B2-ch5.md` before any note was classified. Adding note 25 now, after confirming by hand that it would move to the favourable side of the split, is exactly the after-the-fact adjustment pre-registration exists to prevent — regardless of which direction "favourable" points. The census proceeds on the pre-registered 84.
+
+**Consequence for B7.** `09-b7-retrospective-support-census.md`'s published totals are not re-run in this session. They already carried the disclosed floor-direction caveat for exactly this error class; this finding does not change that disclosure, it confirms it with a real example. **Queued as its own future task** (`NEXT-STEPS.md`): fix `MONTH` to match full month names, re-run `note_dates.py`, re-validate with a **fresh** hand-check sample (the existing two samples are spent), and only then republish corrected B7/B2 totals as a dated revision — not a silent edit.

@@ -133,6 +133,22 @@ It is also worth stating plainly what kind of finding it is: the contradiction i
 
 ---
 
+## Checkpoint 7 — B2, chapter 5 (2026-09-21)
+
+**Pre-registration:** [`prereg/B2-ch5.md`](prereg/B2-ch5.md) (commit `83df5ef`). Denominator fixed and SHA-256 hashed before classification: 84 chapter-5 `retrospective-only` notes from B7.
+
+**Read:** all 84 notes in full (untruncated). 12 (14%) image-checked against `CR-2004`, zero discrepancies inside the set.
+
+**Result:** 54/84 (64.3%) rest on detainee-derived reporting (B2-rely=yes) — and **all 54, without exception, are the CIA's own detention-and-interrogation-programme reporting.** Zero foreign-liaison, zero cooperating-witness. The expectation pre-registered before reading (CIA-DETENTION as the largest subtype) was confirmed more starkly than expected: not a plurality but the entire set.
+
+**Methodological line drawn and applied uniformly:** German BKA "interrogation of Nickels/Krause" citations are **witness** interviews (Nickels testified at German 9/11 trials), not detainee interrogations — excluded from B2-rely regardless of the word "interrogation" appearing in the citation. Without this line the census would have overstated its own headline number.
+
+**Bonus catch from the mandatory image spot-check:** chapter 5 note 25 — outside the 84-note denominator — is misclassified by `note_dates.py` (a live instance of B7's already-disclosed full-month-name defect). **Denominator not amended**; queued as its own fix (`decisions.md` D-008).
+
+**Nothing concluded about the truth of any KSM/Khallad/Binalshibh/Hambali/Nashiri/Abu Zubaydah statement.** The census measures provenance, not reliability.
+
+---
+
 ## Queue
 
 Ordered by what each document can settle, not by length ([`decisions.md`](decisions.md) D-005).
