@@ -204,6 +204,18 @@
       "release_date": "2005-06 (public release of redacted version)",
       "url": "https://oig.justice.gov/sites/default/files/archive/special/s0606/final.pdf",
       "role": "T-2.1 primary reconstruction of the January 2000 notification chain"
+    },
+    {
+      "id": "SSCI-2014",
+      "title": "Committee Study of the Central Intelligence Agency's Detention and Interrogation Program (Findings and Conclusions, Executive Summary)",
+      "institution": "U.S. Senate Select Committee on Intelligence",
+      "type": "congressional committee report",
+      "oath": "n/a",
+      "event_date": "2001-2009",
+      "doc_date": "2014-12-09",
+      "release_date": "2014-12-09 (redacted public release)",
+      "url": "https://www.govinfo.gov/content/pkg/CRPT-113srpt288/pdf/CRPT-113srpt288.pdf",
+      "role": "B2-followup: cross-reference detainee capture/EIT timelines against the 54 CIA-DETENTION notes in docs/11"
     }
   ]
 }
