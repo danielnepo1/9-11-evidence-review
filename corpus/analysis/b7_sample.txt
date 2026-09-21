@@ -1,0 +1,204 @@
+B7 hand-check sample (seed 20260922). Question per note: is min_doc_year
+correctly identified? Mark AGREE or DISAGREE and give the correct value if
+DISAGREE. Score BEFORE any number from b7_summary.json is used anywhere.
+
+[01] ch10 n41  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001]
+     rejected=[]
+     State Department memo,“Gameplan for Polmil Strategy for Pakistan and Afghanistan,” Sept. 14, 2001.
+     SCORE: 
+
+[02] ch9 n154  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001, 2003]
+     rejected=[]
+     On the PAPD officer reaching the 44th floor, see PAPD interview 7,WTC Command (Nov. 25, 2003). For the PAPD teams, see PAPD, statement 4, Administrative Command, Nov. 24, 2001; PAPD interview 1,WTC Command (Oct. 14, 2003). For the officers climbing, see PAPD statement 3,WTC Command, Nov. 12, 2001. For officers on the ground floors, see PAPD interview 4, Port Authority BusTerminal Command (Nov. 20, 2003); PAPD intervi
+     SCORE: 
+
+[03] ch10 n57  MACHINE min_doc_year=2004  cls=retrospective-only  doc_years=[2004]
+     rejected=[]
+     Stephen Hadley meeting (Jan. 31, 2004).
+     SCORE: 
+
+[04] ch5 n114  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001, 2003, 2004]
+     rejected=[]
+     Frank G. and Mary S. briefing (July 15, 2003); Frank G. interview (Mar. 2, 2004); Intelligence report, inter- rogation of KSM, July 30, 2003; Robert Block,“In War on Terrorism, Sudan Struck a Blow by Fleecing Bin Laden,” Wall Street Journal, Dec. 3, 2001, p. A1. Despite substantial evidence to the contrary and his own assertion that Bin Ladin arrived in Afghanistan with no money, KSM has told his interrogators that h
+     SCORE: 
+
+[05] ch1 n217  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001, 2004]
+     rejected=[]
+     DOD transcript, Air Threat Conference Call, Sept. 11, 2001. For one open line between the Secret Ser- vice and the FAA, see note 208. At Secret Service headquarters, personnel from the intelligence division were also on a phone conference with FAA headquarters. Chuck Green interview (Mar. 10, 2004). For notification of an inbound aircraft at 10:02, see USSS record, Intelligence Division timeline, Sept. 11, 2001; USSS
+     SCORE: 
+
+[06] ch7 n28  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001, 2003, 2004]
+     rejected=[(2000, 'narrative-context')]
+     Interview (Apr. 23, 2004). Hazmi and Mihdhar did not officially vacate their first apartment until May 31, 2000. FBI report,“Hijackers Timeline,” Nov. 14, 2003 (citing 265A-NY-280350-SD, serial 1445).The exact details of the hijackers’ move to their final San Diego address are not altogether clear, as their landlord—who has been interviewed many times by the FBI and once by us—has provided various accounts of how he 
+     SCORE: 
+
+[07] ch1 n16  MACHINE min_doc_year=2004  cls=retrospective-only  doc_years=[2004]
+     rejected=[(2001, 'inside-title')]
+     For investigation findings, see FAA report, “American Airlines Flight #77: Hijacking and Crash into the Pentagon, Sept. 11, 2001,” undated. For screener evaluations, see Tim Jackson interview (Apr. 12, 2004).
+     SCORE: 
+
+[08] ch7 n39  MACHINE min_doc_year=2003  cls=retrospective-only  doc_years=[2003, 2004]
+     rejected=[]
+     On KSM’s communication methods, see Intelligence report, interrogation of KSM, Oct. 15, 2003. Even here, the West Coast operatives’ language limitation posed a problem, as KSM had to send emails in Arabic using the English alphabet. Ibid. In addition to having his nephew Ali Abdul Aziz Ali transmit funds to the operatives in the United States, KSM used Ali as an intermediary for telephone messages. Intelligence repor
+     SCORE: 
+
+[09] ch1 n159  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001, 2002]
+     rejected=[(2001, 'inside-title'), (2001, 'inside-title'), (2001, 'inside-title')]
+     The United 93 timeline in FAA report,“Summary of Air Traffic Hijack Events September 11, 2001,” Sept. 17, 2001, states that at 9:28:54 a “second radio transmission, mostly unintelligible, again with sounds of possible screaming or a struggle and a statement,‘get out of here, get out of here’ from an unknown origin was heard over the ZOB [Cleveland Center] radio.” FAA audio file, Cleveland Center, Lorain Radar positio
+     SCORE: 
+
+[10] ch8 n19  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001]
+     rejected=[]
+     FBI report, National Law Enforcement Telecommunications System (NLETS) message,“National Threat Warning System—Potential Anti-U.S.Terrorist Attacks,” July 2, 2001.
+     SCORE: 
+
+[11] ch9 n96  MACHINE min_doc_year=None  cls=no-date  doc_years=[]
+     rejected=[]
+     Commission analysis of 911/PAPD calls. It is not clear whether callers from below the impact were trapped in offices or otherwise obstructed from proceeding, or were simply calling to seek advice. In any case, the 911 oper- ators and FDNY dispatchers who advised them did not appear to be basing their advice on these or other factual considerations.
+     SCORE: 
+
+[12] ch7 n55  MACHINE min_doc_year=1991  cls=contemporaneous-capable  doc_years=[1991, 2001, 2003, 2004]
+     rejected=[]
+     For Hanjour’s entry, see INS record, NIIS record of Hanjour, Oct. 3, 1991. For his university studies, see FBI report,“Hijackers Timeline,” Dec. 5, 2003 (Oct. 14, 1991, entry citing 265A-NY-280350-PX, serial 3792). For Hanjour being religious, see FBI letterhead memorandum, Penttbom investigation, Jan. 4, 2004, p. 10. One witness interviewed by the FBI after 9/11 remembers Hanjour and Nawaf al Hazmi becoming so entra
+     SCORE: 
+
+[13] ch1 n82  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001, 2002, 2004]
+     rejected=[(2001, 'narrative-context')]
+     See Jere Longman, Among the Heroes—United Flight 93 and the Passengers and CrewWho Fought Back (Harper- Collins, 2002), p. 107; Deena Burnett interview (Apr. 26, 2004); FBI reports of investigation, interviews of recipi- ents of calls from Jeremy Glick, Sept. 11, 2001, through Sept. 12, 2001; Lyzbeth Glick interview (Apr. 22, 2004). Experts told us that a gunshot would definitely be audible on the CVR.The FBI found n
+     SCORE: 
+
+[14] ch1 n138  MACHINE min_doc_year=None  cls=no-date  doc_years=[]
+     rejected=[]
+     Commission analysis of FAA radar data and air traffic control transmissions.
+     SCORE: 
+
+[15] ch10 n66  MACHINE min_doc_year=2002  cls=retrospective-only  doc_years=[2002, 2004]
+     rejected=[]
+     Colin Powell interview (Jan. 21, 2004). Rumsfeld told Bob Woodward that he had no recollection of Wolfowitz’s remarks at Camp David. DOD transcript,“Secretary Rumsfeld Interview with the Washington Post,” Jan. 9, 2002 (online at www.defenselink.mil/transcripts/2002/t02052002_t0109wp.html).
+     SCORE: 
+
+[16] ch9 n184  MACHINE min_doc_year=2003  cls=retrospective-only  doc_years=[2003, 2004]
+     rejected=[]
+     NYPD interview 20, Manhattan SouthTask Force (May 4, 2004); NYPD interview 21, 6th Precinct (May 4, 2004); NYPD interview 4, Housing (Feb. 17, 2004); PAPD interview 4, Port Authority Bus Terminal Command (Nov. 20, 2003).
+     SCORE: 
+
+[17] ch9 n14  MACHINE min_doc_year=None  cls=no-date  doc_years=[]
+     rejected=[]
+     See Port Authority Police Department (PAPD) report, “Port Authority of New York and New Jersey,” undated (online at www.panynj.gov).
+     SCORE: 
+
+[18] ch6 n184  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001]
+     rejected=[]
+     NSC note to Hadley, undated (attached to NSC memo, Cressey to Rice, aid to Northern Alliance and Uzbekistan, Mar. 2, 2001).
+     SCORE: 
+
+[19] ch9 n149  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001, 2004]
+     rejected=[]
+     For the warning, see NYPD recording, Special Operations Division radio channel, Sept. 11, 2001. For no pilot predicting a collapse, see, e.g., NYPD interview 12, Aviation (Mar. 10, 2004); NYPD interview 14, Aviation (Mar. 11, 2004).
+     SCORE: 
+
+[20] ch6 n92  MACHINE min_doc_year=2000  cls=contemporaneous-capable  doc_years=[2000]
+     rejected=[]
+     NSC email, Berger’s office to executive secretaries,“Millennium Alert After Action Review,” Mar. 9, 2000.
+     SCORE: 
+
+[21] ch9 n185  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001, 2002, 2004]
+     rejected=[]
+     For officers being in the concourse, see NYPD recordings, City Wide 1, Special Operations Division, and Divisions 1, 2, and 3 radio channels, Sept. 11, 2001. For the survivors’ actions, see NYPD memo, requests for depart- mental recognition 3, 4, 5 and 6, June 26, 2002; NYPD interview 19, 13th Precinct (May 4, 2004); NYPD inter- view 2,Transit (Jan. 2, 2004).
+     SCORE: 
+
+[22] ch1 n128  MACHINE min_doc_year=2003  cls=retrospective-only  doc_years=[2003]
+     rejected=[(2001, 'inside-title')]
+     FAA memo,“Full Transcript; Command Center; NOM Operational Position; September 11, 2001,” Oct. 14, 2003, pp. 15–17.
+     SCORE: 
+
+[23] ch7 n47  MACHINE min_doc_year=2000  cls=contemporaneous-capable  doc_years=[2000, 2001, 2002, 2003]
+     rejected=[]
+     For Atta and Shehhi visiting the Oklahoma school, see FBI report,“Hijackers Timeline,” Dec. 5, 2003 (July 2, 2000, entry citing FBI electronic communication, Sept. 13, 2001). For Moussaoui’s enrollment, see Superseding Indictment, United States v. Moussaoui, Crim. No. 01-455-A (E.D.Va. filed July 16, 2002), para. 44. For Atta’s initial training in Florida, see FBI report,“Hijackers Timeline,” Dec. 5, 2003 (July 7, 20
+     SCORE: 
+
+[24] ch8 n113  MACHINE min_doc_year=2004  cls=retrospective-only  doc_years=[2004]
+     rejected=[]
+     John interview (Apr. 2, 2004). 9 Heroism and Horror
+     SCORE: 
+
+[25] ch4 n6  MACHINE min_doc_year=2003  cls=retrospective-only  doc_years=[2003, 2004]
+     rejected=[]
+     On Sudanese discussions with Saudi officials, see Frank interview (Mar. 18, 2004); Ron interview (Mar. 18, 2004).Timothy Carney believed the Saudis told Sudan that they did not want Bin Ladin.Timothy Carney inter- view (Dec. 4, 2003).
+     SCORE: 
+
+[26] ch2 n82  MACHINE min_doc_year=1998  cls=contemporaneous-capable  doc_years=[1998, 2002]
+     rejected=[(2001, 'narrative-context')]
+     The merger was de facto complete by February 1998, although the formal “contract” would not be signed until June 2001. See Intelligence report, Incorporation of Zawahiri’s Organization into Bin Ladin’s Al-Qa’ida, and Recent [1998] Activities of Egyptian Associates of Al-Qa’ida, Sept. 22, 1998; see also Intelligence report, interro- gation of detainee, Feb. 8, 2002.
+     SCORE: 
+
+[27] ch7 n85  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001, 2002, 2003]
+     rejected=[]
+     Intelligence reports, interviews of Saudi hijackers’ families, Dec. 22, 2001; July 17, 2002; Saudi Arabian Mabahith briefing (Oct. 17, 2003) (disclosing that two of the muscle hijackers had married shortly before joining the plot and only one,Wail al Shehri, was employed, as a physical education teacher).
+     SCORE: 
+
+[28] ch7 n60  MACHINE min_doc_year=2000  cls=contemporaneous-capable  doc_years=[2000, 2002, 2003, 2004]
+     rejected=[(2001, 'narrative-context')]
+     For al Qaeda activity in Arizona, see Ken Williams interview (Jan. 7, 2004). On al Qaeda directing individ- uals in the Phoenix area to enroll in flight training without telling them why, see FBI electronic communication, investigation of Rayed Abdullah, Sept. 22, 2003. Ghassan al Sharbi, who was captured in March 2002 in Pakistan along with Abu Zubaydah, studied at Embry-Riddle Aeronautical University in Prescott,Ar
+     SCORE: 
+
+[29] ch1 n230  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001]
+     rejected=[]
+     NEADS audio file, Mission Crew Commander position, channel 2, 10:32:12. For the text of the chat log message, see DOD record, Continental Region chat log, Sept. 11, 2001.
+     SCORE: 
+
+[30] ch7 n100  MACHINE min_doc_year=2004  cls=retrospective-only  doc_years=[2004]
+     rejected=[]
+     Intelligence report, interrogation of KSM, Feb. 18, 2004; Intelligence report, interrogation of Khallad, Jan. 8, 2004.
+     SCORE: 
+
+[31] ch9 n146  MACHINE min_doc_year=2004  cls=retrospective-only  doc_years=[2004]
+     rejected=[]
+     NYPD interview 19, 13th Precinct (May 4, 2004); NYPD interview 2,Transit (Jan. 2, 2004).
+     SCORE: 
+
+[32] ch3 n97  MACHINE min_doc_year=1987  cls=contemporaneous-capable  doc_years=[1987, 1991]
+     rejected=[]
+     See Report of the President’s Special Review Board (Tower Commission) (GPO, 1987); Theodore Draper, A Very Thin Line:The Iran-Contra Affairs (Simon & Schuster, 1991).
+     SCORE: 
+
+[33] ch6 n35  MACHINE min_doc_year=1999  cls=contemporaneous-capable  doc_years=[1999]
+     rejected=[]
+     NSC email, Clarke to Berger, roadmap for Small Group, Dec. 22, 1999.
+     SCORE: 
+
+[34] ch3 n29  MACHINE min_doc_year=1989  cls=contemporaneous-capable  doc_years=[1989, 1994, 2000]
+     rejected=[(1978, 'inside-title'), (1978, 'narrative-context'), (1994, 'narrative-context')]
+     For historical information on FISA, see Americo R. Cinquegrana,“The Walls (and Wires) have Ears:The Background and First TenYears of the Foreign Intelligence Surveillance Act of 1978,” University of Pennsylvania Law Review, vol. 137 (1989), pp. 793, 802–805. For the statute, see 50 U.S.C. §§ 1801 et seq. As enacted in 1978, FISA permitted orders authorizing electronic surveillance. It did not refer to physical search
+     SCORE: 
+
+[35] ch4 n159  MACHINE min_doc_year=2004  cls=retrospective-only  doc_years=[2004]
+     rejected=[]
+     John Maher III interview (Apr. 22, 2004); Richard Clarke interview (Jan. 12, 2004); Gary Schroen inter- view (Mar. 3, 2004); Mike interview (Jan. 6, 2004).
+     SCORE: 
+
+[36] ch4 n90  MACHINE min_doc_year=1998  cls=contemporaneous-capable  doc_years=[1998, 1999]
+     rejected=[]
+     Ibid.; NSC memo, Benjamin to CSG, Nov. 12, 1999. Earlier, Clarke had worried that the expulsion of Bin Ladin might mean he would move to Somalia or Libya, where he might be even harder to target. NSC email, Clarke to Berger, Oct. 8, 1998.
+     SCORE: 
+
+[37] ch5 n8  MACHINE min_doc_year=1995  cls=contemporaneous-capable  doc_years=[1995, 2000, 2003]
+     rejected=[(1996, 'narrative-context')]
+     On recruiting Wali Khan in Karachi, see FBI report of investigation, interview of Abdul Hakim Murad,Apr. 13, 1995; Intelligence report, interrogation of KSM, July 12, 2003 (in which KSM recounts how he knew Wali Khan from Afghanistan). On the testing of the timer, see Brief for the United States of America, United States v. Ramzi Ahmed Yousef, No. 98-1041(L) (2d Cir. filed Aug. 25, 2000), pp. 85–86, 88–91.The latter 
+     SCORE: 
+
+[38] ch1 n215  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001, 2004]
+     rejected=[(2001, 'inside-title')]
+     Douglas Cochrane meeting (Apr. 16, 2004); Condeleeza Rice meeting (Feb. 7, 2004). For Rice entering after theVice President, see USSS report,“Executive Summary: U.S. Secret Service Timeline of Events, September 11–October 3, 2001,” Oct. 3, 2001, p. 2; Carl Truscott interview (Apr. 15, 2004).
+     SCORE: 
+
+[39] ch6 n43  MACHINE min_doc_year=2000  cls=contemporaneous-capable  doc_years=[2000]
+     rejected=[]
+     Intelligence report,Activities of Bin Ladin associates, Jan. 2, 2000; CIA cable,“Activities of Bin Ladin Asso- ciate Khalid Revealed,” Jan. 4, 2000; CIA email, CTC to NSA, Another UBL related report, Jan. 3, 2000.
+     SCORE: 
+
+[40] ch9 n72  MACHINE min_doc_year=2001  cls=contemporaneous-capable  doc_years=[2001]
+     rejected=[]
+     NYPD recordings, CityWide 1, Special Operations Division, and Divisions 1, 2, and 3 radio channels, Sept. 11, 2001.
+     SCORE: 
+

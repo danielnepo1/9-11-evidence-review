@@ -1,0 +1,68 @@
+B7 hand-check, sample 2 (seed 20260922), scored 2026-09-21, AFTER the citation-context
+rule was corrected to the pre-registered wording (author/institution contexts accepted;
+narrative-word rejection). Fresh seed per REPRODUCIBILITY.md rule 4; sample 1 is spent.
+Question per note: is min_doc_year correctly identified?
+
+RESULT: 2 DISAGREE / 40 = 5.0% disagreement. GATE PASSED (threshold 10%).
+Counts from this run of tools/note_dates.py may be reported, with this rate beside them.
+
+[01] ch10 n41  AGREE
+[02] ch9 n154  AGREE
+[03] ch10 n57  AGREE
+[04] ch5 n114  AGREE   (WSJ article, Dec. 3, 2001 — a 2001 document; press, but dated)
+[05] ch1 n217  AGREE
+[06] ch7 n28   AGREE   (checked full text: 2001 = "FBI electronic communication, Penttbom investigation, Oct. 3, 2001")
+[07] ch1 n16   AGREE   (undated FAA report invisible to the metric — limitation, not error)
+[08] ch7 n39   AGREE
+[09] ch1 n159  AGREE
+[10] ch8 n19   AGREE
+[11] ch9 n96   AGREE   (genuinely undated: Commission analysis)
+[12] ch7 n55   AGREE
+[13] ch1 n82   AGREE
+[14] ch1 n138  AGREE   (genuinely undated)
+[15] ch10 n66  AGREE
+[16] ch9 n184  AGREE
+[17] ch9 n14   AGREE   (undated report)
+[18] ch6 n184  AGREE
+[19] ch9 n149  AGREE
+[20] ch6 n92   AGREE
+[21] ch9 n185  AGREE
+[22] ch1 n128  AGREE
+[23] ch7 n47   DISAGREE  correct=2001  "FBI report, 'Hijackers Timeline,' Dec. 5, 2003 (July 2, 2000, entry citing FBI electronic
+                          communication, Sept. 13, 2001)" — the parenthesised "July 2, 2000" is the timeline ENTRY (event)
+                          date, accepted because it follows "(". Earliest document is the Sept. 13, 2001 EC.
+[24] ch8 n113  AGREE
+[25] ch4 n6    AGREE
+[26] ch2 n82   AGREE   (min 1998 correct; NOTE the narrative "by February 1998" was also accepted — full month
+                        name before a bare year is not caught by the narrative-word rule; harmless here)
+[27] ch7 n85   AGREE
+[28] ch7 n60   DISAGREE  correct=2002  "trained in the camps in November 2000" (narrative) accepted as a document date
+                          because "November" is not an abbreviation and falls through to the bare-year path.
+                          Also "captured in March 2002" accepted the same way. Earliest document: FBI memorandum,
+                          Aug. 1, 2002.
+[29] ch1 n230  AGREE
+[30] ch7 n100  AGREE
+[31] ch9 n146  AGREE
+[32] ch3 n97   AGREE
+[33] ch6 n35   AGREE
+[34] ch3 n29   AGREE
+[35] ch4 n159  AGREE
+[36] ch4 n90   AGREE
+[37] ch5 n8    AGREE
+[38] ch1 n215  AGREE
+[39] ch6 n43   AGREE
+[40] ch9 n72   AGREE
+
+RESIDUAL ERROR MODES (2/40)
+- Parenthesised event dates inside a citation ("(July 2, 2000, entry …)") accepted as document dates.
+- Full month names before a bare year ("November 2000", "March 2002", "February 1998") bypass the
+  abbreviation-based month pattern and the narrative-word rule.
+DIRECTION: both errors make min_doc_year EARLIER than the truth, i.e. they move notes from
+"retrospective-only" toward "contemporaneous-capable". The reported retrospective-only share is
+therefore a floor, not a ceiling, at this precision.
+NOT FIXED: fixing would require a third sample to re-validate; the measured 5.0% is reported instead.
+
+STRUCTURAL LIMITATION (not an error, seen in #07, #11, #14, #17): contemporaneous records that
+carry no year token — audio files, radar data, "Commission analysis of 911/PAPD calls", undated
+reports — are invisible to a date-based metric and land in "no-date". "no-date" is therefore
+NOT "no contemporaneous source" and is reported as its own column, never folded into either class.

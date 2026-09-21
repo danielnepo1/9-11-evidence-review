@@ -13,3 +13,4 @@ __pycache__/
 # dumps are not, because their classification failed its hand-check.
 corpus/analysis/citations.jsonl
 corpus/analysis/endnotes.jsonl
+corpus/analysis/note_dates.jsonl

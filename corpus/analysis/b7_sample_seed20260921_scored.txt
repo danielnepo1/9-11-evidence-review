@@ -1,0 +1,71 @@
+B7 hand-check, sample 1 (seed 20260921), scored 2026-09-21.
+Question per note: is min_doc_year correctly identified?
+
+RESULT: 18 DISAGREE / 40 = 45.0% disagreement. GATE FAILED (threshold 10%).
+Counts from this run of tools/note_dates.py are WITHHELD.
+
+[01] ch4 n60   DISAGREE  correct=1998  "DOD memo, Slocombe to Cohen,Aug. 27, 1998" — date after author name + comma not accepted
+[02] ch1 n78   AGREE
+[03] ch3 n68   AGREE
+[04] ch1 n165  AGREE     (2001 inside title correctly rejected)
+[05] ch1 n98   AGREE     (1999/1998 are narrative event mentions, correctly rejected)
+[06] ch10 n37  AGREE
+[07] ch2 n93   AGREE
+[08] ch6 n19   DISAGREE  correct=2001  "United States v. Haouari, July 3, 2001"; "interview of Ressam,Aug. 7, 2001" — case name / person name + comma
+[09] ch5 n89   DISAGREE  correct=2002  "interrogations of Binalshibh, Oct. 7, 2002" — person name + comma
+[10] ch3 n63   AGREE
+[11] ch10 n43  DISAGREE  correct=2002  "Hadley meeting (Jan. 31, 2004)"; "John King of CNN,Aug. 2, 2002" — "meeting (" and institution + comma
+[12] ch5 n49   DISAGREE  correct=2003  "interrogation of KSM, July 15, 2003" — person name + comma
+[13] ch5 n41   AGREE
+[14] ch1 n149  AGREE     (NEADS audio file carries no year token — undated contemporaneous record invisible to the metric; limitation noted)
+[15] ch5 n107  DISAGREE  correct=2002  "Collection of passports June 7, 2002" — no comma at all
+[16] ch4 n153  DISAGREE  correct=1999  "CJCS warning order, Feb. 8, 1999" — "order" not in the noun list
+[17] ch10 n5   DISAGREE  correct=2001  "Bob Woodward of the Washington Post, Oct. 24, 2001" — institution + comma
+[18] ch1 n147  AGREE
+[19] ch6 n73   AGREE
+[20] ch8 n45   AGREE
+[21] ch3 n84   AGREE
+[22] ch1 n60   AGREE
+[23] ch8 n11   DISAGREE  correct=2001  "Stopping Abu Zubaydah's attacks, May 29, 2001" — subject line + comma
+[24] ch9 n111  DISAGREE  correct=2001  "FDNY interview 29, Battalion 1 (Jan. 29, 2004)"; "video footage, Sept. 11, 2001" — unit designation + paren; noun "footage" not listed
+[25] ch7 n20   DISAGREE  correct=2002  "interview of Mohdar Abdullah, July 23, 2002" — person name + comma (machine took a later 2003 token)
+[26] ch3 n83   AGREE
+[27] ch9 n88   AGREE     (Commission analysis, genuinely undated)
+[28] ch11 n30  AGREE
+[29] ch6 n112  AGREE
+[30] ch4 n151  AGREE
+[31] ch6 n198  AGREE
+[32] ch7 n92   AGREE
+[33] ch10 n34  DISAGREE  correct=2001  "Bob Woodward and Dan Balz, Dec. 20, 2001" — person name + comma
+[34] ch8 n71   DISAGREE  correct=2002  "DOJ Inspector General interview of Steve B., Sept. 16, 2002" — person name + comma (1995/1999 in this note are narrative)
+[35] ch7 n35   AGREE     (pure narrative, genuinely no cited document)
+[36] ch9 n113  DISAGREE  correct=2004  six "FDNY interview NN, Battalion N (date)" — unit designation + paren
+[37] ch2 n26   DISAGREE  correct=2003  "United States v.Arnaout, Jan. 6, 2003" — case name + comma
+[38] ch1 n74   DISAGREE  correct=2001  "14 C.F.R. § 121.547 (2001)"; "boarding passes for United 93, Sept. 11, 2001"; "interview of Lisa Jefferson, Sept. 11, 2001"
+[39] ch8 n106  DISAGREE  correct=2001  "CIA email, Mary to John, seeking identification by Ressam,Aug. 21, 2001" — person name + comma
+[40] ch6 n131  DISAGREE  correct=2000  "notes of Nov. 11 and 13 executive conference call, Nov. 13, 2000" — "call" not in the noun list
+
+DIAGNOSIS
+- 17 of 18 disagreements share one cause: the implementation of the citation-context rule
+  (prereg/B7.md section 3) accepted only a closing quote, a closing paren or a listed
+  document-type noun before the date. The pre-registration also lists AUTHOR and
+  INSTITUTION as valid contexts; the code omitted them. Person names, case names, unit
+  designations and subject lines followed by a comma or an open paren were therefore
+  rejected, and the note fell into "no-date" (682 of 1,657 notes — 41% — against 93%
+  carrying a parseable date). This is an implementation error against the pre-registered
+  rule, not a defect in the rule.
+- 1 of 18 (#25) is a min-selection error caused by the same rejection.
+- 0 of 18 involve a date inside a quoted title being wrongly accepted (that rule works),
+  and 0 involve a narrative date being wrongly accepted as a document date.
+- Direction: the rejected dates span 1998-2004, so the error is not one-sided; but it
+  empties the denominator, which is enough to void the counts.
+- Limitation confirmed independent of the bug (#14, #27): contemporaneous records that
+  carry no year token (audio files, "Commission analysis of 911/PAPD calls") are invisible
+  to a date-based metric and will inflate "no-date" legitimately.
+
+ACTION
+- Fix: implement the pre-registered rule as written — a date counts unless it is inside a
+  quoted title or is immediately preceded (no comma or paren between) by a narrative word
+  (in, on, since, by, until, before, after, during, of, the, from, to, at, early, late,
+  mid, year, ...). Citation dates are preceded by a comma, an open paren, or a name.
+- Re-score on a FRESH seed (REPRODUCIBILITY.md rule 4). This sample is spent.

@@ -84,3 +84,17 @@ Superseded entries: the ⚫ access markings for these documents in `SOURCES.md`,
 **Consequence.** `NEXT-STEPS.md` execution order is re-prioritized toward T-2.1, T-3.1, T-4.2, T-7.1, T-7.2. `README.md`'s governing-principle framing is banner-updated to point to `08`, with `04` kept as historical record per this log's standing rule against silent edits. No prior finding changes: both document cards read so far recorded no conclusion, and that stands unaltered.
 
 **Invalidates.** The symmetry-based framing in `04` and `README.md` as the *current* governing objective (both are kept as historical/reference documents, not deleted). The register-balance health check in `anomaly-register.md` §6 item 1 is no longer a correction trigger — a one-sided register is now the expected shape of the work.
+
+---
+
+## D-007 — B7 validated at 5.0% after one failed gate; the corrected rule is the pre-registered rule (2026-09-21)
+
+**Decision.** The B7 retrospective-only support census ([`09`](09-b7-retrospective-support-census.md)) is validated and its counts may be cited, each with "5.0% measured label error, floor direction" beside it.
+
+**What happened.** The first extractor run failed its hand-check at **45.0%** (seed 20260921). Diagnosis: the code accepted a date as a document date only after a closing quote, a closing paren or a listed document noun; the pre-registration ([`prereg/B7.md`](prereg/B7.md) §3) also names *author* and *institution* as valid contexts. The omission was an implementation error against the pre-registered rule, not a defect in the rule, and 17 of 18 disagreements traced to it. The rule was implemented as written (accept unless inside a quoted title or preceded, with no comma or paren between, by a narrative word) and re-scored on a **fresh seed** (20260922): **5.0%**.
+
+**Why this is not tuning to the sample.** The correction moved the code *toward* the text committed before any run, not toward the sample; and the validation seed had never been drawn before the correction. Both scored samples are committed.
+
+**Known residual errors, left unfixed and disclosed.** (a) Parenthesised event dates inside citations; (b) full month names before a bare year. Both bias the earliest date *earlier*, so every retrospective-only share is a floor. Fixing them would require a third sample; the measured 5.0% is reported instead.
+
+**Does not touch.** D-001 stands: the B1 *type* classifier remains withdrawn. B7 measures *when*, not *what kind*.
