@@ -158,11 +158,11 @@ No entries yet. Populated from Phase 2A onward.
 | Discriminating power | **high** — M3 names specific, previously-sought items, and the records are known to have existed |
 | Escalation level | **2** (`unresolved anomaly`). **Permitted by:** ordinary reconciliation was tested by two inspectors general with access to the records and the people, and did not resolve it (G14, G17). **Blocked from 3+ by:** explanation (2) remains live; and a single anomaly cannot be a structured pattern |
 | Priority | **P0** |
-| Source genealogy | `independent` as to the records (the cable, the CIR's system status, the drafter's e-mail, the documenting e-mail, the recipient's note are five separate records). **Single-channel as to transmission** — this audit reads all of them through one secondary source |
+| Source genealogy | `independent` as to the records (the cable, the CIR's system status, the drafter's e-mail, the documenting e-mail, the recipient's note are five separate records). **Two-channel as to transmission, amended 2026-09-21:** the DOJ OIG (2004) and the Joint Inquiry (2002, independently: "The Joint Inquiry found no record of the visa information at FBI Headquarters", `cards/JI-2002.md` J2). The 9/11 Commission's note 44 is **not** a third channel — it cites the OIG's July 2004 draft (`cards/CR-2004.md` C6). See X-001 |
 | Hypotheses touched | H0: *accommodates* (predicts it, via its own IG) · H4: *predicts* · H1: *neither* · H5: *accommodates, does not predict* |
 | Burden note | For H5 to gain anything here it would need evidence of **specific operational knowledge** plus **deliberate conduct** (`04` §2.3). The hold is documented; its reason is not. An unexplained instruction is not evidence of its own motive, and every participant is recorded as not recalling it |
 | Opened | 2026-09-20 |
-| Last reviewed | 2026-09-20 |
+| Last reviewed | **2026-09-21** — three-body comparison done (T-2.1b). Escalation unchanged at 2: the JI adds an independent channel for Account B, which strengthens the *documentation* of the anomaly without touching the live ordinary explanation (good-faith relay). Two derived entries opened in the contradiction ledger: X-002 (attribution of the hold) and X-003 (the CIA's 2002→2004 position shift), both level 1 |
 | Resolution | open |
 
 ---

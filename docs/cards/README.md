@@ -35,3 +35,5 @@ Every card carries these, in this order. A section with nothing in it says so ex
 | [`PDB-20010806.md`](PDB-20010806.md) | President's Daily Brief, 6 August 2001 | 2026-09-19 | 2 of 2 |
 | [`MFR-TENET-20031223.md`](MFR-TENET-20031223.md) | MFR — George J. Tenet, 23 December 2003 | 2026-09-19 | 3 of 3 |
 | [`DOJOIG-2004.md`](DOJOIG-2004.md) | DOJ OIG, *Review of the FBI's Handling of Intelligence Information* | 2026-09-20 | **9 of 449** (T-2.1 section only) |
+| [`JI-2002.md`](JI-2002.md) | Joint Inquiry report (S. Rept. 107-351) | 2026-09-21 | **14 of 838** (al-Mihdhar section only) |
+| [`CR-2004.md`](CR-2004.md) | *The 9/11 Commission Report* | 2026-09-21 | **10 of 585** (ch. 6/8 January 2000 chain + note 44 only) |

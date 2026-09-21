@@ -87,6 +87,42 @@ It is also worth stating plainly what kind of finding it is: the contradiction i
 
 ---
 
+## Checkpoint 4 — `JI-2002`, al-Mihdhar section (2026-09-21)
+
+**Pre-registration:** [`prereg/T-2.1b.md`](prereg/T-2.1b.md), committed (`32f8f84`) before either document was opened.
+
+**Read:** 14 of 838 pages (PDF 175–188 / printed 143–156). Born-digital. Decisive passage (PDF 178) image-verified.
+
+**What it settles.**
+- The "passed to the FBI" cable was known to the Joint Inquiry in **2002** — two years before the OIG — through a CTC Supervisor's testimony, and **the CIA's own witness then conceded** the agency "was unable to 'confirm either passage or receipt of the information'."
+- **"The Joint Inquiry found no record of the visa information at FBI Headquarters."** An independent search by a second body. X-001's Account B is now two-channel.
+- The contemporaneous CIA e-mail documenting the FBI briefings is quoted: *"as soon as something concrete is developed leading us to the criminal arena or to known FBI cases, we will immediately bring FBI into the loop."* A stated policy of scoped sharing — distinct from any decision about the visa, and relevant to the ordinary-explanation test.
+- The JI does **not** mention the draft CIR or the hold. Silence, recorded as silence.
+
+**Registered:** X-001 genealogy amended; **X-003** opened (`revision`, level 1, P1). B2-ref yes / B2-rely no.
+
+---
+
+## Checkpoint 5 — `CR-2004`, chapters 6 and 8 and note 44 (2026-09-21)
+
+**Targeting correction, recorded:** the plan named PDF pp. 284–288 as the January 2000 chain. Those pages are chapter 8's 2001 sequel. The chain itself is at PDF pp. 199–200 (printed 181–182) and, decisively, **chapter 6 note 44** (PDF 520 / printed 502). Located by keyword after the pre-registration, before reading.
+
+**Read:** 10 of 585 pages. Born-digital. PDF pp. 199, 200, 520 image-verified. The `=` at line-end hyphens is in the rendered PDF itself, confirmed on the image.
+
+**What it settles.**
+- **The body text never mentions the CIR, the hold, or the false-record cable.** The narrative reader is told only that "None of this information … went to the FBI." The whole episode is in a footnote.
+- Note 44 carries it, in **stronger language than the OIG**: the desk officer "drafted a cable … *alleging* that the visa documents had been shared"; "*Contemporaneous documents contradict the claim* that they were shared." Three bodies, three strengths: JI `inconclusive` → OIG `unsupported statement` → Commission `contradicted`.
+- Note 44 dates the cable **5 January 2000** (Q-b pinned).
+- Note 44 attributes the hold to **"a CIA desk officer"** and never mentions the Deputy Chief — the only thread in the record leading above desk level, cut in one of three reconstructions. **X-002** opened (`material tension`, level 1, P1).
+- **Note 44's sources are the OIG's** — "DOJ Inspector General report … July 2, 2004, p. 282" and two OIG interviews. **The Commission and the OIG share an ancestor on this episode.** Only the JI is independent.
+- Chapter 8 records a separate, same-shaped finding: CIA Joint-Inquiry testimony that the FBI "had access … from the beginning" to the January 2001 Khallad identification — "we conclude this was not the case." Recorded as C9, not merged with X-001.
+
+**Registered:** X-002; X-001 genealogy; A-001 last-reviewed. **B2-rely: yes — first CIA-programme instance in the census** (KSM, ch. 8 p. 287; Khallad, note 42).
+
+**Value assessment.** T-2.1b delivered what a genealogy check should: it split the three reconstructions into *two* independent channels (OIG, JI) and one dependent summary (Commission), found one compression (X-002) and one dated institutional revision (X-003). The revision is the item to watch: it is the first entry H1 *predicts* rather than accommodates — held at level 1 because the ordinary explanation (a working supervisor under oath in 2002 vs. an institutional response to an IG in 2004) fits equally and is untested.
+
+---
+
 ## Queue
 
 Ordered by what each document can settle, not by length ([`decisions.md`](decisions.md) D-005).
