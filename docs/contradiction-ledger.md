@@ -80,6 +80,7 @@ Quotations are preserved verbatim in the source language, followed by a clearly 
 | X-001 | Cable asserting documents passed to FBI vs. records showing they were not | `direct contradiction` | ST-2 / T-2.1 | 2 | P0 | open — genealogy upgraded 2026-09-21 |
 | X-002 | Who directed the hold: "a CIA desk officer" (Commission) vs. "per [the Deputy Chief]" (OIG notation) | `material tension` | ST-2 / T-2.1b | 1 | P1 | open |
 | X-003 | CIA's stated position on the transfer: "unable to confirm" (2002) → "sent through another cable" (2004) | `revision` | ST-2 / T-2.1b | 1 | P1 | open |
+| X-004 | `CR-2004` note 20 cites a Hambali interrogation dated Jan. 14, 2003 vs. `SSCI-2014`'s documented August 2003 capture | `direct contradiction` | B2 EIT-timing follow-up | 1 | P2 | open — most plausible resolution is a citation typo, see A-002 |
 
 ---
 
@@ -215,4 +216,41 @@ Quotations are preserved verbatim in the source language, followed by a clearly 
 **Conclusion ceiling:** *The CIA's stated position on this transfer changed between 2002 and 2004, from "unable to confirm" to "was sent through another cable," and the later position was rejected by the DOJ OIG for want of evidence.* That is all. It does not establish that the 2004 assertion was made in bad faith, and it says nothing about January 2000.
 
 **Linked:** `cards/JI-2002.md` · `cards/DOJOIG-2004.md` · `cards/CR-2004.md` (C9 — a separate, same-shaped episode in 2001) · `X-001`
+**Opened / Last reviewed:** 2026-09-21 / 2026-09-21
+
+---
+
+### X-004 — `CR-2004` note 20 cites a Hambali interrogation dated Jan. 14, 2003 vs. `SSCI-2014`'s documented August 2003 capture
+
+**Proposition being tested:** Whether a CIA interrogation report attributed to Hambali could have existed, and been cited by date, on January 14, 2003.
+
+**Account A (`CR-2004`, 2004):** Chapter 5, endnote 20, supporting the sentence "By 1998, Hambali would assume responsibility for the Malaysia/Singapore region within Sungkar's newly formed terrorist organization, the JI" (PDF p. 169 / printed p. 151): "Intelligence reports, interrogations of Hambali, Jan. 14, 2003; Mar. 5, 2004."
+· Source: `CR-2004`, born-digital, PDF pp. 169, 508, read in full for this passage.
+
+**Account B (`SSCI-2014`, 2014):** "In August 2003, Hambali was captured and transferred to CIA custody." Corroborated independently at four further page hits (pp. 279, 285, 422, 511, 631 — located, not image-verified; not relied on here).
+· Source: `SSCI-2014`, PDF p. 137 / printed p. 108, ABBYY-OCR'd (D-003 applies), image-verified exactly against the rendered page.
+
+**Gate results:** semantic equivalence — yes (both bear on whether an interrogation of Hambali producing a CIA report could be dated Jan. 14, 2003) · date range — incompatible: Account A's earlier date precedes Account B's capture date by seven months · org level — n/a, same individual · compatible uncertainty — no: Account B is a flat, corroborated statement; Account A is a flat citation date, not hedged · narrower — no · clocks — n/a · **could both be true simultaneously — no.** No custody status placed Hambali in a position to be the subject of a CIA interrogation report in January 2003 under either account read.
+
+**Relationship:** `direct contradiction` on its face, between one citation date in a 1,657-note apparatus and an independently corroborated capture date. The most plausible resolution (see A-002) is a single-digit transcription error in `CR-2004`'s own endnote (2003 for 2004), not a substantive conflict about when Hambali was captured — `SSCI-2014` does not contradict any *claim* in `CR-2004`'s chapter 5, only one *citation date* in it.
+
+**Source genealogy:** `independent` — separately authored a decade apart, from different underlying record sets (Commission staff synthesis vs. Senate committee review of CIA operational cables).
+
+**Most plausible ordinary reconciliation:** **Citation typo.** The same endnote's second date ("Mar. 5, 2004") and every other Hambali-attributed citation in the 84-note B2 set (Sept. 2003 or later) cluster tightly around a 2003–2004 window consistent with an August 2003 capture; "Jan. 14, 2003" is the sole outlier and becomes an unremarkable, well-fitting date if read as "Jan. 14, 2004." This is untested against the underlying raw cable, which was not sought.
+
+**Implications by hypothesis:**
+
+| Hypothesis | Relationship |
+|---|---|
+| H0 | Neither predicts nor is weakened — a citation-mechanics fact, not a claim about the attacks |
+| H4 | Predicts — exactly the kind of transcription error a large citation apparatus assembled under deadline produces |
+| H1, H5 | Not engaged — the sentence the citation supports is inert pre-2001 organizational history; no mechanism connects a citation-year error on it to self-protection or concealment of operational knowledge |
+
+**Discriminating evidence needed:** The underlying raw CIA reporting cable cited (redacted report number, not reproduced in `CR-2004`'s endnotes) — not available from any source read in this project.
+
+**Escalation level:** 1 — discrepancy, with a well-supported ordinary reconciliation. **Priority:** P2.
+
+**Conclusion ceiling:** *One citation date in `CR-2004`'s chapter-5 endnotes is inconsistent with `SSCI-2014`'s documented custody timeline for Hambali, and most plausibly reflects a single-digit year transcription error, not a substantive fact about when Hambali was captured or interrogated.* It does not show the sentence the citation supports is false — that sentence does not depend on which year is correct. It is not evidence that `CR-2004`'s endnote apparatus is unreliable as a whole.
+
+**Linked:** `cards/CR-2004.md` · `11-b2-ch5-census.md` · `A-002`
 **Opened / Last reviewed:** 2026-09-21 / 2026-09-21

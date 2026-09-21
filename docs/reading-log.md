@@ -149,6 +149,22 @@ It is also worth stating plainly what kind of finding it is: the contradiction i
 
 ---
 
+## Checkpoint 8 — B2 EIT-timing cross-reference, `SSCI-2014` (2026-09-21)
+
+**Pre-registration:** [`prereg/B2-ch5-EIT-timing.md`](prereg/B2-ch5-EIT-timing.md) (commit `43ce377`). Denominator: the 54 `CIA-DETENTION` notes from Checkpoint 7.
+
+**Read:** targeted passages of `SSCI-2014` (712 pp., ABBYY-OCR'd) fixing capture dates and EIT-application windows for all six named detainees (KSM, Abu Zubaydah, Khallad/bin Attash, Hambali, Nashiri, Ramzi bin al-Shibh). Nine decisive pages image-verified; zero discrepancies.
+
+**Result:** all six detainees documented by SSCI as subjected to EITs. **80.0% of the 160 individual date-citations across the 54 notes (66.7% of the notes outright) cite a date after SSCI's documented cessation of coercive technique** on the named subject — for KSM, 89 of 91 citations; for Khallad, 29 of 33. Bin al-Shibh inverts the pattern (11 of 18 DURING-EIT), consistent with his short, front-loaded EIT window immediately after capture. Reported in full in [`12-b2-eit-timing-crossref.md`](12-b2-eit-timing-crossref.md).
+
+**Vocabulary gap found and disclosed, not silently absorbed:** the pre-registered four-way status did not anticipate a capture-to-first-EIT gap (present for Hambali); a fifth label, `PRE-EIT`, was added mid-classification and documented (`decisions.md` D-009), applied only to the 9 Hambali citations it affects.
+
+**Anomaly found and registered:** chapter 5 note 20 cites a Hambali interrogation dated Jan. 14, 2003 — seven months before SSCI's documented August 2003 capture. Full mirror test at `A-002` (anomaly register) / `X-004` (contradiction ledger); assessed as a single-digit citation-year typo, not elevated past escalation level 1.
+
+**Nothing concluded about whether any specific KSM/Khallad/Hambali/Nashiri/bin al-Shibh/Abu Zubaydah statement is true.** This checkpoint measures when a cited report is dated relative to documented coercion, not what the coercion produced or whether it was accurately reported.
+
+---
+
 ## Queue
 
 Ordered by what each document can settle, not by length ([`decisions.md`](decisions.md) D-005).

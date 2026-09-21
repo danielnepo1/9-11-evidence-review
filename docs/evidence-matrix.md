@@ -115,6 +115,23 @@ Pre-registered before reading at [`prereg/T-2.1.md`](prereg/T-2.1.md). Criteria 
 | Ceiling | Provenance fact only — not falsity, not coercion, not unreliability, not evidence for any hypothesis |
 | Status | **Closed for this denominator.** Report-wide B2 (other chapters' retrospective-only notes) not yet run |
 
+## 2c. B2 EIT-timing cross-reference — the 54 CIA-DETENTION notes vs. `SSCI-2014`
+
+**Denominator: the 54 notes above (B2-rely=yes, CIA-DETENTION).** Full result, six detainee timelines and the anomaly found in the course of it, in [`12-b2-eit-timing-crossref.md`](12-b2-eit-timing-crossref.md).
+
+| Cell | Entry |
+|---|---|
+| Citations classified | 160 individual date-citations across the 54 notes |
+| **POST-EIT** | **128 / 160 (80.0%)** — 36 / 54 notes (66.7%) cite only POST-EIT dates |
+| DURING-EIT | 18 / 160 (11.2%) — 4 / 54 notes (7.4%) cite only DURING-EIT dates |
+| Mixed (both DURING and POST in the same note) | 12 / 54 notes (22.2%) |
+| PRE-EIT / INCONCLUSIVE (Hambali edge cases, vocabulary gap, D-009) | 8 / 160 citations, 2 / 54 notes |
+| By detainee (POST/DURING) | KSM 89/2 · Khallad 29/4 · Nashiri 1/1 · Abu Zubaydah 2/0 · bin al-Shibh 7/11 (inverted) |
+| Verification | 9 decisive `SSCI-2014` pages image-verified (D-003 applies), zero discrepancies |
+| Incidental finding | Chapter 5 note 20 cites a Hambali interrogation dated seven months **before** his documented capture — `A-002` / `X-004`, assessed as a citation typo |
+| Ceiling | Provenance-timing fact only — a POST-EIT date does not certify a statement true, and a DURING-EIT date does not certify it false or coerced |
+| Status | **Closed for this denominator.** Extending to other chapters' CIA-DETENTION notes not yet run |
+
 ## 3. B2 census — running tally, document-level (separate from the chapter-5 note-level sub-census above)
 
 Two columns, never totalled together ([`decisions.md`](decisions.md) D-002). Every positive hand-verified with an exact passage.

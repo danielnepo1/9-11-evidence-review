@@ -37,3 +37,4 @@ Every card carries these, in this order. A section with nothing in it says so ex
 | [`DOJOIG-2004.md`](DOJOIG-2004.md) | DOJ OIG, *Review of the FBI's Handling of Intelligence Information* | 2026-09-20 | **9 of 449** (T-2.1 section only) |
 | [`JI-2002.md`](JI-2002.md) | Joint Inquiry report (S. Rept. 107-351) | 2026-09-21 | **14 of 838** (al-Mihdhar section only) |
 | [`CR-2004.md`](CR-2004.md) | *The 9/11 Commission Report* | 2026-09-21 | **10 of 585** (ch. 6/8 January 2000 chain + note 44 only) |
+| [`SSCI-2014.md`](SSCI-2014.md) | SSCI, *Committee Study of the CIA's Detention and Interrogation Program* | 2026-09-21 | **9 of 712** (six detainee timelines only) |

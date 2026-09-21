@@ -29,6 +29,7 @@ Sixteen documents harvested, hashed and extracted: **1,649 pages, 4,349,282 char
 | `ISCAP-PDBREVIEW` — PDB Review Team report | 🟢 / 📦 | 17 | already read in full (DOC-1); re-harvested for the 5a/5b re-read |
 | `MFR-RICE-20040207` | 🟢 / 📦 | 14 | already read in full (DOC-2) |
 | `MFR-SCHEUER-20031211` | 🟢 / 📦 | 11 | already read in full (DOC-3) |
+| `SSCI-2014` — Committee Study of the CIA's Detention and Interrogation Program | 🟡 / 📦 | 712 | ABBYY-OCR'd; **9 pages read under card, image-verified** (six detainee EIT timelines, [`docs/cards/SSCI-2014.md`](docs/cards/SSCI-2014.md)); the remaining 703 pages are 📦 only |
 | `MFR-BERGER-20040114` | 📦 | 26 | text layer intact |
 | `MFR-CLARKE-20031218` | 📦 | 24 | text layer intact |
 | `MFR-CLARKE-20040112` | 📦 | 18 | text layer intact |

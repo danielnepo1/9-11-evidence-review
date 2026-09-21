@@ -133,6 +133,7 @@ No entries yet. Populated from Phase 2A onward.
 | ID | Short label | Status | Domain | Escalation | Priority | Discriminating power | Opened |
 |---|---|---|---|---|---|---|---|
 | A-001 | Uncorroborated cable assertion of FBI transfer, January 2000 | `documentary contradiction` | intelligence | 2 | P0 | high | 2026-09-20 |
+| A-002 | CR-2004 note 20 dates a Hambali interrogation report seven months before his documented capture | `apparent anomaly with adequate explanation` | intelligence | 1 | P2 | medium | 2026-09-21 |
 
 ---
 
@@ -164,6 +165,35 @@ No entries yet. Populated from Phase 2A onward.
 | Opened | 2026-09-20 |
 | Last reviewed | **2026-09-21** — three-body comparison done (T-2.1b). Escalation unchanged at 2: the JI adds an independent channel for Account B, which strengthens the *documentation* of the anomaly without touching the live ordinary explanation (good-faith relay). Two derived entries opened in the contradiction ledger: X-002 (attribution of the hold) and X-003 (the CIA's 2002→2004 position shift), both level 1 |
 | Resolution | open |
+
+---
+
+### A-002 — CR-2004 note 20 dates a Hambali interrogation report seven months before his documented capture
+
+| Field | Value |
+|---|---|
+| Status | `apparent anomaly with adequate explanation` |
+| Domain | `intelligence` |
+| Description | `CR-2004` chapter 5, endnote 20, supports the sentence "By 1998, Hambali would assume responsibility for the Malaysia/Singapore region within Sungkar's newly formed terrorist organization, the JI" (PDF p. 169 / printed p. 151) with: "Intelligence reports, interrogations of Hambali, Jan. 14, 2003; Mar. 5, 2004." `SSCI-2014` states, and corroborates independently across at least five passages, that "In August 2003, Hambali was captured and transferred to CIA custody" — seven months **after** the first date cited in note 20. No interrogation report attributed to Hambali by name could have existed on January 14, 2003 if he was not yet in any custody producing CIA interrogation reports until August 2003 |
+| Event date | Not applicable — the anomaly concerns a citation date, not an underlying event |
+| Document date(s) | `CR-2004`: July 2004. `SSCI-2014`: December 2014 |
+| Declassification / publication date(s) | `CR-2004`: born public (GPO). `SSCI-2014`: 2014-12-09 (redacted public release) |
+| Sources (with read status) | `CR-2004` — note 20 and its supported sentence, **read**, born-digital (no OCR, D-003 exemption). `SSCI-2014` — p. 137/printed p. 108, **read, image-verified** (decisive quote confirmed against rendered page image, ABBYY OCR, D-003 applies); four further page hits (pp. 279, 285, 422, 511, 631) **located, not image-verified** — not relied on for this entry, cited only as unverified corroboration of the same fact |
+| Linked claims | *(claim register rows not yet opened for this target)* |
+| M1 — Official account predicts | The Commission's own endnote apparatus should be internally consistent: a citation date for a named detainee's interrogation report should fall within a period in which that detainee was in a custody capable of producing such a report. `CR-2004` and `SSCI-2014` are both parts of "the official account" in this project's usage; this entry tests one against the other, not the official account against an alternative |
+| M2 — Alternative hypotheses predict | **H4** (institutional failure through negligence/fragmentation): predicts exactly this — a single-digit transcription error in a 1,657-note apparatus assembled from raw cable citations under a fixed publication deadline, with no operational stake in the error. **H1** (self-protection/narrative management): has no plausible mechanism here — the sentence supported by note 20 is inert, pre-2001 organizational history, and dating the cited report a year earlier neither helps nor harms any account of the Commission's own or the CIA's own conduct. **H5** (specific operational knowledge, deliberately concealed): would require the erroneous date to serve some purpose — e.g., manufacturing an appearance of earlier knowledge of Hambali's role than the record supports — but the sentence it supports needed no such reinforcement (it is uncontested organizational background, not a claim about warning or foreknowledge), so H5 finds nothing to attach to |
+| M3 — Discriminating observation | Whether the underlying raw cable (redacted CIA reporting number, not reproduced in `CR-2004`'s endnotes) is dated January 2003 or January 2004. Not available from any source read in this project |
+| M4 — Ordinary-explanation test | **Single-digit year transcription error (Jan. 14, 2003 → should read Jan. 14, 2004), tested and found strongly supported.** (1) The same endnote's second citation is "Mar. 5, 2004" — a report on the identical general topic (Hambali's history and role) dated barely seven weeks after the miswritten date, if corrected to 2004. (2) Every other Hambali-attributed citation in the same 84-note set clusters at Sept. 2003 or later (notes 18, 22, 26, 58: Aug.–Sept. 2003; note 22's second citation and note 23: Mar. 2004) — a Jan. 2003 date is the sole outlier in the entire set, while a Jan. 2004 date sits exactly inside that cluster's range. (3) The claim the note supports (pre-2001 organizational history) does not depend on which year is correct — it is not itself evidence for or against any account, only the citation apparatus is at issue. No other ordinary-explanation category from `05` §4 fits as well: this is not a workflow artifact (it is a substantive citation, not a system flag), not a good-faith relay of a stated source (there is no attributed speaker to relay from), and not a scope mismatch (there is no plausible reading under which Jan. 14, 2003 is correct) |
+| M5 — Conclusion NOT justified | **This does not establish that Hambali was interrogated, in any custody, on January 14, 2003. It does not establish anything about the reliability of the underlying report once correctly dated. It does not bear on H1 or H5, and it is not evidence that `CR-2004`'s endnote apparatus is unreliable generally — one transcription error in 1,657 notes, found deliberately by cross-referencing against an independent document, is not a base-rate claim about the other 1,656** |
+| Discriminating power | **medium** — M3 names a specific, in-principle-available discriminator (the raw cable), but it was not sought in this project and its retrieval is unlikely to be practicable |
+| Escalation level | **1** (`discrepancy`). **Not elevated to 2**: the ordinary reconciliation (transcription error) is well-supported by the note's own internal structure and by the surrounding citation cluster, not merely asserted; nothing tested makes it inadequate |
+| Priority | **P2** — real, verified anomaly with a strongly favoured ordinary explanation and no bearing on any substantive claim |
+| Source genealogy | `independent` — `CR-2004` (2004, Commission staff, GPO) and `SSCI-2014` (2014, Senate committee staff, from CIA operational cables) are separately authored a decade apart from different record sets; the capture-date fact in `SSCI-2014` is itself corroborated across at least five internally distinct passages |
+| Hypotheses touched | H0: *neither predicts nor is weakened* — this is a citation-mechanics fact internal to the record-keeping, not a claim about the attacks · H4: *predicts* (exactly the kind of error institutional volume/deadline pressure produces) · H1, H5: *neither* — no mechanism connects a citation-year typo on inert organizational history to either |
+| Burden note | Not applicable — no hypothesis gains support from this entry in its current, most-likely resolution |
+| Opened | 2026-09-21 |
+| Last reviewed | 2026-09-21 |
+| Resolution | Not closed formally (the raw cable that would confirm the year was not sought), but assessed as `apparent anomaly with adequate explanation` per M4; recorded open only in the sense that the discriminating cable has not been read |
 
 ---
 
