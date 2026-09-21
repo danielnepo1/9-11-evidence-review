@@ -54,6 +54,14 @@ A row is **not** resolvable until all of these are filled. `not determined` is a
 | Discriminating item still missing | Other PDB articles from the same period, to establish whether a fully bold paragraph is ordinary or exceptional in this product. The corpus now holds one PDB; the other 70 are not harvested |
 | Status | **Not assigned.** The literal fact is verified; the significance is not, and A16 as worded may turn on which was meant |
 
+### A9 — Rice on the summer-2001 reporting stream — **wording corrected 2026-09-21**
+
+| Cell | Entry |
+|---|---|
+| Claim, **as the witness put it** (image-verified, `MFR-RICE-20040207` p.9, see [`10`](10-b8-staff-interpolation-census.md) §4) | "we responded to the intel that was there, which pointed to the Gulf, Israel, or other foreign locations … there was no threat-reporting stream about attacks inside the United States" |
+| Claim, as this project had paraphrased it since `03` | "all of the reporting pointed abroad" — **broader than the witness's words** on period (summer 2001 only) and object (a *threat-reporting stream*, not all reporting). Quantifier drift inside our own ledger, in the direction that made the claim easier to contradict. Corrected; the test is now against the narrower proposition |
+| Status | **Unchanged — `inconclusive`.** The four missing items in `03` §1.4 are still missing. `PDB-20010806` P9/P10 (FBI patterns "consistent with preparations for hijackings"; a May 2001 UAE call under investigation) and `MFR-TENET-20031223` T20 ("Some said, 'They're coming here.' But there were no data … about domestic threats") bear on it and were recorded in their cards; neither resolves whether a *threat-reporting stream* existed. `MFR-RICE-20040207` still has no card (§4) |
+
 ### A1–A5 — Scheuer's claims (analytic product; the 25 March 1999 PDB; the 30%/0% estimates; Saudi non-cooperation; the May 1998 cancellation)
 
 | Cell | Entry |

@@ -123,6 +123,16 @@ It is also worth stating plainly what kind of finding it is: the contradiction i
 
 ---
 
+## Checkpoint 6 — B7 and B8 (2026-09-21)
+
+**B7** ([`09`](09-b7-retrospective-support-census.md)): first gate failed at 45% (implementation omitted the pre-registered author/institution contexts); corrected to the rule as written; fresh seed passed at 5.0%. 39.7% of the Commission Report's dated endnotes cite nothing produced before 2002; chapter 5, 66.7%. Pre-registered expectation half confirmed (ch. 5), half not (ch. 7) — reported with equal weight. Residual error direction makes every share a floor.
+
+**B8** ([`10`](10-b8-staff-interpolation-census.md)): 21 staff interpolations in 8 of 11 memoranda; five unresolved drafting queries survive in the released text; one documented in-room conflict-of-interest handling (Berger p.25, Zelikow / Bush transition team); one insertion of the Executive Director's knowledge where the witness had none (Tenet #3 p.7). Six instances image-verified.
+
+**Incidental correction to our own ledger:** A9's verbatim wording (Rice p.9) is narrower than the paraphrase this project carried since `03`. Corrected in the evidence matrix; status unchanged.
+
+---
+
 ## Queue
 
 Ordered by what each document can settle, not by length ([`decisions.md`](decisions.md) D-005).
