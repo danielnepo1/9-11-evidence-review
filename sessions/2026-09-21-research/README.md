@@ -1,0 +1,186 @@
+# 9/11 Evidence Review
+
+> Document-based investigation of the 9/11 record, currently in a **directed-search phase**: actively building the best-evidenced case against specific claims in the official account, with full source traceability and no relaxation of verification standards.
+
+A systematic review of primary sources (NIST, the 9/11 Commission, CIA, NARA, Congress) across two tracks: (1) the physical plausibility of the Twin Towers and WTC 7 collapses, and (2) pre-9/11 intelligence and institutional response. Every claim carries a confidence status; every source is logged with access date, extent read, and known limitations; every quotation is verified against the source image before use.
+
+---
+
+## ⚠ Current governing framing — directed search (since 20 September 2026)
+
+> **This project no longer treats the official account and every alternative with equal resource priority.** As of 20 September 2026 it runs a **directed search**: prioritizing the workstreams and targets most likely to produce a fracture in the official account. This was an explicit, informed decision — see [`docs/08-reorientation-directed-search.md`](docs/08-reorientation-directed-search.md) for exactly what changed, what didn't, and why.
+
+**What did not change:** every evidentiary-verification mechanism below — document cards, image verification, the closed status vocabulary, conclusion ceilings, the mirror test. Those are what make a finding resistant to rebuttal, which the current objective needs *more*, not less. **What changed:** which questions get asked first, and the project's own description of itself — any future synthesis must disclose plainly that it argues a case, not that it presents a neutral comparison.
+
+The original governing principle this project ran under — full symmetry between the official account and every alternative hypothesis — is preserved as historical/reference material, not deleted:
+
+<details>
+<summary>Original governing principle — symmetric skepticism (superseded 2026-09-20 on objective and priority; still governs verification method)</summary>
+
+> "Every material claim is provisional until supported by traceable evidence. Official status does not make a claim true; institutional inconsistency does not make an alternative claim true. The project applies skepticism symmetrically: it actively tests the official account for contradictions and unexplained anomalies, while applying the same burden of proof, alternative-explanation testing, and falsification criteria to every alternative hypothesis."
+
+This committed the project to two things at once:
+
+- **It does** actively investigate contradictions, anomalies, unexplained events, evidentiary gaps, changed accounts and unusual procedural decisions within the official account. Declining to look is a methodological failure, not caution.
+- **It does not** assume the official account is false, nor assume any alternative account is false. They are competing explanations, tested against the same evidence with the same burden.
+
+Full text: [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md). It still governs the *verification* method (claim decomposition, anomaly register, mirror test as used now to pre-empt rebuttals) — only its *objective-neutrality* clause is superseded by `docs/08`.
+
+</details>
+
+## About this project
+
+This repository documents an ongoing audit of the official account of the 11 September 2001 attacks. The goal is neither to confirm nor to refute that account, but to subject it — and the alternatives — to the same evidentiary standard, with full source traceability.
+
+**Honesty standard.** No conclusion is presented without stating whether the underlying document was read in full, read in part, or known only through a summary, FAQ or press release. Where that was not possible within a session, the repository records the gap explicitly instead of filling it with unverified prior knowledge.
+
+**Language.** Repository content is written in English. `docs/01`, `docs/02` and `docs/03` remain in the original Portuguese pending a faithful translation, tracked as a background item in [`NEXT-STEPS.md`](NEXT-STEPS.md); they are the historical findings record, and translating them is kept as its own reviewable change so that no wording shift can be mistaken for a revised finding.
+
+## Structure
+
+```
+9-11-evidence-review/
+├── README.md                                   ← this file: hypotheses, confidence scale, entry point
+├── docs/
+│   ├── 01-wtc-engineering-audit-v1.md          ← first audit (WTC structural engineering) [pt-BR]
+│   ├── 02-adversarial-audit-phase1.md          ← second audit (adversarial, multi-hypothesis, Phase 1) [pt-BR]
+│   ├── 03-phase2a-mfr-verification.md          ← framing corrections + Phase 2A verification instrument [pt-BR]
+│   ├── 04-methodology-symmetric-skepticism.md  ← original methodology [superseded on objective by 08]
+│   ├── 05-stress-test-execution-plan.md        ← targeting plan: where to look, priorities, ceilings
+│   ├── 06-research-program.md                  ← research program: instrumentation + corpus-wide audits
+│   ├── 07-phase-a-b1-first-pass.md             ← Phase A/B1 execution report
+│   ├── 08-reorientation-directed-search.md     ← CURRENT GOVERNING OBJECTIVE
+│   ├── decisions.md                            ← methodological decisions log (append-only)
+│   ├── reading-log.md                          ← per-document checkpoints
+│   ├── evidence-matrix.md                      ← claim resolution requires all 4 cells filled
+│   ├── cards/                                  ← document cards (10-section standard)
+│   ├── claim-decomposition-register.md         ← atomic-proposition register
+│   ├── anomaly-register.md                     ← anomaly register
+│   └── contradiction-ledger.md                 ← contradiction ledger
+├── SOURCES.md                                  ← consolidated bibliography with read status
+└── NEXT-STEPS.md                               ← execution queue
+```
+
+### Reading order
+
+Document numbering is chronological **and** hierarchical: each later document corrects the earlier ones, and where they conflict **the higher number prevails**.
+
+| Order | File | Role | How to read it |
+|---|---|---|---|
+| 1 | [`README.md`](README.md) | Hypotheses H0–H7, confidence scale, current framing | Entry point — defines the vocabulary used everywhere else |
+| 2 | [`docs/08-reorientation-directed-search.md`](docs/08-reorientation-directed-search.md) | **Current governing objective** | What changed 2026-09-20, what's preserved, why, the framing-disclosure rule |
+| 2b | [`docs/04-methodology-symmetric-skepticism.md`](docs/04-methodology-symmetric-skepticism.md) | Original methodology, still governs verification | Claim decomposition, mirror test, mandatory reporting format — objective-neutrality clause superseded by `08` |
+| 3 | [`docs/06-research-program.md`](docs/06-research-program.md) | **Research program** | Why the method changed, the verified tooling, the corpus-wide structural audits, expected-yield ranking, what to do next |
+| 3b | [`docs/05-stress-test-execution-plan.md`](docs/05-stress-test-execution-plan.md) | **Targeting plan** | Where fractures are most likely, P0–P3 priorities, escalation ladder, cross-cutting attack patterns, fixed conclusion ceilings |
+| 4 | [`docs/03-phase2a-mfr-verification.md`](docs/03-phase2a-mfr-verification.md) | Current framing + verification instrument | §1 corrects five formulations in `02`; §5 is the claim-by-claim status table; §7 is the current state of H1–H5 |
+| 5 | [`docs/02-adversarial-audit-phase1.md`](docs/02-adversarial-audit-phase1.md) | Phase 1 documentary audit | §2 lists what was retracted from `01`; §§3–6 are the substantive findings. **Read with the `03` §1 errata in hand** |
+| 6 | [`docs/01-wtc-engineering-audit-v1.md`](docs/01-wtc-engineering-audit-v1.md) | First pass, engineering | **Historical record.** Not to be cited in isolation: several points were retracted |
+| 7 | [`SOURCES.md`](SOURCES.md) | Consolidated bibliography with read status | Consult before assigning weight to any assertion |
+| 8 | [`NEXT-STEPS.md`](NEXT-STEPS.md) | Execution queue | Starting point for any new session |
+
+**Reference vs. next step:** items 1–7 are **reference** material (what is established, and on what basis); item 8 is the **execution** queue. A new session starts with 1, 2, 3, 4 and 8 — `01` is only needed when the work touches structural engineering, and then always alongside `02` §2; `02` is always read with the `03` §1 errata.
+
+**Precedence rule.** On method, `04` prevails over everything. On substantive findings, the higher-numbered document prevails: where `02` and `03` differ on the classification of a hypothesis or a claim, **`03` prevails**; `04` and `05` change no finding — `05` contains no findings at all, only pre-registered targets.
+
+## Methodology in brief
+
+The audit runs three explicit passes:
+
+1. **Official steelman** — build the strongest possible version of the official explanation (NIST, 9/11 Commission).
+2. **Stress test** — build the strongest possible challenge using primary documents, internal contradictions and later-released material.
+3. **Mirror test** — subject every alternative hypothesis to the same evidence, the same burden of proof and the same falsification criteria.
+4. **Judge** — compare without starting from a desired conclusion.
+
+### Symmetry requirements
+
+Binding on every inference in every phase (full text in [`docs/04`](docs/04-methodology-symmetric-skepticism.md) §3):
+
+| # | Requirement |
+|---|---|
+| S1 | H0 is decomposed into atomic propositions, never scored as a single protected narrative |
+| S2 | H1–H7 gain no support from gaps, opacity or distrust of institutions |
+| S3 | Evidence of institutional failure is not promoted into evidence of deliberate non-intervention |
+| S4 | Evidence of a contradiction is not promoted into evidence of material intervention |
+| S5 | Absence of a test is a limitation, not a positive result |
+| S6 | Burden of proof depends on what a claim asserts, not on whether it is official or alternative |
+| S7 | Every phase states what it could be wrong about in **both** directions |
+
+### Hypotheses kept separate
+
+For the intelligence / institutional-response dimension, eight hypotheses are treated as distinct categories, each requiring its own evidence (evidence for one is never automatically treated as evidence for another):
+
+| # | Hypothesis |
+|---|---|
+| H0 | Attack planned by al-Qaeda; institutional failures and the structural explanation essentially correct |
+| H1 | H0 + self-protection / misleading statements / after-the-fact concealment of incompetence, without operational prior knowledge |
+| H2 | H0 + knowing logistical support by individuals linked to a foreign government, without proof of authorization from above |
+| H3 | Broader foreign institutional support or protection |
+| H4 | US authorities had sufficient warnings but failed through negligence, fragmentation or political priorities |
+| H5 | Segments of the authorities had specific operational knowledge and deliberately did not prevent the attack |
+| H6 | The mechanism of one or more collapses differed significantly from what NIST presented |
+| H7 | Additional deliberate intervention in the buildings |
+
+**H0 is not scored as a unit.** Under S1 it is represented by its decomposed atomic propositions; any summary status for H0 is a roll-up, reported with the spread stated.
+
+### Evidentiary framing rule
+
+> Access restriction, generic warning and interested testimony are not — singly or in combination — proof of a cover-up or of prior knowledge.
+
+Three mandatory corollaries, which apply in **both** directions:
+
+1. **New document ≠ new fact.** Every citation distinguishes **event date**, **document date** and **declassification date**. A 2004 record declassified in 2026 is 2004 memory, not a contemporaneous 2001 record.
+2. **Each step requires its own evidence.** Process failure → institutional self-protection → deliberate suppression → operational prior knowledge are four distinct propositions; evidence for one is never promoted to evidence for the next.
+3. **Reading is reading.** A summary, FAQ, press release, search snippet or third-party news report supports neither `corroborated` nor `contradicted` status.
+
+### Anomaly handling
+
+Anomalies are recorded in [`docs/anomaly-register.md`](docs/anomaly-register.md) under a closed status vocabulary: `documentary contradiction` · `timeline discrepancy` · `conflicting testimony` · `unexplained procedural deviation` · `missing or destroyed evidence` · `chain-of-custody limitation` · `model assumption or non-replicability issue` · `physical or forensic anomaly` · `apparent anomaly with adequate explanation` · `unresolved anomaly`.
+
+> **An anomaly is a research lead. By itself it is not evidence of intent, foreknowledge, complicity, or intervention.**
+
+Every anomaly carries a **mirror test** before any status is fixed: (1) what would the official account predict? (2) what would each relevant alternative hypothesis predict? (3) what observation would discriminate between them? (4) is it explained by error, memory, classification, bureaucracy, incomplete records or ordinary forensic uncertainty? (5) what conclusion is **not** justified by the available evidence?
+
+### Confidence classifications
+
+`proven` · `strongly supported` · `more likely than not` · `plausible` · `genuinely unresolved` · `unlikely` · `contradicted` · `not testable with the public record`
+
+The generic phrase "no evidence" is deliberately avoided in favour of more precise formulations: insufficient evidence, indirect evidence, contested evidence, document unavailable, absence of a test, non-reproducible result.
+
+For individual claims by witnesses and institutions the scale is different and closed (see [`docs/04`](docs/04-methodology-symmetric-skepticism.md) §4.2 and [`docs/03`](docs/03-phase2a-mfr-verification.md) §5):
+
+`unsupported statement` · `document cited, not located` · `document located, not read` · `partially corroborated` · `corroborated` · `contradicted` · `inconclusive`
+
+## Current status
+
+- ✅ **Phase 1 — Technical audit v1** (`docs/01`): energy and kinematic analysis of the Towers' and WTC 7's collapse from NIST technical FAQs and peer-reviewed literature (Bažant & Verdure; Bažant & Le). Its own methodological limitations were identified in the following review.
+- ✅ **Phase 2, first tranche — Adversarial documentary audit** (`docs/02`): explicit correction of the Phase 1 limitations; three declassified primary documents read in full (PDB Review Team memo; MFRs of Condoleezza Rice and Michael Scheuer); first H0–H7 matrix; first contradiction ledger.
+- ✅ **Framing correction + Phase 2A instrument** (`docs/03`): five formulations from `02` corrected (H1, H5, Rice's "all reporting pointed abroad", the Commission's access structure, the three-dates rule); claim-by-claim verification table with 16 classified rows; Phase 2A priorities pre-registered.
+- ✅ **Methodology and register update — 19 September 2026** (`docs/04`, `docs/claim-decomposition-register.md`, `docs/anomaly-register.md`): symmetric-skepticism principle adopted verbatim; symmetry requirements S1–S7; twelve-field atomic claim decomposition; anomaly register with mirror test; mandatory four-section phase reporting format. **No source read, no prior conclusion changed.**
+- ✅ **Stress-test targeting plan — 19 September 2026** (`docs/05`, `docs/contradiction-ledger.md`): pre-registered targeting hypotheses across ST-1…ST-7 with P0–P3 research priorities; escalation ladder (discrepancy → unresolved anomaly → structured pattern → concealment → foreknowledge, no level skipped); cross-cutting attack patterns; conclusion ceilings fixed **before** reading; contradiction ledger created. **No source read, no conclusion changed.**
+- ✅ **Research program — 19 September 2026** (`docs/06`): method shifted from document-by-document reading to corpus-scale instrumentation plus structural audits (citation-genealogy graph, detainee-derived claim census, version-diff engine, quantifier-drift scanner, missing-record census, timeline-interval database), with five new investigative lines and an expected-yield ranking stated in advance. **No source read, no conclusion changed.**
+- 🔓 **Access restored and the OCR blocker solved.** The egress blockade recorded earlier on 19 September 2026 is lifted for `archives.gov`, `cia.gov`, `intelligence.senate.gov`, `nist.gov`, `oig.justice.gov` and `govinfo.gov`; `vault.fbi.gov` still refuses. `tesseract` + poppler verified working on the 6 August 2001 PDB, whose missing text layer had blocked claims A10/A16 since `docs/02` — see [`docs/06` §2](docs/06-research-program.md). That was a pipeline test, not a reading; no status changed.
+- ✅ **Phase A + B1 first pass — 19 September 2026** (`docs/07`): corpus of 16 documents harvested and extracted (1,649 pages). B1 note-segmentation verified (1,657 notes, zero gaps); **B1 classification failed its hand-check at 37.5% disagreement and its counts are withheld — not published, not cited.** See `docs/decisions.md` D-001.
+- ✅ **First document cards read — 19 September 2026** (`docs/cards/`): `PDB-20010806` and `MFR-TENET-20031223`, both fully image-verified. Neither supports nor weakens any claim by itself; rows opened in `docs/evidence-matrix.md`, not closed. B2 census redesigned to two non-summed columns (`docs/decisions.md` D-002).
+- ⚠️ **Reorientation — 20 September 2026** (`docs/08`): **project objective changed from a symmetric audit to a directed search prioritizing evidence against the official account**, by explicit user decision. Verification standards unchanged; see `docs/08` for exactly what changed and what didn't, and `docs/decisions.md` D-006.
+- ✅ **T-2.1 — positive, 20–21 September 2026** (`docs/cards/DOJOIG-2004.md`, `JI-2002.md`, `CR-2004.md`; ledger X-001–X-003; anomaly A-001): a January 2000 CIA cable asserted Mihdhar's visa documents "had been passed to the FBI" while the notification carrying them sat on hold and was never sent; two inspectors general and the Joint Inquiry found no corroboration. Escalation held at **2** — the good-faith-relay explanation is live. The CIA's stated position moved from "unable to confirm" (2002, under oath) to "sent through another cable" (2004) — X-003, `revision`, the first ledger item H1 predicts rather than accommodates, held at level 1.
+- ✅ **B7 — retrospective-only support census, 21 September 2026** (`docs/09`): **39.7% of the Commission Report's dated endnotes cite no document produced before 2002** (5.0% measured label error, floor direction); chapter 5, the plot's conception and planning, **66.7%**. Validated after one failed hand-check gate (D-007). Pre-registered expectation half confirmed (ch. 5), half not (ch. 7) — reported with equal prominence.
+- ✅ **B8 — staff-interpolation census, 21 September 2026** (`docs/10`): 21 note-taker interpolations in 8 of 11 ISCAP memoranda; the released MFRs contain unresolved drafting queries; one in-room conflict-of-interest handling recorded (Berger p.25). Incidental: claim A9's wording corrected to the witness's narrower words.
+- ✅ **B2, chapter 5 — closed sub-census, 21 September 2026** (`docs/11`): 84-note denominator fixed and SHA-256 hashed before classification. **54/84 (64.3%) of chapter 5's retrospective-only notes rest on detainee-derived reporting, and all 54 — without exception — are the CIA's own detention-and-interrogation-programme reporting stream: zero foreign-liaison, zero cooperating-witness.** A methodological line (German witness "interrogation" ≠ detainee interrogation) was drawn and applied uniformly, preventing overstatement. Bonus catch during the mandatory image spot-check: chapter 5 note 25 exposed a live instance of B7's already-disclosed month-name defect; the 84-note denominator was **not** amended after the fact (`docs/decisions.md` D-008), and the fix is queued as its own dated task.
+- ✅ **B2 EIT-timing cross-reference, 21 September 2026** (`docs/12`; cards `SSCI-2014.md`; anomaly A-002; ledger X-004): the 54 CIA-DETENTION notes' cited interrogation dates checked against SSCI-documented EIT windows for all six named detainees. **80.0% of 160 date-citations (66.7% of the 54 notes outright) are POST-EIT** — for KSM, 89 of 91; for Khallad, 29 of 33. Bin al-Shibh inverts the pattern (11 of 18 DURING-EIT). Found along the way: chapter 5 note 20 cites a Hambali interrogation dated seven months before his documented capture — assessed as a citation typo (A-002/X-004), not elevated. A vocabulary gap (a capture-to-first-EIT gap the pre-registered categories did not anticipate) was found and disclosed rather than absorbed (`docs/decisions.md` D-009).
+- ⛔ **Official Account Stress-Test Track: reading in progress**, re-prioritized per `docs/08` §5. **T-3.1 next.** Full target list in [`docs/05` §6](docs/05-stress-test-execution-plan.md).
+- ⛔ **Phase 2B — Joint Inquiry Part Four: not executed.** Now unblocked. Classification protocol pre-registered in [`docs/03` §6](docs/03-phase2a-mfr-verification.md).
+- ⏳ **Remaining phases**: see [`NEXT-STEPS.md`](NEXT-STEPS.md).
+
+## Acknowledged limitations (read before citing this material)
+
+- No source longer than a few dozen pages has been read in full so far — this includes the complete 9/11 Commission Report, the NIST NCSTAR volumes, the Hulsey/UAF report and the Moussaoui trial exhibits.
+- Several of the 71 PDBs released by the CIA in September 2026 are scans without a searchable text layer and could not be read in this phase.
+- Conclusions on H2, H3, H6 and H7 remain largely untested by the documents read so far.
+- **H5 is not tested.** The al-Mihdhar / al-Hazmi node, where the hypothesis has its strongest theoretical case, has not been touched by any phase to date.
+- **H1 does not support "cover-up".** What exists are indications of bureaucratic failure and possible institutional self-protection; deliberate suppression is not corroborated.
+- **All three registers are empty.** The claim-decomposition register, the anomaly register and the contradiction ledger contain no substantive entries. Nothing in this repository should be read as if they were populated.
+- **`docs/05` contains no findings.** Its T-items are pre-registered places to look, generated from the shape of the record rather than from reading it. Several are expected to resolve as ordinary. None may be cited as evidence in either direction.
+
+## Content licence
+
+This material is original analysis produced for personal research. Citations of government and academic sources follow the direct links listed in [`SOURCES.md`](SOURCES.md); no extensive third-party passages are reproduced — only paraphrase with attribution.
