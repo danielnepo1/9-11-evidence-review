@@ -1,0 +1,132 @@
+{
+  "metric": "earliest cited DOCUMENT date per note (prereg/B7.md section 2)",
+  "hand_check": {
+    "status": "SCORED",
+    "sample": 40,
+    "seed": 20260922,
+    "disagreement_rate": 0.05,
+    "scored_file": "corpus/analysis/b7_sample_seed20260922_scored.txt",
+    "prior_failed_sample": {
+      "seed": 20260921,
+      "disagreement_rate": 0.45,
+      "scored_file": "corpus/analysis/b7_sample_seed20260921_scored.txt",
+      "cause": "implementation omitted the pre-registered author/institution contexts; fixed, re-scored on a fresh seed"
+    },
+    "gate": "PASSED at 5.0% (threshold 10%). Residual errors move min_doc_year earlier, so the retrospective-only share is a floor."
+  },
+  "totals": {
+    "notes": 1657,
+    "contemporaneous_capable": 923,
+    "retrospective_only": 607,
+    "ibid_only": 36,
+    "no_date": 91,
+    "retrospective_share_of_dated": 0.397
+  },
+  "by_chapter": {
+    "1": {
+      "notes": 241,
+      "contemporaneous_capable": 138,
+      "retrospective_only": 74,
+      "no_date": 21,
+      "ibid_only": 8,
+      "retrospective_share_of_dated": 0.349
+    },
+    "2": {
+      "notes": 93,
+      "contemporaneous_capable": 68,
+      "retrospective_only": 17,
+      "no_date": 5,
+      "ibid_only": 3,
+      "retrospective_share_of_dated": 0.2
+    },
+    "3": {
+      "notes": 114,
+      "contemporaneous_capable": 63,
+      "retrospective_only": 42,
+      "no_date": 9,
+      "ibid_only": 0,
+      "retrospective_share_of_dated": 0.4
+    },
+    "4": {
+      "notes": 194,
+      "contemporaneous_capable": 140,
+      "retrospective_only": 49,
+      "no_date": 3,
+      "ibid_only": 2,
+      "retrospective_share_of_dated": 0.259
+    },
+    "5": {
+      "notes": 132,
+      "contemporaneous_capable": 42,
+      "retrospective_only": 84,
+      "no_date": 3,
+      "ibid_only": 3,
+      "retrospective_share_of_dated": 0.667
+    },
+    "6": {
+      "notes": 261,
+      "contemporaneous_capable": 176,
+      "retrospective_only": 69,
+      "no_date": 6,
+      "ibid_only": 10,
+      "retrospective_share_of_dated": 0.282
+    },
+    "7": {
+      "notes": 107,
+      "contemporaneous_capable": 64,
+      "retrospective_only": 38,
+      "no_date": 2,
+      "ibid_only": 3,
+      "retrospective_share_of_dated": 0.373
+    },
+    "8": {
+      "notes": 113,
+      "contemporaneous_capable": 74,
+      "retrospective_only": 36,
+      "no_date": 3,
+      "ibid_only": 0,
+      "retrospective_share_of_dated": 0.327
+    },
+    "9": {
+      "notes": 210,
+      "contemporaneous_capable": 79,
+      "retrospective_only": 110,
+      "no_date": 18,
+      "ibid_only": 3,
+      "retrospective_share_of_dated": 0.582
+    },
+    "10": {
+      "notes": 86,
+      "contemporaneous_capable": 49,
+      "retrospective_only": 31,
+      "no_date": 5,
+      "ibid_only": 1,
+      "retrospective_share_of_dated": 0.388
+    },
+    "11": {
+      "notes": 42,
+      "contemporaneous_capable": 21,
+      "retrospective_only": 15,
+      "no_date": 3,
+      "ibid_only": 3,
+      "retrospective_share_of_dated": 0.417
+    },
+    "12": {
+      "notes": 42,
+      "contemporaneous_capable": 5,
+      "retrospective_only": 33,
+      "no_date": 4,
+      "ibid_only": 0,
+      "retrospective_share_of_dated": 0.868
+    },
+    "13": {
+      "notes": 22,
+      "contemporaneous_capable": 4,
+      "retrospective_only": 9,
+      "no_date": 9,
+      "ibid_only": 0,
+      "retrospective_share_of_dated": 0.692
+    }
+  },
+  "caveat": "Counts validated by hand-check at 5.0% disagreement (seed 20260922, n=40). Report the rate beside every number. 'no_date' includes undated contemporaneous records (audio, radar, analyses) and is never folded into either class."
+}
