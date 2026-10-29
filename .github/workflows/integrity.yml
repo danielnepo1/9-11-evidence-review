@@ -1,0 +1,19 @@
+name: Offline evidence integration integrity
+on:
+  pull_request:
+  push:
+    branches: [claude/novo-projeto-repositorio-r31v4x]
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/check_integration.py
+      - run: python -m compileall -q tools
